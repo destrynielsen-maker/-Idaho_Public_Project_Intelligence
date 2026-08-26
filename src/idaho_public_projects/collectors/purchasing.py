@@ -55,23 +55,34 @@ def parse_html(html: str) -> list[Opportunity]:
 def _diagnose_dynamic_source(html: str) -> None:
     """Temporary branch-only diagnostic for the dynamic State Purchasing table."""
     soup = BeautifulSoup(html, "html.parser")
-    scripts = []
+
+    for idx, table in enumerate(soup.find_all("table")):
+        attrs = {k: v for k, v in table.attrs.items() if k == "id" or k == "class" or str(k).startswith("data-")}
+        headers = [clean(x.get_text(" ", strip=True)) for x in table.find_all("th")]
+        print(f"IDAHO_PURCHASING_DIAG TABLE index={idx} attrs={attrs} headers={headers}")
+
+    for node in soup.find_all(attrs={"id": re.compile(r"tablepress|datatable", re.I)}):
+        print(f"IDAHO_PURCHASING_DIAG NODE tag={node.name} attrs={node.attrs}")
+
     for script in soup.find_all("script"):
         src = script.get("src")
-        if src:
-            scripts.append(urljoin(URL, src))
-    print("IDAHO_PURCHASING_DIAG script_srcs:")
-    for src in scripts:
-        print(f"IDAHO_PURCHASING_DIAG SCRIPT {src}")
+        if src and ("tablepress" in src.lower() or "datatable" in src.lower()):
+            print(f"IDAHO_PURCHASING_DIAG SCRIPT {urljoin(URL, src)}")
+        inline = script.string or script.get_text(" ", strip=True)
+        if inline and any(x in inline.lower() for x in ("tablepress", "datatable", "ajax")):
+            print(f"IDAHO_PURCHASING_DIAG INLINE {clean(inline)[:2500]}")
 
     text = html.replace("\n", " ")
-    patterns = ["asana", "admin-ajax", "wp-json", "solicitation", "future", "datatable", "dataTable"]
-    for pattern in patterns:
-        for match in list(re.finditer(pattern, text, re.I))[:4]:
-            start = max(0, match.start() - 220)
-            end = min(len(text), match.end() + 420)
-            snippet = clean(text[start:end])
-            print(f"IDAHO_PURCHASING_DIAG {pattern.upper()} {snippet[:900]}")
+    for pattern in [r"tablepress[-_][A-Za-z0-9_-]+", r"data-[A-Za-z0-9_-]+=['\"][^'\"]+", r"ajax[^,;<]{0,180}"]:
+        matches = []
+        for match in re.finditer(pattern, text, re.I):
+            value = clean(match.group(0))
+            if value not in matches:
+                matches.append(value)
+            if len(matches) >= 20:
+                break
+        for value in matches:
+            print(f"IDAHO_PURCHASING_DIAG MATCH {value[:700]}")
 
 
 def collect() -> list[Opportunity]:
