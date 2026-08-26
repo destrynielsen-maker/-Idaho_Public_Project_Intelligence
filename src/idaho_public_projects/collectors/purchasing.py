@@ -1,14 +1,15 @@
 from __future__ import annotations
 
-import re
-from urllib.parse import urljoin
+import json
 
+import requests
 from bs4 import BeautifulSoup
 
 from ..models import Opportunity
-from ..utils import clean, http_get, parse_date, stable_id
+from ..utils import clean, http_get, parse_date, stable_id, USER_AGENT
 
 URL = "https://purchasing.idaho.gov/open-and-future-solicitations/"
+REPORT_URL = "https://purchasing.idaho.gov/wp-json/wm4/v1/procurement-report"
 
 
 def parse_html(html: str) -> list[Opportunity]:
@@ -52,42 +53,27 @@ def parse_html(html: str) -> list[Opportunity]:
     return results
 
 
-def _diagnose_dynamic_source(html: str) -> None:
-    """Temporary branch-only diagnostic for the dynamic State Purchasing table."""
-    soup = BeautifulSoup(html, "html.parser")
-
-    for idx, table in enumerate(soup.find_all("table")):
-        attrs = {k: v for k, v in table.attrs.items() if k == "id" or k == "class" or str(k).startswith("data-")}
-        headers = [clean(x.get_text(" ", strip=True)) for x in table.find_all("th")]
-        print(f"IDAHO_PURCHASING_DIAG TABLE index={idx} attrs={attrs} headers={headers}")
-
-    for node in soup.find_all(attrs={"id": re.compile(r"tablepress|datatable", re.I)}):
-        print(f"IDAHO_PURCHASING_DIAG NODE tag={node.name} attrs={node.attrs}")
-
-    for script in soup.find_all("script"):
-        src = script.get("src")
-        if src and ("tablepress" in src.lower() or "datatable" in src.lower()):
-            print(f"IDAHO_PURCHASING_DIAG SCRIPT {urljoin(URL, src)}")
-        inline = script.string or script.get_text(" ", strip=True)
-        if inline and any(x in inline.lower() for x in ("tablepress", "datatable", "ajax")):
-            print(f"IDAHO_PURCHASING_DIAG INLINE {clean(inline)[:2500]}")
-
-    text = html.replace("\n", " ")
-    for pattern in [r"tablepress[-_][A-Za-z0-9_-]+", r"data-[A-Za-z0-9_-]+=['\"][^'\"]+", r"ajax[^,;<]{0,180}"]:
-        matches = []
-        for match in re.finditer(pattern, text, re.I):
-            value = clean(match.group(0))
-            if value not in matches:
-                matches.append(value)
-            if len(matches) >= 20:
-                break
-        for value in matches:
-            print(f"IDAHO_PURCHASING_DIAG MATCH {value[:700]}")
+def _report_payload() -> dict:
+    response = requests.get(
+        REPORT_URL,
+        headers={"User-Agent": USER_AGENT, "Accept": "application/json"},
+        timeout=35,
+    )
+    response.raise_for_status()
+    payload = response.json()
+    if not isinstance(payload, dict):
+        raise ValueError("Idaho Purchasing report payload is not an object")
+    return payload
 
 
 def collect() -> list[Opportunity]:
-    html = http_get(URL)
-    rows = parse_html(html)
-    if not rows:
-        _diagnose_dynamic_source(html)
-    return rows
+    payload = _report_payload()
+    data = payload.get("data", [])
+    print(f"IDAHO_PURCHASING_DIAG endpoint_count={len(data) if isinstance(data, list) else 'non-list'}")
+    if isinstance(data, list) and data:
+        first = data[0]
+        if isinstance(first, dict):
+            print("IDAHO_PURCHASING_DIAG endpoint_keys=" + ",".join(sorted(first.keys())))
+            safe_preview = {k: first.get(k) for k in sorted(first.keys())}
+            print("IDAHO_PURCHASING_DIAG endpoint_first=" + json.dumps(safe_preview, ensure_ascii=True)[:5000])
+    return []
