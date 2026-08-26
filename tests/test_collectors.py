@@ -3,7 +3,10 @@ import unittest
 from idaho_public_projects.collectors.achd import parse_html as parse_achd
 from idaho_public_projects.collectors.boise import parse_html as parse_boise
 from idaho_public_projects.collectors.dpw import parse_html as parse_dpw
-from idaho_public_projects.collectors.purchasing import parse_html as parse_purchasing
+from idaho_public_projects.collectors.purchasing import (
+    parse_html as parse_purchasing,
+    parse_report as parse_purchasing_report,
+)
 
 
 class CollectorTests(unittest.TestCase):
@@ -35,6 +38,32 @@ class CollectorTests(unittest.TestCase):
         rows = parse_purchasing(html)
         self.assertEqual(len(rows), 1)
         self.assertEqual(rows[0].stage, "UPCOMING")
+
+    def test_purchasing_report(self):
+        payload = {
+            "data": [
+                {
+                    "agency": "IDFG",
+                    "latest_update_date": "2026-08-24T17:11:29.749Z",
+                    "name": "RFP 717 - IDFG Website Rebuild",
+                    "project_completed_date": "",
+                    "project_created_date": "2024-12-06T23:10:55.668Z",
+                    "project_description": "Post Date: 06/05/2025 Close Date: 08/06/2025",
+                    "project_due_date": "2025-06-27",
+                    "project_start_date": "2024-12-06",
+                    "status": "Off track",
+                }
+            ]
+        }
+        rows = parse_purchasing_report(payload)
+        self.assertEqual(len(rows), 1)
+        row = rows[0]
+        self.assertEqual(row.source, "Idaho Purchasing")
+        self.assertEqual(row.solicitation_type, "RFP")
+        self.assertEqual(row.solicitation_number, "RFP 717")
+        self.assertEqual(row.posted_date, "2024-12-06")
+        self.assertEqual(row.updated_date, "2026-08-24")
+        self.assertEqual(row.stage, "UPCOMING")
 
     def test_achd(self):
         html = """<div class=\"accordion-item\"><h3>August 18, 2026 - September 2, 2026 - McMillan Signal Rebid</h3>
