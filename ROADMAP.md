@@ -21,21 +21,22 @@ This roadmap keeps work in bounded checkpoints so each sprint can be tested, mer
 - sortable project columns
 - result counts and reset controls
 
+### Checkpoint 2 — ACHD live collection investigation
+Outcome: externally blocked from the GitHub Actions runtime; production left unchanged.
+
+What was verified:
+- ACHD's public-notice page contains useful live procurement intelligence, including bid windows, solicitation types, contract/project numbers, locations, project scopes, bid-security language and bonding requirements.
+- the existing parser handles saved ACHD notice fixtures correctly.
+- a browser-style request from GitHub Actions still produced zero live ACHD records.
+- the OpenGov public project-list fallback also remained client-rendered / empty to the collector.
+- Boise and Idaho DPW continued to collect normally throughout the test.
+
+Decision:
+- do not merge an ineffective fetch workaround.
+- keep the current fail-soft ACHD collector in place.
+- revisit ACHD only when a stable official machine-readable endpoint, feed, export or other durable access path is identified.
+
 ## Current checkpoint
-
-### Checkpoint 2 — ACHD live collection
-Goal: make Ada County Highway District a reliable Treasure Valley source.
-
-Scope:
-- prefer ACHD public notices because they include project window, solicitation type, contract/project numbers, project location and scope
-- preserve OpenGov as fallback
-- retain fail-soft collector behavior
-- validate against GitHub Actions live collection before merge
-
-Exit criteria:
-- ACHD returns live records in the scheduled collector, or the sprint documents a reproducible external block without destabilizing existing sources
-
-## Future checkpoints
 
 ### Checkpoint 3 — Idaho Purchasing / future solicitations
 Goal: add State of Idaho procurement opportunities before formal construction bidding where possible.
@@ -45,6 +46,11 @@ Planned work:
 - collect project name, agency, status, created/start/due/updated dates and description
 - classify early-stage opportunities separately from active bids
 - populate the Early Opportunities RSS feed with real records
+
+Exit criteria:
+- live State Purchasing records appear in GitHub Actions without degrading Boise/DPW collection; otherwise document the external constraint and leave production stable
+
+## Future checkpoints
 
 ### Checkpoint 4 — Treasure Valley agency expansion
 Add one source per sub-sprint, in this order unless source quality changes:
