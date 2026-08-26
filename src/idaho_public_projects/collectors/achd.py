@@ -3,20 +3,23 @@ from __future__ import annotations
 import re
 from urllib.parse import urljoin
 
-import requests
 from bs4 import BeautifulSoup, Tag
 
 from ..models import Opportunity
 from ..utils import clean, http_get, parse_date, stable_id
 
 NOTICE_URL = "https://www.achdidaho.org/community-resources/street-services/public-notices"
-PROCUREMENT_URL = "https://www.achdidaho.org/projects/bids-procurement"
 URL = "https://procurement.opengov.com/portal/embed/achdidaho/project-list?departmentId=all&status=open"
 MONTH = r"(?:January|February|March|April|May|June|July|August|September|October|November|December)"
 DATE_RE = re.compile(rf"{MONTH}\s+\d{{1,2}},\s+\d{{4}}", re.I)
 
 
 def _parse_opengov_table(soup: BeautifulSoup) -> list[Opportunity]:
+    """Parse OpenGov's public project-list table.
+
+    The public embed is preferred over ACHD's own public-notice page because
+    ACHD currently blocks GitHub-hosted HTTP clients with a 403 response.
+    """
     results: list[Opportunity] = []
     for table in soup.find_all("table"):
         headers = [clean(x.get_text(" ", strip=True)).lower() for x in table.find_all("th")]
@@ -28,6 +31,9 @@ def _parse_opengov_table(soup: BeautifulSoup) -> list[Opportunity]:
             cells = [clean(c.get_text(" ", strip=True)) for c in row.find_all("td")]
             if not cells:
                 continue
+
+            # OpenGov commonly renders: Project Title | Project ID | Status |
+            # Addenda | Release Date | Due Date. Some portals omit Project ID.
             title = cells[0]
             if not title or title.lower() == "project title":
                 continue
@@ -43,6 +49,7 @@ def _parse_opengov_table(soup: BeautifulSoup) -> list[Opportunity]:
             elif len(cells) >= 3:
                 status, due = cells[1], cells[-1]
 
+            # Reject UI rows and anything that does not carry a real project date/status.
             if status.lower() not in {"open", "active", "pending", "closed"} and not parse_date(due):
                 continue
 
@@ -97,8 +104,8 @@ def _body_for_heading(heading: Tag) -> str:
 
 
 def _parse_notice_page(soup: BeautifulSoup) -> list[Opportunity]:
+    """Fallback parser retained for saved fixtures and if ACHD relaxes blocking."""
     results: list[Opportunity] = []
-    seen: set[str] = set()
     for heading in soup.find_all(["h2", "h3", "h4"]):
         heading_text = clean(heading.get_text(" ", strip=True))
         dates = DATE_RE.findall(heading_text)
@@ -138,9 +145,6 @@ def _parse_notice_page(soup: BeautifulSoup) -> list[Opportunity]:
         number = number_match.group(1) if number_match else ""
         location_match = re.search(r"Project Location:\s*([^.;]+)", combined, re.I)
         location = clean(location_match.group(1)) if location_match else "Ada County, Idaho"
-        bonding_match = re.search(r"Expected Contract Bonding Requirement:\s*\$?([\d,]+(?:\.\d{1,2})?)", combined, re.I)
-        if bonding_match:
-            body = clean(f"{body} Expected contract bonding requirement: ${bonding_match.group(1)}.")
 
         open_url = NOTICE_URL
         container = heading.parent
@@ -151,13 +155,9 @@ def _parse_notice_page(soup: BeautifulSoup) -> list[Opportunity]:
                     open_url = href
                     break
 
-        oid = stable_id("achd", number, title)
-        if oid in seen:
-            continue
-        seen.add(oid)
         results.append(
             Opportunity(
-                id=oid,
+                id=stable_id("achd", number, title),
                 source="ACHD",
                 title=title,
                 agency="Ada County Highway District",
@@ -178,38 +178,9 @@ def _parse_notice_page(soup: BeautifulSoup) -> list[Opportunity]:
 
 def parse_html(html: str) -> list[Opportunity]:
     soup = BeautifulSoup(html, "html.parser")
-    rows = _parse_notice_page(soup)
-    return rows if rows else _parse_opengov_table(soup)
-
-
-def _browser_get(url: str) -> str:
-    response = requests.get(
-        url,
-        headers={
-            "User-Agent": (
-                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-                "AppleWebKit/537.36 (KHTML, like Gecko) "
-                "Chrome/151.0.0.0 Safari/537.36"
-            ),
-            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
-            "Accept-Language": "en-US,en;q=0.9",
-            "Referer": PROCUREMENT_URL,
-            "Cache-Control": "no-cache",
-        },
-        timeout=35,
-    )
-    response.raise_for_status()
-    return response.text
+    rows = _parse_opengov_table(soup)
+    return rows if rows else _parse_notice_page(soup)
 
 
 def collect() -> list[Opportunity]:
-    # ACHD's own public notices contain materially richer project intelligence
-    # than OpenGov's client-rendered list, so prefer that source. If the site
-    # rejects the GitHub runner or changes shape, fail soft to OpenGov.
-    try:
-        rows = parse_html(_browser_get(NOTICE_URL))
-        if rows:
-            return rows
-    except requests.RequestException:
-        pass
     return parse_html(http_get(URL))
