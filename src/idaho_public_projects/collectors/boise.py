@@ -30,8 +30,8 @@ def parse_html(html: str) -> list[Opportunity]:
     seen: set[str] = set()
 
     for anchor in soup.find_all("a", href=True):
-        href = anchor.get("href", "")
-        if "jaggaer.com" not in href or "app" not in href:
+        event_href = anchor.get("href", "")
+        if "jaggaer.com" not in event_href or "app" not in event_href:
             continue
         title = clean(anchor.get_text(" ", strip=True))
         if not title or title.lower().startswith("http"):
@@ -45,12 +45,6 @@ def parse_html(html: str) -> list[Opportunity]:
         type_match = re.search(r"\bType\s+([A-Za-z0-9-]+)", text)
         number_match = re.search(r"\bNumber\s+([A-Za-z0-9-]+)", text)
         emails = sorted(set(re.findall(r"[\w.+-]+@[\w.-]+\.[A-Za-z]{2,}", text)))
-        details = ""
-        if container is not None:
-            for link in container.find_all("a", href=True):
-                if "View as PDF" in clean(link.get_text(" ", strip=True)):
-                    details = link["href"]
-                    break
 
         description = text
         if title in description:
@@ -79,8 +73,12 @@ def parse_html(html: str) -> list[Opportunity]:
                 posted_date=parse_date(open_match.group(1) if open_match else ""),
                 due_date=parse_date(close_match.group(1) if close_match else ""),
                 status="OPEN",
-                url=href,
-                details_url=details,
+                # JAGGAER generates signed event/PDF URLs that can expire. Keep the
+                # permanent City public-event index as the canonical link so RSS and
+                # dashboard entries remain usable over time. The current event URL is
+                # retained as auxiliary detail and is refreshed every collection run.
+                url=URL,
+                details_url=event_href,
                 contact=", ".join(emails),
             )
         )
