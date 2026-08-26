@@ -1,0 +1,104 @@
+name: Collect Idaho public projects and publish
+
+on:
+  workflow_dispatch:
+  pull_request:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - 'data/opportunities.json'
+      - 'public/data/**'
+      - 'public/feeds/**'
+  schedule:
+    - cron: '27 */6 * * *'
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: public-project-intelligence-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+
+      - name: Test
+        env:
+          PYTHONPATH: src
+        run: python -m unittest discover -s tests -v
+
+      - name: Collect and render
+        env:
+          PYTHONPATH: src
+        run: python -m idaho_public_projects.main
+
+      - name: Collection health
+        shell: python
+        run: |
+          import json
+          from pathlib import Path
+          sources = json.loads(Path('public/data/sources.json').read_text())['collector_status']
+          total = sum(s['records_seen'] for s in sources)
+          healthy = sum(1 for s in sources if s['records_seen'] > 0)
+          print('Total parsed records:', total)
+          for s in sources:
+              print(f"{s['source']}: {s['status']} ({s['records_seen']}) {s['note']}")
+          if total == 0 or healthy < 2:
+              raise SystemExit('Collection health check failed: fewer than two public sources produced records.')
+
+      - name: Collection results
+        shell: python
+        run: |
+          import json, os
+          from pathlib import Path
+          p=json.loads(Path('public/data/opportunities.json').read_text())
+          s=json.loads(Path('public/data/sources.json').read_text())
+          rows=p.get('opportunities',[])
+          site=f"https://{os.environ['GITHUB_REPOSITORY_OWNER']}.github.io/{os.environ['GITHUB_REPOSITORY'].split('/',1)[1]}/"
+          lines=['# Idaho Public Project Intelligence — Collection Results','',
+                 f"**Generated:** {p.get('generated_at','')}",'',
+                 f"**Tracked opportunities:** {len(rows):,}",'',
+                 f"## [Open dashboard]({site})",'',
+                 '## Collector results','',
+                 '| Source | Status | Records | Note |','|---|---|---:|---|']
+          for x in s['collector_status']:
+              note=str(x.get('note','')).replace('|','\\|').replace('\n',' ')
+              lines.append(f"| {x['source']} | {x['status']} | {x['records_seen']} | {note} |")
+          lines += ['', '## Top opportunities', '', '| Score | Due | Agency | Stage | Project |', '|---:|---|---|---|---|']
+          for r in sorted(rows,key=lambda x:(x.get('score',0),x.get('due_date','')),reverse=True)[:15]:
+              title=str(r.get('title','')).replace('|','\\|')
+              lines.append(f"| {r.get('score',0)} | {r.get('due_date','')} | {r.get('agency','')} | {r.get('stage','')} | {title} |")
+          Path(os.environ['GITHUB_STEP_SUMMARY']).write_text('\n'.join(lines)+'\n')
+
+      - name: Persist history and generated feeds
+        if: github.event_name != 'pull_request'
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add data/opportunities.json public/data public/feeds
+          git diff --cached --quiet || git commit -m "Update Idaho public project intelligence"
+          git push
+
+      - name: Configure GitHub Pages
+        if: github.event_name != 'pull_request' && github.event.repository.private == false
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        if: github.event_name != 'pull_request' && github.event.repository.private == false
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+      - name: Publish GitHub Pages
+        if: github.event_name != 'pull_request' && github.event.repository.private == false
+        uses: actions/deploy-pages@v4
