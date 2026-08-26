@@ -1,5 +1,8 @@
 from __future__ import annotations
 
+import re
+from urllib.parse import urljoin
+
 from bs4 import BeautifulSoup
 
 from ..models import Opportunity
@@ -49,5 +52,31 @@ def parse_html(html: str) -> list[Opportunity]:
     return results
 
 
+def _diagnose_dynamic_source(html: str) -> None:
+    """Temporary branch-only diagnostic for the dynamic State Purchasing table."""
+    soup = BeautifulSoup(html, "html.parser")
+    scripts = []
+    for script in soup.find_all("script"):
+        src = script.get("src")
+        if src:
+            scripts.append(urljoin(URL, src))
+    print("IDAHO_PURCHASING_DIAG script_srcs:")
+    for src in scripts:
+        print(f"IDAHO_PURCHASING_DIAG SCRIPT {src}")
+
+    text = html.replace("\n", " ")
+    patterns = ["asana", "admin-ajax", "wp-json", "solicitation", "future", "datatable", "dataTable"]
+    for pattern in patterns:
+        for match in list(re.finditer(pattern, text, re.I))[:4]:
+            start = max(0, match.start() - 220)
+            end = min(len(text), match.end() + 420)
+            snippet = clean(text[start:end])
+            print(f"IDAHO_PURCHASING_DIAG {pattern.upper()} {snippet[:900]}")
+
+
 def collect() -> list[Opportunity]:
-    return parse_html(http_get(URL))
+    html = http_get(URL)
+    rows = parse_html(html)
+    if not rows:
+        _diagnose_dynamic_source(html)
+    return rows
