@@ -1,6 +1,7 @@
 import unittest
 
 from idaho_public_projects.collectors.achd import parse_html as parse_achd
+from idaho_public_projects.collectors.ada_county import parse_report as parse_ada_county_report
 from idaho_public_projects.collectors.boise import parse_html as parse_boise
 from idaho_public_projects.collectors.dpw import parse_html as parse_dpw
 from idaho_public_projects.collectors.purchasing import (
@@ -64,6 +65,31 @@ class CollectorTests(unittest.TestCase):
         self.assertEqual(row.posted_date, "2024-12-06")
         self.assertEqual(row.updated_date, "2026-08-24")
         self.assertEqual(row.stage, "UPCOMING")
+
+    def test_ada_county_report(self):
+        payload = {
+            "success": 1,
+            "payload": {
+                "projects": {
+                    "248796": {
+                        "ProjectID": "248796",
+                        "ReferenceID": "Bid 26062",
+                        "ProjectName": "Ada County Courthouse VRF #3 & 4 Replacement 2026",
+                        "DateClose": "2026-09-04 22:00:00",
+                        "DepartmentID": "4123",
+                    }
+                },
+                "departments": [],
+            },
+        }
+        rows = parse_ada_county_report(payload)
+        self.assertEqual(len(rows), 1)
+        row = rows[0]
+        self.assertEqual(row.source, "Ada County")
+        self.assertEqual(row.solicitation_number, "Bid 26062")
+        self.assertEqual(row.solicitation_type, "BID")
+        self.assertEqual(row.due_date, "2026-09-04")
+        self.assertEqual(row.url, "https://adacounty.bonfirehub.com/opportunities/248796")
 
     def test_achd(self):
         html = """<div class=\"accordion-item\"><h3>August 18, 2026 - September 2, 2026 - McMillan Signal Rebid</h3>
