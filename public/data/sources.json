@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T20:44:08+00:00",
+  "generated_at": "2026-08-26T21:40:41+00:00",
   "collector_status": [
     {
       "source": "City of Boise",
@@ -20,6 +20,13 @@
       "status": "OK",
       "records_seen": 40,
       "qualifying_records": 40,
+      "note": ""
+    },
+    {
+      "source": "Ada County",
+      "status": "OK",
+      "records_seen": 3,
+      "qualifying_records": 3,
       "note": ""
     },
     {
