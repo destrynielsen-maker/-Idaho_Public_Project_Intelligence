@@ -36,29 +36,48 @@ Decision:
 - keep the current fail-soft ACHD collector in place.
 - revisit ACHD only when a stable official machine-readable endpoint, feed, export or other durable access path is identified.
 
+### Checkpoint 3 — Idaho Purchasing / future solicitations
+Completed successfully.
+
+What was added:
+- official State of Idaho machine-readable source: `/wp-json/wm4/v1/procurement-report`
+- live collection of 40 Division of Purchasing records in GitHub Actions
+- project name, agency, description, status, created/start/due/updated/completed dates
+- RFP/RFQ/RFI/ITB number extraction from project names where available
+- FUTURE / UPCOMING / AWARDED stage mapping
+- JSON-schema fixture coverage in the test suite
+- Idaho Purchasing records automatically flow into the existing Early Opportunities RSS feed
+
+Validation result at completion:
+- City of Boise: 5 records
+- Idaho DPW: 80 records
+- Idaho Purchasing: 40 records
+- ACHD: 0 records / fail-soft
+- 125 raw source records and 124 normalized opportunities
+
 ## Current checkpoint
 
-### Checkpoint 3 — Idaho Purchasing / future solicitations
-Goal: add State of Idaho procurement opportunities before formal construction bidding where possible.
+### Checkpoint 4A — Ada County procurement
+Goal: add the next highest-value Treasure Valley public procurement source without mixing in other agencies.
 
 Planned work:
-- identify the public data source behind the dynamic Open & Future Solicitations page
-- collect project name, agency, status, created/start/due/updated dates and description
-- classify early-stage opportunities separately from active bids
-- populate the Early Opportunities RSS feed with real records
+- identify Ada County's authoritative public bid/procurement source
+- collect active construction, facility, materials/equipment and relevant professional-services opportunities
+- normalize dates, solicitation number/type, agency, project description and source links
+- add fixture tests
+- require successful live GitHub Actions collection before merge
 
 Exit criteria:
-- live State Purchasing records appear in GitHub Actions without degrading Boise/DPW collection; otherwise document the external constraint and leave production stable
+- Ada County contributes real records without degrading Boise, DPW or Idaho Purchasing; otherwise document the external constraint and leave production stable
 
 ## Future checkpoints
 
 ### Checkpoint 4 — Treasure Valley agency expansion
-Add one source per sub-sprint, in this order unless source quality changes:
-1. Ada County procurement
-2. ITD construction / contracting opportunities relevant to Idaho and Treasure Valley
-3. Boise State / state campus projects not already fully represented through DPW
-4. Boise School District and other major Treasure Valley school/public facility sources
-5. Meridian, Nampa, Caldwell and other municipal procurement sources where they add material coverage beyond existing state/county feeds
+Continue one source per sub-sprint after Ada County:
+1. ITD construction / contracting opportunities relevant to Idaho and Treasure Valley
+2. Boise State / state campus projects not already fully represented through DPW
+3. Boise School District and other major Treasure Valley school/public facility sources
+4. Meridian, Nampa, Caldwell and other municipal procurement sources where they add material coverage beyond existing state/county feeds
 
 Each source must pass fixture tests and a live GitHub Actions collection before merge.
 
