@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T19:18:27+00:00",
+  "generated_at": "2026-08-26T19:27:13+00:00",
   "collector_status": [
     {
       "source": "City of Boise",
@@ -17,10 +17,10 @@
     },
     {
       "source": "Idaho Purchasing",
-      "status": "EMPTY",
-      "records_seen": 0,
-      "qualifying_records": 0,
-      "note": "No records parsed from public source; collector may need source-specific refinement."
+      "status": "OK",
+      "records_seen": 40,
+      "qualifying_records": 40,
+      "note": ""
     },
     {
       "source": "ACHD",
