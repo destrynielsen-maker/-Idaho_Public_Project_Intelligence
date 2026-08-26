@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T19:07:43+00:00",
+  "generated_at": "2026-08-26T19:18:27+00:00",
   "opportunities": [
     {
       "id": "boise-5604d95a35ff06db",
@@ -17,14 +17,14 @@
       "updated_date": "",
       "status": "OPEN",
       "url": "https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise",
-      "details_url": "https://app01.jaggaer.com/apps/Router/ViewSourcingEvent?AuthToken=1%3AAES2%23CBWS8nnvsFxBEVorQlOthuy4EFEzaBQ%2F%2FbRUPqHtKyAGiv2MSjvHLPLhaYJo7WKMeCyMH9fhEZ9Vc7BugkWtWNcf0VZcPuioHGyzRtVPfnnPXrBo1QVWOmOzXsA9c09SeE3u3YpAi76Vib5PuY84%2Ft%2BiIRczpsCjgA%3D%3D&tmstmp=1787771263892",
+      "details_url": "https://app01.jaggaer.com/apps/Router/ViewSourcingEvent?AuthToken=1%3AAES2%23CBE72gSycgy4cIviBgHSlLvpA5x4ShmDLX1B%2FzUHJLXXxXk5a%2F4jLiafMgZA4sBuAHuB0gI7hcuno4TvBB%2FSvmiRqmNy6sM70UAUWxUOPV1tEBsNLJW7%2BQRDfioMdspJSJ%2B3Ki3La7I7DmL6kIVdyrptsWsn9FFsag%3D%3D&tmstmp=1787771908250",
       "contact": "rgould@cityofboise.org, tleatham@cityofboise.org",
       "category": "CIVIL",
       "score": 83,
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "boise-13334f6c559a0a2d",
@@ -42,14 +42,14 @@
       "updated_date": "",
       "status": "OPEN",
       "url": "https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise",
-      "details_url": "https://app01.jaggaer.com/apps/Router/ViewSourcingEvent?AuthToken=1%3AAES2%23CFlrH2pRJds3L%2BxWoGarSQC332Pcg71PEIJRAdWTKBhI86M2phhMc3B7ConfRgji0uZwofGHwL8VJo03c3lYVX55W8pCeWupuwPzU8N4tEGVmajZLhYCscD9%2B%2BnaEqCY%2FJsJGKOEHRxM5yGfYJk9lkhAHJ3H7RCsTg%3D%3D&tmstmp=1787771263890",
+      "details_url": "https://app01.jaggaer.com/apps/Router/ViewSourcingEvent?AuthToken=1%3AAES2%23CJZTFHyUZ6hAJlavn0yJ24H2skBRSe9nvfHnzK8mZ%2BHe0bIhuHsuKbDqM2W8WW0hE4kSmhiSRyJ1Gir0J6k49M39FFzPGy7PzohLl712IskWcro2zkfOOiZCcexD2CkgCiHocfx5kBg%2F0OA8vlymw54t8j2brVtaEQ%3D%3D&tmstmp=1787771908248",
       "contact": "rgould@cityofboise.org, tleatham@cityofboise.org",
       "category": "BUILDING",
       "score": 82,
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-25bb98f88ccd26b8",
@@ -74,7 +74,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-result-61fc2a9825d62353",
@@ -128,7 +128,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-result-93aa9d98bc52f813",
@@ -182,7 +182,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-result-f1d5b352488e3977",
@@ -220,7 +220,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-result-7a89cbe3101e64e6",
@@ -266,7 +266,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-result-13ad4fee7e27469c",
@@ -312,7 +312,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-result-406c101aa8e77231",
@@ -378,7 +378,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-result-bb43a09e04f5d57a",
@@ -412,7 +412,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-result-67ae9d0740d843c5",
@@ -462,7 +462,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-result-10e8110400299609",
@@ -512,7 +512,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-result-b993ef3846fe9a31",
@@ -582,7 +582,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-result-fe28f9c4a49bb55b",
@@ -620,7 +620,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "boise-4df2f46757bb28e5",
@@ -638,14 +638,14 @@
       "updated_date": "",
       "status": "OPEN",
       "url": "https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise",
-      "details_url": "https://app01.jaggaer.com/apps/Router/ViewSourcingEvent?AuthToken=1%3AAES2%23CGtEyr7gmJSX%2BTBzfsbfzKIvfopm7eJs2u1DUN2Gr4%2B3q3Yjnfxf%2FxwpcTGvSr3fLoF1HY3gXOqybRibaf2Zy5vpSPaQFLBZEmGnGUhMuq8pP1KKwQu57lJbnz%2BBSj1RNQuvN7MwjlDOp0LIIaGaHNbIETqChasniw%3D%3D&tmstmp=1787771263892",
+      "details_url": "https://app01.jaggaer.com/apps/Router/ViewSourcingEvent?AuthToken=1%3AAES2%23CE61x0y%2FB4fZ9sYtWwUnRHsFz%2FZIOusr7jnUN0CQfYtxw29SOWENj%2BAro9q%2BElHbyuSghoqxIWPP8ARcpCGJPO8UgcEF%2FkKSwWMt3V2iYgL0in2oIcGc2%2FdiIA%2FAZA%2FxivqDIOKIxMGFdUJV%2BW1%2FJb20sBJhVj7W5g%3D%3D&tmstmp=1787771908250",
       "contact": "rgould@cityofboise.org, tleatham@cityofboise.org",
       "category": "MATERIALS_EQUIPMENT",
       "score": 80,
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-result-afc4687f7e9ada1e",
@@ -691,7 +691,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-result-ce0312540b71f11c",
@@ -737,7 +737,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-result-9c79bf34a3128e67",
@@ -775,7 +775,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-result-382db0a3f23e0264",
@@ -825,7 +825,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-result-c3d9327cb5e15f38",
@@ -875,7 +875,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-result-582e492e079b8635",
@@ -909,7 +909,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-result-fe8fee98bc036ec9",
@@ -959,7 +959,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-result-23d8c99c24f75c29",
@@ -1009,7 +1009,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-result-c9ecd873b207c48c",
@@ -1047,7 +1047,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "boise-850a3e51ca7d52ba",
@@ -1065,14 +1065,14 @@
       "updated_date": "",
       "status": "OPEN",
       "url": "https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise",
-      "details_url": "https://app01.jaggaer.com/apps/Router/ViewSourcingEvent?AuthToken=1%3AAES2%23CJ7k1GbTBJ3mNAwNnRYhQFu2%2B6yXvLwhrOGmkHan6nYj4r3ahSGJRdMj1iCgMVpz7tANTdZkEe0yDyngLbZTtybWorpXxD%2BAvb5i0LxloA%2FOYizNuzFpDhvvOjvI6E%2FixlQ5r7ISN4mtpo4L%2BXvvNSEABkbYi5ZF5A%3D%3D&tmstmp=1787771263893",
+      "details_url": "https://app01.jaggaer.com/apps/Router/ViewSourcingEvent?AuthToken=1%3AAES2%23COEJZ2YhWOXXKNGwPu97ToAdA%2BMZVBHYNSauVpgNs8%2FiHvaezhOWdYKOV%2FvnLgL6NLr7bCsxTFX7bPjQteXizqHf02BJkZV1rctTbkrx5XWMkJUBkIJupebdd0nSeyxRPF99A5wxZBa0Zct47B5fGeNAnbaAOGaLhg%3D%3D&tmstmp=1787771908251",
       "contact": "tleatham@cityofboise.org",
       "category": "PROFESSIONAL_SERVICES",
       "score": 73,
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-95ceb9295c7312bb",
@@ -1097,7 +1097,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "boise-1ba7b56e9f97f186",
@@ -1115,14 +1115,14 @@
       "updated_date": "",
       "status": "OPEN",
       "url": "https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise",
-      "details_url": "https://app01.jaggaer.com/apps/Router/ViewSourcingEvent?AuthToken=1%3AAES2%23CGP6KpvrvntIb89T4sB0WgE61waYONiRRMz0RopAVnIXW0UuY9pTuh%2F9sEtVdIyAK9pTfwBrYeaZtxBG3i%2B%2BMdQczDr7T6PFPZhkMEnV4GASan9Eg%2F5WKwD7AfXLtSr028y%2FNriuCMUfxbGi3B%2B5i%2FVllN0oXePrTw%3D%3D&tmstmp=1787771263891",
+      "details_url": "https://app01.jaggaer.com/apps/Router/ViewSourcingEvent?AuthToken=1%3AAES2%23CCmf25pGmeMs9l3LZqwCnHnyzRRlPnTvHo3O0lSvX0BBNJIOnjYYk2upxJqju%2FvnESDP9o1ULNijJ0USjWh7eENKs7Jo42duR%2Fwt3iBZw%2BIigDgCBciDc4ch0ytZp6ytLN9ABsFlW064gQ7cKUJ1o3D5PB5QUFWIUw%3D%3D&tmstmp=1787771908249",
       "contact": "mgrothaus@cityofboise.org, shitchcock@cityofboise.org",
       "category": "PROFESSIONAL_SERVICES",
       "score": 69,
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-17f7cbd1dc6e88a6",
@@ -1147,7 +1147,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-1a5ffa138aaa3987",
@@ -1172,7 +1172,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-61d12c300cb753fc",
@@ -1197,7 +1197,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-result-7cb2f46018ff2f9e",
@@ -1239,7 +1239,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-61d4f5df00520727",
@@ -1264,7 +1264,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-result-8ce6820db41ab1e4",
@@ -1302,7 +1302,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-result-7bb6aefe6e4f2783",
@@ -1380,7 +1380,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-result-1999d304fafa3fb1",
@@ -1430,7 +1430,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-result-5abd47e4022d9d39",
@@ -1480,7 +1480,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-result-ff1986cbfac5c81b",
@@ -1562,7 +1562,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-result-95244709e0bfa086",
@@ -1596,7 +1596,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-result-4c57456222e8d96a",
@@ -1630,7 +1630,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-result-3f7b16ebd8fe2c24",
@@ -1672,7 +1672,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-result-5e2b54e4b7a92ec0",
@@ -1714,7 +1714,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-result-a62dd89d684c5027",
@@ -1756,7 +1756,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-result-d8a5ad7a81b43963",
@@ -1794,7 +1794,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-result-e586c37d204775bc",
@@ -1832,7 +1832,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-result-8e21cbb5bbbf5339",
@@ -1878,7 +1878,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-result-bc803de318c30939",
@@ -1916,7 +1916,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-result-e61d9f8f2bb153bb",
@@ -1962,7 +1962,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-result-1ae8bc168e3b08f5",
@@ -2024,7 +2024,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-result-7078f73a0dde7c86",
@@ -2062,7 +2062,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-result-3b916193d31e1f2e",
@@ -2100,7 +2100,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-result-40350dabb8ff3ea9",
@@ -2134,7 +2134,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-result-80cc81e1b3432319",
@@ -2172,7 +2172,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-result-0f76506b2f7c5d7b",
@@ -2210,7 +2210,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-result-ef00e44409ba1f73",
@@ -2252,7 +2252,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-result-447a0085c566ce37",
@@ -2290,7 +2290,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-result-e903a776aa594912",
@@ -2324,7 +2324,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-result-984d9472d742df11",
@@ -2382,7 +2382,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-result-51efcdbabc094b15",
@@ -2420,7 +2420,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-result-684f1f1d7f7d5f34",
@@ -2466,7 +2466,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-result-5b88f17270865f90",
@@ -2500,7 +2500,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-result-1721660f94b4a0a5",
@@ -2534,7 +2534,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-result-527c4aede4c6e71c",
@@ -2572,7 +2572,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-result-9cd46fe63ee546a3",
@@ -2626,7 +2626,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-result-c1e5cf7e18faff72",
@@ -2676,7 +2676,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-result-45972a690e9a319d",
@@ -2722,7 +2722,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-result-c6426101e04871dd",
@@ -2776,7 +2776,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-result-2833db2c2bd9aab6",
@@ -2822,7 +2822,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-result-4a4d514221279a9e",
@@ -2856,7 +2856,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-result-28a29f4094f5f7e8",
@@ -2890,7 +2890,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-result-1d99b77dca92bdf1",
@@ -2920,7 +2920,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-result-ec2ebee686999097",
@@ -2962,7 +2962,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-result-bc781ac8683cb929",
@@ -2992,7 +2992,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-ebbd8d8fe778260e",
@@ -3017,7 +3017,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-7500388c48f5c9b1",
@@ -3042,7 +3042,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-2d2a147c43eaa028",
@@ -3067,7 +3067,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-result-5c0a50d4216589f0",
@@ -3101,7 +3101,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-result-c1b151fd820fcecb",
@@ -3139,7 +3139,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-result-13fb81fd794589c8",
@@ -3169,7 +3169,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-result-9dd15215e401fe81",
@@ -3203,7 +3203,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-result-d9e7943c950163d3",
@@ -3241,7 +3241,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-result-c54d7fe01729d237",
@@ -3266,7 +3266,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-result-f1f4e4019e7079b5",
@@ -3300,7 +3300,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-result-bebc272c904d4495",
@@ -3346,7 +3346,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-result-0ca21319885da431",
@@ -3388,7 +3388,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     },
     {
       "id": "dpw-result-57287eed474d6b3c",
@@ -3418,7 +3418,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-08-26T19:07:43+00:00"
+      "last_seen": "2026-08-26T19:18:27+00:00"
     }
   ]
 }
