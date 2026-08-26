@@ -55,29 +55,47 @@ Validation result at completion:
 - ACHD: 0 records / fail-soft
 - 125 raw source records and 124 normalized opportunities
 
+### Checkpoint 4A — Ada County procurement
+Completed successfully.
+
+What was added:
+- authoritative Ada County Bonfire/Euna public procurement source
+- public endpoint: `/PublicPortal/getOpenPublicOpportunitiesSectionData`
+- stable project IDs, solicitation numbers, project titles and close dates
+- direct links to individual Bonfire opportunity pages
+- deterministic fixture coverage
+- live pipeline wiring with fail-soft source isolation
+
+Validation result at completion:
+- Ada County: 3 open projects
+- City of Boise: 5 records
+- Idaho DPW: 80 records
+- Idaho Purchasing: 40 records
+- ACHD: 0 records / fail-soft
+- 128 raw source records and 127 normalized opportunities
+
 ## Current checkpoint
 
-### Checkpoint 4A — Ada County procurement
-Goal: add the next highest-value Treasure Valley public procurement source without mixing in other agencies.
+### Checkpoint 4B — ITD construction / contracting opportunities
+Goal: add Idaho Transportation Department opportunities that materially expand coverage beyond the DPW and Idaho Purchasing records already present.
 
 Planned work:
-- identify Ada County's authoritative public bid/procurement source
-- collect active construction, facility, materials/equipment and relevant professional-services opportunities
-- normalize dates, solicitation number/type, agency, project description and source links
+- identify ITD's authoritative public construction / contracting sources
+- separate genuinely new ITD opportunities from records already represented through DPW or Idaho Purchasing
+- collect solicitation/project number, title, dates, location, stage and source links
 - add fixture tests
 - require successful live GitHub Actions collection before merge
 
 Exit criteria:
-- Ada County contributes real records without degrading Boise, DPW or Idaho Purchasing; otherwise document the external constraint and leave production stable
+- ITD contributes unique, useful records without creating duplicate project noise or degrading existing collectors; otherwise document the overlap/constraint and leave production stable
 
 ## Future checkpoints
 
 ### Checkpoint 4 — Treasure Valley agency expansion
-Continue one source per sub-sprint after Ada County:
-1. ITD construction / contracting opportunities relevant to Idaho and Treasure Valley
-2. Boise State / state campus projects not already fully represented through DPW
-3. Boise School District and other major Treasure Valley school/public facility sources
-4. Meridian, Nampa, Caldwell and other municipal procurement sources where they add material coverage beyond existing state/county feeds
+Continue one source per sub-sprint after ITD:
+1. Boise State / state campus projects not already fully represented through DPW
+2. Boise School District and other major Treasure Valley school/public facility sources
+3. Meridian, Nampa, Caldwell and other municipal procurement sources where they add material coverage beyond existing state/county feeds
 
 Each source must pass fixture tests and a live GitHub Actions collection before merge.
 
