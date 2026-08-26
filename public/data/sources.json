@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-26T18:59:38+00:00",
+  "collector_status": [
+    {
+      "source": "City of Boise",
+      "status": "OK",
+      "records_seen": 5,
+      "qualifying_records": 5,
+      "note": ""
+    },
+    {
+      "source": "Idaho DPW",
+      "status": "OK",
+      "records_seen": 80,
+      "qualifying_records": 80,
+      "note": ""
+    },
+    {
+      "source": "Idaho Purchasing",
+      "status": "EMPTY",
+      "records_seen": 0,
+      "qualifying_records": 0,
+      "note": "No records parsed from public source; collector may need source-specific refinement."
+    },
+    {
+      "source": "ACHD",
+      "status": "EMPTY",
+      "records_seen": 0,
+      "qualifying_records": 0,
+      "note": "No records parsed from public source; collector may need source-specific refinement."
+    }
+  ]
+}
