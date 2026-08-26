@@ -5,7 +5,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from .classify import classify
-from .collectors import achd, boise, dpw, purchasing
+from .collectors import achd, ada_county, boise, dpw, purchasing
 from .models import Opportunity
 
 
@@ -13,6 +13,7 @@ COLLECTORS = [
     ("City of Boise", boise.collect),
     ("Idaho DPW", dpw.collect),
     ("Idaho Purchasing", purchasing.collect),
+    ("Ada County", ada_county.collect),
     ("ACHD", achd.collect),
 ]
 
