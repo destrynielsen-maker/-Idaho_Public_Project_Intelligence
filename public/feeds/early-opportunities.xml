@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 26 Aug 2026 21:40:44 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 27 Aug 2026 10:07:08 +0000</lastBuildDate>
     <item>
       <title>[25] ITB 1222 - Security Patrol Services</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
@@ -21,6 +21,13 @@
       <description>Agency: ITD | Stage: AWARDED | Type: ITB | Due: 2026-08-04 | Location: Idaho&lt;br&gt;Post Date: 05/20/2026 Close Date: 06/23/2026 Award Date: 07/13/2026</description>
       <guid isPermaLink="false">idaho-purchasing-4c3df54273e390a7</guid>
       <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[33] ITB 1336 - ITD Highway Delineation</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: ITD | Stage: AWARDED | Type: ITB | Due: 2026-09-09 | Location: Idaho&lt;br&gt;Post Date: 06/05/2026 Close Date: 07/10/2026 Award Date: 08/25/2026</description>
+      <guid isPermaLink="false">idaho-purchasing-e7bf954cc58f73bf</guid>
+      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[40] RFP 717 - IDFG Website Rebuild</title>
@@ -212,13 +219,6 @@
       <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[48] ITB 1336 - ITD Highway Delineation</title>
-      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: ITD | Stage: UPCOMING | Type: ITB | Due: 2026-09-09 | Location: Idaho&lt;br&gt;Post Date: 06/05/2026 Close Date: 07/10/2026 Anticipated Award Date: 08/24/2026</description>
-      <guid isPermaLink="false">idaho-purchasing-e7bf954cc58f73bf</guid>
-      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>[48] PADD - Strategic Management Consulting Services</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
       <description>Agency: DHW | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-10-05 | Location: Idaho&lt;br&gt;Anticipated Award Date: 09/15/2026</description>
@@ -277,7 +277,7 @@
     <item>
       <title>[73] ITB 1316 - Landscaping &amp; Snow Removal Services Chinden Campus</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: ADM | Stage: UPCOMING | Type: ITB | Due: 2026-09-03 | Location: Idaho&lt;br&gt;Anticipated Post Date: 08/07/2026 Anticipated Close Date: 09/04/2026 Anticipated Award Date: 09/23/2026</description>
+      <description>Agency: ADM | Stage: UPCOMING | Type: ITB | Due: 2026-09-03 | Location: Idaho&lt;br&gt;Anticipated Post Date: 09/08/2026 Anticipated Close Date: 10/09/2026 Anticipated Award Date: 10/28/2026</description>
       <guid isPermaLink="false">idaho-purchasing-f54ee44901ff994a</guid>
       <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
     </item>
