@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 27 Aug 2026 10:07:08 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 27 Aug 2026 22:28:46 +0000</lastBuildDate>
     <item>
       <title>[65] RFQ - Landscaping Services Lewiston State Office Building</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
@@ -49,6 +49,13 @@
       <description>Agency: ADM | Stage: UPCOMING | Type: ITB | Due: 2026-09-03 | Location: Idaho&lt;br&gt;Anticipated Post Date: 09/08/2026 Anticipated Close Date: 10/09/2026 Anticipated Award Date: 10/28/2026</description>
       <guid isPermaLink="false">idaho-purchasing-f54ee44901ff994a</guid>
       <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[79] Sewer Mainline Replacement Kendall St – Phase 2 (RSP 497)</title>
+      <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
+      <description>Agency: City of Boise | Stage: OPEN_BID | Type: FB- | Due: 2026-09-16 | Location: Boise, Idaho&lt;br&gt;Open Replacement of 1340 L.F. of 12-inch diameter sewer main, manhole modification and replacement, service line replacement, and other related work.</description>
+      <guid isPermaLink="false">boise-af51682c2ce4822d</guid>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[82] IAB Bldg. HVAC/Refurbish Air Handlers PH 2, Department of Labor, Boise, Idaho</title>

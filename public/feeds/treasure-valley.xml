@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 27 Aug 2026 10:07:08 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 27 Aug 2026 22:28:46 +0000</lastBuildDate>
     <item>
       <title>[61] Ada County Bulk Fuel Purchase FY27</title>
       <link>https://adacounty.bonfirehub.com/opportunities/249397</link>
@@ -42,6 +42,13 @@
       <description>Agency: City of Boise | Stage: OPEN_BID | Type: RFQ | Due: 2026-09-02 | Location: Boise, Idaho&lt;br&gt;Open This project is to address identified current operational and performance issues at WBWRF regarding grit.</description>
       <guid isPermaLink="false">boise-850a3e51ca7d52ba</guid>
       <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[79] Sewer Mainline Replacement Kendall St – Phase 2 (RSP 497)</title>
+      <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
+      <description>Agency: City of Boise | Stage: OPEN_BID | Type: FB- | Due: 2026-09-16 | Location: Boise, Idaho&lt;br&gt;Open Replacement of 1340 L.F. of 12-inch diameter sewer main, manhole modification and replacement, service line replacement, and other related work.</description>
+      <guid isPermaLink="false">boise-af51682c2ce4822d</guid>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[80] Spare Inlet Pump (PRF 016)</title>
