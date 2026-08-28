@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 27 Aug 2026 22:28:46 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2026 11:38:06 +0000</lastBuildDate>
     <item>
       <title>[25] ITB 1222 - Security Patrol Services</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
@@ -245,6 +245,13 @@
       <description>Agency: IPTV | Stage: UPCOMING | Type: RFP | Due: 2027-01-06 | Location: Idaho&lt;br&gt;Anticipated Post Date: 09/29/2026 Anticipated Close Date: 11/03/2026 Anticipated Award Date: 12/15/2026</description>
       <guid isPermaLink="false">idaho-purchasing-b11303350a648129</guid>
       <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[40] ITB 1405 - IDVS Janitorial Services Pocatello</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: VETS | Stage: UPCOMING | Type: ITB | Due: 2027-01-14 | Location: Idaho&lt;br&gt;Anticipated Post Date: 10/07/2026 Anticipated Close Date: 11/02/2026 Anticipated Award Date: 12/30/2026</description>
+      <guid isPermaLink="false">idaho-purchasing-cdd3554d8dd05372</guid>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[40] RFP 1405 - IDVS Janitorial Services Pocatello</title>
@@ -520,11 +527,18 @@
       <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[59] PADD - Foodservice Equipment, Supplies, and Projects</title>
+      <title>[55] PADD202710165 - Public Safety Vehicle Lights, Sirens, &amp; Accessories</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: STATEWIDE | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-09-11 | Location: Idaho&lt;br&gt;Anticipated Award Date: 09/11/2026</description>
-      <guid isPermaLink="false">idaho-purchasing-00074b259e1c1d7b</guid>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
+      <description>Agency: STATEWIDE | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-10-08 | Location: Idaho&lt;br&gt;Anticipated Award Date:</description>
+      <guid isPermaLink="false">idaho-purchasing-7cde8b85c7c92961</guid>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[58] ITB 1392 - ITD Thermoplastic Roadway Markings</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: ITD | Stage: UPCOMING | Type: ITB | Due: 2026-12-18 | Location: Idaho&lt;br&gt;Anticipated Post Date: Anticipated Close Date: Anticipated Award Date:</description>
+      <guid isPermaLink="false">idaho-purchasing-fd1a94c915b1bccd</guid>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[61] Ada County Bulk Fuel Purchase FY27</title>
@@ -658,6 +672,13 @@
       <description>Agency: Idaho Division of Public Works | Stage: CLOSED | Type: CONSTRUCTION_BID | Due: 2026-08-26 | Location: Twin Falls, Idaho&lt;br&gt;Food Quality Assurance Lab Fire Alarm System, Twin Falls, Idaho</description>
       <guid isPermaLink="false">dpw-95ceb9295c7312bb</guid>
       <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[63] PADD - Foodservice Equipment, Supplies, and Projects</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: STATEWIDE | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-09-11 | Location: Idaho&lt;br&gt;Anticipated Award Date: 09/11/2026</description>
+      <guid isPermaLink="false">idaho-purchasing-00074b259e1c1d7b</guid>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[64] MPCB Generator Backup Power, Boise State University, Boise, Idaho</title>
