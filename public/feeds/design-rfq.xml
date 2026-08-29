@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 28 Aug 2026 22:31:35 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 29 Aug 2026 07:16:11 +0000</lastBuildDate>
     <item>
       <title>[40] RFP 717 - IDFG Website Rebuild</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
@@ -56,6 +56,20 @@
       <description>Agency: ISHS | Stage: UPCOMING | Type: ITB | Due: 2026-07-23 | Location: Idaho&lt;br&gt;Post Date: 05/19/2026 Close Date: 06/25/2026 Anticipated Award Date: 09/08/2026</description>
       <guid isPermaLink="false">idaho-purchasing-f5a351fce50d3935</guid>
       <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[40] RFP 669 - Statewide Telecommunication Services</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: ITS, STATEWIDE | Stage: UPCOMING | Type: RFP | Due: 2026-08-28 | Location: Idaho&lt;br&gt;Post Date: 08/04/2025 Close Date: 10/10/2025 Anticipated Award Date: 08/18/2026</description>
+      <guid isPermaLink="false">idaho-purchasing-139361a2ef39839e</guid>
+      <pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[40] RFP 932 - Electronic Visit Verification</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: DHW | Stage: UPCOMING | Type: RFP | Due: 2026-08-28 | Location: Idaho&lt;br&gt;Post Date: 09/04/2025 Close Date: 12/03/2025 Award Date: 04/06/2026</description>
+      <guid isPermaLink="false">idaho-purchasing-cb75d2f226a69b72</guid>
+      <pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[40] RFP 1136 - Exam Development, delivery, and fingerprint collection</title>
@@ -182,20 +196,6 @@
       <description>Agency: STATEWIDE | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-09-21 | Location: Idaho&lt;br&gt;Anticipated Award Date: 09/21/2026</description>
       <guid isPermaLink="false">idaho-purchasing-755743771a907629</guid>
       <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[48] RFP 669 - Statewide Telecommunication Services</title>
-      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: ITS, STATEWIDE | Stage: UPCOMING | Type: RFP | Due: 2026-08-28 | Location: Idaho&lt;br&gt;Post Date: 08/04/2025 Close Date: 10/10/2025 Anticipated Award Date: 08/18/2026</description>
-      <guid isPermaLink="false">idaho-purchasing-139361a2ef39839e</guid>
-      <pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[48] RFP 932 - Electronic Visit Verification</title>
-      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: DHW | Stage: UPCOMING | Type: RFP | Due: 2026-08-28 | Location: Idaho&lt;br&gt;Post Date: 09/04/2025 Close Date: 12/03/2025 Award Date: 04/06/2026</description>
-      <guid isPermaLink="false">idaho-purchasing-cb75d2f226a69b72</guid>
-      <pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[48] PADD - Firefighter PPE</title>
