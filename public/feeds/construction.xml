@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 30 Aug 2026 21:22:09 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2026 05:54:43 +0000</lastBuildDate>
     <item>
       <title>[58] ITB 1392 - ITD Thermoplastic Roadway Markings</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
@@ -65,13 +65,6 @@
       <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[82] City Hall Downtown Elevator Modernization Cars 1 &amp; 2 (GBP 110)</title>
-      <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
-      <description>Agency: City of Boise | Stage: OPEN_BID | Type: FB- | Due: 2026-09-30 | Location: Boise, Idaho&lt;br&gt;Open Modernize Elevators #1 and #2 at Boise City Hall, including all labor, materials, equipment, testing, and related services, and full maintenance for all four elevators.</description>
-      <guid isPermaLink="false">boise-13334f6c559a0a2d</guid>
-      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>[83] Siphon Cleaning and CCTV Project 2026 (PWE 852)</title>
       <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
       <description>Agency: City of Boise | Stage: OPEN_BID | Type: SFB | Due: 2026-09-09 | Location: Boise, Idaho&lt;br&gt;Open Cleaning, sewer flow control, de-watering, obstruction removal prior to CCTV of a variety of sewer siphons. Inspect main line sewers, identify, and locate pipelines in need of rehabilitation.</description>
@@ -84,6 +77,13 @@
       <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-09-29 | Location: Boise, Idaho&lt;br&gt;IAB Bldg. HVAC/Refurbish Air Handlers PH 2, Department of Labor, Boise, Idaho</description>
       <guid isPermaLink="false">dpw-25bb98f88ccd26b8</guid>
       <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[86] City Hall Downtown Elevator Modernization Cars 1 &amp; 2 (GBP 110)</title>
+      <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
+      <description>Agency: City of Boise | Stage: OPEN_BID | Type: FB- | Due: 2026-09-30 | Location: Boise, Idaho&lt;br&gt;Open Modernize Elevators #1 and #2 at Boise City Hall, including all labor, materials, equipment, testing, and related services, and full maintenance for all four elevators.</description>
+      <guid isPermaLink="false">boise-13334f6c559a0a2d</guid>
+      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

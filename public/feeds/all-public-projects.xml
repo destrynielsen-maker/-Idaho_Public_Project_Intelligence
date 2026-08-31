@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 30 Aug 2026 21:22:09 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2026 05:54:43 +0000</lastBuildDate>
     <item>
       <title>[37] Classroom &amp; Teaching Lab Improvements, University of Idaho, Moscow, Idaho</title>
       <link>https://dpw.idaho.gov/wp-content/uploads/2026/08/25263-Ad-Long.pdf</link>
@@ -77,27 +77,6 @@
       <description>Agency: DHW | Stage: UPCOMING | Type: RFP | Due: 2026-08-28 | Location: Idaho&lt;br&gt;Post Date: 09/04/2025 Close Date: 12/03/2025 Award Date: 04/06/2026</description>
       <guid isPermaLink="false">idaho-purchasing-cb75d2f226a69b72</guid>
       <pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[40] RFP 1136 - Exam Development, delivery, and fingerprint collection</title>
-      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: DOPL | Stage: UPCOMING | Type: RFP | Due: 2026-09-30 | Location: Idaho&lt;br&gt;Post Date: 06/01/2026 Close Date: 07/23/2026 Anticipated Award Date: 08/28/2026</description>
-      <guid isPermaLink="false">idaho-purchasing-fcd8f7c9710d8237</guid>
-      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[40] RFP 1181 - Actuarial Services</title>
-      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: DHW | Stage: UPCOMING | Type: RFP | Due: 2026-09-30 | Location: Idaho&lt;br&gt;Post Date: 02/18/2026 Close Date: 04/23/2026 Anticipated Award Date: 08/13/2026</description>
-      <guid isPermaLink="false">idaho-purchasing-8f40e5f4f9c5d84a</guid>
-      <pubDate>Thu, 08 Jan 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[40] RFP 1214 - IDPTV Transmission Encoder System</title>
-      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: IPTV | Stage: FUTURE | Type: RFP | Due: 2026-09-30 | Location: Idaho&lt;br&gt;Anticipated Post Date: 06/15/2026 Closed Date: 08/11/2026 Anticipated Award Date: 09/30/2026</description>
-      <guid isPermaLink="false">idaho-purchasing-6138e98f0db890c8</guid>
-      <pubDate>Mon, 23 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[40] RFP - NASPO Medical Supplies</title>
@@ -191,13 +170,6 @@
       <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[44] RFP 1126 - ISHS Artifact Collections Packing and Moving</title>
-      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: ISHS | Stage: FUTURE | Type: RFP | Due: 2026-09-14 | Location: Idaho&lt;br&gt;Post Date: 05/27/2026 Closed Date: 07/14/2026 Anticipated Award Date: 08/30/2026</description>
-      <guid isPermaLink="false">idaho-purchasing-fb4979d8af7b6417</guid>
-      <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>[44] RFP 1199 - Law Enforcement Liaison</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
       <description>Agency: ITD | Stage: UPCOMING | Type: RFP | Due: 2026-09-21 | Location: Idaho&lt;br&gt;Post Date: 07/28/2026 Anticipated Close Date: 08/24/2026 Anticipated Award Date: 09/02/2026</description>
@@ -212,6 +184,27 @@
       <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>[44] RFP 1136 - Exam Development, delivery, and fingerprint collection</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: DOPL | Stage: UPCOMING | Type: RFP | Due: 2026-09-30 | Location: Idaho&lt;br&gt;Post Date: 06/01/2026 Close Date: 07/23/2026 Anticipated Award Date: 08/28/2026</description>
+      <guid isPermaLink="false">idaho-purchasing-fcd8f7c9710d8237</guid>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[44] RFP 1181 - Actuarial Services</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: DHW | Stage: UPCOMING | Type: RFP | Due: 2026-09-30 | Location: Idaho&lt;br&gt;Post Date: 02/18/2026 Close Date: 04/23/2026 Anticipated Award Date: 08/13/2026</description>
+      <guid isPermaLink="false">idaho-purchasing-8f40e5f4f9c5d84a</guid>
+      <pubDate>Thu, 08 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[44] RFP 1214 - IDPTV Transmission Encoder System</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: IPTV | Stage: FUTURE | Type: RFP | Due: 2026-09-30 | Location: Idaho&lt;br&gt;Anticipated Post Date: 06/15/2026 Closed Date: 08/11/2026 Anticipated Award Date: 09/30/2026</description>
+      <guid isPermaLink="false">idaho-purchasing-6138e98f0db890c8</guid>
+      <pubDate>Mon, 23 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>[45] D4 Admin Bldg. Upgrade, Idaho Transportation Department, Shoshone, Idaho</title>
       <link>https://dpw.idaho.gov/wp-content/uploads/2026/07/26570-Ad-Long.pdf</link>
       <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-09-03 | Location: Shoshone, Idaho&lt;br&gt;D4 Admin Bldg. Upgrade, Idaho Transportation Department, Shoshone, Idaho</description>
@@ -224,6 +217,13 @@
       <description>Agency: IMD | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-08-31 | Location: Idaho&lt;br&gt;Anticipated Award Date: 08/31/2026</description>
       <guid isPermaLink="false">idaho-purchasing-0c18916a1d825358</guid>
       <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[48] RFP 1126 - ISHS Artifact Collections Packing and Moving</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: ISHS | Stage: FUTURE | Type: RFP | Due: 2026-09-14 | Location: Idaho&lt;br&gt;Post Date: 05/27/2026 Closed Date: 07/14/2026 Anticipated Award Date: 08/30/2026</description>
+      <guid isPermaLink="false">idaho-purchasing-fb4979d8af7b6417</guid>
+      <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[48] PADD - Strategic Management Consulting Services</title>
@@ -366,13 +366,6 @@
       <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[82] City Hall Downtown Elevator Modernization Cars 1 &amp; 2 (GBP 110)</title>
-      <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
-      <description>Agency: City of Boise | Stage: OPEN_BID | Type: FB- | Due: 2026-09-30 | Location: Boise, Idaho&lt;br&gt;Open Modernize Elevators #1 and #2 at Boise City Hall, including all labor, materials, equipment, testing, and related services, and full maintenance for all four elevators.</description>
-      <guid isPermaLink="false">boise-13334f6c559a0a2d</guid>
-      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>[83] Siphon Cleaning and CCTV Project 2026 (PWE 852)</title>
       <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
       <description>Agency: City of Boise | Stage: OPEN_BID | Type: SFB | Due: 2026-09-09 | Location: Boise, Idaho&lt;br&gt;Open Cleaning, sewer flow control, de-watering, obstruction removal prior to CCTV of a variety of sewer siphons. Inspect main line sewers, identify, and locate pipelines in need of rehabilitation.</description>
@@ -385,6 +378,13 @@
       <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-09-29 | Location: Boise, Idaho&lt;br&gt;IAB Bldg. HVAC/Refurbish Air Handlers PH 2, Department of Labor, Boise, Idaho</description>
       <guid isPermaLink="false">dpw-25bb98f88ccd26b8</guid>
       <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[86] City Hall Downtown Elevator Modernization Cars 1 &amp; 2 (GBP 110)</title>
+      <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
+      <description>Agency: City of Boise | Stage: OPEN_BID | Type: FB- | Due: 2026-09-30 | Location: Boise, Idaho&lt;br&gt;Open Modernize Elevators #1 and #2 at Boise City Hall, including all labor, materials, equipment, testing, and related services, and full maintenance for all four elevators.</description>
+      <guid isPermaLink="false">boise-13334f6c559a0a2d</guid>
+      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
