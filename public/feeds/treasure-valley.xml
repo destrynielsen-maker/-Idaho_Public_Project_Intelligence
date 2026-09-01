@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 31 Aug 2026 22:58:05 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Sep 2026 05:27:51 +0000</lastBuildDate>
     <item>
       <title>[61] Ada County Bulk Fuel Purchase FY27</title>
       <link>https://adacounty.bonfirehub.com/opportunities/249397</link>
@@ -49,6 +49,13 @@
       <description>Agency: City of Boise | Stage: OPEN_BID | Type: FB- | Due: 2026-09-16 | Location: Boise, Idaho&lt;br&gt;Open Replacement of 1340 L.F. of 12-inch diameter sewer main, manhole modification and replacement, service line replacement, and other related work.</description>
       <guid isPermaLink="false">boise-af51682c2ce4822d</guid>
       <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[79] Bluff Street Sewer Extension, CSP 1205</title>
+      <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
+      <description>Agency: City of Boise | Stage: OPEN_BID | Type: FB- | Due: 2026-09-16 | Location: Boise, Idaho&lt;br&gt;Open Sewer extension from end of existing service line at MH MH854V3 on N Howry Street to run down Fairview to Bluff and up Bluff Street to end, approx. 657 l.f.</description>
+      <guid isPermaLink="false">boise-f8363b4a23f6e0d6</guid>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[80] Spare Inlet Pump (PRF 016)</title>

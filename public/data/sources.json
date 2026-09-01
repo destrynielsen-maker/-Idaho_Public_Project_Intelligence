@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-31T22:58:01+00:00",
+  "generated_at": "2026-09-01T05:27:48+00:00",
   "collector_status": [
     {
       "source": "City of Boise",
       "status": "OK",
-      "records_seen": 6,
-      "qualifying_records": 6,
+      "records_seen": 7,
+      "qualifying_records": 7,
       "note": ""
     },
     {
