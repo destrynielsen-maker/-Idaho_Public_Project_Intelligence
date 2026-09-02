@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 01 Sep 2026 21:12:52 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 04:54:12 +0000</lastBuildDate>
     <item>
       <title>[25] RFP 1263 - Senior Community Service Employment Program</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
@@ -149,20 +149,6 @@
       <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[40] RFP 669 - Statewide Telecommunication Services</title>
-      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: ITS, STATEWIDE | Stage: UPCOMING | Type: RFP | Due: 2026-08-28 | Location: Idaho&lt;br&gt;Post Date: 08/04/2025 Close Date: 10/10/2025 Anticipated Award Date: 08/18/2026</description>
-      <guid isPermaLink="false">idaho-purchasing-139361a2ef39839e</guid>
-      <pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[40] RFP 932 - Electronic Visit Verification</title>
-      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: DHW | Stage: UPCOMING | Type: RFP | Due: 2026-08-28 | Location: Idaho&lt;br&gt;Post Date: 09/04/2025 Close Date: 12/03/2025 Award Date: 04/06/2026</description>
-      <guid isPermaLink="false">idaho-purchasing-cb75d2f226a69b72</guid>
-      <pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>[40] PADD - Firefighter PPE</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
       <description>Agency: IMD | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-08-31 | Location: Idaho&lt;br&gt;Anticipated Award Date: 08/31/2026</description>
@@ -214,7 +200,7 @@
     <item>
       <title>[40] RFP 1338 - IDVS Medicare Billing Services</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: VETS | Stage: UPCOMING | Type: RFP | Due: 2026-11-18 | Location: Idaho&lt;br&gt;Anticipated Post Date: 08/25/2026 Anticipated Close Date: 09/23/2026 Anticipated Award Date: 10/29/2026</description>
+      <description>Agency: VETS | Stage: UPCOMING | Type: RFP | Due: 2026-11-18 | Location: Idaho&lt;br&gt;Anticipated Post Date: 09/2/2026 Anticipated Close Date: 09/23/2026 Anticipated Award Date: 10/29/2026</description>
       <guid isPermaLink="false">idaho-purchasing-e44ba8d18e00fcc0</guid>
       <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
     </item>
@@ -280,6 +266,20 @@
       <description>Agency: STATEWIDE | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-09-21 | Location: Idaho&lt;br&gt;Anticipated Award Date: 09/21/2026</description>
       <guid isPermaLink="false">idaho-purchasing-755743771a907629</guid>
       <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[44] RFP 669 - Statewide Telecommunication Services</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: ITS, STATEWIDE | Stage: UPCOMING | Type: RFP | Due: 2026-09-30 | Location: Idaho&lt;br&gt;Post Date: 08/04/2025 Close Date: 10/10/2025 Anticipated Award Date: 08/18/2026</description>
+      <guid isPermaLink="false">idaho-purchasing-139361a2ef39839e</guid>
+      <pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[44] RFP 932 - Electronic Visit Verification</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: DHW | Stage: UPCOMING | Type: RFP | Due: 2026-09-30 | Location: Idaho&lt;br&gt;Post Date: 09/04/2025 Close Date: 12/03/2025 Award Date: 04/06/2026</description>
+      <guid isPermaLink="false">idaho-purchasing-cb75d2f226a69b72</guid>
+      <pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[44] RFP 1136 - Exam Development, delivery, and fingerprint collection</title>
@@ -744,13 +744,6 @@
       <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[69] Advancing Intercity Rail in Boise</title>
-      <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
-      <description>Agency: City of Boise | Stage: OPEN_BID | Type: RFP | Due: 2026-09-16 | Location: Boise, Idaho&lt;br&gt;Open The City of Boise, Idaho invites qualified firms or consultant teams to submit proposals to provide expert professional services for Advancing Intercity Rail and Station-Area Investment in Boise</description>
-      <guid isPermaLink="false">boise-1ba7b56e9f97f186</guid>
-      <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>[70] Eames Building 96 Remodel, Idaho State University, Pocatello, Idaho</title>
       <link>https://dpw.idaho.gov/wp-content/uploads/2026/08/26233-Ad-Long.pdf</link>
       <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-09-10 | Location: Pocatello, Idaho&lt;br&gt;Eames Building 96 Remodel, Idaho State University, Pocatello, Idaho</description>
@@ -770,6 +763,13 @@
       <description>Agency: ADM | Stage: UPCOMING | Type: ITB | Due: 2026-09-03 | Location: Idaho&lt;br&gt;Anticipated Post Date: 09/08/2026 Anticipated Close Date: 10/09/2026 Anticipated Award Date: 10/28/2026</description>
       <guid isPermaLink="false">idaho-purchasing-f54ee44901ff994a</guid>
       <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[73] Advancing Intercity Rail in Boise</title>
+      <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
+      <description>Agency: City of Boise | Stage: OPEN_BID | Type: RFP | Due: 2026-09-16 | Location: Boise, Idaho&lt;br&gt;Open The City of Boise, Idaho invites qualified firms or consultant teams to submit proposals to provide expert professional services for Advancing Intercity Rail and Station-Area Investment in Boise</description>
+      <guid isPermaLink="false">boise-1ba7b56e9f97f186</guid>
+      <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[74] EMA (Bldg. 015) Surveillance Systems, Boise State University, Boise, Idaho</title>
@@ -833,20 +833,6 @@
       <description>Agency: Idaho Division of Public Works | Stage: BID_RESULTS | Type: BID_RESULT | Due: 2026-08-19 | Location: Meridian, Idaho&lt;br&gt;Bid results: JB's Roofing Inc. — $471,745; Signature Roofing — $689,820; Upson Company — $663,285; Hobson Fabricating — $803,855; Northwest Roof Restoration — $655,600</description>
       <guid isPermaLink="false">dpw-result-afc4687f7e9ada1e</guid>
       <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[79] Sewer Mainline Replacement Kendall St – Phase 2 (RSP 497)</title>
-      <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
-      <description>Agency: City of Boise | Stage: OPEN_BID | Type: FB- | Due: 2026-09-16 | Location: Boise, Idaho&lt;br&gt;Open Replacement of 1340 L.F. of 12-inch diameter sewer main, manhole modification and replacement, service line replacement, and other related work.</description>
-      <guid isPermaLink="false">boise-af51682c2ce4822d</guid>
-      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[79] Bluff Street Sewer Extension, CSP 1205</title>
-      <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
-      <description>Agency: City of Boise | Stage: OPEN_BID | Type: FB- | Due: 2026-09-16 | Location: Boise, Idaho&lt;br&gt;Open Sewer extension from end of existing service line at MH MH854V3 on N Howry Street to run down Fairview to Bluff and up Bluff Street to end, approx. 657 l.f.</description>
-      <guid isPermaLink="false">boise-f8363b4a23f6e0d6</guid>
-      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[80] Spare Inlet Pump (PRF 016)</title>
@@ -938,6 +924,20 @@
       <description>Agency: City of Boise | Stage: OPEN_BID | Type: SFB | Due: 2026-09-09 | Location: Boise, Idaho&lt;br&gt;Open Cleaning, sewer flow control, de-watering, obstruction removal prior to CCTV of a variety of sewer siphons. Inspect main line sewers, identify, and locate pipelines in need of rehabilitation.</description>
       <guid isPermaLink="false">boise-5604d95a35ff06db</guid>
       <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[83] Sewer Mainline Replacement Kendall St – Phase 2 (RSP 497)</title>
+      <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
+      <description>Agency: City of Boise | Stage: OPEN_BID | Type: FB- | Due: 2026-09-16 | Location: Boise, Idaho&lt;br&gt;Open Replacement of 1340 L.F. of 12-inch diameter sewer main, manhole modification and replacement, service line replacement, and other related work.</description>
+      <guid isPermaLink="false">boise-af51682c2ce4822d</guid>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[83] Bluff Street Sewer Extension, CSP 1205</title>
+      <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
+      <description>Agency: City of Boise | Stage: OPEN_BID | Type: FB- | Due: 2026-09-16 | Location: Boise, Idaho&lt;br&gt;Open Sewer extension from end of existing service line at MH MH854V3 on N Howry Street to run down Fairview to Bluff and up Bluff Street to end, approx. 657 l.f.</description>
+      <guid isPermaLink="false">boise-f8363b4a23f6e0d6</guid>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[86] IAB Bldg. HVAC/Refurbish Air Handlers PH 2, Department of Labor, Boise, Idaho</title>

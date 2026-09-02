@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 01 Sep 2026 21:12:52 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 04:54:12 +0000</lastBuildDate>
     <item>
       <title>[45] D4 Admin Bldg. Upgrade, Idaho Transportation Department, Shoshone, Idaho</title>
       <link>https://dpw.idaho.gov/wp-content/uploads/2026/07/26570-Ad-Long.pdf</link>
@@ -65,6 +65,13 @@
       <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>[73] Advancing Intercity Rail in Boise</title>
+      <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
+      <description>Agency: City of Boise | Stage: OPEN_BID | Type: RFP | Due: 2026-09-16 | Location: Boise, Idaho&lt;br&gt;Open The City of Boise, Idaho invites qualified firms or consultant teams to submit proposals to provide expert professional services for Advancing Intercity Rail and Station-Area Investment in Boise</description>
+      <guid isPermaLink="false">boise-1ba7b56e9f97f186</guid>
+      <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>[80] Spare Inlet Pump (PRF 016)</title>
       <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
       <description>Agency: City of Boise | Stage: OPEN_BID | Type: FB- | Due: 2026-09-02 | Location: Boise, Idaho&lt;br&gt;Open Purchase of one spare inlet pump. The City of Boise has standardized to MWI Corporation for Vertical Axial Flow Pumps, under SS-2026-516.</description>
@@ -77,6 +84,20 @@
       <description>Agency: City of Boise | Stage: OPEN_BID | Type: SFB | Due: 2026-09-09 | Location: Boise, Idaho&lt;br&gt;Open Cleaning, sewer flow control, de-watering, obstruction removal prior to CCTV of a variety of sewer siphons. Inspect main line sewers, identify, and locate pipelines in need of rehabilitation.</description>
       <guid isPermaLink="false">boise-5604d95a35ff06db</guid>
       <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[83] Sewer Mainline Replacement Kendall St – Phase 2 (RSP 497)</title>
+      <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
+      <description>Agency: City of Boise | Stage: OPEN_BID | Type: FB- | Due: 2026-09-16 | Location: Boise, Idaho&lt;br&gt;Open Replacement of 1340 L.F. of 12-inch diameter sewer main, manhole modification and replacement, service line replacement, and other related work.</description>
+      <guid isPermaLink="false">boise-af51682c2ce4822d</guid>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[83] Bluff Street Sewer Extension, CSP 1205</title>
+      <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
+      <description>Agency: City of Boise | Stage: OPEN_BID | Type: FB- | Due: 2026-09-16 | Location: Boise, Idaho&lt;br&gt;Open Sewer extension from end of existing service line at MH MH854V3 on N Howry Street to run down Fairview to Bluff and up Bluff Street to end, approx. 657 l.f.</description>
+      <guid isPermaLink="false">boise-f8363b4a23f6e0d6</guid>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
