@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 02 Sep 2026 21:11:42 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 04:51:47 +0000</lastBuildDate>
     <item>
       <title>[40] RFP 717 - IDFG Website Rebuild</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
@@ -63,6 +63,20 @@
       <description>Agency: STATEWIDE | Stage: FUTURE | Type: RFP | Due: 2026-10-05 | Location: Idaho&lt;br&gt;Anticipated Post Date: 07/30/2026 Anticipated Close Date: 09/30/2026 Anticipated Award Date: 10/30/2026</description>
       <guid isPermaLink="false">idaho-purchasing-25963afd4da41f40</guid>
       <pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[40] PA - Statewide Propane</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: STATEWIDE | Stage: FUTURE | Type: FUTURE_SOLICITATION | Due: 2026-10-09 | Location: Idaho&lt;br&gt;Anticipated Award Date: 07/30/2026</description>
+      <guid isPermaLink="false">idaho-purchasing-8281e8f0dafa17a8</guid>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[40] PADD - Inmate &amp; Detention Supplies &amp; Solutions</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: IDOC | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-10-13 | Location: Idaho&lt;br&gt;Anticipated Award Date: 10/13/2026</description>
+      <guid isPermaLink="false">idaho-purchasing-e273dfa1fc5b9f3e</guid>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[40] ITB 1368 - ODP Printing Services</title>
@@ -121,6 +135,13 @@
       <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>[40] ITB 1429 - AGRI Temporary Staffing Services</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: AGRI | Stage: UPCOMING | Type: ITB | Due: 2026-12-24 | Location: Idaho&lt;br&gt;Anticipated Post Date: 10/20/2026 Anticipated Close Date: 11/16/2026 Anticipated Award Date: 12/07/2026</description>
+      <guid isPermaLink="false">idaho-purchasing-6571a37e9436757b</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>[40] RFP 1396 - IDPTV Planned Giving Platform Services</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
       <description>Agency: IPTV | Stage: UPCOMING | Type: RFP | Due: 2027-01-06 | Location: Idaho&lt;br&gt;Anticipated Post Date: 09/29/2026 Anticipated Close Date: 11/03/2026 Anticipated Award Date: 12/15/2026</description>
@@ -140,6 +161,13 @@
       <description>Agency: VETS | Stage: UPCOMING | Type: RFP | Due: 2027-01-14 | Location: Idaho&lt;br&gt;Anticipated Post Date: 10/07/2026 Anticipated Close Date: 11/02/2026 Anticipated Award Date: 12/30/2026</description>
       <guid isPermaLink="false">idaho-purchasing-1eea9a07cada98be</guid>
       <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[40] RFP 1428 - FSP Inventory System</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: ADM | Stage: UPCOMING | Type: RFP | Due: 2027-02-04 | Location: Idaho&lt;br&gt;Anticipated Post Date: 10/28/2026 Anticipated Close Date: 12/2/2026 Anticipated Award Date: 1/15/2027</description>
+      <guid isPermaLink="false">idaho-purchasing-355b27e3f3cde0d2</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[41] Residential Cottages Fire Suppression Systems Replacement, Idaho Educational Services for the Deaf &amp; Blind, Gooding, Idaho</title>
@@ -287,6 +315,13 @@
       <description>Agency: STATEWIDE | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-09-11 | Location: Idaho&lt;br&gt;Anticipated Award Date: 09/11/2026</description>
       <guid isPermaLink="false">idaho-purchasing-00074b259e1c1d7b</guid>
       <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[65] PA - Elevator Services</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: STATEWIDE | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-07-31 | Location: Idaho&lt;br&gt;Anticipated Award Date: 07/31/2026</description>
+      <guid isPermaLink="false">idaho-purchasing-31c887d6dc2e82a5</guid>
+      <pubDate>Fri, 14 Nov 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[65] Ada County Treatment Services Landscape Redesign &amp; Loading Dock Project</title>

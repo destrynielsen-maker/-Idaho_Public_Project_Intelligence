@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T21:11:40+00:00",
+  "generated_at": "2026-09-03T04:51:44+00:00",
   "collector_status": [
     {
       "source": "City of Boise",
@@ -18,8 +18,8 @@
     {
       "source": "Idaho Purchasing",
       "status": "OK",
-      "records_seen": 42,
-      "qualifying_records": 42,
+      "records_seen": 45,
+      "qualifying_records": 45,
       "note": ""
     },
     {
