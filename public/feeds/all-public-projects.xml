@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 03 Sep 2026 21:13:10 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 04 Sep 2026 04:54:51 +0000</lastBuildDate>
     <item>
       <title>[40] RFP 717 - IDFG Website Rebuild</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
@@ -56,6 +56,13 @@
       <description>Agency: IMD | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-08-31 | Location: Idaho&lt;br&gt;Anticipated Award Date: 08/31/2026</description>
       <guid isPermaLink="false">idaho-purchasing-0c18916a1d825358</guid>
       <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[40] RFP 1433 - NASPO Medical Supplies</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: STATEWIDE | Stage: FUTURE | Type: RFP | Due: 2026-10-05 | Location: Idaho&lt;br&gt;Anticipated Post Date: 09/21/2026 Anticipated Close Date: 11/16/2026 Anticipated Award Date: 12/30/2026</description>
+      <guid isPermaLink="false">idaho-purchasing-e13c7bbe63368699</guid>
+      <pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[40] RFP - NASPO Medical Supplies</title>
@@ -233,13 +240,6 @@
       <pubDate>Mon, 23 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[45] D4 Admin Bldg. Upgrade, Idaho Transportation Department, Shoshone, Idaho</title>
-      <link>https://dpw.idaho.gov/wp-content/uploads/2026/07/26570-Ad-Long.pdf</link>
-      <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-09-03 | Location: Shoshone, Idaho&lt;br&gt;D4 Admin Bldg. Upgrade, Idaho Transportation Department, Shoshone, Idaho</description>
-      <guid isPermaLink="false">dpw-ebbd8d8fe778260e</guid>
-      <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>[48] RFP 1126 - ISHS Artifact Collections Packing and Moving</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
       <description>Agency: ISHS | Stage: FUTURE | Type: RFP | Due: 2026-09-14 | Location: Idaho&lt;br&gt;Post Date: 05/27/2026 Closed Date: 07/14/2026 Anticipated Award Date: 08/30/2026</description>
@@ -331,6 +331,13 @@
       <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>[65] ITB 1316 - Landscaping &amp; Snow Removal Services Chinden Campus</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: ADM | Stage: UPCOMING | Type: ITB | Due: 2026-09-03 | Location: Idaho&lt;br&gt;Anticipated Post Date: 09/08/2026 Anticipated Close Date: 10/09/2026 Anticipated Award Date: 10/28/2026</description>
+      <guid isPermaLink="false">idaho-purchasing-f54ee44901ff994a</guid>
+      <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>[65] Ada County Courthouse VRF #3 &amp; 4 Replacement 2026</title>
       <link>https://adacounty.bonfirehub.com/opportunities/248796</link>
       <description>Agency: Ada County | Stage: OPEN_BID | Type: BID | Due: 2026-09-04 | Location: Ada County, Idaho&lt;br&gt;Ada County public procurement opportunity: Ada County Courthouse VRF #3 &amp; 4 Replacement 2026</description>
@@ -387,13 +394,6 @@
       <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[73] ITB 1316 - Landscaping &amp; Snow Removal Services Chinden Campus</title>
-      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: ADM | Stage: UPCOMING | Type: ITB | Due: 2026-09-03 | Location: Idaho&lt;br&gt;Anticipated Post Date: 09/08/2026 Anticipated Close Date: 10/09/2026 Anticipated Award Date: 10/28/2026</description>
-      <guid isPermaLink="false">idaho-purchasing-f54ee44901ff994a</guid>
-      <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>[73] Advancing Intercity Rail in Boise</title>
       <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
       <description>Agency: City of Boise | Stage: OPEN_BID | Type: RFP | Due: 2026-09-16 | Location: Boise, Idaho&lt;br&gt;Open The City of Boise, Idaho invites qualified firms or consultant teams to submit proposals to provide expert professional services for Advancing Intercity Rail and Station-Area Investment in Boise</description>
@@ -443,11 +443,25 @@
       <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>[86] Meridian Campus HQ HVAC Controls, Idaho State Police, Meridian, Idaho</title>
+      <link>https://dpw.idaho.gov/wp-content/uploads/2026/09/26511-Ad-Long.pdf</link>
+      <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-09-30 | Location: Meridian, Idaho&lt;br&gt;Meridian Campus HQ HVAC Controls, Idaho State Police, Meridian, Idaho</description>
+      <guid isPermaLink="false">dpw-8dc8eabac1e30cba</guid>
+      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>[86] City Hall Downtown Elevator Modernization Cars 1 &amp; 2 (GBP 110)</title>
       <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
       <description>Agency: City of Boise | Stage: OPEN_BID | Type: FB- | Due: 2026-09-30 | Location: Boise, Idaho&lt;br&gt;Open Modernize Elevators #1 and #2 at Boise City Hall, including all labor, materials, equipment, testing, and related services, and full maintenance for all four elevators.</description>
       <guid isPermaLink="false">boise-13334f6c559a0a2d</guid>
       <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[86] SW Supervisory Area Admin Roof Replacement &amp; HVAC Upgrade, Department of Lands, Boise, Idaho</title>
+      <link>https://dpw.idaho.gov/wp-content/uploads/2026/09/26502-Ad-Long.pdf</link>
+      <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-10-01 | Location: Boise, Idaho&lt;br&gt;SW Supervisory Area Admin Roof Replacement &amp; HVAC Upgrade, Department of Lands, Boise, Idaho</description>
+      <guid isPermaLink="false">dpw-30c781b5f0206d49</guid>
+      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

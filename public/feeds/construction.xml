@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 03 Sep 2026 21:13:10 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 04 Sep 2026 04:54:51 +0000</lastBuildDate>
     <item>
       <title>[58] ITB 1392 - ITD Thermoplastic Roadway Markings</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
@@ -21,6 +21,13 @@
       <description>Agency: STATEWIDE | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-07-31 | Location: Idaho&lt;br&gt;Anticipated Award Date: 07/31/2026</description>
       <guid isPermaLink="false">idaho-purchasing-31c887d6dc2e82a5</guid>
       <pubDate>Fri, 14 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[65] ITB 1316 - Landscaping &amp; Snow Removal Services Chinden Campus</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: ADM | Stage: UPCOMING | Type: ITB | Due: 2026-09-03 | Location: Idaho&lt;br&gt;Anticipated Post Date: 09/08/2026 Anticipated Close Date: 10/09/2026 Anticipated Award Date: 10/28/2026</description>
+      <guid isPermaLink="false">idaho-purchasing-f54ee44901ff994a</guid>
+      <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[65] RFQ - Landscaping Services Lewiston State Office Building</title>
@@ -58,13 +65,6 @@
       <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[73] ITB 1316 - Landscaping &amp; Snow Removal Services Chinden Campus</title>
-      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: ADM | Stage: UPCOMING | Type: ITB | Due: 2026-09-03 | Location: Idaho&lt;br&gt;Anticipated Post Date: 09/08/2026 Anticipated Close Date: 10/09/2026 Anticipated Award Date: 10/28/2026</description>
-      <guid isPermaLink="false">idaho-purchasing-f54ee44901ff994a</guid>
-      <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>[79] Miscellaneous PLC Programming and Control System Services (PWE 505)</title>
       <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
       <description>Agency: City of Boise | Stage: OPEN_BID | Type: RFQ | Due: 2026-09-30 | Location: Boise, Idaho&lt;br&gt;Open Soliciting qualification proposals from firms to provide professional PLC Programming and Control System Services as required for city owned water renewal facilities.</description>
@@ -100,11 +100,25 @@
       <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>[86] Meridian Campus HQ HVAC Controls, Idaho State Police, Meridian, Idaho</title>
+      <link>https://dpw.idaho.gov/wp-content/uploads/2026/09/26511-Ad-Long.pdf</link>
+      <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-09-30 | Location: Meridian, Idaho&lt;br&gt;Meridian Campus HQ HVAC Controls, Idaho State Police, Meridian, Idaho</description>
+      <guid isPermaLink="false">dpw-8dc8eabac1e30cba</guid>
+      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>[86] City Hall Downtown Elevator Modernization Cars 1 &amp; 2 (GBP 110)</title>
       <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
       <description>Agency: City of Boise | Stage: OPEN_BID | Type: FB- | Due: 2026-09-30 | Location: Boise, Idaho&lt;br&gt;Open Modernize Elevators #1 and #2 at Boise City Hall, including all labor, materials, equipment, testing, and related services, and full maintenance for all four elevators.</description>
       <guid isPermaLink="false">boise-13334f6c559a0a2d</guid>
       <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[86] SW Supervisory Area Admin Roof Replacement &amp; HVAC Upgrade, Department of Lands, Boise, Idaho</title>
+      <link>https://dpw.idaho.gov/wp-content/uploads/2026/09/26502-Ad-Long.pdf</link>
+      <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-10-01 | Location: Boise, Idaho&lt;br&gt;SW Supervisory Area Admin Roof Replacement &amp; HVAC Upgrade, Department of Lands, Boise, Idaho</description>
+      <guid isPermaLink="false">dpw-30c781b5f0206d49</guid>
+      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

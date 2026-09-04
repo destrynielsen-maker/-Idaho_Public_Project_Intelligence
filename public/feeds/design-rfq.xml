@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 03 Sep 2026 21:13:10 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 04 Sep 2026 04:54:51 +0000</lastBuildDate>
     <item>
       <title>[40] RFP 717 - IDFG Website Rebuild</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
@@ -56,6 +56,13 @@
       <description>Agency: IMD | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-08-31 | Location: Idaho&lt;br&gt;Anticipated Award Date: 08/31/2026</description>
       <guid isPermaLink="false">idaho-purchasing-0c18916a1d825358</guid>
       <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[40] RFP 1433 - NASPO Medical Supplies</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: STATEWIDE | Stage: FUTURE | Type: RFP | Due: 2026-10-05 | Location: Idaho&lt;br&gt;Anticipated Post Date: 09/21/2026 Anticipated Close Date: 11/16/2026 Anticipated Award Date: 12/30/2026</description>
+      <guid isPermaLink="false">idaho-purchasing-e13c7bbe63368699</guid>
+      <pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[40] RFP - NASPO Medical Supplies</title>
@@ -289,6 +296,13 @@
       <pubDate>Fri, 14 Nov 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>[65] ITB 1316 - Landscaping &amp; Snow Removal Services Chinden Campus</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: ADM | Stage: UPCOMING | Type: ITB | Due: 2026-09-03 | Location: Idaho&lt;br&gt;Anticipated Post Date: 09/08/2026 Anticipated Close Date: 10/09/2026 Anticipated Award Date: 10/28/2026</description>
+      <guid isPermaLink="false">idaho-purchasing-f54ee44901ff994a</guid>
+      <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>[65] RFQ - Landscaping Services Lewiston State Office Building</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
       <description>Agency: ADM | Stage: UPCOMING | Type: RFQ | Due: 2026-11-02 | Location: Idaho&lt;br&gt;Anticipated Post Date: Anticipated Close Date: Anticipated Award Date:</description>
@@ -308,13 +322,6 @@
       <description>Agency: City of Boise | Stage: OPEN_BID | Type: RFQ | Due: 2026-09-02 | Location: Boise, Idaho&lt;br&gt;Open This project is to address identified current operational and performance issues at WBWRF regarding grit.</description>
       <guid isPermaLink="false">boise-850a3e51ca7d52ba</guid>
       <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[73] ITB 1316 - Landscaping &amp; Snow Removal Services Chinden Campus</title>
-      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: ADM | Stage: UPCOMING | Type: ITB | Due: 2026-09-03 | Location: Idaho&lt;br&gt;Anticipated Post Date: 09/08/2026 Anticipated Close Date: 10/09/2026 Anticipated Award Date: 10/28/2026</description>
-      <guid isPermaLink="false">idaho-purchasing-f54ee44901ff994a</guid>
-      <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[73] Advancing Intercity Rail in Boise</title>

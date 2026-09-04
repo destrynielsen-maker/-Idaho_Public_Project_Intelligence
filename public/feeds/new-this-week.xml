@@ -7,7 +7,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 03 Sep 2026 21:13:10 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 04 Sep 2026 04:54:51 +0000</lastBuildDate>
+    <item>
+      <title>[40] RFP 1433 - NASPO Medical Supplies</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: STATEWIDE | Stage: FUTURE | Type: RFP | Due: 2026-10-05 | Location: Idaho&lt;br&gt;Anticipated Post Date: 09/21/2026 Anticipated Close Date: 11/16/2026 Anticipated Award Date: 12/30/2026</description>
+      <guid isPermaLink="false">idaho-purchasing-e13c7bbe63368699</guid>
+      <pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>[40] PA - Statewide Propane</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
@@ -49,13 +56,6 @@
       <description>Agency: Idaho Division of Public Works | Stage: BID_RESULTS | Type: BID_RESULT | Due: 2026-08-20 | Location: Lewiston, Idaho&lt;br&gt;Bid results: K&amp;G Construction — $27,822; Magnum Construction — $25,575; Kenaston Corporation — $38,616; CV Construction — $25,556; Norms Glass NON-RESPONSIVE</description>
       <guid isPermaLink="false">dpw-result-335bc68c5c57c72c</guid>
       <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[54] Food Quality Assurance Lab Fire Alarm System, Twin Falls, Idaho NO BIDS RECEIVED</title>
-      <link>https://dpw.idaho.gov/construction/</link>
-      <description>Agency: Idaho Division of Public Works | Stage: BID_RESULTS | Type: BID_RESULT | Due: 2026-08-26 | Location: Twin Falls, Idaho&lt;br&gt;Bid results: </description>
-      <guid isPermaLink="false">dpw-result-d6fcbb29878a8701</guid>
-      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[55] PADD - Public Safety Vehicle Lights, Sirens, &amp; Accessories</title>
@@ -107,18 +107,25 @@
       <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[83] Sewer Mainline Replacement Kendall St – Phase 2 (RSP 497)</title>
-      <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
-      <description>Agency: City of Boise | Stage: OPEN_BID | Type: FB- | Due: 2026-09-16 | Location: Boise, Idaho&lt;br&gt;Open Replacement of 1340 L.F. of 12-inch diameter sewer main, manhole modification and replacement, service line replacement, and other related work.</description>
-      <guid isPermaLink="false">boise-af51682c2ce4822d</guid>
-      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>[83] Bluff Street Sewer Extension, CSP 1205</title>
       <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
       <description>Agency: City of Boise | Stage: OPEN_BID | Type: FB- | Due: 2026-09-16 | Location: Boise, Idaho&lt;br&gt;Open Sewer extension from end of existing service line at MH MH854V3 on N Howry Street to run down Fairview to Bluff and up Bluff Street to end, approx. 657 l.f.</description>
       <guid isPermaLink="false">boise-f8363b4a23f6e0d6</guid>
       <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[86] Meridian Campus HQ HVAC Controls, Idaho State Police, Meridian, Idaho</title>
+      <link>https://dpw.idaho.gov/wp-content/uploads/2026/09/26511-Ad-Long.pdf</link>
+      <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-09-30 | Location: Meridian, Idaho&lt;br&gt;Meridian Campus HQ HVAC Controls, Idaho State Police, Meridian, Idaho</description>
+      <guid isPermaLink="false">dpw-8dc8eabac1e30cba</guid>
+      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[86] SW Supervisory Area Admin Roof Replacement &amp; HVAC Upgrade, Department of Lands, Boise, Idaho</title>
+      <link>https://dpw.idaho.gov/wp-content/uploads/2026/09/26502-Ad-Long.pdf</link>
+      <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-10-01 | Location: Boise, Idaho&lt;br&gt;SW Supervisory Area Admin Roof Replacement &amp; HVAC Upgrade, Department of Lands, Boise, Idaho</description>
+      <guid isPermaLink="false">dpw-30c781b5f0206d49</guid>
+      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
