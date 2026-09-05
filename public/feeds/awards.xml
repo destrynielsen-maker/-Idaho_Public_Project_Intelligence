@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 04 Sep 2026 21:26:43 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 05 Sep 2026 04:48:42 +0000</lastBuildDate>
     <item>
       <title>[25] RFP 1263 - Senior Community Service Employment Program</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
@@ -81,7 +81,7 @@
     <item>
       <title>[33] ITB 1336 - ITD Highway Delineation</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: ITD | Stage: AWARDED | Type: ITB | Due: 2026-09-09 | Location: Idaho&lt;br&gt;Post Date: 06/05/2026 Close Date: 07/10/2026 Award Date: 08/25/2026</description>
+      <description>Agency: ITD | Stage: AWARDED | Type: ITB | Due: 2026-09-09 | Location: Idaho&lt;br&gt;Post Date: 06/05/2026 Closed: 07/10/2026 Award Date: 08/25/2026</description>
       <guid isPermaLink="false">idaho-purchasing-e7bf954cc58f73bf</guid>
       <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
     </item>
@@ -112,6 +112,13 @@
       <description>Agency: Idaho Division of Public Works | Stage: BID_RESULTS | Type: BID_RESULT | Due: 2026-06-30 | Location: Moscow, Idaho&lt;br&gt;Bid results: Swinerton — $139,400; Quality Contractors — $248,000</description>
       <guid isPermaLink="false">dpw-result-5c0a50d4216589f0</guid>
       <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[40] PADD - Equipment Rental Services - Standard &amp; Emergency</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: STATEWIDE | Stage: AWARDED | Type: FUTURE_SOLICITATION | Due: 2026-08-06 | Location: Idaho&lt;br&gt;Anticipated Award Date: 08/06/2026</description>
+      <guid isPermaLink="false">idaho-purchasing-7e2d2b8e4c4a17a4</guid>
+      <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[49] Nampa Exterior Paint/Seal, Department of Juvenile Corrections, Nampa, Idaho</title>
@@ -410,7 +417,7 @@
     <item>
       <title>[62] Art &amp; Architecture Main HVAC Improvements, Phase 1, University of Idaho, Moscow, Idaho</title>
       <link>https://dpw.idaho.gov/construction/</link>
-      <description>Agency: Idaho Division of Public Works | Stage: BID_RESULTS | Type: BID_RESULT | Due: 2026-08-20 | Location: Moscow, Idaho&lt;br&gt;Bid results: J. Addington — $968,000; Mangum Construction — $1,026,350; Ginno — $1,064,000</description>
+      <description>Agency: Idaho Division of Public Works | Stage: BID_RESULTS | Type: BID_RESULT | Due: 2026-08-20 | Location: Moscow, Idaho&lt;br&gt;Bid results: J. Addington — $968,000; Mangum Construction — $1,026,350; Ginno Construction — $1,064,000</description>
       <guid isPermaLink="false">dpw-result-8ce6820db41ab1e4</guid>
       <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
     </item>
