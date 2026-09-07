@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 06 Sep 2026 20:38:45 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 07 Sep 2026 05:02:29 +0000</lastBuildDate>
     <item>
       <title>[25] RFP 1263 - Senior Community Service Employment Program</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
@@ -205,20 +205,6 @@
       <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[44] RFP 1199 - Law Enforcement Liaison</title>
-      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: ITD | Stage: UPCOMING | Type: RFP | Due: 2026-09-21 | Location: Idaho&lt;br&gt;Post Date: 07/28/2026 Anticipated Close Date: 08/24/2026 Anticipated Award Date: 09/02/2026</description>
-      <guid isPermaLink="false">idaho-purchasing-37d6cfb0b207eb45</guid>
-      <pubDate>Fri, 17 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[44] PADD - General Temporary Staffing</title>
-      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: STATEWIDE | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-09-21 | Location: Idaho&lt;br&gt;Anticipated Award Date: 09/21/2026</description>
-      <guid isPermaLink="false">idaho-purchasing-755743771a907629</guid>
-      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>[44] RFP 669 - Statewide Telecommunication Services</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
       <description>Agency: ITS, STATEWIDE | Stage: UPCOMING | Type: RFP | Due: 2026-09-30 | Location: Idaho&lt;br&gt;Post Date: 08/04/2025 Close Date: 10/10/2025 Anticipated Award Date: 08/18/2026</description>
@@ -266,6 +252,20 @@
       <description>Agency: ISHS | Stage: FUTURE | Type: RFP | Due: 2026-09-14 | Location: Idaho&lt;br&gt;Post Date: 05/27/2026 Closed Date: 07/14/2026 Anticipated Award Date: 08/30/2026</description>
       <guid isPermaLink="false">idaho-purchasing-fb4979d8af7b6417</guid>
       <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[48] RFP 1199 - Law Enforcement Liaison</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: ITD | Stage: UPCOMING | Type: RFP | Due: 2026-09-21 | Location: Idaho&lt;br&gt;Post Date: 07/28/2026 Anticipated Close Date: 08/24/2026 Anticipated Award Date: 09/02/2026</description>
+      <guid isPermaLink="false">idaho-purchasing-37d6cfb0b207eb45</guid>
+      <pubDate>Fri, 17 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[48] PADD - General Temporary Staffing</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: STATEWIDE | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-09-21 | Location: Idaho&lt;br&gt;Anticipated Award Date: 09/21/2026</description>
+      <guid isPermaLink="false">idaho-purchasing-755743771a907629</guid>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[50] ITB 1239 - Chinden Campus Building Automation Systems Maintenance</title>
