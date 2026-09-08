@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 07 Sep 2026 21:42:15 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2026 04:59:52 +0000</lastBuildDate>
     <item>
       <title>[40] RFP 717 - IDFG Website Rebuild</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
@@ -261,25 +261,11 @@
       <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[55] PADD - Public Safety Vehicle Lights, Sirens, &amp; Accessories</title>
-      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: STATEWIDE | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-10-08 | Location: Idaho&lt;br&gt;Anticipated Award Date:</description>
-      <guid isPermaLink="false">idaho-purchasing-18c1e83d24a3a62c</guid>
-      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>[55] PADD202710165 - Public Safety Vehicle Lights, Sirens, &amp; Accessories</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
       <description>Agency: STATEWIDE | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-10-08 | Location: Idaho&lt;br&gt;Anticipated Award Date:</description>
       <guid isPermaLink="false">idaho-purchasing-7cde8b85c7c92961</guid>
       <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[57] Whitehall Walk-In Cooler Replacement, SWITC, Department of Health and Welfare, Nampa, Idaho</title>
-      <link>https://dpw.idaho.gov/wp-content/uploads/2026/09/26353-Ad-Long.pdf</link>
-      <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-10-08 | Location: Nampa, Idaho&lt;br&gt;Whitehall Walk-In Cooler Replacement, SWITC, Department of Health and Welfare, Nampa, Idaho</description>
-      <guid isPermaLink="false">dpw-0c4b5f4351e409df</guid>
-      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[58] ITB 1392 - ITD Thermoplastic Roadway Markings</title>
@@ -296,11 +282,25 @@
       <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>[59] PADD - Public Safety Vehicle Lights, Sirens, &amp; Accessories</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: STATEWIDE | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-10-08 | Location: Idaho&lt;br&gt;Anticipated Award Date:</description>
+      <guid isPermaLink="false">idaho-purchasing-18c1e83d24a3a62c</guid>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>[61] Ada County Bulk Fuel Purchase FY27</title>
       <link>https://adacounty.bonfirehub.com/opportunities/249397</link>
       <description>Agency: Ada County | Stage: OPEN_BID | Type: BID | Due: 2026-09-25 | Location: Ada County, Idaho&lt;br&gt;Ada County public procurement opportunity: Ada County Bulk Fuel Purchase FY27</description>
       <guid isPermaLink="false">ada-county-6c0c073c7e5e8271</guid>
       <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[61] Whitehall Walk-In Cooler Replacement, SWITC, Department of Health and Welfare, Nampa, Idaho</title>
+      <link>https://dpw.idaho.gov/wp-content/uploads/2026/09/26353-Ad-Long.pdf</link>
+      <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-10-08 | Location: Nampa, Idaho&lt;br&gt;Whitehall Walk-In Cooler Replacement, SWITC, Department of Health and Welfare, Nampa, Idaho</description>
+      <guid isPermaLink="false">dpw-0c4b5f4351e409df</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[63] PADD - Foodservice Equipment, Supplies, and Projects</title>
@@ -359,24 +359,24 @@
       <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[66] Lewiston Office Restroom &amp; Breakroom ADA Upgrades, Labor, Lewiston, Idaho</title>
+      <title>[70] Eames Building 96 Remodel, Idaho State University, Pocatello, Idaho</title>
+      <link>https://dpw.idaho.gov/wp-content/uploads/2026/08/26233-Ad-Long.pdf</link>
+      <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-09-10 | Location: Pocatello, Idaho&lt;br&gt;Eames Building 96 Remodel, Idaho State University, Pocatello, Idaho</description>
+      <guid isPermaLink="false">dpw-61d12c300cb753fc</guid>
+      <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[70] Lewiston Office Restroom &amp; Breakroom ADA Upgrades, Labor, Lewiston, Idaho</title>
       <link>https://dpw.idaho.gov/wp-content/uploads/2026/08/26302-Ad-Long.pdf</link>
       <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-09-22 | Location: Lewiston, Idaho&lt;br&gt;Lewiston Office Restroom &amp; Breakroom ADA Upgrades, Labor, Lewiston, Idaho</description>
       <guid isPermaLink="false">dpw-1a5ffa138aaa3987</guid>
       <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[66] Admin Bldg. HVAC, Ph 3, University of Idaho, Moscow, Idaho</title>
+      <title>[70] Admin Bldg. HVAC, Ph 3, University of Idaho, Moscow, Idaho</title>
       <link>https://dpw.idaho.gov/wp-content/uploads/2026/08/24256-Ad-Long-RE-Bid.pdf</link>
       <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-09-22 | Location: Moscow, Idaho&lt;br&gt;Admin Bldg. HVAC, Ph 3, University of Idaho, Moscow, Idaho</description>
       <guid isPermaLink="false">dpw-17f7cbd1dc6e88a6</guid>
-      <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[70] Eames Building 96 Remodel, Idaho State University, Pocatello, Idaho</title>
-      <link>https://dpw.idaho.gov/wp-content/uploads/2026/08/26233-Ad-Long.pdf</link>
-      <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-09-10 | Location: Pocatello, Idaho&lt;br&gt;Eames Building 96 Remodel, Idaho State University, Pocatello, Idaho</description>
-      <guid isPermaLink="false">dpw-61d12c300cb753fc</guid>
       <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
