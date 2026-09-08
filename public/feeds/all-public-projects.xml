@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 08 Sep 2026 16:47:05 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2026 21:19:06 +0000</lastBuildDate>
     <item>
       <title>[40] RFP 717 - IDFG Website Rebuild</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
@@ -266,6 +266,13 @@
       <description>Agency: STATEWIDE | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-10-08 | Location: Idaho&lt;br&gt;Anticipated Award Date:</description>
       <guid isPermaLink="false">idaho-purchasing-7cde8b85c7c92961</guid>
       <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[57] SPEC Air Handler Replacement, Boise State University, Boise, Idaho</title>
+      <link>https://dpw.idaho.gov/wp-content/uploads/2026/09/25207-Ad-Long-1.pdf</link>
+      <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-10-29 | Location: Boise, Idaho&lt;br&gt;SPEC Air Handler Replacement, Boise State University, Boise, Idaho</description>
+      <guid isPermaLink="false">dpw-320317b62f2a75d7</guid>
+      <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[58] ITB 1392 - ITD Thermoplastic Roadway Markings</title>
