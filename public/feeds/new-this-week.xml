@@ -7,20 +7,13 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 08 Sep 2026 21:19:06 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2026 04:59:42 +0000</lastBuildDate>
     <item>
       <title>[29] D4 Admin Bldg. Upgrade, Idaho Transportation Department, Shoshone, Idaho</title>
       <link>https://dpw.idaho.gov/construction/</link>
       <description>Agency: Idaho Division of Public Works | Stage: BID_RESULTS | Type: BID_RESULT | Due: 2026-09-03 | Location: Shoshone, Idaho&lt;br&gt;Bid results: ACCO Engineered — $410,678; Hobson Fabricating — $271,700</description>
       <guid isPermaLink="false">dpw-result-2f386f2d766f124c</guid>
       <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[40] PA - Statewide Propane</title>
-      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: STATEWIDE | Stage: FUTURE | Type: FUTURE_SOLICITATION | Due: 2026-10-09 | Location: Idaho&lt;br&gt;Anticipated Award Date: 07/30/2026</description>
-      <guid isPermaLink="false">idaho-purchasing-8281e8f0dafa17a8</guid>
-      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[40] PADD - Inmate &amp; Detention Supplies &amp; Solutions</title>
@@ -30,11 +23,39 @@
       <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>[40] Drug Testing - Redwood Toxicology - IDOC - Sourcewell</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: IDOC | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-10-16 | Location: Idaho&lt;br&gt;Anticipated Award Date:</description>
+      <guid isPermaLink="false">idaho-purchasing-156b2083067a80ae</guid>
+      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[40] RFQ 1434 - IDOL Lewiston Security Patrol Services</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: LABOR | Stage: UPCOMING | Type: RFQ | Due: 2026-11-20 | Location: Idaho&lt;br&gt;Anticipated Post Date: 10/13/2026 Anticipated Close Date: 10/27/2026 Anticipated Award Date: 11/20/2026</description>
+      <guid isPermaLink="false">idaho-purchasing-36659b0ae8a912a3</guid>
+      <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[40] RFQ 1432 - IDOL Panic Buttons</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: LABOR | Stage: UPCOMING | Type: RFQ | Due: 2026-11-20 | Location: Idaho&lt;br&gt;Anticipated Post Date: 10/13/2026 Anticipated Close Date: 10/27/2026 Anticipated Award Date: 11/20/2026</description>
+      <guid isPermaLink="false">idaho-purchasing-349db580b6c98593</guid>
+      <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>[40] ITB 1429 - AGRI Temporary Staffing Services</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
       <description>Agency: AGRI | Stage: UPCOMING | Type: ITB | Due: 2026-12-24 | Location: Idaho&lt;br&gt;Anticipated Post Date: 10/20/2026 Anticipated Close Date: 11/16/2026 Anticipated Award Date: 12/07/2026</description>
       <guid isPermaLink="false">idaho-purchasing-6571a37e9436757b</guid>
       <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[40] ITB 1431 - IDPR Snow Groomers</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: IDPR | Stage: UPCOMING | Type: ITB | Due: 2026-12-30 | Location: Idaho&lt;br&gt;Anticipated Post Date: 10/26/2026 Anticipated Close Date: 11/20/2026 Anticipated Award Date: 12/30/2026</description>
+      <guid isPermaLink="false">idaho-purchasing-7f0fb8526a24e0ac</guid>
+      <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[40] RFP 1428 - FSP Inventory System</title>
@@ -51,6 +72,13 @@
       <pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>[44] PA - Statewide Propane</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: STATEWIDE | Stage: FUTURE | Type: FUTURE_SOLICITATION | Due: 2026-10-09 | Location: Idaho&lt;br&gt;Anticipated Award Date: 07/30/2026</description>
+      <guid isPermaLink="false">idaho-purchasing-8281e8f0dafa17a8</guid>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>[54] Juvenile Corrections Center Window Replacement, Department of Juvenile Corrections, Lewiston, Idaho</title>
       <link>https://dpw.idaho.gov/construction/</link>
       <description>Agency: Idaho Division of Public Works | Stage: BID_RESULTS | Type: BID_RESULT | Due: 2026-08-20 | Location: Lewiston, Idaho&lt;br&gt;Bid results: K&amp;G Construction — $27,822; Magnum Construction — $25,575; Kenaston Corporation — $38,616; CV Construction — $25,556; Norms Glass NON-RESPONSIVE</description>
@@ -63,13 +91,6 @@
       <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-10-29 | Location: Boise, Idaho&lt;br&gt;SPEC Air Handler Replacement, Boise State University, Boise, Idaho</description>
       <guid isPermaLink="false">dpw-320317b62f2a75d7</guid>
       <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[59] PADD - Public Safety Vehicle Lights, Sirens, &amp; Accessories</title>
-      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: STATEWIDE | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-10-08 | Location: Idaho&lt;br&gt;Anticipated Award Date:</description>
-      <guid isPermaLink="false">idaho-purchasing-18c1e83d24a3a62c</guid>
-      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[61] Whitehall Walk-In Cooler Replacement, SWITC, Department of Health and Welfare, Nampa, Idaho</title>
@@ -86,25 +107,11 @@
       <pubDate>Fri, 14 Nov 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[65] Ada County Landfill Drain Gravel 2027</title>
-      <link>https://adacounty.bonfirehub.com/opportunities/250881</link>
-      <description>Agency: Ada County | Stage: OPEN_BID | Type: BID | Due: 2026-09-11 | Location: Ada County, Idaho&lt;br&gt;Ada County public procurement opportunity: Ada County Landfill Drain Gravel 2027</description>
-      <guid isPermaLink="false">ada-county-cfa4bb03d03d71ab</guid>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>[79] Miscellaneous PLC Programming and Control System Services (PWE 505)</title>
       <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
       <description>Agency: City of Boise | Stage: OPEN_BID | Type: RFQ | Due: 2026-09-30 | Location: Boise, Idaho&lt;br&gt;Open Soliciting qualification proposals from firms to provide professional PLC Programming and Control System Services as required for city owned water renewal facilities.</description>
       <guid isPermaLink="false">boise-6a809b4fc08c9491</guid>
       <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[83] Bluff Street Sewer Extension, CSP 1205</title>
-      <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
-      <description>Agency: City of Boise | Stage: OPEN_BID | Type: FB- | Due: 2026-09-16 | Location: Boise, Idaho&lt;br&gt;Open Sewer extension from end of existing service line at MH MH854V3 on N Howry Street to run down Fairview to Bluff and up Bluff Street to end, approx. 657 l.f.</description>
-      <guid isPermaLink="false">boise-f8363b4a23f6e0d6</guid>
-      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[86] Meridian Campus HQ HVAC Controls, Idaho State Police, Meridian, Idaho</title>

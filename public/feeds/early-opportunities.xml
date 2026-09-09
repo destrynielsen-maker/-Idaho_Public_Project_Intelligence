@@ -7,7 +7,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 08 Sep 2026 21:19:06 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2026 04:59:42 +0000</lastBuildDate>
+    <item>
+      <title>[25] PADD20269369 - Food Service Distribution for Government</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: DHW | Stage: AWARDED | Type: FUTURE_SOLICITATION | Due: 2026-04-27 | Location: Idaho&lt;br&gt;Anticipated Award Date: 05/30/2026</description>
+      <guid isPermaLink="false">idaho-purchasing-edad26a2998f71c9</guid>
+      <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>[25] RFP 1263 - Senior Community Service Employment Program</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
@@ -49,13 +56,6 @@
       <description>Agency: AGRI | Stage: UPCOMING | Type: RFP | Due: 2026-01-28 | Location: Idaho&lt;br&gt;Post Date: 05/07/2026 Close Date: 06/10/2026 Anticipated Award Date: 08/14/2026</description>
       <guid isPermaLink="false">idaho-purchasing-1a433c9396544667</guid>
       <pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[40] PADD20269369 - Food Service Distribution for Government</title>
-      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: DHW | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-04-27 | Location: Idaho&lt;br&gt;Anticipated Award Date: 05/30/2026</description>
-      <guid isPermaLink="false">idaho-purchasing-edad26a2998f71c9</guid>
-      <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[40] PADD - Cloud Solutions</title>
@@ -100,13 +100,6 @@
       <pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[40] PA - Statewide Propane</title>
-      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: STATEWIDE | Stage: FUTURE | Type: FUTURE_SOLICITATION | Due: 2026-10-09 | Location: Idaho&lt;br&gt;Anticipated Award Date: 07/30/2026</description>
-      <guid isPermaLink="false">idaho-purchasing-8281e8f0dafa17a8</guid>
-      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>[40] PADD - Inmate &amp; Detention Supplies &amp; Solutions</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
       <description>Agency: IDOC | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-10-13 | Location: Idaho&lt;br&gt;Anticipated Award Date: 10/13/2026</description>
@@ -119,6 +112,13 @@
       <description>Agency: ODP | Stage: UPCOMING | Type: ITB | Due: 2026-10-15 | Location: Idaho&lt;br&gt;Anticipated Post Date: 08/11/2026 Anticipated Close Date: 09/14/2026 Anticipated Award Date: 09/16/2026</description>
       <guid isPermaLink="false">idaho-purchasing-c7a24273f51ffdb2</guid>
       <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[40] Drug Testing - Redwood Toxicology - IDOC - Sourcewell</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: IDOC | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-10-16 | Location: Idaho&lt;br&gt;Anticipated Award Date:</description>
+      <guid isPermaLink="false">idaho-purchasing-156b2083067a80ae</guid>
+      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[40] ITB 1137 - ITD Work Zone Safety Trucks</title>
@@ -170,11 +170,32 @@
       <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>[40] RFQ 1434 - IDOL Lewiston Security Patrol Services</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: LABOR | Stage: UPCOMING | Type: RFQ | Due: 2026-11-20 | Location: Idaho&lt;br&gt;Anticipated Post Date: 10/13/2026 Anticipated Close Date: 10/27/2026 Anticipated Award Date: 11/20/2026</description>
+      <guid isPermaLink="false">idaho-purchasing-36659b0ae8a912a3</guid>
+      <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[40] RFQ 1432 - IDOL Panic Buttons</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: LABOR | Stage: UPCOMING | Type: RFQ | Due: 2026-11-20 | Location: Idaho&lt;br&gt;Anticipated Post Date: 10/13/2026 Anticipated Close Date: 10/27/2026 Anticipated Award Date: 11/20/2026</description>
+      <guid isPermaLink="false">idaho-purchasing-349db580b6c98593</guid>
+      <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>[40] ITB 1429 - AGRI Temporary Staffing Services</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
       <description>Agency: AGRI | Stage: UPCOMING | Type: ITB | Due: 2026-12-24 | Location: Idaho&lt;br&gt;Anticipated Post Date: 10/20/2026 Anticipated Close Date: 11/16/2026 Anticipated Award Date: 12/07/2026</description>
       <guid isPermaLink="false">idaho-purchasing-6571a37e9436757b</guid>
       <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[40] ITB 1431 - IDPR Snow Groomers</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: IDPR | Stage: UPCOMING | Type: ITB | Due: 2026-12-30 | Location: Idaho&lt;br&gt;Anticipated Post Date: 10/26/2026 Anticipated Close Date: 11/20/2026 Anticipated Award Date: 12/30/2026</description>
+      <guid isPermaLink="false">idaho-purchasing-7f0fb8526a24e0ac</guid>
+      <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[40] RFP 1396 - IDPTV Planned Giving Platform Services</title>
@@ -245,6 +266,13 @@
       <description>Agency: STATEWIDE | Stage: FUTURE | Type: RFP | Due: 2026-10-05 | Location: Idaho&lt;br&gt;Anticipated Post Date: 09/21/2026 Anticipated Close Date: 11/16/2026 Anticipated Award Date: 12/30/2026</description>
       <guid isPermaLink="false">idaho-purchasing-e13c7bbe63368699</guid>
       <pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[44] PA - Statewide Propane</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: STATEWIDE | Stage: FUTURE | Type: FUTURE_SOLICITATION | Due: 2026-10-09 | Location: Idaho&lt;br&gt;Anticipated Award Date: 07/30/2026</description>
+      <guid isPermaLink="false">idaho-purchasing-8281e8f0dafa17a8</guid>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[48] RFP 1126 - ISHS Artifact Collections Packing and Moving</title>
