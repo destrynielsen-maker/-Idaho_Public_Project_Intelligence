@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 09 Sep 2026 21:04:21 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 10 Sep 2026 05:02:58 +0000</lastBuildDate>
     <item>
       <title>[25] PADD20269369 - Food Service Distribution for Government</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
@@ -35,6 +35,13 @@
       <description>Agency: ITD | Stage: AWARDED | Type: ITB | Due: 2026-08-04 | Location: Idaho&lt;br&gt;Post Date: 05/20/2026 Close Date: 06/23/2026 Award Date: 07/13/2026</description>
       <guid isPermaLink="false">idaho-purchasing-4c3df54273e390a7</guid>
       <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[25] ITB 1336 - ITD Highway Delineation</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: ITD | Stage: AWARDED | Type: ITB | Due: 2026-09-09 | Location: Idaho&lt;br&gt;Post Date: 06/05/2026 Closed: 07/10/2026 Award Date: 08/25/2026</description>
+      <guid isPermaLink="false">idaho-purchasing-e7bf954cc58f73bf</guid>
+      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[29] Multiple Bldgs. Electronic Access Control Installation, Idaho State University, Pocatello, Idaho</title>
@@ -86,13 +93,6 @@
       <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[33] ITB 1336 - ITD Highway Delineation</title>
-      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: ITD | Stage: AWARDED | Type: ITB | Due: 2026-09-09 | Location: Idaho&lt;br&gt;Post Date: 06/05/2026 Closed: 07/10/2026 Award Date: 08/25/2026</description>
-      <guid isPermaLink="false">idaho-purchasing-e7bf954cc58f73bf</guid>
-      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>[37] Nez Perce Dr. Parking Rebuild / Reconfiguration, University of Idaho, Moscow, Idaho</title>
       <link>https://dpw.idaho.gov/construction/</link>
       <description>Agency: Idaho Division of Public Works | Stage: BID_RESULTS | Type: BID_RESULT | Due: 2026-02-12 | Location: Moscow, Idaho&lt;br&gt;Bid results: M.L. Albright — $2,565,850; Germer — $2,901,315</description>
@@ -126,6 +126,13 @@
       <description>Agency: STATEWIDE | Stage: AWARDED | Type: FUTURE_SOLICITATION | Due: 2026-08-06 | Location: Idaho&lt;br&gt;Anticipated Award Date: 08/06/2026</description>
       <guid isPermaLink="false">idaho-purchasing-7e2d2b8e4c4a17a4</guid>
       <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[48] PADD - Foodservice Equipment, Supplies, and Projects</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: STATEWIDE | Stage: AWARDED | Type: FUTURE_SOLICITATION | Due: 2026-09-11 | Location: Idaho&lt;br&gt;Anticipated Award Date: 09/11/2026</description>
+      <guid isPermaLink="false">idaho-purchasing-00074b259e1c1d7b</guid>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[49] Nampa Exterior Paint/Seal, Department of Juvenile Corrections, Nampa, Idaho</title>
