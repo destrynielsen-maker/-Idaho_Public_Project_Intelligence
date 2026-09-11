@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 10 Sep 2026 21:04:04 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2026 04:59:28 +0000</lastBuildDate>
     <item>
       <title>[65] PA - Elevator Services</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
@@ -35,13 +35,6 @@
       <description>Agency: STATEWIDE | Stage: UPCOMING | Type: ITB | Due: 2026-12-09 | Location: Idaho&lt;br&gt;Anticipated Post Date: 10/06/2026 Anticipated Close Date: 11/03/2026 Anticipated Award Date: 12/10/2026</description>
       <guid isPermaLink="false">idaho-purchasing-e0aa926b8c3a96f9</guid>
       <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[70] Eames Building 96 Remodel, Idaho State University, Pocatello, Idaho</title>
-      <link>https://dpw.idaho.gov/wp-content/uploads/2026/08/26233-Ad-Long.pdf</link>
-      <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-09-10 | Location: Pocatello, Idaho&lt;br&gt;Eames Building 96 Remodel, Idaho State University, Pocatello, Idaho</description>
-      <guid isPermaLink="false">dpw-61d12c300cb753fc</guid>
-      <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[70] Lewiston Office Restroom &amp; Breakroom ADA Upgrades, Labor, Lewiston, Idaho</title>
@@ -84,6 +77,13 @@
       <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-10-01 | Location: Boise, Idaho&lt;br&gt;SW Supervisory Area Admin Roof Replacement &amp; HVAC Upgrade, Department of Lands, Boise, Idaho</description>
       <guid isPermaLink="false">dpw-30c781b5f0206d49</guid>
       <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[90] Sewer Extension Redesign Gowen Service District CSP 1213</title>
+      <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
+      <description>Agency: City of Boise | Stage: OPEN_BID | Type: FB- | Due: 2026-09-25 | Location: Boise, Idaho&lt;br&gt;Open Construction of approx. 904 L.F. of 18-inch diameter, 777 L.F. of 10-inch diameter, and 2,450 L.F. of 8-inch diameter gravity sewer main pipe, installation of new manholes, and other related work.</description>
+      <guid isPermaLink="false">boise-2de8c8faf1e04930</guid>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

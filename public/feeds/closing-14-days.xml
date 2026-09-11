@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 10 Sep 2026 21:04:04 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2026 04:59:28 +0000</lastBuildDate>
     <item>
       <title>[45] Residential Cottages Fire Suppression Systems Replacement, Idaho Educational Services for the Deaf &amp; Blind, Gooding, Idaho</title>
       <link>https://dpw.idaho.gov/wp-content/uploads/2026/08/26111-RE-BID-2-Ad-Long.pdf</link>
@@ -44,10 +44,10 @@
       <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[70] Eames Building 96 Remodel, Idaho State University, Pocatello, Idaho</title>
-      <link>https://dpw.idaho.gov/wp-content/uploads/2026/08/26233-Ad-Long.pdf</link>
-      <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-09-10 | Location: Pocatello, Idaho&lt;br&gt;Eames Building 96 Remodel, Idaho State University, Pocatello, Idaho</description>
-      <guid isPermaLink="false">dpw-61d12c300cb753fc</guid>
+      <title>[65] Ada County Bulk Fuel Purchase FY27</title>
+      <link>https://adacounty.bonfirehub.com/opportunities/249397</link>
+      <description>Agency: Ada County | Stage: OPEN_BID | Type: BID | Due: 2026-09-25 | Location: Ada County, Idaho&lt;br&gt;Ada County public procurement opportunity: Ada County Bulk Fuel Purchase FY27</description>
+      <guid isPermaLink="false">ada-county-6c0c073c7e5e8271</guid>
       <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -84,6 +84,13 @@
       <description>Agency: City of Boise | Stage: OPEN_BID | Type: FB- | Due: 2026-09-16 | Location: Boise, Idaho&lt;br&gt;Open Sewer extension from end of existing service line at MH MH854V3 on N Howry Street to run down Fairview to Bluff and up Bluff Street to end, approx. 657 l.f.</description>
       <guid isPermaLink="false">boise-f8363b4a23f6e0d6</guid>
       <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[90] Sewer Extension Redesign Gowen Service District CSP 1213</title>
+      <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
+      <description>Agency: City of Boise | Stage: OPEN_BID | Type: FB- | Due: 2026-09-25 | Location: Boise, Idaho&lt;br&gt;Open Construction of approx. 904 L.F. of 18-inch diameter, 777 L.F. of 10-inch diameter, and 2,450 L.F. of 8-inch diameter gravity sewer main pipe, installation of new manholes, and other related work.</description>
+      <guid isPermaLink="false">boise-2de8c8faf1e04930</guid>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
