@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T21:08:48+00:00",
+  "generated_at": "2026-09-12T04:51:32+00:00",
   "collector_status": [
     {
       "source": "City of Boise",
@@ -18,15 +18,15 @@
     {
       "source": "Idaho Purchasing",
       "status": "OK",
-      "records_seen": 51,
-      "qualifying_records": 51,
+      "records_seen": 52,
+      "qualifying_records": 52,
       "note": ""
     },
     {
       "source": "Ada County",
       "status": "OK",
-      "records_seen": 2,
-      "qualifying_records": 2,
+      "records_seen": 1,
+      "qualifying_records": 1,
       "note": ""
     },
     {
