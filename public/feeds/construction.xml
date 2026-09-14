@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 14 Sep 2026 13:10:38 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 21:56:48 +0000</lastBuildDate>
     <item>
       <title>[58] ITB 1392 - ITD Thermoplastic Roadway Markings</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
@@ -63,6 +63,13 @@
       <description>Agency: City of Boise | Stage: OPEN_BID | Type: RFQ | Due: 2026-09-30 | Location: Boise, Idaho&lt;br&gt;Open Soliciting qualification proposals from firms to provide professional PLC Programming and Control System Services as required for city owned water renewal facilities.</description>
       <guid isPermaLink="false">boise-6a809b4fc08c9491</guid>
       <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[79] Geothermal HDPE Materials (GEO1006)</title>
+      <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
+      <description>Agency: City of Boise | Stage: OPEN_BID | Type: SFB | Due: 2026-09-30 | Location: Boise, Idaho&lt;br&gt;Open Geothermal HDPE Pipe and fittings to replace main lines on 1st Street between Jefferson and State.</description>
+      <guid isPermaLink="false">boise-ba966a47feadfb10</guid>
+      <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[83] Siphon Cleaning and CCTV Project 2026 (PWE 852)</title>
