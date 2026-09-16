@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 15 Sep 2026 21:37:22 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 05:04:28 +0000</lastBuildDate>
     <item>
       <title>[40] RFP 717 - IDFG Website Rebuild</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
@@ -51,13 +51,6 @@
       <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[40] RFP 1126 - ISHS Artifact Collections Packing and Moving</title>
-      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: ISHS | Stage: FUTURE | Type: RFP | Due: 2026-09-14 | Location: Idaho&lt;br&gt;Post Date: 05/27/2026 Closed Date: 07/14/2026 Anticipated Award Date: 08/30/2026</description>
-      <guid isPermaLink="false">idaho-purchasing-fb4979d8af7b6417</guid>
-      <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>[40] RFP - NASPO Medical Supplies</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
       <description>Agency: STATEWIDE | Stage: FUTURE | Type: RFP | Due: 2026-10-05 | Location: Idaho&lt;br&gt;Anticipated Post Date: 07/30/2026 Anticipated Close Date: 09/30/2026 Anticipated Award Date: 10/30/2026</description>
@@ -65,25 +58,11 @@
       <pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[40] PADD - Drugs of Abuse Testing Products &amp; Laboratory Services</title>
-      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: IDOC | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-10-16 | Location: Idaho&lt;br&gt;Anticipated Award Date: 10/16/2026</description>
-      <guid isPermaLink="false">idaho-purchasing-ba0599ffd6292651</guid>
-      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>[40] Drug Testing - Redwood Toxicology - IDOC - Sourcewell</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
       <description>Agency: IDOC | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-10-16 | Location: Idaho&lt;br&gt;Anticipated Award Date:</description>
       <guid isPermaLink="false">idaho-purchasing-156b2083067a80ae</guid>
       <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[40] ITB 1137 - ITD Work Zone Safety Trucks</title>
-      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: ITD | Stage: UPCOMING | Type: ITB | Due: 2026-10-19 | Location: Idaho&lt;br&gt;Post Date: 08/14/2026 Close Date: 09/21/2026 Anticipated Award Date: 10/05/2026</description>
-      <guid isPermaLink="false">idaho-purchasing-f5bc6c6f499f5e23</guid>
-      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[40] RFP 1301 - IDOC Medical Services</title>
@@ -198,51 +177,23 @@
       <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[44] RFP 669 - Statewide Telecommunication Services</title>
-      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: ITS, STATEWIDE | Stage: UPCOMING | Type: RFP | Due: 2026-09-30 | Location: Idaho&lt;br&gt;Post Date: 08/04/2025 Close Date: 10/10/2025 Anticipated Award Date: 08/18/2026</description>
-      <guid isPermaLink="false">idaho-purchasing-139361a2ef39839e</guid>
-      <pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[44] RFP 932 - Electronic Visit Verification</title>
-      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: DHW | Stage: UPCOMING | Type: RFP | Due: 2026-09-30 | Location: Idaho&lt;br&gt;Post Date: 09/04/2025 Close Date: 12/03/2025 Award Date: 04/06/2026</description>
-      <guid isPermaLink="false">idaho-purchasing-cb75d2f226a69b72</guid>
-      <pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[44] RFP 1136 - Exam Development, delivery, and fingerprint collection</title>
-      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: DOPL | Stage: UPCOMING | Type: RFP | Due: 2026-09-30 | Location: Idaho&lt;br&gt;Post Date: 06/01/2026 Close Date: 07/23/2026 Anticipated Award Date: 08/28/2026</description>
-      <guid isPermaLink="false">idaho-purchasing-fcd8f7c9710d8237</guid>
-      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[44] RFP 1214 - IDPTV Transmission Encoder System</title>
-      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: IPTV | Stage: FUTURE | Type: RFP | Due: 2026-09-30 | Location: Idaho&lt;br&gt;Anticipated Post Date: 06/15/2026 Closed Date: 08/11/2026 Anticipated Award Date: 09/30/2026</description>
-      <guid isPermaLink="false">idaho-purchasing-6138e98f0db890c8</guid>
-      <pubDate>Mon, 23 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>[44] RFP 1433 - NASPO Medical Supplies</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: STATEWIDE | Stage: FUTURE | Type: RFP | Due: 2026-10-05 | Location: Idaho&lt;br&gt;Anticipated Post Date: 09/21/2026 Anticipated Close Date: 11/16/2026 Anticipated Award Date: 12/30/2026</description>
+      <description>Agency: STATEWIDE | Stage: FUTURE | Type: RFP | Due: 2026-10-05 | Location: Idaho&lt;br&gt;Anticipated Post Date: 10/01/2026 Anticipated Close Date: 11/20/2026 Anticipated Award Date: 01/30/2027</description>
       <guid isPermaLink="false">idaho-purchasing-e13c7bbe63368699</guid>
       <pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[44] RFI 1438 - IDOC Community Reentry Centers</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: IDOC | Stage: UPCOMING | Type: RFI | Due: 2026-10-06 | Location: Idaho&lt;br&gt;Anticipated Post Date: Anticipated Close Date: Anticipated Award Date:</description>
+      <description>Agency: IDOC | Stage: UPCOMING | Type: RFI | Due: 2026-10-06 | Location: Idaho&lt;br&gt;Post Date: 09/14/2026 Close Date: 10/02/2026 Award Date: None - RFI only</description>
       <guid isPermaLink="false">idaho-purchasing-4820b1fe5c145935</guid>
       <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[44] PA - Statewide Propane</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: STATEWIDE | Stage: FUTURE | Type: FUTURE_SOLICITATION | Due: 2026-10-09 | Location: Idaho&lt;br&gt;Anticipated Award Date: 07/30/2026</description>
+      <description>Agency: STATEWIDE | Stage: FUTURE | Type: FUTURE_SOLICITATION | Due: 2026-10-09 | Location: Idaho&lt;br&gt;Anticipated Award Date: 010/30/2026</description>
       <guid isPermaLink="false">idaho-purchasing-8281e8f0dafa17a8</guid>
       <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
     </item>
@@ -261,6 +212,13 @@
       <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>[44] PADD - Drugs of Abuse Testing Products &amp; Laboratory Services</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: IDOC | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-10-16 | Location: Idaho&lt;br&gt;Anticipated Award Date: 10/16/2026</description>
+      <guid isPermaLink="false">idaho-purchasing-ba0599ffd6292651</guid>
+      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>[48] RFP 1199 - Law Enforcement Liaison</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
       <description>Agency: ITD | Stage: UPCOMING | Type: RFP | Due: 2026-09-21 | Location: Idaho&lt;br&gt;Post Date: 07/28/2026 Anticipated Close Date: 08/24/2026 Anticipated Award Date: 09/02/2026</description>
@@ -273,6 +231,34 @@
       <description>Agency: STATEWIDE | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-09-21 | Location: Idaho&lt;br&gt;Anticipated Award Date: 09/21/2026</description>
       <guid isPermaLink="false">idaho-purchasing-755743771a907629</guid>
       <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[48] RFP 669 - Statewide Telecommunication Services</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: ITS, STATEWIDE | Stage: UPCOMING | Type: RFP | Due: 2026-09-30 | Location: Idaho&lt;br&gt;Post Date: 08/04/2025 Close Date: 10/10/2025 Anticipated Award Date: 08/18/2026</description>
+      <guid isPermaLink="false">idaho-purchasing-139361a2ef39839e</guid>
+      <pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[48] RFP 932 - Electronic Visit Verification</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: DHW | Stage: UPCOMING | Type: RFP | Due: 2026-09-30 | Location: Idaho&lt;br&gt;Post Date: 09/04/2025 Close Date: 12/03/2025 Award Date: 04/06/2026</description>
+      <guid isPermaLink="false">idaho-purchasing-cb75d2f226a69b72</guid>
+      <pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[48] RFP 1136 - Exam Development, delivery, and fingerprint collection</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: DOPL | Stage: UPCOMING | Type: RFP | Due: 2026-09-30 | Location: Idaho&lt;br&gt;Post Date: 06/01/2026 Close Date: 07/23/2026 Anticipated Award Date: 08/28/2026</description>
+      <guid isPermaLink="false">idaho-purchasing-fcd8f7c9710d8237</guid>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[48] RFP 1214 - IDPTV Transmission Encoder System</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: IPTV | Stage: FUTURE | Type: RFP | Due: 2026-09-30 | Location: Idaho&lt;br&gt;Post Date: 06/25/2026 Closed Date: 08/11/2026 Anticipated Award Date: 10/15/2026</description>
+      <guid isPermaLink="false">idaho-purchasing-6138e98f0db890c8</guid>
+      <pubDate>Mon, 23 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[52] PADD - Strategic Management Consulting Services</title>
@@ -331,18 +317,18 @@
       <pubDate>Fri, 14 Nov 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[65] ITB 1316 - Landscaping &amp; Snow Removal Services Chinden Campus</title>
-      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: ADM | Stage: UPCOMING | Type: ITB | Due: 2026-09-03 | Location: Idaho&lt;br&gt;Anticipated Post Date: 09/08/2026 Anticipated Close Date: 10/09/2026 Anticipated Award Date: 10/28/2026</description>
-      <guid isPermaLink="false">idaho-purchasing-f54ee44901ff994a</guid>
-      <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>[65] RFQ - Landscaping Services Lewiston State Office Building</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
       <description>Agency: ADM | Stage: UPCOMING | Type: RFQ | Due: 2026-11-02 | Location: Idaho&lt;br&gt;Anticipated Post Date: 09/10/2026 Anticipated Close Date: 09/24/2026 Anticipated Award Date: 10/07/2026</description>
       <guid isPermaLink="false">idaho-purchasing-129f81beb0fb5d95</guid>
       <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[65] ITB 1316 - Landscaping &amp; Snow Removal Services Chinden Campus</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: ADM | Stage: UPCOMING | Type: ITB | Due: 2026-12-01 | Location: Idaho&lt;br&gt;Anticipated Post Date: 12/01/2026 Anticipated Close Date: 12/30/2026 Anticipated Award Date: 01/22/2027</description>
+      <guid isPermaLink="false">idaho-purchasing-f54ee44901ff994a</guid>
+      <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[65] ITB 1412 - Statewide Envelopes</title>
@@ -366,7 +352,7 @@
       <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[79] Miscellaneous PLC Programming and Control System Services (PWE 505)</title>
+      <title>[83] Miscellaneous PLC Programming and Control System Services (PWE 505)</title>
       <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
       <description>Agency: City of Boise | Stage: OPEN_BID | Type: RFQ | Due: 2026-09-30 | Location: Boise, Idaho&lt;br&gt;Open Soliciting qualification proposals from firms to provide professional PLC Programming and Control System Services as required for city owned water renewal facilities.</description>
       <guid isPermaLink="false">boise-6a809b4fc08c9491</guid>

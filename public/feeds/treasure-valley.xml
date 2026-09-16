@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 15 Sep 2026 21:37:22 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 05:04:28 +0000</lastBuildDate>
     <item>
       <title>[57] SPEC Air Handler Replacement, Boise State University, Boise, Idaho</title>
       <link>https://dpw.idaho.gov/wp-content/uploads/2026/09/25207-Ad-Long-1.pdf</link>
@@ -72,20 +72,6 @@
       <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[79] Miscellaneous PLC Programming and Control System Services (PWE 505)</title>
-      <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
-      <description>Agency: City of Boise | Stage: OPEN_BID | Type: RFQ | Due: 2026-09-30 | Location: Boise, Idaho&lt;br&gt;Open Soliciting qualification proposals from firms to provide professional PLC Programming and Control System Services as required for city owned water renewal facilities.</description>
-      <guid isPermaLink="false">boise-6a809b4fc08c9491</guid>
-      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[79] Geothermal HDPE Materials (GEO1006)</title>
-      <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
-      <description>Agency: City of Boise | Stage: OPEN_BID | Type: SFB | Due: 2026-09-30 | Location: Boise, Idaho&lt;br&gt;Open Geothermal HDPE Pipe and fittings to replace main lines on 1st Street between Jefferson and State.</description>
-      <guid isPermaLink="false">boise-ba966a47feadfb10</guid>
-      <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>[80] Spare Inlet Pump (PRF 016)</title>
       <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
       <description>Agency: City of Boise | Stage: OPEN_BID | Type: FB- | Due: 2026-09-02 | Location: Boise, Idaho&lt;br&gt;Open Purchase of one spare inlet pump. The City of Boise has standardized to MWI Corporation for Vertical Axial Flow Pumps, under SS-2026-516.</description>
@@ -114,18 +100,18 @@
       <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[86] Meridian Campus HQ HVAC Controls, Idaho State Police, Meridian, Idaho</title>
-      <link>https://dpw.idaho.gov/wp-content/uploads/2026/09/26511-Ad-Long.pdf</link>
-      <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-09-30 | Location: Meridian, Idaho&lt;br&gt;Meridian Campus HQ HVAC Controls, Idaho State Police, Meridian, Idaho</description>
-      <guid isPermaLink="false">dpw-8dc8eabac1e30cba</guid>
-      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
+      <title>[83] Miscellaneous PLC Programming and Control System Services (PWE 505)</title>
+      <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
+      <description>Agency: City of Boise | Stage: OPEN_BID | Type: RFQ | Due: 2026-09-30 | Location: Boise, Idaho&lt;br&gt;Open Soliciting qualification proposals from firms to provide professional PLC Programming and Control System Services as required for city owned water renewal facilities.</description>
+      <guid isPermaLink="false">boise-6a809b4fc08c9491</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[86] City Hall Downtown Elevator Modernization Cars 1 &amp; 2 (GBP 110)</title>
+      <title>[83] Geothermal HDPE Materials (GEO1006)</title>
       <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
-      <description>Agency: City of Boise | Stage: OPEN_BID | Type: FB- | Due: 2026-09-30 | Location: Boise, Idaho&lt;br&gt;Open Modernize Elevators #1 and #2 at Boise City Hall, including all labor, materials, equipment, testing, and related services, and full maintenance for all four elevators.</description>
-      <guid isPermaLink="false">boise-13334f6c559a0a2d</guid>
-      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
+      <description>Agency: City of Boise | Stage: OPEN_BID | Type: SFB | Due: 2026-09-30 | Location: Boise, Idaho&lt;br&gt;Open Geothermal HDPE Pipe and fittings to replace main lines on 1st Street between Jefferson and State.</description>
+      <guid isPermaLink="false">boise-ba966a47feadfb10</guid>
+      <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[86] SW Supervisory Area Admin Roof Replacement &amp; HVAC Upgrade, Department of Lands, Boise, Idaho</title>
@@ -147,6 +133,20 @@
       <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-09-29 | Location: Boise, Idaho&lt;br&gt;IAB Bldg. HVAC/Refurbish Air Handlers PH 2, Department of Labor, Boise, Idaho</description>
       <guid isPermaLink="false">dpw-25bb98f88ccd26b8</guid>
       <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[90] Meridian Campus HQ HVAC Controls, Idaho State Police, Meridian, Idaho</title>
+      <link>https://dpw.idaho.gov/wp-content/uploads/2026/09/26511-Ad-Long.pdf</link>
+      <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-09-30 | Location: Meridian, Idaho&lt;br&gt;Meridian Campus HQ HVAC Controls, Idaho State Police, Meridian, Idaho</description>
+      <guid isPermaLink="false">dpw-8dc8eabac1e30cba</guid>
+      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[90] City Hall Downtown Elevator Modernization Cars 1 &amp; 2 (GBP 110)</title>
+      <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
+      <description>Agency: City of Boise | Stage: OPEN_BID | Type: FB- | Due: 2026-09-30 | Location: Boise, Idaho&lt;br&gt;Open Modernize Elevators #1 and #2 at Boise City Hall, including all labor, materials, equipment, testing, and related services, and full maintenance for all four elevators.</description>
+      <guid isPermaLink="false">boise-13334f6c559a0a2d</guid>
+      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
