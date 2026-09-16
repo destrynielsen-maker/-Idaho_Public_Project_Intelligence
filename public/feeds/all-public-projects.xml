@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 16 Sep 2026 11:55:34 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 17:12:29 +0000</lastBuildDate>
     <item>
       <title>[40] RFP 717 - IDFG Website Rebuild</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
@@ -469,6 +469,13 @@
       <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-10-01 | Location: Boise, Idaho&lt;br&gt;SW Supervisory Area Admin Roof Replacement &amp; HVAC Upgrade, Department of Lands, Boise, Idaho</description>
       <guid isPermaLink="false">dpw-30c781b5f0206d49</guid>
       <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[86] Miscellaneous Water Renewal Planning and Engineering Services (PWE 505)</title>
+      <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
+      <description>Agency: City of Boise | Stage: OPEN_BID | Type: RFQ | Due: 2026-10-07 | Location: Boise, Idaho&lt;br&gt;Open Misc engineering services for City wastewater facilities and system improvements, including planning, studies, design, construction support, startup, and technical assistance.</description>
+      <guid isPermaLink="false">boise-8b757c402467705a</guid>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[90] Sewer Extension Redesign Gowen Service District CSP 1213</title>

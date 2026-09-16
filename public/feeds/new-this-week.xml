@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 16 Sep 2026 11:55:34 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 17:12:29 +0000</lastBuildDate>
     <item>
       <title>[40] Drug Testing - Redwood Toxicology - IDOC - Sourcewell</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
@@ -77,6 +77,13 @@
       <description>Agency: City of Boise | Stage: OPEN_BID | Type: SFB | Due: 2026-09-30 | Location: Boise, Idaho&lt;br&gt;Open Geothermal HDPE Pipe and fittings to replace main lines on 1st Street between Jefferson and State.</description>
       <guid isPermaLink="false">boise-ba966a47feadfb10</guid>
       <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[86] Miscellaneous Water Renewal Planning and Engineering Services (PWE 505)</title>
+      <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
+      <description>Agency: City of Boise | Stage: OPEN_BID | Type: RFQ | Due: 2026-10-07 | Location: Boise, Idaho&lt;br&gt;Open Misc engineering services for City wastewater facilities and system improvements, including planning, studies, design, construction support, startup, and technical assistance.</description>
+      <guid isPermaLink="false">boise-8b757c402467705a</guid>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[90] Sewer Extension Redesign Gowen Service District CSP 1213</title>
