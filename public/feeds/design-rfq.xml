@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 16 Sep 2026 21:32:10 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2026 05:07:28 +0000</lastBuildDate>
     <item>
       <title>[40] RFP 717 - IDFG Website Rebuild</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
@@ -35,13 +35,6 @@
       <description>Agency: STATEWIDE | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-07-16 | Location: Idaho&lt;br&gt;Anticipated Award Date: 07/16/2026</description>
       <guid isPermaLink="false">idaho-purchasing-762b1e5744562652</guid>
       <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[40] ITB 1223 - ISHS Stricker Landscape &amp; Lawncare Maintenance</title>
-      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: ISHS | Stage: UPCOMING | Type: ITB | Due: 2026-07-23 | Location: Idaho&lt;br&gt;Post Date: 05/19/2026 Close Date: 06/25/2026 Anticipated Award Date: 09/11/2026</description>
-      <guid isPermaLink="false">idaho-purchasing-f5a351fce50d3935</guid>
-      <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[40] PADD - Firefighter PPE</title>
@@ -170,6 +163,20 @@
       <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>[40] ITB 1223 - ISHS Stricker Landscape &amp; Lawncare Maintenance</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: ISHS | Stage: UPCOMING | Type: ITB | Due: 2027-02-01 | Location: Idaho&lt;br&gt;Posted Date: 05/19/2026 Closed Date: 06/25/2026 Awarded Date: 08/25/2026</description>
+      <guid isPermaLink="false">idaho-purchasing-f5a351fce50d3935</guid>
+      <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[40] RFP 1428 - FSP Inventory Management System</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: ADM | Stage: UPCOMING | Type: RFP | Due: 2027-02-04 | Location: Idaho&lt;br&gt;Anticipated Post Date: 10/28/2026 Anticipated Close Date: 12/2/2026 Anticipated Award Date: 01/15/2027</description>
+      <guid isPermaLink="false">idaho-purchasing-c4960d3f9702ae48</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>[40] RFP 1428 - FSP Inventory System</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
       <description>Agency: ADM | Stage: UPCOMING | Type: RFP | Due: 2027-02-04 | Location: Idaho&lt;br&gt;Anticipated Post Date: 10/28/2026 Anticipated Close Date: 12/2/2026 Anticipated Award Date: 01/15/2027</description>
@@ -289,13 +296,6 @@
       <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[59] PADD - Automotive Parts</title>
-      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: STATEWIDE | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-10-01 | Location: Idaho&lt;br&gt;Anticipated Award Date: 10/01/2026</description>
-      <guid isPermaLink="false">idaho-purchasing-71864eed56b6bb40</guid>
-      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>[59] PADD - Public Safety Vehicle Lights, Sirens, &amp; Accessories</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
       <description>Agency: STATEWIDE | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-10-08 | Location: Idaho&lt;br&gt;Anticipated Award Date: 10/08/2026</description>
@@ -308,6 +308,13 @@
       <description>Agency: Ada County | Stage: OPEN_BID | Type: RFP | Due: 2026-10-08 | Location: Ada County, Idaho&lt;br&gt;Ada County public procurement opportunity: Ada County Sheriff's Office Learning Management System (LMS)</description>
       <guid isPermaLink="false">ada-county-c3c8f5079612c56c</guid>
       <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[63] PADD - Automotive Parts</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: STATEWIDE | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-10-01 | Location: Idaho&lt;br&gt;Anticipated Award Date: 10/01/2026</description>
+      <guid isPermaLink="false">idaho-purchasing-71864eed56b6bb40</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[65] PA - Elevator Services</title>
