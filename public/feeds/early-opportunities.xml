@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 17 Sep 2026 21:36:06 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 18 Sep 2026 05:00:03 +0000</lastBuildDate>
     <item>
       <title>[25] PADD20269369 - Food Service Distribution for Government</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
@@ -56,6 +56,13 @@
       <description>Agency: ITD | Stage: AWARDED | Type: ITB | Due: 2026-10-19 | Location: Idaho&lt;br&gt;</description>
       <guid isPermaLink="false">idaho-purchasing-f5bc6c6f499f5e23</guid>
       <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[29] PADD - Inmate &amp; Detention Supplies &amp; Solutions</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: IDOC | Stage: AWARDED | Type: FUTURE_SOLICITATION | Due: 2026-10-13 | Location: Idaho&lt;br&gt;Anticipated Award Date: 10/13/2026</description>
+      <guid isPermaLink="false">idaho-purchasing-e273dfa1fc5b9f3e</guid>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[33] RFP 1181 - Actuarial Services</title>
@@ -273,13 +280,6 @@
       <description>Agency: STATEWIDE | Stage: FUTURE | Type: FUTURE_SOLICITATION | Due: 2026-10-09 | Location: Idaho&lt;br&gt;Anticipated Award Date: 010/30/2026</description>
       <guid isPermaLink="false">idaho-purchasing-8281e8f0dafa17a8</guid>
       <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[44] PADD - Inmate &amp; Detention Supplies &amp; Solutions</title>
-      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: IDOC | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-10-13 | Location: Idaho&lt;br&gt;Anticipated Award Date: 10/13/2026</description>
-      <guid isPermaLink="false">idaho-purchasing-e273dfa1fc5b9f3e</guid>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[44] ITB 1368 - ODP Printing Services</title>
