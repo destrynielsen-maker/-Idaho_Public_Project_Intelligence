@@ -7,13 +7,13 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 18 Sep 2026 21:06:47 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 19 Sep 2026 04:52:18 +0000</lastBuildDate>
     <item>
-      <title>[40] RFQ 1435 - ADM Lewiston Landscape &amp; Snow Removal</title>
+      <title>[40] PADD - Cloud Services DLZP</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: ADM | Stage: UPCOMING | Type: RFQ | Due: 2026-11-24 | Location: Idaho&lt;br&gt;Anticipated Post Date: 10/14/2026 Anticipated Close Date: 10/29/2026 Anticipated Award Date: 11/24/2026</description>
-      <guid isPermaLink="false">idaho-purchasing-c8ace582c3bcb597</guid>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
+      <description>Agency: STATEWIDE | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-10-27 | Location: Idaho&lt;br&gt;Anticipated Award Date:</description>
+      <guid isPermaLink="false">idaho-purchasing-5567b343f7bc29b0</guid>
+      <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[40] ITB 1437 - ITD One Ton Truck Upfitting</title>
@@ -28,13 +28,6 @@
       <description>Agency: ADM | Stage: UPCOMING | Type: RFP | Due: 2027-02-04 | Location: Idaho&lt;br&gt;Anticipated Post Date: 10/28/2026 Anticipated Close Date: 12/2/2026 Anticipated Award Date: 01/15/2027</description>
       <guid isPermaLink="false">idaho-purchasing-c4960d3f9702ae48</guid>
       <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[44] RFI 1438 - IDOC Community Reentry Centers</title>
-      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: IDOC | Stage: UPCOMING | Type: RFI | Due: 2026-10-06 | Location: Idaho&lt;br&gt;Post Date: 09/14/2026 Close Date: 10/02/2026 Award Date: None - RFI only</description>
-      <guid isPermaLink="false">idaho-purchasing-4820b1fe5c145935</guid>
-      <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[44] PADD - Drugs of Abuse Testing Products &amp; Laboratory Services</title>
@@ -65,11 +58,11 @@
       <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[90] Sewer Extension Redesign Gowen Service District CSP 1213</title>
+      <title>[86] Union Block Building: Dangerous Building Conditions Abatement Project (PWE 1085)</title>
       <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
-      <description>Agency: City of Boise | Stage: OPEN_BID | Type: FB- | Due: 2026-09-25 | Location: Boise, Idaho&lt;br&gt;Open Construction of approx. 904 L.F. of 18-inch diameter, 777 L.F. of 10-inch diameter, and 2,450 L.F. of 8-inch diameter gravity sewer main pipe, installation of new manholes, and other related work.</description>
-      <guid isPermaLink="false">boise-2de8c8faf1e04930</guid>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
+      <description>Agency: City of Boise | Stage: OPEN_BID | Type: RFQ | Due: 2026-10-14 | Location: Boise, Idaho&lt;br&gt;Open Provide investigation, design, permitting, preconstruction, and construction services for stabilization work at the historic Union Block Building in downtown Boise.</description>
+      <guid isPermaLink="false">boise-9872a3f8ad10d2b9</guid>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
