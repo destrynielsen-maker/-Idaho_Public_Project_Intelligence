@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 20 Sep 2026 20:58:40 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 21 Sep 2026 05:16:38 +0000</lastBuildDate>
     <item>
       <title>[40] RFP 717 - IDFG Website Rebuild</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
@@ -191,13 +191,6 @@
       <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[44] RFP 1433 - NASPO Medical Supplies</title>
-      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: STATEWIDE | Stage: FUTURE | Type: RFP | Due: 2026-10-05 | Location: Idaho&lt;br&gt;Anticipated Post Date: 10/01/2026 Anticipated Close Date: 11/20/2026 Anticipated Award Date: 01/30/2027</description>
-      <guid isPermaLink="false">idaho-purchasing-e13c7bbe63368699</guid>
-      <pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>[44] RFI 1438 - IDOC Community Reentry Centers</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
       <description>Agency: IDOC | Stage: UPCOMING | Type: RFI | Due: 2026-10-06 | Location: Idaho&lt;br&gt;Post Date: 09/14/2026 Close Date: 10/02/2026 Award Date: None - RFI only</description>
@@ -268,11 +261,11 @@
       <pubDate>Mon, 23 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[52] PADD - Strategic Management Consulting Services</title>
+      <title>[48] RFP 1433 - NASPO Medical Supplies</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: DHW | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-10-05 | Location: Idaho&lt;br&gt;Anticipated Award Date: 09/15/2026</description>
-      <guid isPermaLink="false">idaho-purchasing-db44d978aefffdab</guid>
-      <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
+      <description>Agency: STATEWIDE | Stage: FUTURE | Type: RFP | Due: 2026-10-05 | Location: Idaho&lt;br&gt;Anticipated Post Date: 10/01/2026 Anticipated Close Date: 11/20/2026 Anticipated Award Date: 01/30/2027</description>
+      <guid isPermaLink="false">idaho-purchasing-e13c7bbe63368699</guid>
+      <pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[55] PADD - Weapons &amp; Threat Detection Equipment, Services, &amp; Other Solutions</title>
@@ -287,6 +280,13 @@
       <description>Agency: STATEWIDE | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-10-08 | Location: Idaho&lt;br&gt;Anticipated Award Date:</description>
       <guid isPermaLink="false">idaho-purchasing-7cde8b85c7c92961</guid>
       <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[56] PADD - Strategic Management Consulting Services</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: DHW | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-10-05 | Location: Idaho&lt;br&gt;Anticipated Award Date: 09/15/2026</description>
+      <guid isPermaLink="false">idaho-purchasing-db44d978aefffdab</guid>
+      <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[58] ITB 1392 - ITD Thermoplastic Roadway Markings</title>
