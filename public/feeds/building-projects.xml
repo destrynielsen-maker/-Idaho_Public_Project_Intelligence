@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 22 Sep 2026 11:56:55 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2026 17:08:37 +0000</lastBuildDate>
     <item>
       <title>[65] PA - Elevator Services</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
@@ -49,6 +49,13 @@
       <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-09-22 | Location: Moscow, Idaho&lt;br&gt;Admin Bldg. HVAC, Ph 3, University of Idaho, Moscow, Idaho</description>
       <guid isPermaLink="false">dpw-17f7cbd1dc6e88a6</guid>
       <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[82] Repair Asphalt, Campus Wide, SWITC, Department of Health and Welfare, Nampa, Idaho</title>
+      <link>https://dpw.idaho.gov/wp-content/uploads/2026/09/22361-Ad-Long.pdf</link>
+      <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-10-28 | Location: Nampa, Idaho&lt;br&gt;Repair Asphalt, Campus Wide, SWITC, Department of Health and Welfare, Nampa, Idaho</description>
+      <guid isPermaLink="false">dpw-4ec0233375affe3a</guid>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[86] Miscellaneous Water Renewal Planning and Engineering Services (PWE 505)</title>

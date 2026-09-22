@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T11:56:53+00:00",
+  "generated_at": "2026-09-22T17:08:34+00:00",
   "collector_status": [
     {
       "source": "City of Boise",
@@ -11,8 +11,8 @@
     {
       "source": "Idaho DPW",
       "status": "OK",
-      "records_seen": 84,
-      "qualifying_records": 84,
+      "records_seen": 85,
+      "qualifying_records": 85,
       "note": ""
     },
     {
