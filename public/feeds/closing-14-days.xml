@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 22 Sep 2026 21:33:32 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 23 Sep 2026 04:59:35 +0000</lastBuildDate>
     <item>
       <title>[40] RFP - NASPO Medical Supplies</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
@@ -93,20 +93,6 @@
       <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[70] Lewiston Office Restroom &amp; Breakroom ADA Upgrades, Labor, Lewiston, Idaho</title>
-      <link>https://dpw.idaho.gov/wp-content/uploads/2026/08/26302-Ad-Long.pdf</link>
-      <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-09-22 | Location: Lewiston, Idaho&lt;br&gt;Lewiston Office Restroom &amp; Breakroom ADA Upgrades, Labor, Lewiston, Idaho</description>
-      <guid isPermaLink="false">dpw-1a5ffa138aaa3987</guid>
-      <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[70] Admin Bldg. HVAC, Ph 3, University of Idaho, Moscow, Idaho</title>
-      <link>https://dpw.idaho.gov/wp-content/uploads/2026/08/24256-Ad-Long-RE-Bid.pdf</link>
-      <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-09-22 | Location: Moscow, Idaho&lt;br&gt;Admin Bldg. HVAC, Ph 3, University of Idaho, Moscow, Idaho</description>
-      <guid isPermaLink="false">dpw-17f7cbd1dc6e88a6</guid>
-      <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>[83] Miscellaneous PLC Programming and Control System Services (PWE 505)</title>
       <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
       <description>Agency: City of Boise | Stage: OPEN_BID | Type: RFQ | Due: 2026-09-30 | Location: Boise, Idaho&lt;br&gt;Open Soliciting qualification proposals from firms to provide professional PLC Programming and Control System Services as required for city owned water renewal facilities.</description>
@@ -154,6 +140,13 @@
       <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-10-01 | Location: Boise, Idaho&lt;br&gt;SW Supervisory Area Admin Roof Replacement &amp; HVAC Upgrade, Department of Lands, Boise, Idaho</description>
       <guid isPermaLink="false">dpw-30c781b5f0206d49</guid>
       <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[90] Miscellaneous Water Renewal Planning and Engineering Services (PWE 505)</title>
+      <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
+      <description>Agency: City of Boise | Stage: OPEN_BID | Type: RFQ | Due: 2026-10-07 | Location: Boise, Idaho&lt;br&gt;Open Misc engineering services for City wastewater facilities and system improvements, including planning, studies, design, construction support, startup, and technical assistance.</description>
+      <guid isPermaLink="false">boise-8b757c402467705a</guid>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
