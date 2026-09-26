@@ -7,20 +7,13 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 25 Sep 2026 21:45:01 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 26 Sep 2026 05:17:27 +0000</lastBuildDate>
     <item>
       <title>[40] RFP 717 - IDFG Website Rebuild</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
       <description>Agency: IDFG | Stage: UPCOMING | Type: RFP | Due: 2025-06-27 | Location: Idaho&lt;br&gt;Post Date: 06/05/2025 Close Date: 08/06/2025 Anticipated Award Date: 03/23/2026</description>
       <guid isPermaLink="false">idaho-purchasing-e596b65a7b31f21d</guid>
       <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[40] RFP 1103 - Advertising, Marketing, Public Relations, and Creative Services</title>
-      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: AGRI | Stage: UPCOMING | Type: RFP | Due: 2026-01-28 | Location: Idaho&lt;br&gt;Post Date: 05/07/2026 Close Date: 06/10/2026 Anticipated Award Date: 08/14/2026</description>
-      <guid isPermaLink="false">idaho-purchasing-1a433c9396544667</guid>
-      <pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[40] PADD - Cloud Solutions</title>
@@ -58,13 +51,6 @@
       <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[40] RFQ 1408 - ADM Mat Services Capitol Mall</title>
-      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: ADM | Stage: UPCOMING | Type: RFQ | Due: 2026-10-26 | Location: Idaho&lt;br&gt;Anticipated Post Date: 09/16/2026 Anticipated Close Date: 09/30/2026 Anticipated Award Date: 10/08/2026</description>
-      <guid isPermaLink="false">idaho-purchasing-0a69a60a4f5b61c2</guid>
-      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>[40] PADD - Cloud Services DLZP</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
       <description>Agency: STATEWIDE | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-10-27 | Location: Idaho&lt;br&gt;Anticipated Award Date:</description>
@@ -88,7 +74,7 @@
     <item>
       <title>[40] ITB 1390 - ITD Certified Power Solutions</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: ITD | Stage: UPCOMING | Type: ITB | Due: 2026-11-19 | Location: Idaho&lt;br&gt;Anticipated Post Date: 08/25/2026 Anticipated Close Date: 09/25/2026 Anticipated Award Date: 10/15/2026</description>
+      <description>Agency: ITD | Stage: UPCOMING | Type: ITB | Due: 2026-11-19 | Location: Idaho&lt;br&gt;Post Date: 09/25/2026 Anticipated Close Date: 10/23/2026 Anticipated Award Date: 10/30/2026</description>
       <guid isPermaLink="false">idaho-purchasing-518dfb30b6f8f12a</guid>
       <pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
     </item>
@@ -198,6 +184,13 @@
       <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>[44] RFQ 1408 - ADM Mat Services Capitol Mall</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: ADM | Stage: UPCOMING | Type: RFQ | Due: 2026-10-26 | Location: Idaho&lt;br&gt;Anticipated Post Date: 09/16/2026 Anticipated Close Date: 09/30/2026 Anticipated Award Date: 10/08/2026</description>
+      <guid isPermaLink="false">idaho-purchasing-0a69a60a4f5b61c2</guid>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>[45] Classroom &amp; Teaching Lab Improvements, University of Idaho, Moscow, Idaho</title>
       <link>https://dpw.idaho.gov/wp-content/uploads/2026/08/25263-Ad-Long.pdf</link>
       <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-10-01 | Location: Moscow, Idaho&lt;br&gt;Classroom &amp; Teaching Lab Improvements, University of Idaho, Moscow, Idaho</description>
@@ -217,13 +210,6 @@
       <description>Agency: DHW | Stage: UPCOMING | Type: RFP | Due: 2026-09-30 | Location: Idaho&lt;br&gt;Post Date: 09/04/2025 Close Date: 12/03/2025 Award Date: 04/06/2026</description>
       <guid isPermaLink="false">idaho-purchasing-cb75d2f226a69b72</guid>
       <pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[48] RFP 1136 - Exam Development, delivery, and fingerprint collection</title>
-      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: DOPL | Stage: UPCOMING | Type: RFP | Due: 2026-09-30 | Location: Idaho&lt;br&gt;Post Date: 06/01/2026 Close Date: 07/23/2026 Anticipated Award Date: 08/28/2026</description>
-      <guid isPermaLink="false">idaho-purchasing-fcd8f7c9710d8237</guid>
-      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[48] RFP 1214 - IDPTV Transmission Encoder System</title>
