@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 27 Sep 2026 21:30:35 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 05:42:26 +0000</lastBuildDate>
     <item>
       <title>[40] RFP 717 - IDFG Website Rebuild</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
@@ -380,13 +380,6 @@
       <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[82] Repair Asphalt, Campus Wide, SWITC, Department of Health and Welfare, Nampa, Idaho</title>
-      <link>https://dpw.idaho.gov/wp-content/uploads/2026/09/22361-Ad-Long.pdf</link>
-      <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-10-28 | Location: Nampa, Idaho&lt;br&gt;Repair Asphalt, Campus Wide, SWITC, Department of Health and Welfare, Nampa, Idaho</description>
-      <guid isPermaLink="false">dpw-4ec0233375affe3a</guid>
-      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>[83] Siphon Cleaning and CCTV Project 2026 (PWE 852)</title>
       <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
       <description>Agency: City of Boise | Stage: OPEN_BID | Type: SFB | Due: 2026-09-09 | Location: Boise, Idaho&lt;br&gt;Open Cleaning, sewer flow control, de-watering, obstruction removal prior to CCTV of a variety of sewer siphons. Inspect main line sewers, identify, and locate pipelines in need of rehabilitation.</description>
@@ -427,6 +420,13 @@
       <description>Agency: City of Boise | Stage: OPEN_BID | Type: RFQ | Due: 2026-10-14 | Location: Boise, Idaho&lt;br&gt;Open Provide investigation, design, permitting, preconstruction, and construction services for stabilization work at the historic Union Block Building in downtown Boise.</description>
       <guid isPermaLink="false">boise-9872a3f8ad10d2b9</guid>
       <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[86] Repair Asphalt, Campus Wide, SWITC, Department of Health and Welfare, Nampa, Idaho</title>
+      <link>https://dpw.idaho.gov/wp-content/uploads/2026/09/22361-Ad-Long.pdf</link>
+      <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-10-28 | Location: Nampa, Idaho&lt;br&gt;Repair Asphalt, Campus Wide, SWITC, Department of Health and Welfare, Nampa, Idaho</description>
+      <guid isPermaLink="false">dpw-4ec0233375affe3a</guid>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[90] Sewer Extension Redesign Gowen Service District CSP 1213</title>
