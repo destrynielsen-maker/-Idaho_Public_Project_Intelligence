@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 30 Sep 2026 05:49:22 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 12:52:59 +0000</lastBuildDate>
     <item>
       <title>[65] PA - Elevator Services</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
@@ -35,6 +35,20 @@
       <description>Agency: STATEWIDE | Stage: UPCOMING | Type: ITB | Due: 2026-12-09 | Location: Idaho&lt;br&gt;Anticipated Post Date: 10/06/2026 Anticipated Close Date: 11/03/2026 Anticipated Award Date: 12/10/2026</description>
       <guid isPermaLink="false">idaho-purchasing-e0aa926b8c3a96f9</guid>
       <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[82] 2027 Airport Way &amp; Elevated Roadway Construction</title>
+      <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
+      <description>Agency: City of Boise | Stage: OPEN_BID | Type: FB- | Due: 2026-11-12 | Location: Boise, Idaho&lt;br&gt;Open This project will be the first phase of reconstruction and rehabilitation of the Airport Way at the Boise Airport as well as rehabilitation work on the Elevated Roadway.</description>
+      <guid isPermaLink="false">boise-1d937f7b734b4b8c</guid>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[86] Hobble Creek Pathway</title>
+      <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
+      <description>Agency: City of Boise | Stage: OPEN_BID | Type: FB- | Due: 2026-10-21 | Location: Boise, Idaho&lt;br&gt;Open Construction of new pathway connecting Spaulding Ranch and Milwaukee St.</description>
+      <guid isPermaLink="false">boise-0d10308f6b659966</guid>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[86] Repair Asphalt, Campus Wide, SWITC, Department of Health and Welfare, Nampa, Idaho</title>
