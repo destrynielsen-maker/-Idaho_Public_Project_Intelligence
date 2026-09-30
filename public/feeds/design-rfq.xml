@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 29 Sep 2026 22:30:30 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 05:49:22 +0000</lastBuildDate>
     <item>
       <title>[40] RFP 717 - IDFG Website Rebuild</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
@@ -49,13 +49,6 @@
       <description>Agency: IDOC | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-10-16 | Location: Idaho&lt;br&gt;Anticipated Award Date:</description>
       <guid isPermaLink="false">idaho-purchasing-156b2083067a80ae</guid>
       <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[40] RFP 856 - MMIS SI Builder</title>
-      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: DHW | Stage: UPCOMING | Type: RFP | Due: 2026-10-30 | Location: Idaho&lt;br&gt;Post Date: 03/24/2025 Close Date: 05/23/2025 Award Date: 02/26/2026</description>
-      <guid isPermaLink="false">idaho-purchasing-b2726d2ee1343586</guid>
-      <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[40] RFP 1338 - IDVS Medicare Billing Services</title>
@@ -191,6 +184,13 @@
       <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>[44] RFP 856 - MMIS SI Builder</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: DHW | Stage: UPCOMING | Type: RFP | Due: 2026-10-30 | Location: Idaho&lt;br&gt;Post Date: 03/24/2025 Close Date: 05/23/2025 Award Date: 02/26/2026</description>
+      <guid isPermaLink="false">idaho-purchasing-b2726d2ee1343586</guid>
+      <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>[48] RFP 669 - Statewide Telecommunication Services</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
       <description>Agency: ITS, STATEWIDE | Stage: UPCOMING | Type: RFP | Due: 2026-09-30 | Location: Idaho&lt;br&gt;Post Date: 08/04/2025 Close Date: 10/10/2025 Anticipated Award Date: 08/18/2026</description>
@@ -324,18 +324,18 @@
       <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[86] Union Block Building: Dangerous Building Conditions Abatement Project (PWE 1085)</title>
-      <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
-      <description>Agency: City of Boise | Stage: OPEN_BID | Type: RFQ | Due: 2026-10-14 | Location: Boise, Idaho&lt;br&gt;Open Provide investigation, design, permitting, preconstruction, and construction services for stabilization work at the historic Union Block Building in downtown Boise.</description>
-      <guid isPermaLink="false">boise-9872a3f8ad10d2b9</guid>
-      <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>[90] Miscellaneous Water Renewal Planning and Engineering Services (PWE 505)</title>
       <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
       <description>Agency: City of Boise | Stage: OPEN_BID | Type: RFQ | Due: 2026-10-07 | Location: Boise, Idaho&lt;br&gt;Open Misc engineering services for City wastewater facilities and system improvements, including planning, studies, design, construction support, startup, and technical assistance.</description>
       <guid isPermaLink="false">boise-8b757c402467705a</guid>
       <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[90] Union Block Building: Dangerous Building Conditions Abatement Project (PWE 1085)</title>
+      <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
+      <description>Agency: City of Boise | Stage: OPEN_BID | Type: RFQ | Due: 2026-10-14 | Location: Boise, Idaho&lt;br&gt;Open Provide investigation, design, permitting, preconstruction, and construction services for stabilization work at the historic Union Block Building in downtown Boise.</description>
+      <guid isPermaLink="false">boise-9872a3f8ad10d2b9</guid>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

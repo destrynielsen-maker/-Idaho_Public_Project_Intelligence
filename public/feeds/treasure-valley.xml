@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 29 Sep 2026 22:30:30 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 05:49:22 +0000</lastBuildDate>
     <item>
       <title>[57] Leatherman Peak 2nd Floor Addition, Boise State University, Boise, Idaho</title>
       <link>https://dpw.idaho.gov/wp-content/uploads/2026/09/24207-Ad-Long.pdf</link>
@@ -128,13 +128,6 @@
       <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[86] Union Block Building: Dangerous Building Conditions Abatement Project (PWE 1085)</title>
-      <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
-      <description>Agency: City of Boise | Stage: OPEN_BID | Type: RFQ | Due: 2026-10-14 | Location: Boise, Idaho&lt;br&gt;Open Provide investigation, design, permitting, preconstruction, and construction services for stabilization work at the historic Union Block Building in downtown Boise.</description>
-      <guid isPermaLink="false">boise-9872a3f8ad10d2b9</guid>
-      <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>[86] Repair Asphalt, Campus Wide, SWITC, Department of Health and Welfare, Nampa, Idaho</title>
       <link>https://dpw.idaho.gov/wp-content/uploads/2026/09/22361-Ad-Long.pdf</link>
       <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-10-28 | Location: Nampa, Idaho&lt;br&gt;Repair Asphalt, Campus Wide, SWITC, Department of Health and Welfare, Nampa, Idaho</description>
@@ -189,6 +182,13 @@
       <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-10-08 | Location: Boise, Idaho&lt;br&gt;IAB Bldg. HVAC/Refurbish Air Handlers PH 2, Department of Labor, Boise, Idaho **NOTE: BID DATE &amp; TIME CHANGE SEE ADDENDUM 3</description>
       <guid isPermaLink="false">dpw-9fdcf7178dad6edb</guid>
       <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[90] Union Block Building: Dangerous Building Conditions Abatement Project (PWE 1085)</title>
+      <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
+      <description>Agency: City of Boise | Stage: OPEN_BID | Type: RFQ | Due: 2026-10-14 | Location: Boise, Idaho&lt;br&gt;Open Provide investigation, design, permitting, preconstruction, and construction services for stabilization work at the historic Union Block Building in downtown Boise.</description>
+      <guid isPermaLink="false">boise-9872a3f8ad10d2b9</guid>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
