@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 30 Sep 2026 22:28:24 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 06:21:27 +0000</lastBuildDate>
     <item>
       <title>[40] RFP - NASPO Medical Supplies</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
@@ -21,27 +21,6 @@
       <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-10-01 | Location: Moscow, Idaho&lt;br&gt;Classroom &amp; Teaching Lab Improvements, University of Idaho, Moscow, Idaho</description>
       <guid isPermaLink="false">dpw-2d2a147c43eaa028</guid>
       <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[48] RFP 669 - Statewide Telecommunication Services</title>
-      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: ITS, STATEWIDE | Stage: UPCOMING | Type: RFP | Due: 2026-09-30 | Location: Idaho&lt;br&gt;Post Date: 08/04/2025 Close Date: 10/10/2025 Anticipated Award Date: 08/18/2026</description>
-      <guid isPermaLink="false">idaho-purchasing-139361a2ef39839e</guid>
-      <pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[48] RFP 932 - Electronic Visit Verification</title>
-      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: DHW | Stage: UPCOMING | Type: RFP | Due: 2026-09-30 | Location: Idaho&lt;br&gt;Post Date: 09/04/2025 Close Date: 12/03/2025 Award Date: 04/06/2026</description>
-      <guid isPermaLink="false">idaho-purchasing-cb75d2f226a69b72</guid>
-      <pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[48] RFP 1214 - IDPTV Transmission Encoder System</title>
-      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: IPTV | Stage: FUTURE | Type: RFP | Due: 2026-09-30 | Location: Idaho&lt;br&gt;Post Date: 06/25/2026 Closed Date: 08/11/2026 Anticipated Award Date: 10/15/2026</description>
-      <guid isPermaLink="false">idaho-purchasing-6138e98f0db890c8</guid>
-      <pubDate>Mon, 23 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[48] RFP 1433 - NASPO Medical Supplies</title>
@@ -63,6 +42,13 @@
       <description>Agency: STATEWIDE | Stage: FUTURE | Type: FUTURE_SOLICITATION | Due: 2026-10-09 | Location: Idaho&lt;br&gt;Anticipated Award Date: 010/30/2026</description>
       <guid isPermaLink="false">idaho-purchasing-8281e8f0dafa17a8</guid>
       <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[48] ITB 1368 - ODP Printing Services</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: ODP | Stage: UPCOMING | Type: ITB | Due: 2026-10-15 | Location: Idaho&lt;br&gt;Anticipated Post Date: 08/11/2026 Anticipated Close Date: 09/14/2026 Anticipated Award Date: 09/16/2026</description>
+      <guid isPermaLink="false">idaho-purchasing-c7a24273f51ffdb2</guid>
+      <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[55] PADD202710165 - Public Safety Vehicle Lights, Sirens, &amp; Accessories</title>
@@ -91,34 +77,6 @@
       <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-10-08 | Location: Nampa, Idaho&lt;br&gt;Whitehall Walk-In Cooler Replacement, SWITC, Department of Health and Welfare, Nampa, Idaho</description>
       <guid isPermaLink="false">dpw-0c4b5f4351e409df</guid>
       <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[83] Miscellaneous PLC Programming and Control System Services (PWE 505)</title>
-      <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
-      <description>Agency: City of Boise | Stage: OPEN_BID | Type: RFQ | Due: 2026-09-30 | Location: Boise, Idaho&lt;br&gt;Open Soliciting qualification proposals from firms to provide professional PLC Programming and Control System Services as required for city owned water renewal facilities.</description>
-      <guid isPermaLink="false">boise-6a809b4fc08c9491</guid>
-      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[83] Geothermal HDPE Materials (GEO1006)</title>
-      <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
-      <description>Agency: City of Boise | Stage: OPEN_BID | Type: SFB | Due: 2026-09-30 | Location: Boise, Idaho&lt;br&gt;Open Geothermal HDPE Pipe and fittings to replace main lines on 1st Street between Jefferson and State.</description>
-      <guid isPermaLink="false">boise-ba966a47feadfb10</guid>
-      <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[90] Meridian Campus HQ HVAC Controls, Idaho State Police, Meridian, Idaho</title>
-      <link>https://dpw.idaho.gov/wp-content/uploads/2026/09/26511-Ad-Long.pdf</link>
-      <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-09-30 | Location: Meridian, Idaho&lt;br&gt;Meridian Campus HQ HVAC Controls, Idaho State Police, Meridian, Idaho</description>
-      <guid isPermaLink="false">dpw-8dc8eabac1e30cba</guid>
-      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[90] City Hall Downtown Elevator Modernization Cars 1 &amp; 2 (GBP 110)</title>
-      <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
-      <description>Agency: City of Boise | Stage: OPEN_BID | Type: FB- | Due: 2026-09-30 | Location: Boise, Idaho&lt;br&gt;Open Modernize Elevators #1 and #2 at Boise City Hall, including all labor, materials, equipment, testing, and related services, and full maintenance for all four elevators.</description>
-      <guid isPermaLink="false">boise-13334f6c559a0a2d</guid>
-      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[90] SW Supervisory Area Admin Roof Replacement &amp; HVAC Upgrade, Department of Lands, Boise, Idaho</title>
