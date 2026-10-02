@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 02 Oct 2026 12:59:16 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 22:26:40 +0000</lastBuildDate>
     <item>
       <title>[40] ITB 1449 - ITD Work Zone Safety Trucks</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
@@ -44,11 +44,25 @@
       <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>[62] Food Quality Assurance Lab Fire Alarm System, Twin Falls, Idaho</title>
+      <link>https://dpw.idaho.gov/wp-content/uploads/2026/10/26030-RE-BID-Ad-Long.pdf</link>
+      <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-11-12 | Location: Twin Falls, Idaho&lt;br&gt;Food Quality Assurance Lab Fire Alarm System, Twin Falls, Idaho</description>
+      <guid isPermaLink="false">dpw-e21c65ab3c24aa73</guid>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>[74] Meridian Campus HQ HVAC Controls, Idaho State Police, Meridian, Idaho</title>
       <link>https://dpw.idaho.gov/construction/</link>
       <description>Agency: Idaho Division of Public Works | Stage: BID_RESULTS | Type: BID_RESULT | Due: 2026-09-30 | Location: Meridian, Idaho&lt;br&gt;Bid results: ATS Inland — $197,674</description>
       <guid isPermaLink="false">dpw-result-acd720dcc48a1661</guid>
       <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[74] SW Supervisory Area Admin Roof Replacement &amp; HVAC Upgrade, Department of Lands, Boise, Idaho</title>
+      <link>https://dpw.idaho.gov/construction/</link>
+      <description>Agency: Idaho Division of Public Works | Stage: BID_RESULTS | Type: BID_RESULT | Due: 2026-10-01 | Location: Boise, Idaho&lt;br&gt;Bid results: Bobo Construction — $382,900; Leverage General — $345,250; Roman Roofs — $377,320; Northwest Roof — $354,000; Nations Roof Mountain — $349,200</description>
+      <guid isPermaLink="false">dpw-result-6c0a78b594adf31a</guid>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[82] 2027 Airport Way &amp; Elevated Roadway Construction</title>

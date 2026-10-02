@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 02 Oct 2026 12:59:16 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 22:26:40 +0000</lastBuildDate>
     <item>
       <title>[40] RFP 717 - IDFG Website Rebuild</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
@@ -273,6 +273,13 @@
       <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-10-29 | Location: Boise, Idaho&lt;br&gt;SPEC Air Handler Replacement, Boise State University, Boise, Idaho</description>
       <guid isPermaLink="false">dpw-320317b62f2a75d7</guid>
       <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[62] Food Quality Assurance Lab Fire Alarm System, Twin Falls, Idaho</title>
+      <link>https://dpw.idaho.gov/wp-content/uploads/2026/10/26030-RE-BID-Ad-Long.pdf</link>
+      <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-11-12 | Location: Twin Falls, Idaho&lt;br&gt;Food Quality Assurance Lab Fire Alarm System, Twin Falls, Idaho</description>
+      <guid isPermaLink="false">dpw-e21c65ab3c24aa73</guid>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[63] PADD - Public Safety Vehicle Lights, Sirens, &amp; Accessories</title>
