@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 04 Oct 2026 21:45:35 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 06:02:23 +0000</lastBuildDate>
     <item>
       <title>[40] RFP 717 - IDFG Website Rebuild</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
@@ -247,13 +247,6 @@
       <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[57] Leatherman Peak 2nd Floor Addition, Boise State University, Boise, Idaho</title>
-      <link>https://dpw.idaho.gov/wp-content/uploads/2026/09/24207-Ad-Long.pdf</link>
-      <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-11-04 | Location: Boise, Idaho&lt;br&gt;Leatherman Peak 2nd Floor Addition, Boise State University, Boise, Idaho</description>
-      <guid isPermaLink="false">dpw-917044f5fa0c82ed</guid>
-      <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>[58] ITB 1392 - ITD Thermoplastic Roadway Markings</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
       <description>Agency: ITD | Stage: UPCOMING | Type: ITB | Due: 2026-12-18 | Location: Idaho&lt;br&gt;Anticipated Post Date: 09/18/2026 Anticipated Close Date: 10/16/2026 Anticipated Award Date: 11/06/2026</description>
@@ -273,6 +266,13 @@
       <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-10-29 | Location: Boise, Idaho&lt;br&gt;SPEC Air Handler Replacement, Boise State University, Boise, Idaho</description>
       <guid isPermaLink="false">dpw-320317b62f2a75d7</guid>
       <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[61] Leatherman Peak 2nd Floor Addition, Boise State University, Boise, Idaho</title>
+      <link>https://dpw.idaho.gov/wp-content/uploads/2026/09/24207-Ad-Long.pdf</link>
+      <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-11-04 | Location: Boise, Idaho&lt;br&gt;Leatherman Peak 2nd Floor Addition, Boise State University, Boise, Idaho</description>
+      <guid isPermaLink="false">dpw-917044f5fa0c82ed</guid>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[62] Food Quality Assurance Lab Fire Alarm System, Twin Falls, Idaho</title>
