@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 06 Oct 2026 00:14:10 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2026 06:41:33 +0000</lastBuildDate>
     <item>
       <title>[40] ITB 1449 - ITD Work Zone Safety Trucks</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
@@ -77,6 +77,13 @@
       <description>Agency: City of Boise | Stage: OPEN_BID | Type: FB- | Due: 2026-10-21 | Location: Boise, Idaho&lt;br&gt;Open Construction of new pathway connecting Spaulding Ranch and Milwaukee St.</description>
       <guid isPermaLink="false">boise-0d10308f6b659966</guid>
       <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[86] State Street Landscaping</title>
+      <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
+      <description>Agency: City of Boise | Stage: OPEN_BID | Type: SFB | Due: 2026-10-28 | Location: Boise, Idaho&lt;br&gt;Open Construction of new landscaping in sidewalk budder along State Street and N 36th Street.</description>
+      <guid isPermaLink="false">boise-9790d7dbf91dff4e</guid>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
