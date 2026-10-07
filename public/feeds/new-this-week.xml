@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 06 Oct 2026 18:32:17 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 06:17:56 +0000</lastBuildDate>
     <item>
       <title>[40] ITB 1449 - ITD Work Zone Safety Trucks</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
@@ -44,13 +44,6 @@
       <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[61] Leatherman Peak 2nd Floor Addition, Boise State University, Boise, Idaho</title>
-      <link>https://dpw.idaho.gov/wp-content/uploads/2026/09/24207-Ad-Long.pdf</link>
-      <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-11-04 | Location: Boise, Idaho&lt;br&gt;Leatherman Peak 2nd Floor Addition, Boise State University, Boise, Idaho</description>
-      <guid isPermaLink="false">dpw-917044f5fa0c82ed</guid>
-      <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>[62] Food Quality Assurance Lab Fire Alarm System, Twin Falls, Idaho</title>
       <link>https://dpw.idaho.gov/wp-content/uploads/2026/10/26030-RE-BID-Ad-Long.pdf</link>
       <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-11-12 | Location: Twin Falls, Idaho&lt;br&gt;Food Quality Assurance Lab Fire Alarm System, Twin Falls, Idaho</description>
@@ -72,17 +65,17 @@
       <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>[79] Boise Airport Central Utility Plant (CUP) Equipment</title>
+      <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
+      <description>Agency: City of Boise | Stage: OPEN_BID | Type: FB- | Due: 2026-11-04 | Location: Boise, Idaho&lt;br&gt;Open The procurement includes the purchase and delivery of specified CUP equipment incorporating energy-efficient technologies, remote monitoring capabilities, and enhanced system redundancy.</description>
+      <guid isPermaLink="false">boise-e60aef05d623b30c</guid>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>[82] 2027 Airport Way &amp; Elevated Roadway Construction</title>
       <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
       <description>Agency: City of Boise | Stage: OPEN_BID | Type: FB- | Due: 2026-11-12 | Location: Boise, Idaho&lt;br&gt;Open This project will be the first phase of reconstruction and rehabilitation of the Airport Way at the Boise Airport as well as rehabilitation work on the Elevated Roadway.</description>
       <guid isPermaLink="false">boise-1d937f7b734b4b8c</guid>
-      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[86] Hobble Creek Pathway</title>
-      <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
-      <description>Agency: City of Boise | Stage: OPEN_BID | Type: FB- | Due: 2026-10-21 | Location: Boise, Idaho&lt;br&gt;Open Construction of new pathway connecting Spaulding Ranch and Milwaukee St.</description>
-      <guid isPermaLink="false">boise-0d10308f6b659966</guid>
       <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -91,6 +84,20 @@
       <description>Agency: City of Boise | Stage: OPEN_BID | Type: SFB | Due: 2026-10-28 | Location: Boise, Idaho&lt;br&gt;Open Construction of new landscaping in sidewalk budder along State Street and N 36th Street.</description>
       <guid isPermaLink="false">boise-9790d7dbf91dff4e</guid>
       <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[86] Boise Airport Vertical Transportation Equipment</title>
+      <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
+      <description>Agency: City of Boise | Stage: OPEN_BID | Type: FB- | Due: 2026-11-04 | Location: Boise, Idaho&lt;br&gt;Open New vertical transportation equipment (new elevators and escalators, associated electrical and mechanical systems, controls, and required integration with existing infrastructure) at Boise Airport</description>
+      <guid isPermaLink="false">boise-9a5c58666c615ccd</guid>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[90] Hobble Creek Pathway</title>
+      <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
+      <description>Agency: City of Boise | Stage: OPEN_BID | Type: FB- | Due: 2026-10-21 | Location: Boise, Idaho&lt;br&gt;Open Construction of new pathway connecting Spaulding Ranch and Milwaukee St.</description>
+      <guid isPermaLink="false">boise-0d10308f6b659966</guid>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
