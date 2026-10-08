@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 07 Oct 2026 23:14:41 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 06:27:41 +0000</lastBuildDate>
     <item>
       <title>[40] ITB 1449 - ITD Work Zone Safety Trucks</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
@@ -16,18 +16,11 @@
       <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[54] Admin Bldg. HVAC, Ph 3, University of Idaho, Moscow, Idaho</title>
-      <link>https://dpw.idaho.gov/construction/</link>
-      <description>Agency: Idaho Division of Public Works | Stage: BID_RESULTS | Type: BID_RESULT | Due: 2026-09-22 | Location: Moscow, Idaho&lt;br&gt;Bid results: Halme Cascade — $1,276,700; Ginno — $1,465,000; J. Addingtion — $141,000; Mangum Construction — $1,350,000; Wright Brothers — $1,445,783</description>
-      <guid isPermaLink="false">dpw-result-5248fbdc9241c51d</guid>
-      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[54] Lewiston Office Restroom &amp; Breakroom ADA Upgrades, Labor, Lewiston, Idaho</title>
-      <link>https://dpw.idaho.gov/construction/</link>
-      <description>Agency: Idaho Division of Public Works | Stage: BID_RESULTS | Type: BID_RESULT | Due: 2026-09-22 | Location: Lewiston, Idaho&lt;br&gt;Bid results: Sprenger Construction NON-RESPONSIVE; CV Construction — $68,700; Mangum Construction — $104,000; AA Construction — $75,000; Legacy Contractors — $71,341; Kenaston Corporation — $100,200</description>
-      <guid isPermaLink="false">dpw-result-4ab35c49f385944a</guid>
-      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
+      <title>[40] ITB 1458 - IDFG Semi-Truck Cab &amp; Chassis</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: IDFG | Stage: UPCOMING | Type: ITB | Due: 2027-01-28 | Location: Idaho&lt;br&gt;Anticipated Post Date: 11/24/2026 Anticipated Close Date: 12/21/2026 Anticipated Award Date: 1/10/2027</description>
+      <guid isPermaLink="false">idaho-purchasing-2fdfe3835c2fd3af</guid>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[57] SPEC Air Handler Replacement, Boise State University, Boise, Idaho **NOTE: PRE-BID &amp; BID DATE CHANGE SEE ADDENDUM 1</title>
@@ -72,13 +65,6 @@
       <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[82] 2027 Airport Way &amp; Elevated Roadway Construction</title>
-      <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
-      <description>Agency: City of Boise | Stage: OPEN_BID | Type: FB- | Due: 2026-11-12 | Location: Boise, Idaho&lt;br&gt;Open This project will be the first phase of reconstruction and rehabilitation of the Airport Way at the Boise Airport as well as rehabilitation work on the Elevated Roadway.</description>
-      <guid isPermaLink="false">boise-1d937f7b734b4b8c</guid>
-      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>[86] State Street Landscaping</title>
       <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
       <description>Agency: City of Boise | Stage: OPEN_BID | Type: SFB | Due: 2026-10-28 | Location: Boise, Idaho&lt;br&gt;Open Construction of new landscaping in sidewalk budder along State Street and N 36th Street.</description>
@@ -91,13 +77,6 @@
       <description>Agency: City of Boise | Stage: OPEN_BID | Type: FB- | Due: 2026-11-04 | Location: Boise, Idaho&lt;br&gt;Open New vertical transportation equipment (new elevators and escalators, associated electrical and mechanical systems, controls, and required integration with existing infrastructure) at Boise Airport</description>
       <guid isPermaLink="false">boise-9a5c58666c615ccd</guid>
       <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[90] Hobble Creek Pathway</title>
-      <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
-      <description>Agency: City of Boise | Stage: OPEN_BID | Type: FB- | Due: 2026-10-21 | Location: Boise, Idaho&lt;br&gt;Open Construction of new pathway connecting Spaulding Ranch and Milwaukee St.</description>
-      <guid isPermaLink="false">boise-0d10308f6b659966</guid>
-      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 07 Oct 2026 23:14:41 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 06:27:41 +0000</lastBuildDate>
     <item>
       <title>[25] RFP 1103 - Advertising, Marketing, Public Relations, and Creative Services</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
@@ -93,6 +93,13 @@
       <pubDate>Thu, 08 Jan 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>[25] RFI 1438 - IDOC Community Reentry Centers</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: IDOC | Stage: AWARDED | Type: RFI | Due: 2026-10-07 | Location: Idaho&lt;br&gt;Post Date: 09/14/2026 Close Date: 10/02/2026 Award Date: None - RFI only</description>
+      <guid isPermaLink="false">idaho-purchasing-4820b1fe5c145935</guid>
+      <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>[25] ITB 1223 - ISHS Stricker Landscape &amp; Lawncare Maintenance</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
       <description>Agency: ISHS | Stage: AWARDED | Type: ITB | Due: 2027-02-01 | Location: Idaho&lt;br&gt;Posted Date: 05/19/2026 Closed Date: 06/25/2026 Awarded Date: 08/25/2026</description>
@@ -154,13 +161,6 @@
       <description>Agency: DHW | Stage: AWARDED | Type: FUTURE_SOLICITATION | Due: 2026-10-05 | Location: Idaho&lt;br&gt;Anticipated Award Date: 09/15/2026</description>
       <guid isPermaLink="false">idaho-purchasing-db44d978aefffdab</guid>
       <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[33] RFI 1438 - IDOC Community Reentry Centers</title>
-      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: IDOC | Stage: AWARDED | Type: RFI | Due: 2026-10-07 | Location: Idaho&lt;br&gt;Post Date: 09/14/2026 Close Date: 10/02/2026 Award Date: None - RFI only</description>
-      <guid isPermaLink="false">idaho-purchasing-4820b1fe5c145935</guid>
-      <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[33] PADD - Inmate &amp; Detention Supplies &amp; Solutions</title>
