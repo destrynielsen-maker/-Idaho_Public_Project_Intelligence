@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 08 Oct 2026 18:57:18 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2026 06:29:13 +0000</lastBuildDate>
     <item>
       <title>[25] RFP 1103 - Advertising, Marketing, Public Relations, and Creative Services</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
@@ -144,7 +144,7 @@
     <item>
       <title>[29] Residential Cottages Fire Suppression System Replacement, Idaho Education Services for the Deaf and Blind, Gooding, Idaho ALL BIDS REJECTED</title>
       <link>https://dpw.idaho.gov/construction/</link>
-      <description>Agency: Idaho Division of Public Works | Stage: BID_RESULTS | Type: BID_RESULT | Due: 2026-07-09 | Location: Gooding, Idaho&lt;br&gt;Bid results: Petersen Brothers NON-RESPONSIVE; Optimum Build Group NON-RESPONSIVE; Quality Contractors</description>
+      <description>Agency: Idaho Division of Public Works | Stage: BID_RESULTS | Type: BID_RESULT | Due: 2026-07-09 | Location: Gooding, Idaho&lt;br&gt;Bid results: Petersen Brothers; Optimum Build Group; Quality Contractors</description>
       <guid isPermaLink="false">dpw-result-d9e7943c950163d3</guid>
       <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
     </item>
@@ -224,6 +224,13 @@
       <description>Agency: STATEWIDE | Stage: AWARDED | Type: FUTURE_SOLICITATION | Due: 2026-10-01 | Location: Idaho&lt;br&gt;Anticipated Award Date: 10/01/2026</description>
       <guid isPermaLink="false">idaho-purchasing-71864eed56b6bb40</guid>
       <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[49] Nampa Exterior Paint/Seal, Department of Juvenile Corrections, Nampa, Idaho NO BIDS RECEIVED</title>
+      <link>https://dpw.idaho.gov/construction/</link>
+      <description>Agency: Idaho Division of Public Works | Stage: BID_RESULTS | Type: BID_RESULT | Due: 2026-02-24 | Location: Nampa, Idaho&lt;br&gt;Bid results: </description>
+      <guid isPermaLink="false">dpw-result-df88c29c872d2795</guid>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[49] Nampa Exterior Paint/Seal, Department of Juvenile Corrections, Nampa, Idaho</title>
@@ -592,7 +599,7 @@
     <item>
       <title>[74] Multi Bldg. Roof Replacements, Boise State University, Boise, Idaho</title>
       <link>https://dpw.idaho.gov/construction/</link>
-      <description>Agency: Idaho Division of Public Works | Stage: BID_RESULTS | Type: BID_RESULT | Due: 2026-05-07 | Location: Boise, Idaho&lt;br&gt;Bid results: Weathertight Roofing — $308,000; Upson Company — $411,000; Centimark; Signature Roofing — $369,000; Northwest Roof — $510,000; Hobson Fabricating</description>
+      <description>Agency: Idaho Division of Public Works | Stage: BID_RESULTS | Type: BID_RESULT | Due: 2026-05-07 | Location: Boise, Idaho&lt;br&gt;Bid results: Weathertight Roofing — $308,000; Upson Company — $411,000; Centimark NON-RESPONSIVE; Signature Roofing — $369,000; Northwest Roof — $510,000; Hobson Fabricating NON-RESPONSIVE</description>
       <guid isPermaLink="false">dpw-result-382db0a3f23e0264</guid>
       <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
     </item>

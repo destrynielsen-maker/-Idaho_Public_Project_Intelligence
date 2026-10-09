@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 08 Oct 2026 18:57:18 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2026 06:29:13 +0000</lastBuildDate>
     <item>
       <title>[40] RFP 717 - IDFG Website Rebuild</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
@@ -247,6 +247,13 @@
       <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>[55] PADD - Public Safety Vehicle Lights, Sirens, &amp; Accessories</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: STATEWIDE | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-10-08 | Location: Idaho&lt;br&gt;Anticipated Award Date: 10/08/2026</description>
+      <guid isPermaLink="false">idaho-purchasing-18c1e83d24a3a62c</guid>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>[58] ITB 1392 - ITD Thermoplastic Roadway Markings</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
       <description>Agency: ITD | Stage: UPCOMING | Type: ITB | Due: 2026-12-18 | Location: Idaho&lt;br&gt;Anticipated Post Date: 09/18/2026 Anticipated Close Date: 10/16/2026 Anticipated Award Date: 11/06/2026</description>
@@ -259,13 +266,6 @@
       <description>Agency: VETS | Stage: UPCOMING | Type: ITB | Due: 2027-01-21 | Location: Idaho&lt;br&gt;Anticipated Post Date: 11/17/2026 Anticipated Close Date: 12/14/20206 Anticipated Award Date: 01/04/2027</description>
       <guid isPermaLink="false">idaho-purchasing-079df2aaf770f179</guid>
       <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[63] PADD - Public Safety Vehicle Lights, Sirens, &amp; Accessories</title>
-      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: STATEWIDE | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-10-08 | Location: Idaho&lt;br&gt;Anticipated Award Date: 10/08/2026</description>
-      <guid isPermaLink="false">idaho-purchasing-18c1e83d24a3a62c</guid>
-      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[65] PA - Elevator Services</title>
