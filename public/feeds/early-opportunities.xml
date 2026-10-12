@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 11 Oct 2026 22:16:54 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 06:18:39 +0000</lastBuildDate>
     <item>
       <title>[25] RFP 717 - IDFG Website Rebuild</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
@@ -317,13 +317,6 @@
       <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[44] RFQ 1408 - ADM Mat Services Capitol Mall</title>
-      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: ADM | Stage: UPCOMING | Type: RFQ | Due: 2026-10-26 | Location: Idaho&lt;br&gt;Anticipated Post Date: 09/16/2026 Anticipated Close Date: 09/30/2026 Anticipated Award Date: 10/08/2026</description>
-      <guid isPermaLink="false">idaho-purchasing-0a69a60a4f5b61c2</guid>
-      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>[44] PADD - Cloud Services DLZP</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
       <description>Agency: STATEWIDE | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-10-27 | Location: Idaho&lt;br&gt;Anticipated Award Date:</description>
@@ -371,6 +364,13 @@
       <description>Agency: IDOC | Stage: UPCOMING | Type: RFP | Due: 2026-10-22 | Location: Idaho&lt;br&gt;Post Date: 07/13/2026 Anticipated Close Date: 09/02/2026 Anticipated Award Date: 10/22/2026</description>
       <guid isPermaLink="false">idaho-purchasing-4622fe00f1aa9d2e</guid>
       <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[48] RFQ 1408 - ADM Mat Services Capitol Mall</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: ADM | Stage: UPCOMING | Type: RFQ | Due: 2026-10-26 | Location: Idaho&lt;br&gt;Anticipated Post Date: 09/16/2026 Anticipated Close Date: 09/30/2026 Anticipated Award Date: 10/08/2026</description>
+      <guid isPermaLink="false">idaho-purchasing-0a69a60a4f5b61c2</guid>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[50] ITB 1239 - Chinden Campus Building Automation Systems Maintenance</title>
