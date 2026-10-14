@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 13 Oct 2026 23:00:17 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 05:11:58 +0000</lastBuildDate>
     <item>
       <title>[65] PA - Elevator Services</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
@@ -42,20 +42,6 @@
       <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-11-12 | Location: Twin Falls, Idaho&lt;br&gt;Food Quality Assurance Lab Fire Alarm System, Twin Falls, Idaho</description>
       <guid isPermaLink="false">dpw-e21c65ab3c24aa73</guid>
       <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[86] Repair Asphalt, Campus Wide, SWITC, Department of Health and Welfare, Nampa, Idaho</title>
-      <link>https://dpw.idaho.gov/wp-content/uploads/2026/09/22361-Ad-Long.pdf</link>
-      <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-10-28 | Location: Nampa, Idaho&lt;br&gt;Repair Asphalt, Campus Wide, SWITC, Department of Health and Welfare, Nampa, Idaho</description>
-      <guid isPermaLink="false">dpw-4ec0233375affe3a</guid>
-      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[86] State Street Landscaping</title>
-      <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
-      <description>Agency: City of Boise | Stage: OPEN_BID | Type: SFB | Due: 2026-10-28 | Location: Boise, Idaho&lt;br&gt;Open Construction of new landscaping in sidewalk budder along State Street and N 36th Street.</description>
-      <guid isPermaLink="false">boise-9790d7dbf91dff4e</guid>
-      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[86] Boise Airport Vertical Transportation Equipment</title>
@@ -112,6 +98,20 @@
       <description>Agency: City of Boise | Stage: OPEN_BID | Type: FB- | Due: 2026-10-21 | Location: Boise, Idaho&lt;br&gt;Open Construction of new pathway connecting Spaulding Ranch and Milwaukee St.</description>
       <guid isPermaLink="false">boise-0d10308f6b659966</guid>
       <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[90] Repair Asphalt, Campus Wide, SWITC, Department of Health and Welfare, Nampa, Idaho</title>
+      <link>https://dpw.idaho.gov/wp-content/uploads/2026/09/22361-Ad-Long.pdf</link>
+      <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-10-28 | Location: Nampa, Idaho&lt;br&gt;Repair Asphalt, Campus Wide, SWITC, Department of Health and Welfare, Nampa, Idaho</description>
+      <guid isPermaLink="false">dpw-4ec0233375affe3a</guid>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[90] State Street Landscaping</title>
+      <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
+      <description>Agency: City of Boise | Stage: OPEN_BID | Type: SFB | Due: 2026-10-28 | Location: Boise, Idaho&lt;br&gt;Open Construction of new landscaping in sidewalk budder along State Street and N 36th Street.</description>
+      <guid isPermaLink="false">boise-9790d7dbf91dff4e</guid>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
