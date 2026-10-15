@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 14 Oct 2026 21:52:18 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 04:59:17 +0000</lastBuildDate>
     <item>
       <title>[25] PADD - Inmate &amp; Detention Supplies &amp; Solutions PADD202710361 IDOC</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
@@ -121,25 +121,11 @@
       <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[79] Boise Airport Central Utility Plant (CUP) Equipment</title>
-      <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
-      <description>Agency: City of Boise | Stage: OPEN_BID | Type: FB- | Due: 2026-11-04 | Location: Boise, Idaho&lt;br&gt;Open The procurement includes the purchase and delivery of specified CUP equipment incorporating energy-efficient technologies, remote monitoring capabilities, and enhanced system redundancy.</description>
-      <guid isPermaLink="false">boise-e60aef05d623b30c</guid>
-      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>[79] Sewer Diversion Structure Rehabilitation (CSP 1175)</title>
       <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
       <description>Agency: City of Boise | Stage: OPEN_BID | Type: FB- | Due: 2026-11-04 | Location: Boise, Idaho&lt;br&gt;Open Rehabilitate two diversion manholes, including new slide gates, sewer bypass pumping, traffic control, concrete lining/coating, landscaping restoration, and other related work.</description>
       <guid isPermaLink="false">boise-ab5b205127c5b70f</guid>
       <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[86] Boise Airport Vertical Transportation Equipment</title>
-      <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
-      <description>Agency: City of Boise | Stage: OPEN_BID | Type: FB- | Due: 2026-11-04 | Location: Boise, Idaho&lt;br&gt;Open New vertical transportation equipment (new elevators and escalators, associated electrical and mechanical systems, controls, and required integration with existing infrastructure) at Boise Airport</description>
-      <guid isPermaLink="false">boise-9a5c58666c615ccd</guid>
-      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
