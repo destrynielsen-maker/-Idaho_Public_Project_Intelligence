@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 18 Oct 2026 20:57:29 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 05:04:37 +0000</lastBuildDate>
     <item>
       <title>[40] PADD - Cloud Solutions</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
@@ -63,13 +63,6 @@
       <description>Agency: IDOC | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-10-16 | Location: Idaho&lt;br&gt;Anticipated Award Date:</description>
       <guid isPermaLink="false">idaho-purchasing-156b2083067a80ae</guid>
       <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[40] RFP 1338 - IDVS Medicare Billing Services</title>
-      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: VETS | Stage: UPCOMING | Type: RFP | Due: 2026-11-18 | Location: Idaho&lt;br&gt;Post Date: 09/25/2026 Anticipated Close Date: 10/23/2026 Anticipated Award Date: 11/30/2026</description>
-      <guid isPermaLink="false">idaho-purchasing-e44ba8d18e00fcc0</guid>
-      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[40] ITB 1390 - ITD Certified Power Solutions</title>
@@ -217,6 +210,13 @@
       <description>Agency: ADM | Stage: UPCOMING | Type: RFP | Due: 2027-02-04 | Location: Idaho&lt;br&gt;Anticipated Post Date: 10/28/2026 Anticipated Close Date: 12/2/2026 Anticipated Award Date: 01/15/2027</description>
       <guid isPermaLink="false">idaho-purchasing-355b27e3f3cde0d2</guid>
       <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[44] RFP 1338 - IDVS Medicare Billing Services</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: VETS | Stage: UPCOMING | Type: RFP | Due: 2026-11-18 | Location: Idaho&lt;br&gt;Post Date: 09/25/2026 Anticipated Close Date: 10/23/2026 Anticipated Award Date: 11/30/2026</description>
+      <guid isPermaLink="false">idaho-purchasing-e44ba8d18e00fcc0</guid>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[45] Residential Cottages Fire Suppression Systems Replacement, Idaho Educational Services for the Deaf &amp; Blind, Gooding, Idaho</title>
@@ -478,13 +478,6 @@
       <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[82] PTC Restroom Upgrades, Department of Administration, Boise, Idaho</title>
-      <link>https://dpw.idaho.gov/wp-content/uploads/2026/10/26009-Ad-Long.pdf</link>
-      <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-11-18 | Location: Boise, Idaho&lt;br&gt;PTC Restroom Upgrades, Department of Administration, Boise, Idaho</description>
-      <guid isPermaLink="false">dpw-c010c4c7c3c41816</guid>
-      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>[83] Siphon Cleaning and CCTV Project 2026 (PWE 852)</title>
       <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
       <description>Agency: City of Boise | Stage: OPEN_BID | Type: SFB | Due: 2026-09-09 | Location: Boise, Idaho&lt;br&gt;Open Cleaning, sewer flow control, de-watering, obstruction removal prior to CCTV of a variety of sewer siphons. Inspect main line sewers, identify, and locate pipelines in need of rehabilitation.</description>
@@ -532,6 +525,13 @@
       <description>Agency: City of Boise | Stage: OPEN_BID | Type: FB- | Due: 2026-11-12 | Location: Boise, Idaho&lt;br&gt;Open This project will be the first phase of reconstruction and rehabilitation of the Airport Way at the Boise Airport as well as rehabilitation work on the Elevated Roadway.</description>
       <guid isPermaLink="false">boise-1d937f7b734b4b8c</guid>
       <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[86] PTC Restroom Upgrades, Department of Administration, Boise, Idaho</title>
+      <link>https://dpw.idaho.gov/wp-content/uploads/2026/10/26009-Ad-Long.pdf</link>
+      <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-11-18 | Location: Boise, Idaho&lt;br&gt;PTC Restroom Upgrades, Department of Administration, Boise, Idaho</description>
+      <guid isPermaLink="false">dpw-c010c4c7c3c41816</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[90] Sewer Extension Redesign Gowen Service District CSP 1213</title>
