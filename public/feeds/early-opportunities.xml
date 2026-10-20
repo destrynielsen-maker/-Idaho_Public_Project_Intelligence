@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 19 Oct 2026 22:33:05 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 05:07:13 +0000</lastBuildDate>
     <item>
       <title>[25] RFP 717 - IDFG Website Rebuild</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
@@ -114,6 +114,13 @@
       <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>[25] ITB 1137 - ITD Work Zone Safety Trucks</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: ITD | Stage: AWARDED | Type: ITB | Due: 2026-10-19 | Location: Idaho&lt;br&gt;</description>
+      <guid isPermaLink="false">idaho-purchasing-f5bc6c6f499f5e23</guid>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>[25] ITB 1223 - ISHS Stricker Landscape &amp; Lawncare Maintenance</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
       <description>Agency: ISHS | Stage: AWARDED | Type: ITB | Due: 2027-02-01 | Location: Idaho&lt;br&gt;Posted Date: 05/19/2026 Closed Date: 06/25/2026 Awarded Date: 08/25/2026</description>
@@ -133,13 +140,6 @@
       <description>Agency: IDOC | Stage: AWARDED | Type: FUTURE_SOLICITATION | Due: 2026-10-13 | Location: Idaho&lt;br&gt;Anticipated Award Date: 10/13/2026</description>
       <guid isPermaLink="false">idaho-purchasing-e273dfa1fc5b9f3e</guid>
       <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[33] ITB 1137 - ITD Work Zone Safety Trucks</title>
-      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: ITD | Stage: AWARDED | Type: ITB | Due: 2026-10-19 | Location: Idaho&lt;br&gt;</description>
-      <guid isPermaLink="false">idaho-purchasing-f5bc6c6f499f5e23</guid>
-      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[40] PADD - Cloud Solutions</title>
@@ -219,13 +219,6 @@
       <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[40] ITB 1390 - ITD Certified Power Solutions</title>
-      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: ITD | Stage: UPCOMING | Type: ITB | Due: 2026-11-19 | Location: Idaho&lt;br&gt;Post Date: 09/25/2026 Anticipated Close Date: 10/23/2026 Anticipated Award Date: 10/30/2026</description>
-      <guid isPermaLink="false">idaho-purchasing-518dfb30b6f8f12a</guid>
-      <pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>[40] ITB 1397 - ITD Attenuator Trucks</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
       <description>Agency: ITD | Stage: UPCOMING | Type: ITB | Due: 2026-11-20 | Location: Idaho&lt;br&gt;Post Date: 9/04/2026 Close Date: 10/07/2026 Anticipated Award Date: 10/23/2026</description>
@@ -245,6 +238,13 @@
       <description>Agency: LABOR | Stage: UPCOMING | Type: RFQ | Due: 2026-11-20 | Location: Idaho&lt;br&gt;Anticipated Post Date: 10/13/2026 Anticipated Close Date: 10/27/2026 Anticipated Award Date: 11/20/2026</description>
       <guid isPermaLink="false">idaho-purchasing-349db580b6c98593</guid>
       <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[40] Therap PADD-DHW</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: DHW | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-11-20 | Location: Idaho&lt;br&gt;Anticipated Award Date:</description>
+      <guid isPermaLink="false">idaho-purchasing-ec2c6b1c49f23af1</guid>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[40] RFQ 1435 - ADM Lewiston Landscape &amp; Snow Removal</title>
@@ -371,6 +371,13 @@
       <description>Agency: VETS | Stage: UPCOMING | Type: RFP | Due: 2026-11-18 | Location: Idaho&lt;br&gt;Post Date: 09/25/2026 Anticipated Close Date: 10/23/2026 Anticipated Award Date: 11/30/2026</description>
       <guid isPermaLink="false">idaho-purchasing-e44ba8d18e00fcc0</guid>
       <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[44] ITB 1390 - ITD Certified Power Solutions</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: ITD | Stage: UPCOMING | Type: ITB | Due: 2026-11-19 | Location: Idaho&lt;br&gt;Post Date: 09/25/2026 Anticipated Close Date: 10/23/2026 Anticipated Award Date: 10/30/2026</description>
+      <guid isPermaLink="false">idaho-purchasing-518dfb30b6f8f12a</guid>
+      <pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[48] PADD - Drugs of Abuse Testing Products &amp; Laboratory Services</title>
