@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T17:25:30+00:00",
+  "generated_at": "2026-10-20T21:47:15+00:00",
   "opportunities": [
     {
       "id": "boise-9790d7dbf91dff4e",
@@ -17,14 +17,14 @@
       "updated_date": "",
       "status": "OPEN",
       "url": "https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise",
-      "details_url": "https://app01.jaggaer.com/apps/Router/ViewSourcingEvent?AuthToken=1%3AAES2%23CA%2Btcx2CXVHulDtXMMFl%2Bw7XqtqiL65NsZCRnt9863%2FT1CNligZH%2BX0lnlwLw9YWmm35wf%2FQu907Hc522Aw6DdBcC9Tivqe7GxRlMMi88jCtWGzubEBnQF6%2BpeDDMekU2OZIKjeDLBKYLRIGQN%2BzaNWjAs4lvy%2Bs6A%3D%3D&tmstmp=1792517130762",
+      "details_url": "https://app01.jaggaer.com/apps/Router/ViewSourcingEvent?AuthToken=1%3AAES2%23CFM%2FCIbcRSk2VSBWIv%2FJ3AHsTFVRquWV2pMH79MTqAChzbW6PdnT%2FhtksFiMu4DAXyjCXXMgl6bB0i9URtAcn%2FUTBg6bVyuCx6qKrGYFVaTzKt9V9jEOWnNmb2xFJiTuqA0GC6wjYfKVk9kBfaybZmkdyz7TXBcmeA%3D%3D&tmstmp=1792532835265",
       "contact": "mharvey@cityofboise.org",
       "category": "BUILDING",
       "score": 90,
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-10-06T06:41:29+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-4ec0233375affe3a",
@@ -49,7 +49,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-09-22T17:08:34+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "boise-0d10308f6b659966",
@@ -67,14 +67,14 @@
       "updated_date": "",
       "status": "OPEN",
       "url": "https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise",
-      "details_url": "https://app01.jaggaer.com/apps/Router/ViewSourcingEvent?AuthToken=1%3AAES2%23CLayKxJsuanHeVArcfzvhmsjstStvRticsQGq73VmPYaTLWuhEs4SdGok2RFd2Vo8KCy70qenJ%2FQ2Dl%2Bd7SSDC078CA82d7yxtIWIea7P0BSYL9iZOS6AlLYDjaFaPPiNxdmRTXuqnrbWDIuDmENfAI1kBeLk0DhLA%3D%3D&tmstmp=1792517130763",
+      "details_url": "https://app01.jaggaer.com/apps/Router/ViewSourcingEvent?AuthToken=1%3AAES2%23CNmseSUpJT8Bjubv2sBC0GgiJpEUvBcXhfajjCiAe3%2BMVsjO7lLmDBfeimNguwy1hBCWp2fr0taw1niBtIVPtK37TCwLKwLhBjW6IVcpS7m1r9KQ25Diu71ImIET0Ihi5SjBzH3L2J1%2BizL3smgRS1I6sQmsOFR1pA%3D%3D&tmstmp=1792532835266",
       "contact": "mharvey@cityofboise.org",
       "category": "BUILDING",
       "score": 90,
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-09-30T12:52:56+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "boise-9872a3f8ad10d2b9",
@@ -92,14 +92,14 @@
       "updated_date": "",
       "status": "OPEN",
       "url": "https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise",
-      "details_url": "https://app01.jaggaer.com/apps/Router/ViewSourcingEvent?AuthToken=1%3AAES2%23CMn2uTSWghlu0%2FlMhzV9LDddB2CUf88Qq2IDAnUJF7OHGyZfoqxrubY9eS4LHhNJcs57GRvKddXWy7CVo0u6VAfg9LKwLNSaCEp6fjGFE%2FbibzcqZJkP%2FIq9kHbZaMr3s%2BTYqG%2F8cfR0BReZIo%2FwoCeRPj8lWEU6hA%3D%3D&tmstmp=1792517130762",
+      "details_url": "https://app01.jaggaer.com/apps/Router/ViewSourcingEvent?AuthToken=1%3AAES2%23CBowx5X0lngr4MlYLLGA19ucnkyC8I2ThYPsq4VtVsVt6XyiGlM0yyTCLmNoV%2F08C6i2bgw9mXoHZOUK2jGnik5GtNsECg0mUNqh5pHbFaZP%2BZMOknqlD8ykfRV4s6ICL5LAFCy1Y9hx4bY98fE%2BEm8Of%2BI6toazoQ%3D%3D&tmstmp=1792532835265",
       "contact": "rgould@cityofboise.org, tleatham@cityofboise.org",
       "category": "BUILDING",
       "score": 90,
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-09-19T04:52:15+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "boise-8b757c402467705a",
@@ -224,7 +224,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-10-15T21:37:17+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "boise-66e4fcc97c65f98c",
@@ -242,14 +242,14 @@
       "updated_date": "",
       "status": "OPEN",
       "url": "https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise",
-      "details_url": "https://app01.jaggaer.com/apps/Router/ViewSourcingEvent?AuthToken=1%3AAES2%23CH9DOBXw2BtgL5cNzeGXLifbKLYJHQUYKyHoRTEHVP6nHuLEatmiydo9jgLq5I9Qxagnm%2FeUUIDiZNDQNrP60FPsUL91%2FKRePE0Gi573lqUaJjfhkAU7bo54ETckfsUxF8mun7Dgz3eJ9%2FCWmokp%2BBCoivrs0TJ3Ig%3D%3D&tmstmp=1792517130759",
+      "details_url": "https://app01.jaggaer.com/apps/Router/ViewSourcingEvent?AuthToken=1%3AAES2%23CM0KhOUMwmdIk7ROxG6UDiNZpTFBB2M2trPfAvE%2Fs4SZSgnTzoaY20YyOBNHh0TMqwVpee9s9%2BQBsDefMmIZgGNJAPG6WVqMS4V3PL7KGQ2oTiI5coxAKbHXABC%2F%2BcP9FWAYRsZSJY3M%2B52s48oXAkFlsQDKhs%2FAxA%3D%3D&tmstmp=1792532835261",
       "contact": "mharvey@cityofboise.org",
       "category": "BUILDING",
       "score": 86,
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-10-19T13:47:31+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "boise-1d937f7b734b4b8c",
@@ -267,14 +267,14 @@
       "updated_date": "",
       "status": "OPEN",
       "url": "https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise",
-      "details_url": "https://app01.jaggaer.com/apps/Router/ViewSourcingEvent?AuthToken=1%3AAES2%23CEKGNjwBP2QsS41MS6RCpWeOwKpJSoEmuiU5XOcc1s7joSkYshEGxawcBorH%2FqY2IjBQZxWWjST1FAILFaJbJLxuWrBG0Q4s7TLE%2BVsESL6fvhjvpERcVxjs6e9khfcvsYuzjeSuxqe%2FmToXk5lbqi%2FR1pHb%2FM3Dgg%3D%3D&tmstmp=1792517130759",
+      "details_url": "https://app01.jaggaer.com/apps/Router/ViewSourcingEvent?AuthToken=1%3AAES2%23CA5%2F0OeZBRQG7LrRk2Lt6BJmTHYSc0y%2Bo7Q2qyIvY6kVhKmv8rTbdbL4dkG9g%2B%2Bom0KXU22ALcM1sIX0CHfEoNcLfK7vzeRIQgcq8zTMRH3i0sIbi%2B0lFPporvzzkWWfBQTgmtE4C4VtC8nZbY1hB5L8iFoxuKwFZw%3D%3D&tmstmp=1792532835262",
       "contact": "shitchcock@cityofboise.org",
       "category": "BUILDING",
       "score": 86,
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-09-30T12:52:56+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "boise-9a5c58666c615ccd",
@@ -292,14 +292,14 @@
       "updated_date": "",
       "status": "OPEN",
       "url": "https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise",
-      "details_url": "https://app01.jaggaer.com/apps/Router/ViewSourcingEvent?AuthToken=1%3AAES2%23CJx4BaLlKxcH3I2s5Cog7QiGuxwrrlAr4ybLr%2Fj%2Fg4tJ1UTbISEg8j6uZzVQZD4djtTcaXLH1Rg3q%2Fl3oOd7Qd9m2UMD4LWlx6Z3CjoqWCleOWgXrjPWK%2BrzV%2BnWsK50qbvgeYF5CirSwJ5E3tAseMtxVTFjRwWV6g%3D%3D&tmstmp=1792517130761",
+      "details_url": "https://app01.jaggaer.com/apps/Router/ViewSourcingEvent?AuthToken=1%3AAES2%23CL%2FQHLPN68aqlMxk6OHhPGNVRrrHUug1m0KTutLnTQ1%2BMpd5nliyAwVespySa9cp6vo2UccVDYYDk7lb34gHGYyMm23M0VyeBZdaHABSyTCD%2FlRVh9nmE38cNmvzY%2FN%2FK2voKade7Rj8BSCpjRqZAuSr4OQshezV5g%3D%3D&tmstmp=1792532835264",
       "contact": "shitchcock@cityofboise.org",
       "category": "BUILDING",
       "score": 86,
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-10-07T06:17:52+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "boise-ba966a47feadfb10",
@@ -569,7 +569,7 @@
         }
       ],
       "first_seen": "2026-09-22T17:08:34+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-61fc2a9825d62353",
@@ -623,7 +623,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-93aa9d98bc52f813",
@@ -677,7 +677,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-f1d5b352488e3977",
@@ -715,7 +715,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-7a89cbe3101e64e6",
@@ -761,7 +761,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-13ad4fee7e27469c",
@@ -807,7 +807,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-406c101aa8e77231",
@@ -873,7 +873,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-bb43a09e04f5d57a",
@@ -907,7 +907,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-67ae9d0740d843c5",
@@ -957,7 +957,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-10e8110400299609",
@@ -1007,7 +1007,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-b993ef3846fe9a31",
@@ -1077,7 +1077,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-fe28f9c4a49bb55b",
@@ -1115,7 +1115,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "boise-4df2f46757bb28e5",
@@ -1158,14 +1158,14 @@
       "updated_date": "",
       "status": "OPEN",
       "url": "https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise",
-      "details_url": "https://app01.jaggaer.com/apps/Router/ViewSourcingEvent?AuthToken=1%3AAES2%23CF8SKKEKeekYnwv70wMsBdhQuiBqQXwHXOofc%2B4FBVsrMQZlhJTjVvudz3Bkf5V3D%2BdKIJQSmE2TKFJsNpj8jdX8GdPnQCM3B2CIzGQ7zFZ%2ByeDBet2iqYRjCDVisgMcbqbOPjTjo3FZxz0DXtbLAX38aeuzC6KETQ%3D%3D&tmstmp=1792517130761",
+      "details_url": "https://app01.jaggaer.com/apps/Router/ViewSourcingEvent?AuthToken=1%3AAES2%23CC%2FNLNZ3k9zKwvHMS%2F3UDPnvtNIxYfgOwQi0iNqMw2Z0jxvjsX2TrJkeTq1xKcgmlR7U2KrmOoBDoxuFQEqdbJJ5eK8LzQnpxenKcJM3DAM%2FVVU4e5ejExEsYNsPy5QVKp7ihCriW7kNWyIuxb0Heaarl9XyPoIpFA%3D%3D&tmstmp=1792532835264",
       "contact": "rgould@cityofboise.org, tleatham@cityofboise.org",
       "category": "CIVIL",
       "score": 79,
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-10-14T17:27:19+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "boise-e60aef05d623b30c",
@@ -1183,14 +1183,14 @@
       "updated_date": "",
       "status": "OPEN",
       "url": "https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise",
-      "details_url": "https://app01.jaggaer.com/apps/Router/ViewSourcingEvent?AuthToken=1%3AAES2%23CFQUrr8aVw%2Bbq4Xsdi4o4KK4fGk6tOvXyf36E7fZCu5w%2FcNObUdKD37wLhaUCxIwArI66triwg2NkBXotFYMD97086WsTBiP%2BVIIkADO9vEJW57QWmfA5005c2fp1hHjlUoG8U%2Fl88fB%2FqMpzuYwRk9QonILzR4sEw%3D%3D&tmstmp=1792517130760",
+      "details_url": "https://app01.jaggaer.com/apps/Router/ViewSourcingEvent?AuthToken=1%3AAES2%23CFHXvZ0DDL25uWcoL6tSsz%2Fr16FmKxYS9CiqN0Q1XG3UB2zR%2BHA9TLLOsZ7PCqLxmAmb5J%2F0zpj2EFHidgoH1FPWfUFcrW8iLXX6nPyNGg4hG9%2FQMJQJ6cr8%2FjhzpRfEvsGk%2FTIYHkVEB1F55Q3XWRhhinpW4Oiivg%3D%3D&tmstmp=1792532835263",
       "contact": "shitchcock@cityofboise.org",
       "category": "CIVIL",
       "score": 79,
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-10-07T06:17:52+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-de51e23de280343e",
@@ -1228,7 +1228,45 @@
         }
       ],
       "first_seen": "2026-10-09T18:27:22+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
+    },
+    {
+      "id": "dpw-result-eb8a8168a311586f",
+      "source": "Idaho DPW",
+      "title": "IAB Bldg. HVAC/Refurbish Air Handlers PH 2, Department of Labor, Boise, Idaho ALL BIDS REJECTED",
+      "agency": "Idaho Division of Public Works",
+      "description": "Bid results: Cascade Enterprises; Hobson Fabricating; ACCO Engineered",
+      "location": "Boise, Idaho",
+      "stage": "BID_RESULTS",
+      "solicitation_type": "BID_RESULT",
+      "solicitation_number": "26300",
+      "posted_date": "",
+      "open_date": "",
+      "due_date": "2026-10-08",
+      "updated_date": "",
+      "status": "RESULTS",
+      "url": "https://dpw.idaho.gov/construction/",
+      "details_url": "https://dpw.idaho.gov/construction/",
+      "contact": "",
+      "category": "BUILDING",
+      "score": 74,
+      "estimated_value": null,
+      "bidders": [
+        {
+          "contractor": "Cascade Enterprises",
+          "base_bid": null
+        },
+        {
+          "contractor": "Hobson Fabricating",
+          "base_bid": null
+        },
+        {
+          "contractor": "ACCO Engineered",
+          "base_bid": null
+        }
+      ],
+      "first_seen": "2026-10-20T21:47:15+00:00",
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-6c0a78b594adf31a",
@@ -1274,7 +1312,7 @@
         }
       ],
       "first_seen": "2026-10-02T22:26:37+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-acd720dcc48a1661",
@@ -1304,7 +1342,7 @@
         }
       ],
       "first_seen": "2026-10-01T22:49:51+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-afc4687f7e9ada1e",
@@ -1350,7 +1388,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-ce0312540b71f11c",
@@ -1396,7 +1434,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-9c79bf34a3128e67",
@@ -1434,7 +1472,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-382db0a3f23e0264",
@@ -1484,7 +1522,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-c3d9327cb5e15f38",
@@ -1534,7 +1572,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-582e492e079b8635",
@@ -1568,7 +1606,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-fe8fee98bc036ec9",
@@ -1618,7 +1656,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-23d8c99c24f75c29",
@@ -1668,7 +1706,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-c9ecd873b207c48c",
@@ -1706,7 +1744,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "boise-1ba7b56e9f97f186",
@@ -1781,7 +1819,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-10-20T17:25:30+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-e21c65ab3c24aa73",
@@ -1831,7 +1869,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-10-15T21:37:17+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "idaho-purchasing-e0aa926b8c3a96f9",
@@ -1856,7 +1894,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T19:27:13+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "idaho-purchasing-f54ee44901ff994a",
@@ -1881,7 +1919,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T19:27:13+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "idaho-purchasing-129f81beb0fb5d95",
@@ -2081,7 +2119,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-09-03T04:51:44+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-7cb2f46018ff2f9e",
@@ -2123,7 +2161,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-17f7cbd1dc6e88a6",
@@ -2286,7 +2324,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-7bb6aefe6e4f2783",
@@ -2364,7 +2402,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-1999d304fafa3fb1",
@@ -2414,7 +2452,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-5abd47e4022d9d39",
@@ -2464,7 +2502,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-ff1986cbfac5c81b",
@@ -2546,7 +2584,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-95244709e0bfa086",
@@ -2580,7 +2618,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-4c57456222e8d96a",
@@ -2614,7 +2652,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-3f7b16ebd8fe2c24",
@@ -2656,7 +2694,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-5e2b54e4b7a92ec0",
@@ -2698,7 +2736,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-a62dd89d684c5027",
@@ -2740,7 +2778,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-d8a5ad7a81b43963",
@@ -2778,7 +2816,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-e586c37d204775bc",
@@ -2816,7 +2854,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-8e21cbb5bbbf5339",
@@ -2862,7 +2900,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-bc803de318c30939",
@@ -2900,7 +2938,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-e61d9f8f2bb153bb",
@@ -2946,7 +2984,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-1ae8bc168e3b08f5",
@@ -3008,7 +3046,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-f981456f25eaae7d",
@@ -3058,7 +3096,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-09-29T22:30:27+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-320317b62f2a75d7",
@@ -3108,7 +3146,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-10-01T06:21:24+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "idaho-purchasing-fd1a94c915b1bccd",
@@ -3133,7 +3171,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-28T11:38:03+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "idaho-purchasing-f52bbcd2b94707d3",
@@ -3158,7 +3196,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-10-14T05:11:55+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-0c4b5f4351e409df",
@@ -3208,7 +3246,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-10-14T05:11:55+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "idaho-purchasing-ca18692c6f08b9f3",
@@ -3233,7 +3271,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-10-14T05:11:55+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "idaho-purchasing-59910480abec4de2",
@@ -3258,7 +3296,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-10-14T05:11:55+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "idaho-purchasing-18c1e83d24a3a62c",
@@ -3283,7 +3321,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-09-01T05:27:48+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "idaho-purchasing-7cde8b85c7c92961",
@@ -3333,7 +3371,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T19:27:13+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-c04d045ace966414",
@@ -3371,7 +3409,7 @@
         }
       ],
       "first_seen": "2026-10-13T23:00:13+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-d521825eb4bf2412",
@@ -3405,7 +3443,7 @@
         }
       ],
       "first_seen": "2026-10-08T18:57:16+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-4ab35c49f385944a",
@@ -3455,7 +3493,7 @@
         }
       ],
       "first_seen": "2026-09-30T22:28:20+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-5248fbdc9241c51d",
@@ -3501,7 +3539,7 @@
         }
       ],
       "first_seen": "2026-09-30T22:28:20+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-d6fcbb29878a8701",
@@ -3526,7 +3564,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-27T22:28:40+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-335bc68c5c57c72c",
@@ -3572,7 +3610,7 @@
         }
       ],
       "first_seen": "2026-09-03T21:13:07+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-7078f73a0dde7c86",
@@ -3610,7 +3648,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-3b916193d31e1f2e",
@@ -3648,7 +3686,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-40350dabb8ff3ea9",
@@ -3682,7 +3720,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-80cc81e1b3432319",
@@ -3720,7 +3758,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-0f76506b2f7c5d7b",
@@ -3758,7 +3796,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-ef00e44409ba1f73",
@@ -3800,7 +3838,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-447a0085c566ce37",
@@ -3838,7 +3876,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-e903a776aa594912",
@@ -3872,7 +3910,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-984d9472d742df11",
@@ -3930,7 +3968,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-51efcdbabc094b15",
@@ -3968,7 +4006,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-684f1f1d7f7d5f34",
@@ -4014,7 +4052,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-5b88f17270865f90",
@@ -4048,7 +4086,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-1721660f94b4a0a5",
@@ -4082,7 +4120,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-527c4aede4c6e71c",
@@ -4120,7 +4158,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-9cd46fe63ee546a3",
@@ -4174,7 +4212,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-c1e5cf7e18faff72",
@@ -4224,7 +4262,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-45972a690e9a319d",
@@ -4270,7 +4308,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-c6426101e04871dd",
@@ -4324,7 +4362,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-2833db2c2bd9aab6",
@@ -4370,7 +4408,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "idaho-purchasing-87f654c4476b8211",
@@ -4429,7 +4467,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-28a29f4094f5f7e8",
@@ -4463,7 +4501,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-1d99b77dca92bdf1",
@@ -4493,7 +4531,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-ec2ebee686999097",
@@ -4535,7 +4573,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-bc781ac8683cb929",
@@ -4590,7 +4628,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-10-09T06:29:11+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "idaho-purchasing-6138e98f0db890c8",
@@ -4615,7 +4653,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T19:27:13+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "idaho-purchasing-b2726d2ee1343586",
@@ -4640,7 +4678,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T19:27:13+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "idaho-purchasing-5567b343f7bc29b0",
@@ -4665,7 +4703,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-09-19T04:52:15+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "idaho-purchasing-0a69a60a4f5b61c2",
@@ -4690,7 +4728,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T19:27:13+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "idaho-purchasing-8281e8f0dafa17a8",
@@ -4715,7 +4753,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-09-03T04:51:44+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "idaho-purchasing-4622fe00f1aa9d2e",
@@ -4740,7 +4778,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T19:27:13+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "idaho-purchasing-ba0599ffd6292651",
@@ -4790,7 +4828,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-10-08T18:57:16+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "idaho-purchasing-518dfb30b6f8f12a",
@@ -4815,7 +4853,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T19:27:13+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "idaho-purchasing-e44ba8d18e00fcc0",
@@ -4840,7 +4878,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T19:27:13+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "idaho-purchasing-355b27e3f3cde0d2",
@@ -4890,7 +4928,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-09-17T05:07:23+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "idaho-purchasing-2fdfe3835c2fd3af",
@@ -4915,7 +4953,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-10-08T06:27:38+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "idaho-purchasing-7f69334446836625",
@@ -4940,7 +4978,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-10-14T05:11:55+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "idaho-purchasing-e13c7bbe63368699",
@@ -4965,7 +5003,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-09-04T04:54:49+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "idaho-purchasing-027a87a4205f5bac",
@@ -4990,7 +5028,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-10-01T06:21:24+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "idaho-purchasing-1eea9a07cada98be",
@@ -5040,7 +5078,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-28T11:38:03+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "idaho-purchasing-b11303350a648129",
@@ -5065,7 +5103,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T19:27:13+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "idaho-purchasing-b195f2a087a6630b",
@@ -5115,7 +5153,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-09-09T04:59:39+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "idaho-purchasing-6571a37e9436757b",
@@ -5140,7 +5178,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-09-03T04:51:44+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "idaho-purchasing-2eade579abec97e9",
@@ -5165,7 +5203,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-10-14T05:11:55+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "idaho-purchasing-c09eeb809deb2f9d",
@@ -5190,7 +5228,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-10-14T05:11:55+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "idaho-purchasing-d95c2a5554895fee",
@@ -5215,7 +5253,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-10-14T05:11:55+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "idaho-purchasing-9cd296152f192a18",
@@ -5240,7 +5278,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-10-14T05:11:55+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "idaho-purchasing-c8ace582c3bcb597",
@@ -5265,7 +5303,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-09-11T04:59:25+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "idaho-purchasing-ec2c6b1c49f23af1",
@@ -5290,7 +5328,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-10-20T05:07:10+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "idaho-purchasing-349db580b6c98593",
@@ -5315,7 +5353,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-09-09T04:59:39+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "idaho-purchasing-36659b0ae8a912a3",
@@ -5340,7 +5378,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-09-09T04:59:39+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "idaho-purchasing-49bcf21906dbe58c",
@@ -5365,7 +5403,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T19:27:13+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "idaho-purchasing-156b2083067a80ae",
@@ -5415,7 +5453,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-10-17T04:49:12+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "idaho-purchasing-c7a24273f51ffdb2",
@@ -5440,7 +5478,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T19:27:13+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "idaho-purchasing-25963afd4da41f40",
@@ -5490,7 +5528,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T19:27:13+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "idaho-purchasing-cb75d2f226a69b72",
@@ -5515,7 +5553,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T19:27:13+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "idaho-purchasing-139361a2ef39839e",
@@ -5540,7 +5578,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T19:27:13+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "idaho-purchasing-00074b259e1c1d7b",
@@ -5565,7 +5603,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T19:27:13+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "idaho-purchasing-7e2d2b8e4c4a17a4",
@@ -5590,7 +5628,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T19:27:13+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "idaho-purchasing-762b1e5744562652",
@@ -5615,7 +5653,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T19:27:13+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "idaho-purchasing-9fc3b07ba3c4bd4d",
@@ -5640,7 +5678,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T19:27:13+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-2d2a147c43eaa028",
@@ -5749,7 +5787,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-c1b151fd820fcecb",
@@ -5787,7 +5825,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-13fb81fd794589c8",
@@ -5817,7 +5855,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-9dd15215e401fe81",
@@ -5851,7 +5889,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "idaho-purchasing-e273dfa1fc5b9f3e",
@@ -5901,7 +5939,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T19:27:13+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-2f386f2d766f124c",
@@ -5935,7 +5973,7 @@
         }
       ],
       "first_seen": "2026-09-04T16:31:44+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-d9e7943c950163d3",
@@ -5973,7 +6011,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-c54d7fe01729d237",
@@ -5998,7 +6036,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-f1f4e4019e7079b5",
@@ -6032,7 +6070,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-bebc272c904d4495",
@@ -6078,7 +6116,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-0ca21319885da431",
@@ -6120,7 +6158,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "dpw-result-57287eed474d6b3c",
@@ -6150,7 +6188,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "idaho-purchasing-f5a351fce50d3935",
@@ -6175,7 +6213,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T19:27:13+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "idaho-purchasing-f5bc6c6f499f5e23",
@@ -6200,7 +6238,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T19:27:13+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "idaho-purchasing-bbf3fef5ec77f973",
@@ -6225,7 +6263,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-10-14T05:11:55+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "idaho-purchasing-4820b1fe5c145935",
@@ -6250,7 +6288,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-09-11T04:59:25+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "idaho-purchasing-8f40e5f4f9c5d84a",
@@ -6275,7 +6313,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T19:27:13+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "idaho-purchasing-fcd8f7c9710d8237",
@@ -6300,7 +6338,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T19:27:13+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "idaho-purchasing-755743771a907629",
@@ -6325,7 +6363,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T19:27:13+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "idaho-purchasing-37d6cfb0b207eb45",
@@ -6350,7 +6388,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T19:27:13+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "idaho-purchasing-fb4979d8af7b6417",
@@ -6425,7 +6463,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T19:27:13+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "idaho-purchasing-4c3df54273e390a7",
@@ -6525,7 +6563,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T19:27:13+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "idaho-purchasing-1a433c9396544667",
@@ -6550,7 +6588,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T19:27:13+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     },
     {
       "id": "idaho-purchasing-e596b65a7b31f21d",
@@ -6575,7 +6613,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T19:27:13+00:00",
-      "last_seen": "2026-10-20T17:25:30+00:00"
+      "last_seen": "2026-10-20T21:47:15+00:00"
     }
   ]
 }
