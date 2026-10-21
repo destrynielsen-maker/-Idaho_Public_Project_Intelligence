@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 21 Oct 2026 05:08:13 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 12:10:46 +0000</lastBuildDate>
     <item>
       <title>[25] PADD - Inmate &amp; Detention Supplies &amp; Solutions PADD202710361 IDOC</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
@@ -91,6 +91,13 @@
       <description>Agency: ITD | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-11-24 | Location: Idaho&lt;br&gt;Anticipated Award Date:</description>
       <guid isPermaLink="false">idaho-purchasing-f52bbcd2b94707d3</guid>
       <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[61] BOI AOC Video Wall System</title>
+      <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
+      <description>Agency: City of Boise | Stage: OPEN_BID | Type: RFP | Due: 2026-11-18 | Location: Boise, Idaho&lt;br&gt;Open Replace the existing Airport Operations video wall with new technology</description>
+      <guid isPermaLink="false">boise-e27e3bae8cd95701</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[66] Food Quality Assurance Lab Fire Alarm System, Department of Agriculture, Twin Falls, Idaho</title>
