@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 24 Oct 2026 21:02:56 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2026 05:04:55 +0000</lastBuildDate>
     <item>
       <title>[40] PADD - Cloud Solutions</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
@@ -77,41 +77,6 @@
       <description>Agency: STATEWIDE | Stage: FUTURE | Type: FUTURE_SOLICITATION | Due: 2026-10-23 | Location: Idaho&lt;br&gt;Anticipated Award Date: 010/30/2026</description>
       <guid isPermaLink="false">idaho-purchasing-8281e8f0dafa17a8</guid>
       <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[40] RFQ 1435 - ADM Lewiston Landscape &amp; Snow Removal</title>
-      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: ADM | Stage: UPCOMING | Type: RFQ | Due: 2026-11-24 | Location: Idaho&lt;br&gt;Post Date: 9/30/2026 Close Date: 10/16/2026 Anticipated Award Date: 10/27/2026</description>
-      <guid isPermaLink="false">idaho-purchasing-c8ace582c3bcb597</guid>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[40] PADD - Bandit Tree care and wood waste recycling</title>
-      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: ITD | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-11-24 | Location: Idaho&lt;br&gt;Anticipated Award Date:</description>
-      <guid isPermaLink="false">idaho-purchasing-9cd296152f192a18</guid>
-      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[40] PADD - Terex Aerial work-platforms and digger derricks, advanced mixers</title>
-      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: ITD | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-11-24 | Location: Idaho&lt;br&gt;Anticipated Award Date:</description>
-      <guid isPermaLink="false">idaho-purchasing-d95c2a5554895fee</guid>
-      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[40] PADD - MAC Trailer Trailers</title>
-      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: ITD | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-11-24 | Location: Idaho&lt;br&gt;Anticipated Award Date:</description>
-      <guid isPermaLink="false">idaho-purchasing-c09eeb809deb2f9d</guid>
-      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[40] PADD - Mack Truck Class 6-7 medium-duty, class 8 heavy-duty, diesel and battery electric</title>
-      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: ITD | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-11-24 | Location: Idaho&lt;br&gt;Anticipated Award Date:</description>
-      <guid isPermaLink="false">idaho-purchasing-2eade579abec97e9</guid>
-      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[40] ITB 1429 - AGRI Temporary Staffing Services</title>
@@ -240,6 +205,41 @@
       <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>[44] RFQ 1435 - ADM Lewiston Landscape &amp; Snow Removal</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: ADM | Stage: UPCOMING | Type: RFQ | Due: 2026-11-24 | Location: Idaho&lt;br&gt;Post Date: 9/30/2026 Close Date: 10/16/2026 Anticipated Award Date: 10/27/2026</description>
+      <guid isPermaLink="false">idaho-purchasing-c8ace582c3bcb597</guid>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[44] PADD - Bandit Tree care and wood waste recycling</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: ITD | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-11-24 | Location: Idaho&lt;br&gt;Anticipated Award Date:</description>
+      <guid isPermaLink="false">idaho-purchasing-9cd296152f192a18</guid>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[44] PADD - Terex Aerial work-platforms and digger derricks, advanced mixers</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: ITD | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-11-24 | Location: Idaho&lt;br&gt;Anticipated Award Date:</description>
+      <guid isPermaLink="false">idaho-purchasing-d95c2a5554895fee</guid>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[44] PADD - MAC Trailer Trailers</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: ITD | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-11-24 | Location: Idaho&lt;br&gt;Anticipated Award Date:</description>
+      <guid isPermaLink="false">idaho-purchasing-c09eeb809deb2f9d</guid>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[44] PADD - Mack Truck Class 6-7 medium-duty, class 8 heavy-duty, diesel and battery electric</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: ITD | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-11-24 | Location: Idaho&lt;br&gt;Anticipated Award Date:</description>
+      <guid isPermaLink="false">idaho-purchasing-2eade579abec97e9</guid>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>[45] Residential Cottages Fire Suppression Systems Replacement, Idaho Educational Services for the Deaf &amp; Blind, Gooding, Idaho</title>
       <link>https://dpw.idaho.gov/wp-content/uploads/2026/10/26111-RE-BID-3-Ad-Long.pdf</link>
       <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-10-27 | Location: Gooding, Idaho&lt;br&gt;Residential Cottages Fire Suppression Systems Replacement, Idaho Educational Services for the Deaf &amp; Blind, Gooding, Idaho</description>
@@ -296,34 +296,6 @@
       <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[55] PADD - Truck Bodies, Seasonal Maintenance Equipment, and Upfitting Services</title>
-      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: ITD | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-11-24 | Location: Idaho&lt;br&gt;Anticipated Award Date:</description>
-      <guid isPermaLink="false">idaho-purchasing-59910480abec4de2</guid>
-      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[55] PADD - SB Manufacturing Airport runway equipment</title>
-      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: ITD | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-11-24 | Location: Idaho&lt;br&gt;Anticipated Award Date:</description>
-      <guid isPermaLink="false">idaho-purchasing-ca18692c6f08b9f3</guid>
-      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[55] PADD - Rush Trucks Commercial truck sales, parts, and service</title>
-      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: ITD | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-11-24 | Location: Idaho&lt;br&gt;Anticipated Award Date:</description>
-      <guid isPermaLink="false">idaho-purchasing-f6141e0a298fd63e</guid>
-      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[58] PADD - Etnyre Roadway maintencance preservation equipment</title>
-      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: ITD | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-11-24 | Location: Idaho&lt;br&gt;Anticipated Award Date:</description>
-      <guid isPermaLink="false">idaho-purchasing-f52bbcd2b94707d3</guid>
-      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>[58] ITB 1392 - ITD Thermoplastic Roadway Markings</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
       <description>Agency: ITD | Stage: UPCOMING | Type: ITB | Due: 2026-12-18 | Location: Idaho&lt;br&gt;Anticipated Post Date: 09/18/2026 Anticipated Close Date: 10/16/2026 Anticipated Award Date: 11/06/2026</description>
@@ -336,6 +308,27 @@
       <description>Agency: VETS | Stage: UPCOMING | Type: ITB | Due: 2027-01-21 | Location: Idaho&lt;br&gt;Anticipated Post Date: 11/17/2026 Anticipated Close Date: 12/14/20206 Anticipated Award Date: 01/04/2027</description>
       <guid isPermaLink="false">idaho-purchasing-079df2aaf770f179</guid>
       <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[59] PADD - Truck Bodies, Seasonal Maintenance Equipment, and Upfitting Services</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: ITD | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-11-24 | Location: Idaho&lt;br&gt;Anticipated Award Date:</description>
+      <guid isPermaLink="false">idaho-purchasing-59910480abec4de2</guid>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[59] PADD - SB Manufacturing Airport runway equipment</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: ITD | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-11-24 | Location: Idaho&lt;br&gt;Anticipated Award Date:</description>
+      <guid isPermaLink="false">idaho-purchasing-ca18692c6f08b9f3</guid>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[59] PADD - Rush Trucks Commercial truck sales, parts, and service</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: ITD | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-11-24 | Location: Idaho&lt;br&gt;Anticipated Award Date:</description>
+      <guid isPermaLink="false">idaho-purchasing-f6141e0a298fd63e</guid>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[61] SPEC Air Handler Replacement, Boise State University, Boise, Idaho</title>
@@ -364,6 +357,13 @@
       <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-11-19 | Location: Boise, Idaho&lt;br&gt;SPEC Air Handler Replacement, Boise State University, Boise, Idaho *NOTE: PRE-BID &amp; BID DATE CHANGE SEE ADDENDUM 1 *NOTE: PRE-BID &amp; BID DATE POSTPONED TBD SEE ADDENDUM 2 *NOTE: PRE-BID &amp; BID DATE SCHEDULED SEE ADDENDUM 3</description>
       <guid isPermaLink="false">dpw-f5d41f35caaabde3</guid>
       <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[62] PADD - Etnyre Roadway maintencance preservation equipment</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: ITD | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-11-24 | Location: Idaho&lt;br&gt;Anticipated Award Date:</description>
+      <guid isPermaLink="false">idaho-purchasing-f52bbcd2b94707d3</guid>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[65] PA - Elevator Services</title>
