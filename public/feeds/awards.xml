@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 27 Oct 2026 12:33:10 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 22:29:01 +0000</lastBuildDate>
     <item>
       <title>[25] RFP 717 - IDFG Website Rebuild</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
@@ -224,6 +224,13 @@
       <description>Agency: Idaho Division of Public Works | Stage: BID_RESULTS | Type: BID_RESULT | Due: 2026-06-30 | Location: Moscow, Idaho&lt;br&gt;Bid results: Swinerton — $139,400; Quality Contractors — $248,000</description>
       <guid isPermaLink="false">dpw-result-5c0a50d4216589f0</guid>
       <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[37] Residential Cottages Fire Suppression Systems Replacement, Idaho Educational Services for the Deaf &amp; Blind, Gooding, Idaho</title>
+      <link>https://dpw.idaho.gov/construction/</link>
+      <description>Agency: Idaho Division of Public Works | Stage: BID_RESULTS | Type: BID_RESULT | Due: 2026-10-27 | Location: Gooding, Idaho&lt;br&gt;Bid results: Leverage General — $331,455; Petersen Brothers — $449,500; Quality Contractors — $450,000</description>
+      <guid isPermaLink="false">dpw-result-b46eaa8d8c91f2cf</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[40] PADD - Equipment Rental Services - Standard &amp; Emergency</title>
