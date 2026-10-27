@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 26 Oct 2026 22:49:22 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 05:23:13 +0000</lastBuildDate>
     <item>
       <title>[44] Therap PADD-DHW</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
@@ -42,13 +42,6 @@
       <description>Agency: Idaho Division of Public Works | Stage: BID_RESULTS | Type: BID_RESULT | Due: 2026-10-08 | Location: Boise, Idaho&lt;br&gt;Bid results: Cascade Enterprises; Hobson Fabricating; ACCO Engineered</description>
       <guid isPermaLink="false">dpw-result-eb8a8168a311586f</guid>
       <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[86] FY27 Greenbelt Replacement - Warm Springs Phase II</title>
-      <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
-      <description>Agency: City of Boise | Stage: OPEN_BID | Type: FB- | Due: 2026-11-12 | Location: Boise, Idaho&lt;br&gt;Open Removal of existing greenbelt paths and construction of four (4) new concrete greenbelt path sections per drawings and specifications.</description>
-      <guid isPermaLink="false">boise-66e4fcc97c65f98c</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
