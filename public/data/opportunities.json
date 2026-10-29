@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T06:13:08+00:00",
+  "generated_at": "2026-10-29T13:30:16+00:00",
   "opportunities": [
     {
       "id": "boise-66e4fcc97c65f98c",
@@ -17,14 +17,14 @@
       "updated_date": "",
       "status": "OPEN",
       "url": "https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise",
-      "details_url": "https://app01.jaggaer.com/apps/Router/ViewSourcingEvent?AuthToken=1%3AAES2%23CAQFHj8BfYlEr8tBjkj1huQfGESxt0HvRD12WRRvv1Dnc5CDQqYXj1jbLJWp3VubQfT5l1oQVqW4mFam4E3Nx4Wd3gtEPU9ZPLFEuFIuWxvcEiI%2B9fLOLmzAEq8iijihxWBY8blzAyxOF7mKC1oQPkypAZcIJ6Fv4Q%3D%3D&tmstmp=1793254388403",
+      "details_url": "https://app01.jaggaer.com/apps/Router/ViewSourcingEvent?AuthToken=1%3AAES2%23CGXjL9w6Rdkit2tBSIQ%2BevQKlVZQosZIs3SpzoGQttA0Tdh0X8k2lz0OrNsVPPw4PvkQZq10B33PgyFRUnq9V3%2Fh9zSFu7ighFGA4IgH%2B8Jkx5XLAFtu5Wu0J%2BepN6m4ihEUZx8s3m9LCusAYhD%2BVeCXajVD7MTYOg%3D%3D&tmstmp=1793280616969",
       "contact": "mharvey@cityofboise.org",
       "category": "BUILDING",
       "score": 90,
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-10-19T13:47:31+00:00",
-      "last_seen": "2026-10-29T06:13:08+00:00"
+      "last_seen": "2026-10-29T13:30:16+00:00"
     },
     {
       "id": "boise-1d937f7b734b4b8c",
@@ -42,14 +42,14 @@
       "updated_date": "",
       "status": "OPEN",
       "url": "https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise",
-      "details_url": "https://app01.jaggaer.com/apps/Router/ViewSourcingEvent?AuthToken=1%3AAES2%23COriOqp19Qedfb1CSRy4KJWt7qJKqZzYzutCL60ZAupHK%2FmJjpu0Hj5Rm%2FxltP2WeTaOG0bolazMWOgq2KtxdFEouuZBxd4KPG3Ji5WDyx%2BX6sMf5%2BgcDn7Zrpg0ZraedOe%2F7JkSLbBUqhkYwunEhEaKDlqNOnC9Rg%3D%3D&tmstmp=1793254388403",
+      "details_url": "https://app01.jaggaer.com/apps/Router/ViewSourcingEvent?AuthToken=1%3AAES2%23CJ%2FB9P2WURgsHMc2oTEkrpi3pjmPzmCIIIbL78fmpS6o4c4CdnqW07K9SdzwDbLnq36hy%2BGlycG996XDfE1dqvgQ%2BbGQ6BaLB2KceoMZXvQy6QJggpgshebA7F5lF0WEyZAJR5S3N99Wr7%2Bbz7EhXZ1fFMWe5P8Qfw%3D%3D&tmstmp=1793280616969",
       "contact": "shitchcock@cityofboise.org",
       "category": "BUILDING",
       "score": 90,
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-09-30T12:52:56+00:00",
-      "last_seen": "2026-10-29T06:13:08+00:00"
+      "last_seen": "2026-10-29T13:30:16+00:00"
     },
     {
       "id": "boise-9a5c58666c615ccd",
@@ -67,14 +67,14 @@
       "updated_date": "",
       "status": "OPEN",
       "url": "https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise",
-      "details_url": "https://app01.jaggaer.com/apps/Router/ViewSourcingEvent?AuthToken=1%3AAES2%23CMFsAfNv%2BdaIPXmmyISythQOgYSxXN2cyRwku0lURh54fjwnFurxl2X9b%2B9l7jzCo4AfcK4MdQMEBAm1fqUZlaGkBVzy40QsWgPcCLOdBwe37dbjKweCYh01gNjLzyzT5UGHfGHLgoyQECpPyQUljSmglAFjvq%2F1Jw%3D%3D&tmstmp=1793254388405",
+      "details_url": "https://app01.jaggaer.com/apps/Router/ViewSourcingEvent?AuthToken=1%3AAES2%23CLEnrjsbTYSwkczmoaceV1wPbPqK9CzKoNeI1vql0DY8tsOcRz2%2Bm%2BqS6zWIiLzcuQC3JJxPC%2Fniat3LYPqKYC0anVZ4bDWQSbFXUdzi7v5ZkBHDEvWmuoviQ3WIZiL6BhaY4VNgedUD1SRhfECDfGFIt8K9DyI%2FCg%3D%3D&tmstmp=1793280616970",
       "contact": "shitchcock@cityofboise.org",
       "category": "BUILDING",
       "score": 90,
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-10-07T06:17:52+00:00",
-      "last_seen": "2026-10-29T06:13:08+00:00"
+      "last_seen": "2026-10-29T13:30:16+00:00"
     },
     {
       "id": "dpw-01000ad8446d1c5a",
@@ -342,14 +342,14 @@
       "updated_date": "",
       "status": "OPEN",
       "url": "https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise",
-      "details_url": "https://app01.jaggaer.com/apps/Router/ViewSourcingEvent?AuthToken=1%3AAES2%23CGyhRgu1KzDQDhX%2FzuMk6QP4sZHPepq4RK%2BhELNZawUH8GA4JfFV0pUGfhol0rsoDuZqmhMHQ6%2Bp6OwStzEqb9jaaqBb7DzG%2FwrDS97R%2FZmdaT1Aclbt7dSll71AdQqNcGvXimErylvslJTG568URcYDFnYRKPuDxA%3D%3D&tmstmp=1793254388405",
+      "details_url": "https://app01.jaggaer.com/apps/Router/ViewSourcingEvent?AuthToken=1%3AAES2%23CCiUPPNogYJCAqAESkBS1PDktnrb%2BoN6izi%2BVRE0I7oELqi%2BFVkDjBTm6SWaXxmux7XEuWMlcGj2mfIWojBIbCHqRko0NhlpGk7ZM6bSVU%2FTwt064FitFyLwRDqRfZxhPfHi%2FCss9sRBjBsNJ7no4znbBWZo2cluVg%3D%3D&tmstmp=1793280616971",
       "contact": "rgould@cityofboise.org, tleatham@cityofboise.org",
       "category": "CIVIL",
       "score": 83,
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-10-14T17:27:19+00:00",
-      "last_seen": "2026-10-29T06:13:08+00:00"
+      "last_seen": "2026-10-29T13:30:16+00:00"
     },
     {
       "id": "boise-e60aef05d623b30c",
@@ -367,14 +367,14 @@
       "updated_date": "",
       "status": "OPEN",
       "url": "https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise",
-      "details_url": "https://app01.jaggaer.com/apps/Router/ViewSourcingEvent?AuthToken=1%3AAES2%23CC2iN3QzmqENYMOR41Ej6rbe5DpucrFOl%2FOoT2wRZpXIIFNWQsuTTWqQqQtHuUzvC6orj3mYSNW9T%2BOUNKV%2BKrXtaDdsrDXgyl8Drm%2FRTMTjnZi9gbf6m4ZxM9ZTEG8mIaYZlI6A%2B0f3VwcDfMvh4CCW9V6uS8pSmg%3D%3D&tmstmp=1793254388404",
+      "details_url": "https://app01.jaggaer.com/apps/Router/ViewSourcingEvent?AuthToken=1%3AAES2%23CEN4%2FtJeLWNShdMD6setNi6fB%2BjHWepAN8gzc1x%2B%2Bs4STXJXxZGGpsAiLNLO1fXv%2FenTIRv5Qw40xR84MWhL10ouSRFcFw%2BWn75H7seWi%2BG6U%2FBI4T7vzlu8kFUSgEDYqXVrBy5XabrIRbtvx8KgKESxUA8lo05TjQ%3D%3D&tmstmp=1793280616970",
       "contact": "shitchcock@cityofboise.org",
       "category": "CIVIL",
       "score": 83,
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-10-07T06:17:52+00:00",
-      "last_seen": "2026-10-29T06:13:08+00:00"
+      "last_seen": "2026-10-29T13:30:16+00:00"
     },
     {
       "id": "boise-ba966a47feadfb10",
@@ -1844,7 +1844,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-10-20T17:25:30+00:00",
-      "last_seen": "2026-10-29T06:13:08+00:00"
+      "last_seen": "2026-10-29T13:30:16+00:00"
     },
     {
       "id": "dpw-e21c65ab3c24aa73",
@@ -1919,7 +1919,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T19:27:13+00:00",
-      "last_seen": "2026-10-29T06:13:08+00:00"
+      "last_seen": "2026-10-29T13:30:16+00:00"
     },
     {
       "id": "idaho-purchasing-f54ee44901ff994a",
@@ -1944,7 +1944,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T19:27:13+00:00",
-      "last_seen": "2026-10-29T06:13:08+00:00"
+      "last_seen": "2026-10-29T13:30:16+00:00"
     },
     {
       "id": "dpw-917044f5fa0c82ed",
@@ -2169,7 +2169,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-09-03T04:51:44+00:00",
-      "last_seen": "2026-10-29T06:13:08+00:00"
+      "last_seen": "2026-10-29T13:30:16+00:00"
     },
     {
       "id": "dpw-result-7cb2f46018ff2f9e",
@@ -2236,7 +2236,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-10-14T05:11:55+00:00",
-      "last_seen": "2026-10-29T06:13:08+00:00"
+      "last_seen": "2026-10-29T13:30:16+00:00"
     },
     {
       "id": "dpw-17f7cbd1dc6e88a6",
@@ -3164,14 +3164,14 @@
       "updated_date": "",
       "status": "OPEN",
       "url": "https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise",
-      "details_url": "https://app01.jaggaer.com/apps/Router/ViewSourcingEvent?AuthToken=1%3AAES2%23CDIx5PElvgEuJ6C4HYT20pPcJ%2F%2BqINsF5t4UMor%2F1MHdt1onbl4bCb8XKlg73o1e0Ga0Lv9GZDomeIdlikmcxtadks0Bg%2BJTgVh%2FHuD5PMiNIRD3Q6vt3o%2BrRr14lJSoCVWziFFptRMuhS19n7qIA0sriDda2kkd1g%3D%3D&tmstmp=1793254388402",
+      "details_url": "https://app01.jaggaer.com/apps/Router/ViewSourcingEvent?AuthToken=1%3AAES2%23CDaB8otzWG7kbirnN0wQWWkX6H55wCHnO%2BhM%2BsjDNJgUF9qIUK%2FhIbinDWS9Ex8RXekaeBBllImsg6V%2BFgCFnwGG35sJeV997sVnr4Ss9lnQkXtYqIB4rjnS9uT5F0b6rd0FdJxptVO01fnGskKbrnMSUwInqS1QMw%3D%3D&tmstmp=1793280616968",
       "contact": "shitchcock@cityofboise.org",
       "category": "OTHER",
       "score": 61,
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-10-21T12:10:43+00:00",
-      "last_seen": "2026-10-29T06:13:08+00:00"
+      "last_seen": "2026-10-29T13:30:16+00:00"
     },
     {
       "id": "dpw-f981456f25eaae7d",
@@ -3246,7 +3246,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-10-14T05:11:55+00:00",
-      "last_seen": "2026-10-29T06:13:08+00:00"
+      "last_seen": "2026-10-29T13:30:16+00:00"
     },
     {
       "id": "idaho-purchasing-ca18692c6f08b9f3",
@@ -3271,7 +3271,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-10-14T05:11:55+00:00",
-      "last_seen": "2026-10-29T06:13:08+00:00"
+      "last_seen": "2026-10-29T13:30:16+00:00"
     },
     {
       "id": "idaho-purchasing-59910480abec4de2",
@@ -3296,7 +3296,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-10-14T05:11:55+00:00",
-      "last_seen": "2026-10-29T06:13:08+00:00"
+      "last_seen": "2026-10-29T13:30:16+00:00"
     },
     {
       "id": "idaho-purchasing-079df2aaf770f179",
@@ -3321,7 +3321,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-10-01T06:21:24+00:00",
-      "last_seen": "2026-10-29T06:13:08+00:00"
+      "last_seen": "2026-10-29T13:30:16+00:00"
     },
     {
       "id": "idaho-purchasing-fd1a94c915b1bccd",
@@ -3346,7 +3346,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-28T11:38:03+00:00",
-      "last_seen": "2026-10-29T06:13:08+00:00"
+      "last_seen": "2026-10-29T13:30:16+00:00"
     },
     {
       "id": "dpw-0c4b5f4351e409df",
@@ -3421,7 +3421,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T19:27:13+00:00",
-      "last_seen": "2026-10-29T06:13:08+00:00"
+      "last_seen": "2026-10-29T13:30:16+00:00"
     },
     {
       "id": "dpw-result-c04d045ace966414",
@@ -4753,7 +4753,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-10-14T05:11:55+00:00",
-      "last_seen": "2026-10-29T06:13:08+00:00"
+      "last_seen": "2026-10-29T13:30:16+00:00"
     },
     {
       "id": "idaho-purchasing-c09eeb809deb2f9d",
@@ -4778,7 +4778,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-10-14T05:11:55+00:00",
-      "last_seen": "2026-10-29T06:13:08+00:00"
+      "last_seen": "2026-10-29T13:30:16+00:00"
     },
     {
       "id": "idaho-purchasing-d95c2a5554895fee",
@@ -4803,7 +4803,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-10-14T05:11:55+00:00",
-      "last_seen": "2026-10-29T06:13:08+00:00"
+      "last_seen": "2026-10-29T13:30:16+00:00"
     },
     {
       "id": "idaho-purchasing-9cd296152f192a18",
@@ -4828,7 +4828,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-10-14T05:11:55+00:00",
-      "last_seen": "2026-10-29T06:13:08+00:00"
+      "last_seen": "2026-10-29T13:30:16+00:00"
     },
     {
       "id": "idaho-purchasing-c8ace582c3bcb597",
@@ -4853,7 +4853,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-09-11T04:59:25+00:00",
-      "last_seen": "2026-10-29T06:13:08+00:00"
+      "last_seen": "2026-10-29T13:30:16+00:00"
     },
     {
       "id": "idaho-purchasing-ec2c6b1c49f23af1",
@@ -4878,7 +4878,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-10-20T05:07:10+00:00",
-      "last_seen": "2026-10-29T06:13:08+00:00"
+      "last_seen": "2026-10-29T13:30:16+00:00"
     },
     {
       "id": "idaho-purchasing-349db580b6c98593",
@@ -4903,7 +4903,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-09-09T04:59:39+00:00",
-      "last_seen": "2026-10-29T06:13:08+00:00"
+      "last_seen": "2026-10-29T13:30:16+00:00"
     },
     {
       "id": "idaho-purchasing-36659b0ae8a912a3",
@@ -4928,7 +4928,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-09-09T04:59:39+00:00",
-      "last_seen": "2026-10-29T06:13:08+00:00"
+      "last_seen": "2026-10-29T13:30:16+00:00"
     },
     {
       "id": "idaho-purchasing-49bcf21906dbe58c",
@@ -4953,7 +4953,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T19:27:13+00:00",
-      "last_seen": "2026-10-29T06:13:08+00:00"
+      "last_seen": "2026-10-29T13:30:16+00:00"
     },
     {
       "id": "idaho-purchasing-518dfb30b6f8f12a",
@@ -4978,7 +4978,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T19:27:13+00:00",
-      "last_seen": "2026-10-29T06:13:08+00:00"
+      "last_seen": "2026-10-29T13:30:16+00:00"
     },
     {
       "id": "idaho-purchasing-e44ba8d18e00fcc0",
@@ -5003,7 +5003,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T19:27:13+00:00",
-      "last_seen": "2026-10-29T06:13:08+00:00"
+      "last_seen": "2026-10-29T13:30:16+00:00"
     },
     {
       "id": "idaho-purchasing-cb75d2f226a69b72",
@@ -5028,7 +5028,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T19:27:13+00:00",
-      "last_seen": "2026-10-29T06:13:08+00:00"
+      "last_seen": "2026-10-29T13:30:16+00:00"
     },
     {
       "id": "idaho-purchasing-b2726d2ee1343586",
@@ -5053,7 +5053,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T19:27:13+00:00",
-      "last_seen": "2026-10-29T06:13:08+00:00"
+      "last_seen": "2026-10-29T13:30:16+00:00"
     },
     {
       "id": "idaho-purchasing-355b27e3f3cde0d2",
@@ -5103,7 +5103,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-09-17T05:07:23+00:00",
-      "last_seen": "2026-10-29T06:13:08+00:00"
+      "last_seen": "2026-10-29T13:30:16+00:00"
     },
     {
       "id": "idaho-purchasing-2fdfe3835c2fd3af",
@@ -5128,7 +5128,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-10-08T06:27:38+00:00",
-      "last_seen": "2026-10-29T06:13:08+00:00"
+      "last_seen": "2026-10-29T13:30:16+00:00"
     },
     {
       "id": "idaho-purchasing-7f69334446836625",
@@ -5178,7 +5178,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-10-29T06:13:08+00:00",
-      "last_seen": "2026-10-29T06:13:08+00:00"
+      "last_seen": "2026-10-29T13:30:16+00:00"
     },
     {
       "id": "idaho-purchasing-e13c7bbe63368699",
@@ -5203,7 +5203,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-09-04T04:54:49+00:00",
-      "last_seen": "2026-10-29T06:13:08+00:00"
+      "last_seen": "2026-10-29T13:30:16+00:00"
     },
     {
       "id": "idaho-purchasing-027a87a4205f5bac",
@@ -5228,7 +5228,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-10-01T06:21:24+00:00",
-      "last_seen": "2026-10-29T06:13:08+00:00"
+      "last_seen": "2026-10-29T13:30:16+00:00"
     },
     {
       "id": "idaho-purchasing-1eea9a07cada98be",
@@ -5278,7 +5278,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-28T11:38:03+00:00",
-      "last_seen": "2026-10-29T06:13:08+00:00"
+      "last_seen": "2026-10-29T13:30:16+00:00"
     },
     {
       "id": "idaho-purchasing-b11303350a648129",
@@ -5303,7 +5303,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T19:27:13+00:00",
-      "last_seen": "2026-10-29T06:13:08+00:00"
+      "last_seen": "2026-10-29T13:30:16+00:00"
     },
     {
       "id": "idaho-purchasing-b195f2a087a6630b",
@@ -5353,7 +5353,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-09-09T04:59:39+00:00",
-      "last_seen": "2026-10-29T06:13:08+00:00"
+      "last_seen": "2026-10-29T13:30:16+00:00"
     },
     {
       "id": "idaho-purchasing-6571a37e9436757b",
@@ -5378,7 +5378,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-09-03T04:51:44+00:00",
-      "last_seen": "2026-10-29T06:13:08+00:00"
+      "last_seen": "2026-10-29T13:30:16+00:00"
     },
     {
       "id": "idaho-purchasing-5567b343f7bc29b0",
@@ -5403,7 +5403,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-09-19T04:52:15+00:00",
-      "last_seen": "2026-10-29T06:13:08+00:00"
+      "last_seen": "2026-10-29T13:30:16+00:00"
     },
     {
       "id": "idaho-purchasing-0a69a60a4f5b61c2",
@@ -5428,7 +5428,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T19:27:13+00:00",
-      "last_seen": "2026-10-29T06:13:08+00:00"
+      "last_seen": "2026-10-29T13:30:16+00:00"
     },
     {
       "id": "idaho-purchasing-8281e8f0dafa17a8",
@@ -5453,7 +5453,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-09-03T04:51:44+00:00",
-      "last_seen": "2026-10-29T06:13:08+00:00"
+      "last_seen": "2026-10-29T13:30:16+00:00"
     },
     {
       "id": "idaho-purchasing-4622fe00f1aa9d2e",
@@ -5478,7 +5478,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T19:27:13+00:00",
-      "last_seen": "2026-10-29T06:13:08+00:00"
+      "last_seen": "2026-10-29T13:30:16+00:00"
     },
     {
       "id": "idaho-purchasing-156b2083067a80ae",
@@ -5528,7 +5528,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-10-17T04:49:12+00:00",
-      "last_seen": "2026-10-29T06:13:08+00:00"
+      "last_seen": "2026-10-29T13:30:16+00:00"
     },
     {
       "id": "idaho-purchasing-c7a24273f51ffdb2",
@@ -5553,7 +5553,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T19:27:13+00:00",
-      "last_seen": "2026-10-29T06:13:08+00:00"
+      "last_seen": "2026-10-29T13:30:16+00:00"
     },
     {
       "id": "idaho-purchasing-18c1e83d24a3a62c",
@@ -5578,7 +5578,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-09-01T05:27:48+00:00",
-      "last_seen": "2026-10-29T06:13:08+00:00"
+      "last_seen": "2026-10-29T13:30:16+00:00"
     },
     {
       "id": "idaho-purchasing-25963afd4da41f40",
@@ -5628,7 +5628,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T19:27:13+00:00",
-      "last_seen": "2026-10-29T06:13:08+00:00"
+      "last_seen": "2026-10-29T13:30:16+00:00"
     },
     {
       "id": "idaho-purchasing-139361a2ef39839e",
@@ -5653,7 +5653,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T19:27:13+00:00",
-      "last_seen": "2026-10-29T06:13:08+00:00"
+      "last_seen": "2026-10-29T13:30:16+00:00"
     },
     {
       "id": "idaho-purchasing-00074b259e1c1d7b",
@@ -5678,7 +5678,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T19:27:13+00:00",
-      "last_seen": "2026-10-29T06:13:08+00:00"
+      "last_seen": "2026-10-29T13:30:16+00:00"
     },
     {
       "id": "idaho-purchasing-7e2d2b8e4c4a17a4",
@@ -5703,7 +5703,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T19:27:13+00:00",
-      "last_seen": "2026-10-29T06:13:08+00:00"
+      "last_seen": "2026-10-29T13:30:16+00:00"
     },
     {
       "id": "idaho-purchasing-762b1e5744562652",
@@ -5728,7 +5728,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T19:27:13+00:00",
-      "last_seen": "2026-10-29T06:13:08+00:00"
+      "last_seen": "2026-10-29T13:30:16+00:00"
     },
     {
       "id": "idaho-purchasing-9fc3b07ba3c4bd4d",
@@ -5753,7 +5753,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T19:27:13+00:00",
-      "last_seen": "2026-10-29T06:13:08+00:00"
+      "last_seen": "2026-10-29T13:30:16+00:00"
     },
     {
       "id": "dpw-2d2a147c43eaa028",
@@ -5989,7 +5989,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T19:27:13+00:00",
-      "last_seen": "2026-10-29T06:13:08+00:00"
+      "last_seen": "2026-10-29T13:30:16+00:00"
     },
     {
       "id": "idaho-purchasing-e273dfa1fc5b9f3e",
@@ -6039,7 +6039,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T19:27:13+00:00",
-      "last_seen": "2026-10-29T06:13:08+00:00"
+      "last_seen": "2026-10-29T13:30:16+00:00"
     },
     {
       "id": "dpw-result-b46eaa8d8c91f2cf",
@@ -6376,7 +6376,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T19:27:13+00:00",
-      "last_seen": "2026-10-29T06:13:08+00:00"
+      "last_seen": "2026-10-29T13:30:16+00:00"
     },
     {
       "id": "idaho-purchasing-bbf3fef5ec77f973",
@@ -6401,7 +6401,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-10-14T05:11:55+00:00",
-      "last_seen": "2026-10-29T06:13:08+00:00"
+      "last_seen": "2026-10-29T13:30:16+00:00"
     },
     {
       "id": "idaho-purchasing-4820b1fe5c145935",
@@ -6426,7 +6426,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-09-11T04:59:25+00:00",
-      "last_seen": "2026-10-29T06:13:08+00:00"
+      "last_seen": "2026-10-29T13:30:16+00:00"
     },
     {
       "id": "idaho-purchasing-8f40e5f4f9c5d84a",
@@ -6501,7 +6501,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T19:27:13+00:00",
-      "last_seen": "2026-10-29T06:13:08+00:00"
+      "last_seen": "2026-10-29T13:30:16+00:00"
     },
     {
       "id": "idaho-purchasing-37d6cfb0b207eb45",
@@ -6526,7 +6526,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T19:27:13+00:00",
-      "last_seen": "2026-10-29T06:13:08+00:00"
+      "last_seen": "2026-10-29T13:30:16+00:00"
     },
     {
       "id": "idaho-purchasing-fb4979d8af7b6417",
@@ -6601,7 +6601,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T19:27:13+00:00",
-      "last_seen": "2026-10-29T06:13:08+00:00"
+      "last_seen": "2026-10-29T13:30:16+00:00"
     },
     {
       "id": "idaho-purchasing-4c3df54273e390a7",
@@ -6701,7 +6701,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T19:27:13+00:00",
-      "last_seen": "2026-10-29T06:13:08+00:00"
+      "last_seen": "2026-10-29T13:30:16+00:00"
     },
     {
       "id": "idaho-purchasing-1a433c9396544667",
@@ -6726,7 +6726,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T19:27:13+00:00",
-      "last_seen": "2026-10-29T06:13:08+00:00"
+      "last_seen": "2026-10-29T13:30:16+00:00"
     },
     {
       "id": "idaho-purchasing-e596b65a7b31f21d",
@@ -6751,7 +6751,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T19:27:13+00:00",
-      "last_seen": "2026-10-29T06:13:08+00:00"
+      "last_seen": "2026-10-29T13:30:16+00:00"
     }
   ]
 }
