@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 28 Oct 2026 22:45:10 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 06:13:11 +0000</lastBuildDate>
     <item>
       <title>[65] PA - Elevator Services</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
@@ -49,20 +49,6 @@
       <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-11-12 | Location: Twin Falls, Idaho&lt;br&gt;Food Quality Assurance Lab Fire Alarm System, Twin Falls, Idaho</description>
       <guid isPermaLink="false">dpw-e21c65ab3c24aa73</guid>
       <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[86] 2027 Airport Way &amp; Elevated Roadway Construction</title>
-      <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
-      <description>Agency: City of Boise | Stage: OPEN_BID | Type: FB- | Due: 2026-11-12 | Location: Boise, Idaho&lt;br&gt;Open This project will be the first phase of reconstruction and rehabilitation of the Airport Way at the Boise Airport as well as rehabilitation work on the Elevated Roadway.</description>
-      <guid isPermaLink="false">boise-1d937f7b734b4b8c</guid>
-      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[86] FY27 Greenbelt Replacement - Warm Springs Phase II</title>
-      <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
-      <description>Agency: City of Boise | Stage: OPEN_BID | Type: FB- | Due: 2026-11-12 | Location: Boise, Idaho&lt;br&gt;Open Removal of existing greenbelt paths and construction of four (4) new concrete greenbelt path sections per drawings and specifications.</description>
-      <guid isPermaLink="false">boise-66e4fcc97c65f98c</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[86] PTC Restroom Upgrades, Department of Administration, Boise, Idaho</title>
@@ -140,6 +126,20 @@
       <description>Agency: City of Boise | Stage: OPEN_BID | Type: FB- | Due: 2026-11-04 | Location: Boise, Idaho&lt;br&gt;Open New vertical transportation equipment (new elevators and escalators, associated electrical and mechanical systems, controls, and required integration with existing infrastructure) at Boise Airport</description>
       <guid isPermaLink="false">boise-9a5c58666c615ccd</guid>
       <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[90] 2027 Airport Way &amp; Elevated Roadway Construction</title>
+      <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
+      <description>Agency: City of Boise | Stage: OPEN_BID | Type: FB- | Due: 2026-11-12 | Location: Boise, Idaho&lt;br&gt;Open This project will be the first phase of reconstruction and rehabilitation of the Airport Way at the Boise Airport as well as rehabilitation work on the Elevated Roadway.</description>
+      <guid isPermaLink="false">boise-1d937f7b734b4b8c</guid>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[90] FY27 Greenbelt Replacement - Warm Springs Phase II</title>
+      <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
+      <description>Agency: City of Boise | Stage: OPEN_BID | Type: FB- | Due: 2026-11-12 | Location: Boise, Idaho&lt;br&gt;Open Removal of existing greenbelt paths and construction of four (4) new concrete greenbelt path sections per drawings and specifications.</description>
+      <guid isPermaLink="false">boise-66e4fcc97c65f98c</guid>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

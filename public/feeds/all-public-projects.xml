@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 28 Oct 2026 22:45:10 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 06:13:11 +0000</lastBuildDate>
     <item>
       <title>[40] PADD - Cloud Solutions</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
@@ -28,13 +28,6 @@
       <description>Agency: ITS, STATEWIDE | Stage: UPCOMING | Type: RFP | Due: 2026-09-30 | Location: Idaho&lt;br&gt;Post Date: 08/04/2025 Close Date: 10/10/2025 Anticipated Award Date: 08/18/2026</description>
       <guid isPermaLink="false">idaho-purchasing-139361a2ef39839e</guid>
       <pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[40] RFP 932 - Electronic Visit Verification</title>
-      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: DHW | Stage: UPCOMING | Type: RFP | Due: 2026-09-30 | Location: Idaho&lt;br&gt;Post Date: 09/04/2025 Close Date: 12/03/2025 Award Date: 04/06/2026</description>
-      <guid isPermaLink="false">idaho-purchasing-cb75d2f226a69b72</guid>
-      <pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[40] RFP - NASPO Medical Supplies</title>
@@ -149,6 +142,13 @@
       <pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>[40] ITB 1459 - ISP Fitness Professional</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: ISP | Stage: UPCOMING | Type: ITB | Due: 2027-01-28 | Location: Idaho&lt;br&gt;Anticipated Post Date: 11/24/2026 Anticipated Close Date: 12/21/2026 Anticipated Award Date: 01/10/2027</description>
+      <guid isPermaLink="false">idaho-purchasing-97e4c045b0cca356</guid>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>[40] ITB 1459 - ISP Personal Trainer</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
       <description>Agency: ISP | Stage: UPCOMING | Type: ITB | Due: 2027-01-28 | Location: Idaho&lt;br&gt;Anticipated Post Date: 11/24/2026 Anticipated Close Date: 12/21/2026 Anticipated Award Date: 01/10/2027</description>
@@ -175,6 +175,20 @@
       <description>Agency: ADM | Stage: UPCOMING | Type: RFP | Due: 2027-02-04 | Location: Idaho&lt;br&gt;Anticipated Post Date: 10/28/2026 Anticipated Close Date: 12/2/2026 Anticipated Award Date: 01/15/2027</description>
       <guid isPermaLink="false">idaho-purchasing-355b27e3f3cde0d2</guid>
       <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[40] RFP 856 - MMIS SI Builder</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: DHW | Stage: UPCOMING | Type: RFP | Due: 2027-03-31 | Location: Idaho&lt;br&gt;Post Date: 03/24/2025 Close Date: 05/23/2025 Award Date: 02/26/2026</description>
+      <guid isPermaLink="false">idaho-purchasing-b2726d2ee1343586</guid>
+      <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[40] RFP 932 - Electronic Visit Verification</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: DHW | Stage: UPCOMING | Type: RFP | Due: 2027-03-31 | Location: Idaho&lt;br&gt;Post Date: 09/04/2025 Close Date: 12/03/2025 Award Date: 04/06/2026</description>
+      <guid isPermaLink="false">idaho-purchasing-cb75d2f226a69b72</guid>
+      <pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[44] RFP 1338 - IDVS Medicare Billing Services</title>
@@ -266,13 +280,6 @@
       <description>Agency: IDOC | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-10-16 | Location: Idaho&lt;br&gt;Anticipated Award Date: 10/16/2026</description>
       <guid isPermaLink="false">idaho-purchasing-ba0599ffd6292651</guid>
       <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[48] RFP 856 - MMIS SI Builder</title>
-      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: DHW | Stage: UPCOMING | Type: RFP | Due: 2026-10-30 | Location: Idaho&lt;br&gt;Post Date: 03/24/2025 Close Date: 05/23/2025 Award Date: 02/26/2026</description>
-      <guid isPermaLink="false">idaho-purchasing-b2726d2ee1343586</guid>
-      <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[55] PADD - Weapons &amp; Threat Detection Equipment, Services, &amp; Other Solutions</title>
@@ -527,20 +534,6 @@
       <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[86] 2027 Airport Way &amp; Elevated Roadway Construction</title>
-      <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
-      <description>Agency: City of Boise | Stage: OPEN_BID | Type: FB- | Due: 2026-11-12 | Location: Boise, Idaho&lt;br&gt;Open This project will be the first phase of reconstruction and rehabilitation of the Airport Way at the Boise Airport as well as rehabilitation work on the Elevated Roadway.</description>
-      <guid isPermaLink="false">boise-1d937f7b734b4b8c</guid>
-      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[86] FY27 Greenbelt Replacement - Warm Springs Phase II</title>
-      <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
-      <description>Agency: City of Boise | Stage: OPEN_BID | Type: FB- | Due: 2026-11-12 | Location: Boise, Idaho&lt;br&gt;Open Removal of existing greenbelt paths and construction of four (4) new concrete greenbelt path sections per drawings and specifications.</description>
-      <guid isPermaLink="false">boise-66e4fcc97c65f98c</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>[86] PTC Restroom Upgrades, Department of Administration, Boise, Idaho</title>
       <link>https://dpw.idaho.gov/wp-content/uploads/2026/10/26009-Ad-Long.pdf</link>
       <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-11-18 | Location: Boise, Idaho&lt;br&gt;PTC Restroom Upgrades, Department of Administration, Boise, Idaho</description>
@@ -616,6 +609,20 @@
       <description>Agency: City of Boise | Stage: OPEN_BID | Type: FB- | Due: 2026-11-04 | Location: Boise, Idaho&lt;br&gt;Open New vertical transportation equipment (new elevators and escalators, associated electrical and mechanical systems, controls, and required integration with existing infrastructure) at Boise Airport</description>
       <guid isPermaLink="false">boise-9a5c58666c615ccd</guid>
       <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[90] 2027 Airport Way &amp; Elevated Roadway Construction</title>
+      <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
+      <description>Agency: City of Boise | Stage: OPEN_BID | Type: FB- | Due: 2026-11-12 | Location: Boise, Idaho&lt;br&gt;Open This project will be the first phase of reconstruction and rehabilitation of the Airport Way at the Boise Airport as well as rehabilitation work on the Elevated Roadway.</description>
+      <guid isPermaLink="false">boise-1d937f7b734b4b8c</guid>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[90] FY27 Greenbelt Replacement - Warm Springs Phase II</title>
+      <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
+      <description>Agency: City of Boise | Stage: OPEN_BID | Type: FB- | Due: 2026-11-12 | Location: Boise, Idaho&lt;br&gt;Open Removal of existing greenbelt paths and construction of four (4) new concrete greenbelt path sections per drawings and specifications.</description>
+      <guid isPermaLink="false">boise-66e4fcc97c65f98c</guid>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
