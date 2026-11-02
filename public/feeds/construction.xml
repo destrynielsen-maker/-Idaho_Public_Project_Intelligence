@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Nov 2026 22:14:59 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 06:36:05 +0000</lastBuildDate>
     <item>
       <title>[58] ITB 1392 - ITD Thermoplastic Roadway Markings</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
@@ -28,20 +28,6 @@
       <description>Agency: ITD | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-11-24 | Location: Idaho&lt;br&gt;Anticipated Award Date:</description>
       <guid isPermaLink="false">idaho-purchasing-f52bbcd2b94707d3</guid>
       <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[62] Light Construction Service Contract, State of Idaho, Northern Region Light Construction Project Manual</title>
-      <link>https://dpw.idaho.gov/wp-content/uploads/2026/10/Northern-Light-Construction-Service-Contract-Ad-Long.pdf</link>
-      <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-12-02 | Location: &lt;br&gt;Light Construction Service Contract, State of Idaho, Northern Region Light Construction Project Manual</description>
-      <guid isPermaLink="false">dpw-e7b8f66abb6136e0</guid>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[62] Electrical Service Contract, State of Idaho, Northern Region Electrical Project Manual</title>
-      <link>https://dpw.idaho.gov/wp-content/uploads/2026/10/Northern-Electrical-Service-Contract-Ad-Long.pdf</link>
-      <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-12-02 | Location: &lt;br&gt;Electrical Service Contract, State of Idaho, Northern Region Electrical Project Manual</description>
-      <guid isPermaLink="false">dpw-1a8603b9f6f8d0c7</guid>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[62] Light Construction Service Contract, State of Idaho, Southwest Region Light Construction Project Manual</title>
@@ -90,6 +76,20 @@
       <link>https://dpw.idaho.gov/wp-content/uploads/2026/10/Southeast-Light-Construction-Service-Contract-Ad-Long.pdf</link>
       <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-12-01 | Location: &lt;br&gt;Light Construction Service Contracts, State of Idaho, Southeast Region Light Construction Project Manual</description>
       <guid isPermaLink="false">dpw-ef63a71b8cda75b9</guid>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[66] Light Construction Service Contract, State of Idaho, Northern Region Light Construction Project Manual</title>
+      <link>https://dpw.idaho.gov/wp-content/uploads/2026/10/Northern-Light-Construction-Service-Contract-Ad-Long.pdf</link>
+      <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-12-02 | Location: &lt;br&gt;Light Construction Service Contract, State of Idaho, Northern Region Light Construction Project Manual</description>
+      <guid isPermaLink="false">dpw-e7b8f66abb6136e0</guid>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[66] Electrical Service Contract, State of Idaho, Northern Region Electrical Project Manual</title>
+      <link>https://dpw.idaho.gov/wp-content/uploads/2026/10/Northern-Electrical-Service-Contract-Ad-Long.pdf</link>
+      <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-12-02 | Location: &lt;br&gt;Electrical Service Contract, State of Idaho, Northern Region Electrical Project Manual</description>
+      <guid isPermaLink="false">dpw-1a8603b9f6f8d0c7</guid>
       <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
