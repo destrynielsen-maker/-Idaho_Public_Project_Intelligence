@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Nov 2026 21:51:32 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 07:05:49 +0000</lastBuildDate>
     <item>
       <title>[40] PADD - Cloud Solutions</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
@@ -63,13 +63,6 @@
       <description>Agency: IDOC | Stage: UPCOMING | Type: RFP | Due: 2026-10-22 | Location: Idaho&lt;br&gt;Post Date: 07/13/2026 Anticipated Close Date: 09/02/2026 Anticipated Award Date: 10/22/2026</description>
       <guid isPermaLink="false">idaho-purchasing-4622fe00f1aa9d2e</guid>
       <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[40] PA - Statewide Propane</title>
-      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: STATEWIDE | Stage: FUTURE | Type: FUTURE_SOLICITATION | Due: 2026-10-23 | Location: Idaho&lt;br&gt;Anticipated Award Date: 010/30/2026</description>
-      <guid isPermaLink="false">idaho-purchasing-8281e8f0dafa17a8</guid>
-      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[40] RFQ 1408 - ADM Mat Services Capitol Mall</title>
@@ -140,6 +133,13 @@
       <description>Agency: STATEWIDE | Stage: FUTURE | Type: RFP | Due: 2027-01-26 | Location: Idaho&lt;br&gt;Anticipated Post Date: 10/01/2026 Anticipated Close Date: 11/20/2026 Anticipated Award Date: 01/30/2027</description>
       <guid isPermaLink="false">idaho-purchasing-e13c7bbe63368699</guid>
       <pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[40] PA - Statewide Propane</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: STATEWIDE | Stage: FUTURE | Type: FUTURE_SOLICITATION | Due: 2027-01-28 | Location: Idaho&lt;br&gt;Anticipated Award Date: 010/30/2026</description>
+      <guid isPermaLink="false">idaho-purchasing-8281e8f0dafa17a8</guid>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[40] ITB 1459 - ISP Fitness Professional</title>
@@ -296,13 +296,6 @@
       <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[58] ITB 1392 - ITD Thermoplastic Roadway Markings</title>
-      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: ITD | Stage: UPCOMING | Type: ITB | Due: 2026-12-18 | Location: Idaho&lt;br&gt;Anticipated Post Date: 09/18/2026 Anticipated Close Date: 10/16/2026 Anticipated Award Date: 11/06/2026</description>
-      <guid isPermaLink="false">idaho-purchasing-fd1a94c915b1bccd</guid>
-      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>[58] ITB 1445 - IDVS Broadcast TV Services</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
       <description>Agency: VETS | Stage: UPCOMING | Type: ITB | Due: 2027-01-21 | Location: Idaho&lt;br&gt;Anticipated Post Date: 11/17/2026 Anticipated Close Date: 12/14/20206 Anticipated Award Date: 01/04/2027</description>
@@ -364,27 +357,6 @@
       <description>Agency: ITD | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-11-24 | Location: Idaho&lt;br&gt;Anticipated Award Date:</description>
       <guid isPermaLink="false">idaho-purchasing-f52bbcd2b94707d3</guid>
       <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[62] Plumbing Service Contracts, State of Idaho, Southwest Region Plumbing Project Manual</title>
-      <link>https://dpw.idaho.gov/wp-content/uploads/2026/11/Plumbing-Ad-Long-FORM.pdf</link>
-      <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-12-03 | Location: &lt;br&gt;Plumbing Service Contracts, State of Idaho, Southwest Region Plumbing Project Manual</description>
-      <guid isPermaLink="false">dpw-ce4446b79e765a8c</guid>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[62] Light Construction Service Contract, State of Idaho, Southwest Region Light Construction Project Manual</title>
-      <link>https://dpw.idaho.gov/wp-content/uploads/2026/10/Southwest-Light-Construction-Service-Contract-Ad-Long.pdf</link>
-      <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-12-03 | Location: &lt;br&gt;Light Construction Service Contract, State of Idaho, Southwest Region Light Construction Project Manual</description>
-      <guid isPermaLink="false">dpw-454ef472aacebbbc</guid>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[62] Electrical Service Contracts, State of Idaho, Southwest Region Electrical Project Manual</title>
-      <link>https://dpw.idaho.gov/wp-content/uploads/2026/10/Southwest-Electrical-Service-Contract-Ad-Long-1.pdf</link>
-      <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-12-03 | Location: &lt;br&gt;Electrical Service Contracts, State of Idaho, Southwest Region Electrical Project Manual</description>
-      <guid isPermaLink="false">dpw-67cca3b071cb2185</guid>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[65] PA - Elevator Services</title>
@@ -450,6 +422,13 @@
       <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>[65] Leatherman Peak 2nd Floor Addition, Boise State University, Boise, Idaho *NOTE: BID DATE &amp; TIME CHANGE SEE ADDENDUM 2</title>
+      <link>https://dpw.idaho.gov/wp-content/uploads/2026/09/24207-Ad-Long.pdf</link>
+      <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-11-12 | Location: Boise, Idaho&lt;br&gt;Leatherman Peak 2nd Floor Addition, Boise State University, Boise, Idaho *NOTE: BID DATE &amp; TIME CHANGE SEE ADDENDUM 2</description>
+      <guid isPermaLink="false">dpw-f6bdf913e6869938</guid>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>[65] ITB 1412 - Statewide Envelopes</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
       <description>Agency: STATEWIDE | Stage: UPCOMING | Type: ITB | Due: 2026-12-09 | Location: Idaho&lt;br&gt;Post Date: 09/24/2026 Closed Date: 10/28/2026 Anticipated Award Date: 11/27/2026</description>
@@ -489,6 +468,34 @@
       <link>https://dpw.idaho.gov/wp-content/uploads/2026/10/Northern-Electrical-Service-Contract-Ad-Long.pdf</link>
       <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-12-02 | Location: &lt;br&gt;Electrical Service Contract, State of Idaho, Northern Region Electrical Project Manual</description>
       <guid isPermaLink="false">dpw-1a8603b9f6f8d0c7</guid>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[66] HVAC Service Contract, State of Idaho, Southwest Region HVAC Project Manual</title>
+      <link>https://dpw.idaho.gov/wp-content/uploads/2026/11/HVAC-Region-II-Ad-Long-FORM.pdf</link>
+      <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-12-03 | Location: &lt;br&gt;HVAC Service Contract, State of Idaho, Southwest Region HVAC Project Manual</description>
+      <guid isPermaLink="false">dpw-19a111a5061dd544</guid>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[66] Plumbing Service Contracts, State of Idaho, Southwest Region Plumbing Project Manual</title>
+      <link>https://dpw.idaho.gov/wp-content/uploads/2026/11/Plumbing-Ad-Long-FORM.pdf</link>
+      <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-12-03 | Location: &lt;br&gt;Plumbing Service Contracts, State of Idaho, Southwest Region Plumbing Project Manual</description>
+      <guid isPermaLink="false">dpw-ce4446b79e765a8c</guid>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[66] Light Construction Service Contract, State of Idaho, Southwest Region Light Construction Project Manual</title>
+      <link>https://dpw.idaho.gov/wp-content/uploads/2026/10/Southwest-Light-Construction-Service-Contract-Ad-Long.pdf</link>
+      <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-12-03 | Location: &lt;br&gt;Light Construction Service Contract, State of Idaho, Southwest Region Light Construction Project Manual</description>
+      <guid isPermaLink="false">dpw-454ef472aacebbbc</guid>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[66] Electrical Service Contracts, State of Idaho, Southwest Region Electrical Project Manual</title>
+      <link>https://dpw.idaho.gov/wp-content/uploads/2026/10/Southwest-Electrical-Service-Contract-Ad-Long-1.pdf</link>
+      <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-12-03 | Location: &lt;br&gt;Electrical Service Contracts, State of Idaho, Southwest Region Electrical Project Manual</description>
+      <guid isPermaLink="false">dpw-67cca3b071cb2185</guid>
       <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
