@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-03T19:42:07+00:00",
+  "generated_at": "2026-11-04T06:50:53+00:00",
   "collector_status": [
     {
       "source": "City of Boise",
       "status": "OK",
-      "records_seen": 6,
-      "qualifying_records": 6,
+      "records_seen": 7,
+      "qualifying_records": 7,
       "note": ""
     },
     {
@@ -31,10 +31,10 @@
     },
     {
       "source": "ACHD",
-      "status": "ERROR",
+      "status": "EMPTY",
       "records_seen": 0,
       "qualifying_records": 0,
-      "note": "ReadTimeout: HTTPSConnectionPool(host='procurement.opengov.com', port=443): Read timed out. (read timeout=35)"
+      "note": "No records parsed from public source; collector may need source-specific refinement."
     }
   ]
 }

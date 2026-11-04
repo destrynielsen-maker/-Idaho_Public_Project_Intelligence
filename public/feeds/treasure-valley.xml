@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 03 Nov 2026 19:42:45 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 06:50:56 +0000</lastBuildDate>
     <item>
       <title>[61] SPEC Air Handler Replacement, Boise State University, Boise, Idaho</title>
       <link>https://dpw.idaho.gov/wp-content/uploads/2026/09/25207-Ad-Long-1.pdf</link>
@@ -21,13 +21,6 @@
       <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-11-12 | Location: Boise, Idaho&lt;br&gt;SPEC Air Handler Replacement, Boise State University, Boise, Idaho **NOTE: PRE-BID &amp; BID DATE CHANGE SEE ADDENDUM 1</description>
       <guid isPermaLink="false">dpw-f981456f25eaae7d</guid>
       <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[61] BOI AOC Video Wall System</title>
-      <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
-      <description>Agency: City of Boise | Stage: OPEN_BID | Type: RFP | Due: 2026-11-18 | Location: Boise, Idaho&lt;br&gt;Open Replace the existing Airport Operations video wall with new technology</description>
-      <guid isPermaLink="false">boise-e27e3bae8cd95701</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[61] SPEC Air Handler Replacement, Boise State University, Boise, Idaho *NOTE: PRE-BID &amp; BID DATE CHANGE SEE ADDENDUM 1 *NOTE: PRE-BID &amp; BID DATE POSTPONED TBD SEE ADDENDUM 2 *NOTE: PRE-BID &amp; BID DATE SCHEDULED SEE ADDENDUM 3</title>
@@ -91,6 +84,13 @@
       <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-11-12 | Location: Boise, Idaho&lt;br&gt;Leatherman Peak 2nd Floor Addition, Boise State University, Boise, Idaho *NOTE: BID DATE &amp; TIME CHANGE SEE ADDENDUM 2</description>
       <guid isPermaLink="false">dpw-f6bdf913e6869938</guid>
       <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[65] BOI AOC Video Wall System</title>
+      <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
+      <description>Agency: City of Boise | Stage: OPEN_BID | Type: RFP | Due: 2026-11-18 | Location: Boise, Idaho&lt;br&gt;Open Replace the existing Airport Operations video wall with new technology</description>
+      <guid isPermaLink="false">boise-e27e3bae8cd95701</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[73] WBWRF Liquid Stream Grit Removal Engineering Services (WBP 0219)</title>
@@ -177,11 +177,11 @@
       <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[86] PTC Restroom Upgrades, Department of Administration, Boise, Idaho</title>
-      <link>https://dpw.idaho.gov/wp-content/uploads/2026/10/26009-Ad-Long.pdf</link>
-      <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-11-18 | Location: Boise, Idaho&lt;br&gt;PTC Restroom Upgrades, Department of Administration, Boise, Idaho</description>
-      <guid isPermaLink="false">dpw-c010c4c7c3c41816</guid>
-      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+      <title>[86] Miscellaneous Building and System Commissioning Services (PWE 505)</title>
+      <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
+      <description>Agency: City of Boise | Stage: OPEN_BID | Type: RFQ | Due: 2026-11-20 | Location: Boise, Idaho&lt;br&gt;Open Provide building and systems commissioning services for new facilities and existing buildings across all City-owned facilities.</description>
+      <guid isPermaLink="false">boise-ed23bcad6e5686fa</guid>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[90] Sewer Extension Redesign Gowen Service District CSP 1213</title>
@@ -240,13 +240,6 @@
       <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[90] Repair Asphalt, Campus Wide, SWITC, Department of Health and Welfare, Nampa, Idaho NOTE: BID DATE CHANGE SEE ADDENDUM 2</title>
-      <link>https://dpw.idaho.gov/wp-content/uploads/2026/09/22361-Ad-Long.pdf</link>
-      <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-11-03 | Location: Nampa, Idaho&lt;br&gt;Repair Asphalt, Campus Wide, SWITC, Department of Health and Welfare, Nampa, Idaho NOTE: BID DATE CHANGE SEE ADDENDUM 2</description>
-      <guid isPermaLink="false">dpw-01000ad8446d1c5a</guid>
-      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>[90] Boise Airport Vertical Transportation Equipment</title>
       <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
       <description>Agency: City of Boise | Stage: OPEN_BID | Type: FB- | Due: 2026-11-04 | Location: Boise, Idaho&lt;br&gt;Open New vertical transportation equipment (new elevators and escalators, associated electrical and mechanical systems, controls, and required integration with existing infrastructure) at Boise Airport</description>
@@ -266,6 +259,13 @@
       <description>Agency: City of Boise | Stage: OPEN_BID | Type: FB- | Due: 2026-11-12 | Location: Boise, Idaho&lt;br&gt;Open Removal of existing greenbelt paths and construction of four (4) new concrete greenbelt path sections per drawings and specifications.</description>
       <guid isPermaLink="false">boise-66e4fcc97c65f98c</guid>
       <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[90] PTC Restroom Upgrades, Department of Administration, Boise, Idaho</title>
+      <link>https://dpw.idaho.gov/wp-content/uploads/2026/10/26009-Ad-Long.pdf</link>
+      <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-11-18 | Location: Boise, Idaho&lt;br&gt;PTC Restroom Upgrades, Department of Administration, Boise, Idaho</description>
+      <guid isPermaLink="false">dpw-c010c4c7c3c41816</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
