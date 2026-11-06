@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Nov 2026 20:11:20 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 07:10:02 +0000</lastBuildDate>
     <item>
       <title>[65] PA - Elevator Services</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
@@ -128,13 +128,6 @@
       <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[86] Miscellaneous Building and System Commissioning Services (PWE 505)</title>
-      <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
-      <description>Agency: City of Boise | Stage: OPEN_BID | Type: RFQ | Due: 2026-11-20 | Location: Boise, Idaho&lt;br&gt;Open Provide building and systems commissioning services for new facilities and existing buildings across all City-owned facilities.</description>
-      <guid isPermaLink="false">boise-ed23bcad6e5686fa</guid>
-      <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>[90] Sewer Extension Redesign Gowen Service District CSP 1213</title>
       <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
       <description>Agency: City of Boise | Stage: OPEN_BID | Type: FB- | Due: 2026-09-25 | Location: Boise, Idaho&lt;br&gt;Open Construction of approx. 904 L.F. of 18-inch diameter, 777 L.F. of 10-inch diameter, and 2,450 L.F. of 8-inch diameter gravity sewer main pipe, installation of new manholes, and other related work.</description>
@@ -217,6 +210,13 @@
       <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-11-18 | Location: Boise, Idaho&lt;br&gt;PTC Restroom Upgrades, Department of Administration, Boise, Idaho</description>
       <guid isPermaLink="false">dpw-c010c4c7c3c41816</guid>
       <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[90] Miscellaneous Building and System Commissioning Services (PWE 505)</title>
+      <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
+      <description>Agency: City of Boise | Stage: OPEN_BID | Type: RFQ | Due: 2026-11-20 | Location: Boise, Idaho&lt;br&gt;Open Provide building and systems commissioning services for new facilities and existing buildings across all City-owned facilities.</description>
+      <guid isPermaLink="false">boise-ed23bcad6e5686fa</guid>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
