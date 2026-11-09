@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 08 Nov 2026 22:20:04 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 07:00:15 +0000</lastBuildDate>
     <item>
       <title>[40] PADD - Cloud Solutions</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
@@ -499,13 +499,6 @@
       <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[65] ITB 1412 - Statewide Envelopes</title>
-      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: STATEWIDE | Stage: UPCOMING | Type: ITB | Due: 2026-12-09 | Location: Idaho&lt;br&gt;Post Date: 09/24/2026 Closed Date: 10/28/2026 Anticipated Award Date: 11/27/2026</description>
-      <guid isPermaLink="false">idaho-purchasing-e0aa926b8c3a96f9</guid>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>[66] Food Quality Assurance Lab Fire Alarm System, Twin Falls, Idaho</title>
       <link>https://dpw.idaho.gov/wp-content/uploads/2026/10/26030-RE-BID-Ad-Long.pdf</link>
       <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-11-12 | Location: Twin Falls, Idaho&lt;br&gt;Food Quality Assurance Lab Fire Alarm System, Twin Falls, Idaho</description>
@@ -574,6 +567,13 @@
       <description>Agency: ADM | Stage: UPCOMING | Type: ITB | Due: 2026-12-01 | Location: Idaho&lt;br&gt;Anticipated Post Date: 12/01/2026 Anticipated Close Date: 12/30/2026 Anticipated Award Date: 01/22/2027</description>
       <guid isPermaLink="false">idaho-purchasing-f54ee44901ff994a</guid>
       <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[69] ITB 1412 - Statewide Envelopes</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: STATEWIDE | Stage: UPCOMING | Type: ITB | Due: 2026-12-09 | Location: Idaho&lt;br&gt;Post Date: 09/24/2026 Closed Date: 10/28/2026 Anticipated Award Date: 11/27/2026</description>
+      <guid isPermaLink="false">idaho-purchasing-e0aa926b8c3a96f9</guid>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[70] Food Quality Assurance Lab Fire Alarm System, Department of Agriculture, Twin Falls, Idaho</title>
