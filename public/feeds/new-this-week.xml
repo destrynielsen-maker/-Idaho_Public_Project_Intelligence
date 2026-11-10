@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 09 Nov 2026 22:37:13 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 07:36:52 +0000</lastBuildDate>
     <item>
       <title>[25] PADD - Cloud Services</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
@@ -79,18 +79,32 @@
       <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[59] PADD - Airport Runway Equipment - SB Manufacturing</title>
-      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: ITD | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-11-24 | Location: Idaho&lt;br&gt;Anticipated Award Date: 11/24/2026</description>
-      <guid isPermaLink="false">idaho-purchasing-6813e48fb181b7bc</guid>
-      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>[63] PADD - Ground Maintenance Equipment Tenco Alamo ITD</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
       <description>Agency: ITD | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-11-10 | Location: Idaho&lt;br&gt;Anticipated Award Date: 10/10/2026</description>
       <guid isPermaLink="false">idaho-purchasing-97c2c04a88e2d73e</guid>
       <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[63] PADD - Tree Maintenance Equipment, Attachments &amp; Accessories</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: ITD | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-11-24 | Location: Idaho&lt;br&gt;Anticipated Award Date: 11/24/2026</description>
+      <guid isPermaLink="false">idaho-purchasing-1f6069be1cad379a</guid>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[63] PADD - Class 4-8 Chassis and Cabs with Related Equipment, Accessories, and Services</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: ITD | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-11-24 | Location: Idaho&lt;br&gt;Anticipated Award Date: 11/24/2026</description>
+      <guid isPermaLink="false">idaho-purchasing-35a6465e3ff65b52</guid>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[63] PADD - Airport Runway Equipment - SB Manufacturing</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: ITD | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-11-24 | Location: Idaho&lt;br&gt;Anticipated Award Date: 11/24/2026</description>
+      <guid isPermaLink="false">idaho-purchasing-6813e48fb181b7bc</guid>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[65] Leatherman Peak 2nd Floor Addition, Boise State University, Boise, Idaho *NOTE: BID DATE &amp; TIME CHANGE SEE ADDENDUM 2</title>
@@ -100,13 +114,6 @@
       <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[66] HVAC Service Contract, State of Idaho, Northern Region HVAC Project Manual</title>
-      <link>https://dpw.idaho.gov/wp-content/uploads/2026/11/HVAC-Region-I-Ad-Long-FORM.pdf</link>
-      <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-12-02 | Location: &lt;br&gt;HVAC Service Contract, State of Idaho, Northern Region HVAC Project Manual</description>
-      <guid isPermaLink="false">dpw-8622db78cd188ef6</guid>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>[66] HVAC Service Contract, State of Idaho, Southwest Region HVAC Project Manual</title>
       <link>https://dpw.idaho.gov/wp-content/uploads/2026/11/HVAC-Region-II-Ad-Long-FORM.pdf</link>
       <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-12-03 | Location: &lt;br&gt;HVAC Service Contract, State of Idaho, Southwest Region HVAC Project Manual</description>
@@ -114,11 +121,11 @@
       <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[66] Plumbing Service Contracts, State of Idaho, Southwest Region Plumbing Project Manual</title>
-      <link>https://dpw.idaho.gov/wp-content/uploads/2026/11/Plumbing-Ad-Long-FORM.pdf</link>
-      <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-12-03 | Location: &lt;br&gt;Plumbing Service Contracts, State of Idaho, Southwest Region Plumbing Project Manual</description>
-      <guid isPermaLink="false">dpw-ce4446b79e765a8c</guid>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+      <title>[69] Youth Library Wellness Hub Consulting Services</title>
+      <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
+      <description>Agency: City of Boise | Stage: OPEN_BID | Type: SRFP | Due: 2026-11-25 | Location: Boise, Idaho&lt;br&gt;Open Lead research, engagement, planning, tool development, pilot support, evaluation, and dissemination for a 24 month initiative that creates a nationally adaptable Youth Library Wellness Hub Framework.</description>
+      <guid isPermaLink="false">boise-5850de0a5308900c</guid>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[74] Repair Asphalt, Campus Wide, SWITC, Department of Health and Welfare, Nampa, Idaho</title>
