@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Nov 2026 19:54:36 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 06:55:18 +0000</lastBuildDate>
     <item>
       <title>[40] PADD - Cloud Solutions</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
@@ -352,6 +352,13 @@
       <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>[55] PADD - Snow and ice Equipment Tenco Alamo</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: ITD | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-11-10 | Location: Idaho&lt;br&gt;Anticipated Award Date: 10/10/2026</description>
+      <guid isPermaLink="false">idaho-purchasing-b18748b0320070d9</guid>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>[58] ITB 1445 - IDVS Broadcast TV Services</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
       <description>Agency: VETS | Stage: UPCOMING | Type: ITB | Due: 2027-01-21 | Location: Idaho&lt;br&gt;Anticipated Post Date: 11/17/2026 Anticipated Close Date: 12/14/2026 Anticipated Award Date: 01/04/2027</description>
@@ -576,13 +583,6 @@
       <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[69] Youth Library Wellness Hub Consulting Services</title>
-      <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
-      <description>Agency: City of Boise | Stage: OPEN_BID | Type: SRFP | Due: 2026-11-25 | Location: Boise, Idaho&lt;br&gt;Open Lead research, engagement, planning, tool development, pilot support, evaluation, and dissemination for a 24 month initiative that creates a nationally adaptable Youth Library Wellness Hub Framework.</description>
-      <guid isPermaLink="false">boise-5850de0a5308900c</guid>
-      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>[69] ITB 1316 - Landscaping &amp; Snow Removal Services Chinden Campus</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
       <description>Agency: ADM | Stage: UPCOMING | Type: ITB | Due: 2026-12-01 | Location: Idaho&lt;br&gt;Anticipated Post Date: 12/01/2026 Anticipated Close Date: 12/30/2026 Anticipated Award Date: 01/22/2027</description>
@@ -623,6 +623,13 @@
       <description>Agency: Ada County | Stage: OPEN_BID | Type: RFQ | Due: 2026-11-13 | Location: Ada County, Idaho&lt;br&gt;Ada County public procurement opportunity: Ada County Landfill Pre-Approved List for Professional Engineering and Environmental Consulting Services</description>
       <guid isPermaLink="false">ada-county-389c03a921589350</guid>
       <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[73] Youth Library Wellness Hub Consulting Services</title>
+      <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
+      <description>Agency: City of Boise | Stage: OPEN_BID | Type: SRFP | Due: 2026-11-25 | Location: Boise, Idaho&lt;br&gt;Open Lead research, engagement, planning, tool development, pilot support, evaluation, and dissemination for a 24 month initiative that creates a nationally adaptable Youth Library Wellness Hub Framework.</description>
+      <guid isPermaLink="false">boise-5850de0a5308900c</guid>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[80] Spare Inlet Pump (PRF 016)</title>
