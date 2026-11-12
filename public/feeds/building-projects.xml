@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 12 Nov 2026 07:31:30 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 20:16:13 +0000</lastBuildDate>
     <item>
       <title>[65] PA - Elevator Services</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
@@ -126,6 +126,13 @@
       <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2027-01-20 | Location: Boise, Idaho&lt;br&gt;Pioneer Hall Film Program Space Remodel, Boise State University, Boise, Idaho</description>
       <guid isPermaLink="false">dpw-6c25669342f9db6e</guid>
       <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[86] Pre-Qualification of Aluminum Coagulant REBID - PRF 1001</title>
+      <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
+      <description>Agency: City of Boise | Stage: OPEN_BID | Type: RFQ | Due: 2026-12-02 | Location: Boise, Idaho&lt;br&gt;Open The City is seeking to pre-qualify products for Aluminum Coagulants for the Phosphorus Removal Facility (PRF).</description>
+      <guid isPermaLink="false">boise-3be8cd509ed33ba5</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[90] Sewer Extension Redesign Gowen Service District CSP 1213</title>
