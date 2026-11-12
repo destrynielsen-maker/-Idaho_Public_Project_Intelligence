@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 11 Nov 2026 19:48:42 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 07:31:30 +0000</lastBuildDate>
     <item>
       <title>[25] PADD - Cloud Services</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
@@ -121,13 +121,6 @@
       <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[74] Repair Asphalt, Campus Wide, SWITC, Department of Health and Welfare, Nampa, Idaho</title>
-      <link>https://dpw.idaho.gov/construction/</link>
-      <description>Agency: Idaho Division of Public Works | Stage: BID_RESULTS | Type: BID_RESULT | Due: 2026-11-03 | Location: Nampa, Idaho&lt;br&gt;Bid results: Brix Paving — $98,200; Spiers Construction — $83,927; Sunnyridge Construction — $97,805; BriCon Inc. — $125,900</description>
-      <guid isPermaLink="false">dpw-result-5a37f49c7bd353a7</guid>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>[82] Ada County Sheriff's Office Restrooms Phases 2 &amp; 3 2027</title>
       <link>https://adacounty.bonfirehub.com/opportunities/259977</link>
       <description>Agency: Ada County | Stage: OPEN_BID | Type: BID | Due: 2026-12-14 | Location: Ada County, Idaho&lt;br&gt;Ada County public procurement opportunity: Ada County Sheriff's Office Restrooms Phases 2 &amp; 3 2027</description>
@@ -140,13 +133,6 @@
       <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-12-17 | Location: Boise, Idaho&lt;br&gt;LABS Campus Wide Int/Ext Lighting Ugrades, Department of Health and Welfare, Boise, Idaho</description>
       <guid isPermaLink="false">dpw-ed85b483f242dfdf</guid>
       <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[90] Miscellaneous Building and System Commissioning Services (PWE 505)</title>
-      <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
-      <description>Agency: City of Boise | Stage: OPEN_BID | Type: RFQ | Due: 2026-11-20 | Location: Boise, Idaho&lt;br&gt;Open Provide building and systems commissioning services for new facilities and existing buildings across all City-owned facilities.</description>
-      <guid isPermaLink="false">boise-ed23bcad6e5686fa</guid>
-      <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
