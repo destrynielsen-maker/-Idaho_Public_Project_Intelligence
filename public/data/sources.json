@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-13T19:56:24+00:00",
+  "generated_at": "2026-11-14T06:52:17+00:00",
   "collector_status": [
     {
       "source": "City of Boise",
-      "status": "OK",
-      "records_seen": 4,
-      "qualifying_records": 4,
-      "note": ""
+      "status": "EMPTY",
+      "records_seen": 0,
+      "qualifying_records": 0,
+      "note": "No records parsed from public source; collector may need source-specific refinement."
     },
     {
       "source": "Idaho DPW",
@@ -25,8 +25,8 @@
     {
       "source": "Ada County",
       "status": "OK",
-      "records_seen": 3,
-      "qualifying_records": 3,
+      "records_seen": 2,
+      "qualifying_records": 2,
       "note": ""
     },
     {

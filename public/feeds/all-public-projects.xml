@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 13 Nov 2026 19:56:27 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 06:52:21 +0000</lastBuildDate>
     <item>
       <title>[40] PADD - Cloud Solutions</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
@@ -280,13 +280,6 @@
       <description>Agency: VETS | Stage: UPCOMING | Type: RFP | Due: 2026-11-18 | Location: Idaho&lt;br&gt;Post Date: 09/25/2026 Anticipated Close Date: 10/23/2026 Anticipated Award Date: 11/30/2026</description>
       <guid isPermaLink="false">idaho-purchasing-e44ba8d18e00fcc0</guid>
       <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[48] ITB 1390 - ITD Certified Power Solutions</title>
-      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: ITD | Stage: UPCOMING | Type: ITB | Due: 2026-11-19 | Location: Idaho&lt;br&gt;Post Date: 09/25/2026 Anticipated Close Date: 10/23/2026 Anticipated Award Date: 10/30/2026</description>
-      <guid isPermaLink="false">idaho-purchasing-518dfb30b6f8f12a</guid>
-      <pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[48] ITB 1397 - ITD Attenuator Trucks</title>
@@ -632,13 +625,6 @@
       <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[82] Ada County Sheriff's Office Restrooms Phases 2 &amp; 3 2027</title>
-      <link>https://adacounty.bonfirehub.com/opportunities/259977</link>
-      <description>Agency: Ada County | Stage: OPEN_BID | Type: BID | Due: 2026-12-14 | Location: Ada County, Idaho&lt;br&gt;Ada County public procurement opportunity: Ada County Sheriff's Office Restrooms Phases 2 &amp; 3 2027</description>
-      <guid isPermaLink="false">ada-county-2be62fbb8c4ce90d</guid>
-      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>[82] LABS Campus Wide Int/Ext Lighting Ugrades, Department of Health and Welfare, Boise, Idaho</title>
       <link>https://dpw.idaho.gov/wp-content/uploads/2026/11/26354-Ad-Long.pdf</link>
       <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-12-17 | Location: Boise, Idaho&lt;br&gt;LABS Campus Wide Int/Ext Lighting Ugrades, Department of Health and Welfare, Boise, Idaho</description>
@@ -707,6 +693,13 @@
       <description>Agency: City of Boise | Stage: OPEN_BID | Type: RFQ | Due: 2026-12-02 | Location: Boise, Idaho&lt;br&gt;Open The City is seeking to pre-qualify products for Aluminum Coagulants for the Phosphorus Removal Facility (PRF).</description>
       <guid isPermaLink="false">boise-3be8cd509ed33ba5</guid>
       <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[86] Ada County Sheriff's Office Restrooms Phases 2 &amp; 3 2027</title>
+      <link>https://adacounty.bonfirehub.com/opportunities/259977</link>
+      <description>Agency: Ada County | Stage: OPEN_BID | Type: BID | Due: 2026-12-14 | Location: Ada County, Idaho&lt;br&gt;Ada County public procurement opportunity: Ada County Sheriff's Office Restrooms Phases 2 &amp; 3 2027</description>
+      <guid isPermaLink="false">ada-county-2be62fbb8c4ce90d</guid>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[90] Sewer Extension Redesign Gowen Service District CSP 1213</title>
@@ -784,6 +777,13 @@
       <description>Agency: City of Boise | Stage: OPEN_BID | Type: FB- | Due: 2026-11-12 | Location: Boise, Idaho&lt;br&gt;Open Removal of existing greenbelt paths and construction of four (4) new concrete greenbelt path sections per drawings and specifications.</description>
       <guid isPermaLink="false">boise-66e4fcc97c65f98c</guid>
       <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[90] PTC Restroom Upgrades, Department of Administration, Boise, Idaho *NOTE: BID DATE CHANGE SEE ADDENDUM 4</title>
+      <link>https://dpw.idaho.gov/wp-content/uploads/2026/10/26009-Ad-Long.pdf</link>
+      <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-11-18 | Location: Boise, Idaho&lt;br&gt;PTC Restroom Upgrades, Department of Administration, Boise, Idaho *NOTE: BID DATE CHANGE SEE ADDENDUM 4</description>
+      <guid isPermaLink="false">dpw-67849a258b9eed99</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[90] PTC Restroom Upgrades, Department of Administration, Boise, Idaho</title>
