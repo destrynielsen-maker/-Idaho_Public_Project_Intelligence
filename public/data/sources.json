@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-14T22:40:20+00:00",
+  "generated_at": "2026-11-15T06:56:47+00:00",
   "collector_status": [
     {
       "source": "City of Boise",
-      "status": "EMPTY",
-      "records_seen": 0,
-      "qualifying_records": 0,
-      "note": "No records parsed from public source; collector may need source-specific refinement."
+      "status": "OK",
+      "records_seen": 4,
+      "qualifying_records": 4,
+      "note": ""
     },
     {
       "source": "Idaho DPW",
