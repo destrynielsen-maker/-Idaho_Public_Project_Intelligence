@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T22:25:24+00:00",
+  "generated_at": "2026-11-17T08:17:58+00:00",
   "opportunities": [
     {
       "id": "boise-ed23bcad6e5686fa",
@@ -17,14 +17,14 @@
       "updated_date": "",
       "status": "OPEN",
       "url": "https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise",
-      "details_url": "https://app01.jaggaer.com/apps/Router/ViewSourcingEvent?AuthToken=1%3AAES2%23CNXKypDTbeaDbTnitjLA8Ws0kKsHso%2FxUVjr9IUdFwsqMttQn5PbvyQ%2BWxMQqoM4k4quOYD80scLVXqg8fHb9guR%2BXiZYAYyPELg2pi9MW8j%2FUGjBxu6Yg3xxUI2V7FMEXqnQwUSbpum1W7IBRHnxfSjJDW2mqE31A%3D%3D&tmstmp=1794867924561",
+      "details_url": "https://app01.jaggaer.com/apps/Router/ViewSourcingEvent?AuthToken=1%3AAES2%23CBXpi%2Bx%2Fo6mRVkeSbkdKkOyNdg9jl%2FI2HQSkclrU7RvNxm4AUgEWsEfzrygP88%2Fz2hcigXpjotiBkIs6bdknWMW%2FOiN9TDsbXlT4SPh0AGeC3l1xdC3rgA0Pxf5QdTMkT5vfSbUeistaglLi%2Fza5zZ6%2BanQmZxuLKw%3D%3D&tmstmp=1794903479034",
       "contact": "rgould@cityofboise.org, tleatham@cityofboise.org",
       "category": "BUILDING",
       "score": 90,
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-11-04T06:50:53+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-c010c4c7c3c41816",
@@ -74,7 +74,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-11-14T06:52:17+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "boise-66e4fcc97c65f98c",
@@ -352,6 +352,31 @@
       "last_seen": "2026-09-25T12:04:25+00:00"
     },
     {
+      "id": "dpw-ed85b483f242dfdf",
+      "source": "Idaho DPW",
+      "title": "LABS Campus Wide Int/Ext Lighting Ugrades, Department of Health and Welfare, Boise, Idaho",
+      "agency": "Idaho Division of Public Works",
+      "description": "LABS Campus Wide Int/Ext Lighting Ugrades, Department of Health and Welfare, Boise, Idaho",
+      "location": "Boise, Idaho",
+      "stage": "OPEN_BID",
+      "solicitation_type": "CONSTRUCTION_BID",
+      "solicitation_number": "26354",
+      "posted_date": "",
+      "open_date": "",
+      "due_date": "2026-12-17",
+      "updated_date": "",
+      "status": "OPEN",
+      "url": "https://dpw.idaho.gov/wp-content/uploads/2026/11/26354-Ad-Long.pdf",
+      "details_url": "https://dpw.idaho.gov/wp-content/uploads/2026/11/26354-Ad-Long.pdf",
+      "contact": "",
+      "category": "BUILDING",
+      "score": 86,
+      "estimated_value": null,
+      "bidders": [],
+      "first_seen": "2026-11-05T20:11:16+00:00",
+      "last_seen": "2026-11-17T08:17:58+00:00"
+    },
+    {
       "id": "ada-county-2be62fbb8c4ce90d",
       "source": "Ada County",
       "title": "Ada County Sheriff's Office Restrooms Phases 2 & 3 2027",
@@ -374,7 +399,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-11-05T20:11:16+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "boise-3be8cd509ed33ba5",
@@ -392,14 +417,14 @@
       "updated_date": "",
       "status": "OPEN",
       "url": "https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise",
-      "details_url": "https://app01.jaggaer.com/apps/Router/ViewSourcingEvent?AuthToken=1%3AAES2%23CHFq9Ph%2FG20TQE1RBK23eB%2BnEPTS4NKuCZoRpbHn421hJ3lQdtD2MdDfzMPmfRE46JJ9jCJMNom5ozGgAyihrbW0jV9%2FD6nnXmF6zaMc5KQW39id3q1qxtSDyt52nduhCQq6jbi9SvS7T5SWv2Ad4IDwE0hhnsnP4w%3D%3D&tmstmp=1794867924559",
+      "details_url": "https://app01.jaggaer.com/apps/Router/ViewSourcingEvent?AuthToken=1%3AAES2%23CGdCK7wLSIZrt4LyyLYTJFSc3t%2BIlXALKZU2O0PyIw%2F7NJVaG6T6wPU18sSkdx0%2BbGP7OY%2BbKvfhnhdNcaHgm6V2sQwMvDs9F3apkPNM5oHOyzvf2mlXC1GwW3YApUDL3QU51vndi9L9POegIBhu3ofBkRM1LbLuKA%3D%3D&tmstmp=1794903479032",
       "contact": "atisler@cityofboise.org, rgould@cityofboise.org, tleatham@cityofboise.org",
       "category": "BUILDING",
       "score": 86,
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-11-12T20:16:07+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "boise-ab5b205127c5b70f",
@@ -599,32 +624,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-10-30T22:33:51+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
-    },
-    {
-      "id": "dpw-ed85b483f242dfdf",
-      "source": "Idaho DPW",
-      "title": "LABS Campus Wide Int/Ext Lighting Ugrades, Department of Health and Welfare, Boise, Idaho",
-      "agency": "Idaho Division of Public Works",
-      "description": "LABS Campus Wide Int/Ext Lighting Ugrades, Department of Health and Welfare, Boise, Idaho",
-      "location": "Boise, Idaho",
-      "stage": "OPEN_BID",
-      "solicitation_type": "CONSTRUCTION_BID",
-      "solicitation_number": "26354",
-      "posted_date": "",
-      "open_date": "",
-      "due_date": "2026-12-17",
-      "updated_date": "",
-      "status": "OPEN",
-      "url": "https://dpw.idaho.gov/wp-content/uploads/2026/11/26354-Ad-Long.pdf",
-      "details_url": "https://dpw.idaho.gov/wp-content/uploads/2026/11/26354-Ad-Long.pdf",
-      "contact": "",
-      "category": "BUILDING",
-      "score": 82,
-      "estimated_value": null,
-      "bidders": [],
-      "first_seen": "2026-11-05T20:11:16+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-01000ad8446d1c5a",
@@ -794,7 +794,7 @@
         }
       ],
       "first_seen": "2026-09-22T17:08:34+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-61fc2a9825d62353",
@@ -848,7 +848,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-93aa9d98bc52f813",
@@ -902,7 +902,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-f1d5b352488e3977",
@@ -940,7 +940,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-7a89cbe3101e64e6",
@@ -986,7 +986,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-13ad4fee7e27469c",
@@ -1032,7 +1032,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-406c101aa8e77231",
@@ -1098,7 +1098,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-bb43a09e04f5d57a",
@@ -1132,7 +1132,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-67ae9d0740d843c5",
@@ -1182,7 +1182,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-10e8110400299609",
@@ -1232,7 +1232,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-b993ef3846fe9a31",
@@ -1302,7 +1302,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-fe28f9c4a49bb55b",
@@ -1340,7 +1340,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "boise-4df2f46757bb28e5",
@@ -1407,7 +1407,7 @@
         }
       ],
       "first_seen": "2026-11-04T19:57:26+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-de51e23de280343e",
@@ -1445,7 +1445,7 @@
         }
       ],
       "first_seen": "2026-10-09T18:27:22+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-eb8a8168a311586f",
@@ -1483,7 +1483,7 @@
         }
       ],
       "first_seen": "2026-10-20T21:47:15+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-6c0a78b594adf31a",
@@ -1529,7 +1529,7 @@
         }
       ],
       "first_seen": "2026-10-02T22:26:37+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-acd720dcc48a1661",
@@ -1559,7 +1559,7 @@
         }
       ],
       "first_seen": "2026-10-01T22:49:51+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-afc4687f7e9ada1e",
@@ -1605,7 +1605,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-ce0312540b71f11c",
@@ -1651,7 +1651,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-9c79bf34a3128e67",
@@ -1689,7 +1689,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-382db0a3f23e0264",
@@ -1739,7 +1739,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-c3d9327cb5e15f38",
@@ -1789,7 +1789,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-582e492e079b8635",
@@ -1823,7 +1823,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-fe8fee98bc036ec9",
@@ -1873,7 +1873,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-23d8c99c24f75c29",
@@ -1923,7 +1923,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-c9ecd873b207c48c",
@@ -1961,7 +1961,32 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
+    },
+    {
+      "id": "idaho-purchasing-f54ee44901ff994a",
+      "source": "Idaho Purchasing",
+      "title": "ITB 1316 - Landscaping & Snow Removal Services Chinden Campus",
+      "agency": "ADM",
+      "description": "Anticipated Post Date: 12/01/2026 Anticipated Close Date: 12/30/2026 Anticipated Award Date: 01/22/2027",
+      "location": "Idaho",
+      "stage": "UPCOMING",
+      "solicitation_type": "ITB",
+      "solicitation_number": "ITB 1316",
+      "posted_date": "2026-05-06",
+      "open_date": "2026-10-13",
+      "due_date": "2026-12-01",
+      "updated_date": "2026-11-12",
+      "status": "ON TRACK",
+      "url": "https://purchasing.idaho.gov/open-and-future-solicitations/",
+      "details_url": "",
+      "contact": "",
+      "category": "BUILDING",
+      "score": 73,
+      "estimated_value": null,
+      "bidders": [],
+      "first_seen": "2026-08-26T19:27:13+00:00",
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "boise-5850de0a5308900c",
@@ -1979,14 +2004,14 @@
       "updated_date": "",
       "status": "OPEN",
       "url": "https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise",
-      "details_url": "https://app01.jaggaer.com/apps/Router/ViewSourcingEvent?AuthToken=1%3AAES2%23CG4Zt4bZ9Ik2gwTt4GcGMZ%2BMbjSowbdoHoPi6Du7azCAMz%2F46yOacOjYzUiB0zrMx68O3c2jVSiqQRff%2FQRJXU32gAO%2B3voZjedw9qsNaesA1BLw%2Fu9ChPLZN20AtFnGJ7BrAxz5onTl9yU9tTePkgzpg28kp95wDA%3D%3D&tmstmp=1794867924560",
+      "details_url": "https://app01.jaggaer.com/apps/Router/ViewSourcingEvent?AuthToken=1%3AAES2%23CATO8QT0nrOeSSiljwp9RY4iKQMRu1E55JxrNx1UfmgUh3YqrS117kdMbxKTiePxR%2FGdj9eigmYzax8Kg705MWUa9YPhLxdG1m5FkNqD0KZFbfCHLQPWXseLTdm7aNFOYMzDRB6IbB3uLU8MA8cwvdeO4MgoLGvI1A%3D%3D&tmstmp=1794903479033",
       "contact": "mharvey@cityofboise.org",
       "category": "PROFESSIONAL_SERVICES",
       "score": 73,
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-11-10T07:36:49+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "ada-county-389c03a921589350",
@@ -2064,6 +2089,31 @@
       "last_seen": "2026-09-02T11:35:00+00:00"
     },
     {
+      "id": "dpw-ef63a71b8cda75b9",
+      "source": "Idaho DPW",
+      "title": "Light Construction Service Contracts, State of Idaho, Southeast Region Light Construction Project Manual",
+      "agency": "Idaho Division of Public Works",
+      "description": "Light Construction Service Contracts, State of Idaho, Southeast Region Light Construction Project Manual",
+      "location": "",
+      "stage": "OPEN_BID",
+      "solicitation_type": "CONSTRUCTION_BID",
+      "solicitation_number": "27863-27864",
+      "posted_date": "",
+      "open_date": "",
+      "due_date": "2026-12-01",
+      "updated_date": "",
+      "status": "OPEN",
+      "url": "https://dpw.idaho.gov/wp-content/uploads/2026/10/Southeast-Light-Construction-Service-Contract-Ad-Long.pdf",
+      "details_url": "https://dpw.idaho.gov/wp-content/uploads/2026/10/Southeast-Light-Construction-Service-Contract-Ad-Long.pdf",
+      "contact": "",
+      "category": "BUILDING",
+      "score": 70,
+      "estimated_value": null,
+      "bidders": [],
+      "first_seen": "2026-10-30T22:33:51+00:00",
+      "last_seen": "2026-11-17T08:17:58+00:00"
+    },
+    {
       "id": "idaho-purchasing-e0aa926b8c3a96f9",
       "source": "Idaho Purchasing",
       "title": "ITB 1412 - Statewide Envelopes",
@@ -2086,32 +2136,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T19:27:13+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
-    },
-    {
-      "id": "idaho-purchasing-f54ee44901ff994a",
-      "source": "Idaho Purchasing",
-      "title": "ITB 1316 - Landscaping & Snow Removal Services Chinden Campus",
-      "agency": "ADM",
-      "description": "Anticipated Post Date: 12/01/2026 Anticipated Close Date: 12/30/2026 Anticipated Award Date: 01/22/2027",
-      "location": "Idaho",
-      "stage": "UPCOMING",
-      "solicitation_type": "ITB",
-      "solicitation_number": "ITB 1316",
-      "posted_date": "2026-05-06",
-      "open_date": "2026-10-13",
-      "due_date": "2026-12-01",
-      "updated_date": "2026-11-12",
-      "status": "ON TRACK",
-      "url": "https://purchasing.idaho.gov/open-and-future-solicitations/",
-      "details_url": "",
-      "contact": "",
-      "category": "BUILDING",
-      "score": 69,
-      "estimated_value": null,
-      "bidders": [],
-      "first_seen": "2026-08-26T19:27:13+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-67cca3b071cb2185",
@@ -2136,7 +2161,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-10-30T22:33:51+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-454ef472aacebbbc",
@@ -2161,7 +2186,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-10-30T22:33:51+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-ce4446b79e765a8c",
@@ -2186,7 +2211,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-11-02T21:51:29+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-19a111a5061dd544",
@@ -2211,7 +2236,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-11-03T07:05:43+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-1a8603b9f6f8d0c7",
@@ -2236,7 +2261,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-10-30T22:33:51+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-e7b8f66abb6136e0",
@@ -2261,7 +2286,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-10-30T22:33:51+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-8622db78cd188ef6",
@@ -2286,32 +2311,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-11-02T21:51:29+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
-    },
-    {
-      "id": "dpw-ef63a71b8cda75b9",
-      "source": "Idaho DPW",
-      "title": "Light Construction Service Contracts, State of Idaho, Southeast Region Light Construction Project Manual",
-      "agency": "Idaho Division of Public Works",
-      "description": "Light Construction Service Contracts, State of Idaho, Southeast Region Light Construction Project Manual",
-      "location": "",
-      "stage": "OPEN_BID",
-      "solicitation_type": "CONSTRUCTION_BID",
-      "solicitation_number": "27863-27864",
-      "posted_date": "",
-      "open_date": "",
-      "due_date": "2026-12-01",
-      "updated_date": "",
-      "status": "OPEN",
-      "url": "https://dpw.idaho.gov/wp-content/uploads/2026/10/Southeast-Light-Construction-Service-Contract-Ad-Long.pdf",
-      "details_url": "https://dpw.idaho.gov/wp-content/uploads/2026/10/Southeast-Light-Construction-Service-Contract-Ad-Long.pdf",
-      "contact": "",
-      "category": "BUILDING",
-      "score": 66,
-      "estimated_value": null,
-      "bidders": [],
-      "first_seen": "2026-10-30T22:33:51+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "idaho-purchasing-f52bbcd2b94707d3",
@@ -2336,7 +2336,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-10-14T05:11:55+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-e21c65ab3c24aa73",
@@ -2379,14 +2379,14 @@
       "updated_date": "",
       "status": "OPEN",
       "url": "https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise",
-      "details_url": "https://app01.jaggaer.com/apps/Router/ViewSourcingEvent?AuthToken=1%3AAES2%23CLMOWLHs1vx59cYPEWA2zHOM8LR58EXNf%2FDNMdoOWlvnoJQ46rUU0QpFgxkXFO7GsPVeMxejUqifhDHSm9Jl2NU8XdCxRzRt%2FzXyR0Ocz5dKt2zu0OgOg0%2B1qBlV1j8TTHc%2Flaj88PjZV5EMooflKXiwgMzr%2Blwe3w%3D%3D&tmstmp=1794867924560",
+      "details_url": "https://app01.jaggaer.com/apps/Router/ViewSourcingEvent?AuthToken=1%3AAES2%23CA1tP9%2Be%2BsHr9UE2iR0vKji7f875GweMnAnUy%2BXheYn36OVlGVdEO03kVQ8%2FdJzjO3DJcOv2sAUru30SeF%2FU5ABk6ndizbCxTANfATSHt%2Fx1UnD4WWNDq7dqT02xF7JWzU9QnfoTDqmS0OhBcwc2SeynvFHM6%2BNWsw%3D%3D&tmstmp=1794903479033",
       "contact": "shitchcock@cityofboise.org",
       "category": "OTHER",
       "score": 65,
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-10-21T12:10:43+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-f5d41f35caaabde3",
@@ -2411,7 +2411,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-10-21T17:31:20+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-917044f5fa0c82ed",
@@ -2636,7 +2636,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-09-03T04:51:44+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-7cb2f46018ff2f9e",
@@ -2678,7 +2678,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "idaho-purchasing-f6141e0a298fd63e",
@@ -2703,7 +2703,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-10-14T05:11:55+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "idaho-purchasing-59910480abec4de2",
@@ -2753,7 +2753,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-11-07T06:21:57+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "idaho-purchasing-35a6465e3ff65b52",
@@ -2778,7 +2778,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-11-10T07:36:49+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "idaho-purchasing-1f6069be1cad379a",
@@ -2803,7 +2803,32 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-11-10T07:36:49+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
+    },
+    {
+      "id": "idaho-purchasing-8026986f72d6462d",
+      "source": "Idaho Purchasing",
+      "title": "PADD - Truck Bodies, Seasonal Maintenance Equipment, and Upfitting Services - Monroe",
+      "agency": "ITD",
+      "description": "Anticipated Award Date: 11/24/2026",
+      "location": "Idaho",
+      "stage": "UPCOMING",
+      "solicitation_type": "FUTURE_SOLICITATION",
+      "solicitation_number": "",
+      "posted_date": "2026-10-13",
+      "open_date": "2026-10-13",
+      "due_date": "2026-11-24",
+      "updated_date": "",
+      "status": "PLANNED",
+      "url": "https://purchasing.idaho.gov/open-and-future-solicitations/",
+      "details_url": "",
+      "contact": "",
+      "category": "MATERIALS_EQUIPMENT",
+      "score": 63,
+      "estimated_value": null,
+      "bidders": [],
+      "first_seen": "2026-11-17T08:17:58+00:00",
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "idaho-purchasing-97c2c04a88e2d73e",
@@ -2853,7 +2878,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-10-15T21:37:17+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-17f7cbd1dc6e88a6",
@@ -3016,7 +3041,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-7bb6aefe6e4f2783",
@@ -3094,7 +3119,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-1999d304fafa3fb1",
@@ -3144,7 +3169,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-5abd47e4022d9d39",
@@ -3194,7 +3219,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-ff1986cbfac5c81b",
@@ -3276,7 +3301,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-95244709e0bfa086",
@@ -3310,7 +3335,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-4c57456222e8d96a",
@@ -3344,7 +3369,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-3f7b16ebd8fe2c24",
@@ -3386,7 +3411,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-5e2b54e4b7a92ec0",
@@ -3428,7 +3453,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-a62dd89d684c5027",
@@ -3470,7 +3495,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-d8a5ad7a81b43963",
@@ -3508,7 +3533,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-e586c37d204775bc",
@@ -3546,7 +3571,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-8e21cbb5bbbf5339",
@@ -3592,7 +3617,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-bc803de318c30939",
@@ -3630,7 +3655,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-e61d9f8f2bb153bb",
@@ -3676,7 +3701,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-1ae8bc168e3b08f5",
@@ -3738,7 +3763,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "boise-2165b6e19c9ba97b",
@@ -3756,14 +3781,14 @@
       "updated_date": "",
       "status": "OPEN",
       "url": "https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise",
-      "details_url": "https://app01.jaggaer.com/apps/Router/ViewSourcingEvent?AuthToken=1%3AAES2%23CCcgQhWgBhvQs2o4rI9HDDfAKeUW%2BNZcqAflsAcclnAbrqLmxddwC4gU6gKKaS%2F%2BAPsQyg3yOftJUmS6e7UcO%2Bdn05Ch92aujbCBv7PrN8defOxtVe4SVD3b6CBiG7UPPSbAL1ozt6jvwrB%2BH8tUeFMCeyyYWNEacA%3D%3D&tmstmp=1794867924558",
+      "details_url": "https://app01.jaggaer.com/apps/Router/ViewSourcingEvent?AuthToken=1%3AAES2%23CJpNMb0je3bBB1fUBSXcAZxxm%2FQfY2qF8lPDJXDXPUyPuYNBOyLX4ePLJRU1rrE08TudA1hGhp44fKDuiCSAeRVMcmyeK2f9d6yyVy3gtsqDBBGnDkmkIe4zRGODA6zQMh96Y1gCXuk8%2FlWWNOlylofTfBupXpNfzQ%3D%3D&tmstmp=1794903479031",
       "contact": "mharvey@cityofboise.org",
       "category": "OTHER",
       "score": 61,
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-11-16T07:01:59+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-f981456f25eaae7d",
@@ -3853,7 +3878,7 @@
       "posted_date": "2026-09-30",
       "open_date": "2026-09-30",
       "due_date": "2027-01-21",
-      "updated_date": "2026-11-06",
+      "updated_date": "2026-11-16",
       "status": "ON TRACK",
       "url": "https://purchasing.idaho.gov/open-and-future-solicitations/",
       "details_url": "",
@@ -3863,7 +3888,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-10-01T06:21:24+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "ada-county-75ff51a329775f8b",
@@ -3888,7 +3913,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-11-12T20:16:07+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-f6bdf913e6869938",
@@ -3913,7 +3938,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-11-03T07:05:43+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-0c4b5f4351e409df",
@@ -3953,7 +3978,7 @@
       "posted_date": "2026-09-29",
       "open_date": "2026-09-29",
       "due_date": "2026-11-10",
-      "updated_date": "2026-11-10",
+      "updated_date": "2026-11-16",
       "status": "ON TRACK",
       "url": "https://purchasing.idaho.gov/open-and-future-solicitations/",
       "details_url": "",
@@ -3963,7 +3988,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-11-11T06:55:15+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "idaho-purchasing-7cde8b85c7c92961",
@@ -4013,7 +4038,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T19:27:13+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-c04d045ace966414",
@@ -4051,7 +4076,7 @@
         }
       ],
       "first_seen": "2026-10-13T23:00:13+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-d521825eb4bf2412",
@@ -4085,7 +4110,7 @@
         }
       ],
       "first_seen": "2026-10-08T18:57:16+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-4ab35c49f385944a",
@@ -4135,7 +4160,7 @@
         }
       ],
       "first_seen": "2026-09-30T22:28:20+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-5248fbdc9241c51d",
@@ -4181,7 +4206,7 @@
         }
       ],
       "first_seen": "2026-09-30T22:28:20+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-d6fcbb29878a8701",
@@ -4206,7 +4231,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-27T22:28:40+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-335bc68c5c57c72c",
@@ -4252,7 +4277,7 @@
         }
       ],
       "first_seen": "2026-09-03T21:13:07+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-7078f73a0dde7c86",
@@ -4290,7 +4315,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-3b916193d31e1f2e",
@@ -4328,7 +4353,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-40350dabb8ff3ea9",
@@ -4362,7 +4387,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-80cc81e1b3432319",
@@ -4400,7 +4425,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-0f76506b2f7c5d7b",
@@ -4438,7 +4463,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-ef00e44409ba1f73",
@@ -4480,7 +4505,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-447a0085c566ce37",
@@ -4518,7 +4543,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-e903a776aa594912",
@@ -4552,7 +4577,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-984d9472d742df11",
@@ -4610,7 +4635,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-51efcdbabc094b15",
@@ -4648,7 +4673,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-684f1f1d7f7d5f34",
@@ -4694,7 +4719,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-5b88f17270865f90",
@@ -4728,7 +4753,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-1721660f94b4a0a5",
@@ -4762,7 +4787,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-527c4aede4c6e71c",
@@ -4800,7 +4825,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-9cd46fe63ee546a3",
@@ -4854,7 +4879,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-c1e5cf7e18faff72",
@@ -4904,7 +4929,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-45972a690e9a319d",
@@ -4950,7 +4975,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-c6426101e04871dd",
@@ -5004,7 +5029,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-2833db2c2bd9aab6",
@@ -5050,7 +5075,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "idaho-purchasing-87f654c4476b8211",
@@ -5109,7 +5134,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-28a29f4094f5f7e8",
@@ -5143,7 +5168,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-1d99b77dca92bdf1",
@@ -5173,7 +5198,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-ec2ebee686999097",
@@ -5215,7 +5240,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-bc781ac8683cb929",
@@ -5270,7 +5295,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-10-09T06:29:11+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "idaho-purchasing-c09eeb809deb2f9d",
@@ -5295,7 +5320,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-10-14T05:11:55+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "idaho-purchasing-d95c2a5554895fee",
@@ -5320,7 +5345,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-10-14T05:11:55+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "idaho-purchasing-c8ace582c3bcb597",
@@ -5335,7 +5360,7 @@
       "posted_date": "2026-09-10",
       "open_date": "2026-09-10",
       "due_date": "2026-11-24",
-      "updated_date": "2026-11-06",
+      "updated_date": "2026-11-16",
       "status": "ON TRACK",
       "url": "https://purchasing.idaho.gov/open-and-future-solicitations/",
       "details_url": "",
@@ -5345,7 +5370,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-09-11T04:59:25+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "idaho-purchasing-ec2c6b1c49f23af1",
@@ -5395,7 +5420,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-11-07T06:21:57+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "idaho-purchasing-349db580b6c98593",
@@ -5420,7 +5445,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-09-09T04:59:39+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "idaho-purchasing-49bcf21906dbe58c",
@@ -5435,7 +5460,7 @@
       "posted_date": "2026-07-30",
       "open_date": "2026-07-30",
       "due_date": "2026-11-20",
-      "updated_date": "2026-11-06",
+      "updated_date": "2026-11-16",
       "status": "ON TRACK",
       "url": "https://purchasing.idaho.gov/open-and-future-solicitations/",
       "details_url": "",
@@ -5445,7 +5470,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T19:27:13+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "idaho-purchasing-e44ba8d18e00fcc0",
@@ -5470,32 +5495,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T19:27:13+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
-    },
-    {
-      "id": "idaho-purchasing-09aec30bccde4b50",
-      "source": "Idaho Purchasing",
-      "title": "PADD202710127 - Data Communications Products and Services",
-      "agency": "STATEWIDE",
-      "description": "Anticipated Award Date: 11/16/2026",
-      "location": "Idaho",
-      "stage": "UPCOMING",
-      "solicitation_type": "FUTURE_SOLICITATION",
-      "solicitation_number": "",
-      "posted_date": "2026-10-05",
-      "open_date": "2026-10-05",
-      "due_date": "2026-11-16",
-      "updated_date": "2026-11-14",
-      "status": "ON TRACK",
-      "url": "https://purchasing.idaho.gov/open-and-future-solicitations/",
-      "details_url": "",
-      "contact": "",
-      "category": "OTHER",
-      "score": 48,
-      "estimated_value": null,
-      "bidders": [],
-      "first_seen": "2026-11-07T06:21:57+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "idaho-purchasing-ba0599ffd6292651",
@@ -5521,6 +5521,31 @@
       "bidders": [],
       "first_seen": "2026-09-12T04:51:32+00:00",
       "last_seen": "2026-10-16T21:30:42+00:00"
+    },
+    {
+      "id": "dpw-5d1bf1b6360494cc",
+      "source": "Idaho DPW",
+      "title": "Eames Bldg. Replace Sprinkler Piping, Idaho State University, Pocatello, Idaho",
+      "agency": "Idaho Division of Public Works",
+      "description": "Eames Bldg. Replace Sprinkler Piping, Idaho State University, Pocatello, Idaho",
+      "location": "Pocatello, Idaho",
+      "stage": "OPEN_BID",
+      "solicitation_type": "CONSTRUCTION_BID",
+      "solicitation_number": "26230",
+      "posted_date": "",
+      "open_date": "",
+      "due_date": "2026-12-01",
+      "updated_date": "",
+      "status": "OPEN",
+      "url": "https://dpw.idaho.gov/wp-content/uploads/2026/11/26230-Ad-Long.pdf",
+      "details_url": "https://dpw.idaho.gov/wp-content/uploads/2026/11/26230-Ad-Long.pdf",
+      "contact": "",
+      "category": "OTHER",
+      "score": 45,
+      "estimated_value": null,
+      "bidders": [],
+      "first_seen": "2026-11-07T06:21:57+00:00",
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-05c468532dc1a947",
@@ -5570,7 +5595,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-11-07T06:21:57+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "idaho-purchasing-8ce0c8dadc6f663c",
@@ -5585,7 +5610,7 @@
       "posted_date": "2026-10-26",
       "open_date": "2026-10-26",
       "due_date": "2026-12-07",
-      "updated_date": "2026-11-09",
+      "updated_date": "2026-11-16",
       "status": "ON TRACK",
       "url": "https://purchasing.idaho.gov/open-and-future-solicitations/",
       "details_url": "",
@@ -5595,7 +5620,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-11-07T06:21:57+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "idaho-purchasing-658cb2e5ea6a3a6e",
@@ -5610,7 +5635,7 @@
       "posted_date": "2026-10-26",
       "open_date": "2026-10-26",
       "due_date": "2026-12-07",
-      "updated_date": "2026-11-09",
+      "updated_date": "2026-11-16",
       "status": "ON TRACK",
       "url": "https://purchasing.idaho.gov/open-and-future-solicitations/",
       "details_url": "",
@@ -5620,7 +5645,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-11-07T06:21:57+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "idaho-purchasing-caf311eba2ef1f49",
@@ -5635,7 +5660,7 @@
       "posted_date": "2026-10-26",
       "open_date": "2026-10-26",
       "due_date": "2026-12-07",
-      "updated_date": "2026-11-09",
+      "updated_date": "2026-11-16",
       "status": "ON TRACK",
       "url": "https://purchasing.idaho.gov/open-and-future-solicitations/",
       "details_url": "",
@@ -5645,7 +5670,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-11-07T06:21:57+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "idaho-purchasing-2eade579abec97e9",
@@ -5720,32 +5745,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-28T11:38:03+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
-    },
-    {
-      "id": "dpw-5d1bf1b6360494cc",
-      "source": "Idaho DPW",
-      "title": "Eames Bldg. Replace Sprinkler Piping, Idaho State University, Pocatello, Idaho",
-      "agency": "Idaho Division of Public Works",
-      "description": "Eames Bldg. Replace Sprinkler Piping, Idaho State University, Pocatello, Idaho",
-      "location": "Pocatello, Idaho",
-      "stage": "OPEN_BID",
-      "solicitation_type": "CONSTRUCTION_BID",
-      "solicitation_number": "26230",
-      "posted_date": "",
-      "open_date": "",
-      "due_date": "2026-12-01",
-      "updated_date": "",
-      "status": "OPEN",
-      "url": "https://dpw.idaho.gov/wp-content/uploads/2026/11/26230-Ad-Long.pdf",
-      "details_url": "https://dpw.idaho.gov/wp-content/uploads/2026/11/26230-Ad-Long.pdf",
-      "contact": "",
-      "category": "OTHER",
-      "score": 41,
-      "estimated_value": null,
-      "bidders": [],
-      "first_seen": "2026-11-07T06:21:57+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "idaho-purchasing-cb75d2f226a69b72",
@@ -5770,7 +5770,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T19:27:13+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "idaho-purchasing-b2726d2ee1343586",
@@ -5795,7 +5795,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T19:27:13+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "idaho-purchasing-355b27e3f3cde0d2",
@@ -5845,7 +5845,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-09-17T05:07:23+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "idaho-purchasing-2fdfe3835c2fd3af",
@@ -5870,7 +5870,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-10-08T06:27:38+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "idaho-purchasing-7f69334446836625",
@@ -5910,7 +5910,7 @@
       "posted_date": "2026-10-07",
       "open_date": "2026-10-07",
       "due_date": "2027-01-28",
-      "updated_date": "2026-11-06",
+      "updated_date": "2026-11-16",
       "status": "ON TRACK",
       "url": "https://purchasing.idaho.gov/open-and-future-solicitations/",
       "details_url": "",
@@ -5920,7 +5920,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-10-29T06:13:08+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "idaho-purchasing-8281e8f0dafa17a8",
@@ -5945,7 +5945,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-09-03T04:51:44+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "idaho-purchasing-e13c7bbe63368699",
@@ -5970,7 +5970,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-09-04T04:54:49+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "idaho-purchasing-065ee92c03ce2a8a",
@@ -5995,14 +5995,14 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-11-07T06:21:57+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "idaho-purchasing-027a87a4205f5bac",
       "source": "Idaho Purchasing",
       "title": "ITB 1449 - ITD Work Zone Safety Trucks",
       "agency": "ITD",
-      "description": "Post Date: 10/13/2026 Anticipated Close Date: 11/16/2026 Anticipated Award Date: 11/27/2026",
+      "description": "Post Date: 10/13/2026 Close Date: 12/01/2026 Anticipated Award Date: 12/15/2026",
       "location": "Idaho",
       "stage": "UPCOMING",
       "solicitation_type": "ITB",
@@ -6010,7 +6010,7 @@
       "posted_date": "2026-09-25",
       "open_date": "2026-09-28",
       "due_date": "2027-01-19",
-      "updated_date": "2026-11-06",
+      "updated_date": "2026-11-16",
       "status": "ON TRACK",
       "url": "https://purchasing.idaho.gov/open-and-future-solicitations/",
       "details_url": "",
@@ -6020,7 +6020,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-10-01T06:21:24+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "idaho-purchasing-1eea9a07cada98be",
@@ -6045,7 +6045,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T19:27:13+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "idaho-purchasing-cdd3554d8dd05372",
@@ -6095,7 +6095,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-11-06T07:09:59+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "idaho-purchasing-b11303350a648129",
@@ -6120,7 +6120,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T19:27:13+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "idaho-purchasing-b195f2a087a6630b",
@@ -6170,7 +6170,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-09-09T04:59:39+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "idaho-purchasing-6571a37e9436757b",
@@ -6195,7 +6195,32 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-09-03T04:51:44+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
+    },
+    {
+      "id": "idaho-purchasing-09aec30bccde4b50",
+      "source": "Idaho Purchasing",
+      "title": "PADD202710127 - Data Communications Products and Services",
+      "agency": "STATEWIDE",
+      "description": "Anticipated Award Date: 11/16/2026",
+      "location": "Idaho",
+      "stage": "UPCOMING",
+      "solicitation_type": "FUTURE_SOLICITATION",
+      "solicitation_number": "",
+      "posted_date": "2026-10-05",
+      "open_date": "2026-10-05",
+      "due_date": "2026-11-16",
+      "updated_date": "2026-11-14",
+      "status": "ON TRACK",
+      "url": "https://purchasing.idaho.gov/open-and-future-solicitations/",
+      "details_url": "",
+      "contact": "",
+      "category": "OTHER",
+      "score": 40,
+      "estimated_value": null,
+      "bidders": [],
+      "first_seen": "2026-11-07T06:21:57+00:00",
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "idaho-purchasing-5567b343f7bc29b0",
@@ -6245,7 +6270,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T19:27:13+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "idaho-purchasing-4622fe00f1aa9d2e",
@@ -6270,7 +6295,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T19:27:13+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "idaho-purchasing-156b2083067a80ae",
@@ -6320,7 +6345,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-10-17T04:49:12+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "idaho-purchasing-c7a24273f51ffdb2",
@@ -6370,7 +6395,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-09-01T05:27:48+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "idaho-purchasing-25963afd4da41f40",
@@ -6445,7 +6470,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T19:27:13+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "idaho-purchasing-00074b259e1c1d7b",
@@ -6510,7 +6535,7 @@
       "posted_date": "2026-06-04",
       "open_date": "2026-06-04",
       "due_date": "2026-07-16",
-      "updated_date": "2026-11-09",
+      "updated_date": "2026-11-16",
       "status": "ON TRACK",
       "url": "https://purchasing.idaho.gov/open-and-future-solicitations/",
       "details_url": "",
@@ -6520,7 +6545,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T19:27:13+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "idaho-purchasing-9fc3b07ba3c4bd4d",
@@ -6545,7 +6570,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T19:27:13+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-2d2a147c43eaa028",
@@ -6654,7 +6679,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-c1b151fd820fcecb",
@@ -6692,7 +6717,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-13fb81fd794589c8",
@@ -6722,7 +6747,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-9dd15215e401fe81",
@@ -6756,7 +6781,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "idaho-purchasing-36659b0ae8a912a3",
@@ -6781,7 +6806,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-09-09T04:59:39+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "idaho-purchasing-518dfb30b6f8f12a",
@@ -6806,7 +6831,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T19:27:13+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "idaho-purchasing-e273dfa1fc5b9f3e",
@@ -6894,7 +6919,7 @@
         }
       ],
       "first_seen": "2026-10-27T22:28:57+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-2f386f2d766f124c",
@@ -6928,7 +6953,7 @@
         }
       ],
       "first_seen": "2026-09-04T16:31:44+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-d9e7943c950163d3",
@@ -6966,7 +6991,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-c54d7fe01729d237",
@@ -6991,7 +7016,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-f1f4e4019e7079b5",
@@ -7025,7 +7050,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-bebc272c904d4495",
@@ -7071,7 +7096,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-0ca21319885da431",
@@ -7113,7 +7138,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "dpw-result-57287eed474d6b3c",
@@ -7143,7 +7168,7 @@
         }
       ],
       "first_seen": "2026-08-26T18:59:38+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     },
     {
       "id": "idaho-purchasing-f5a351fce50d3935",
@@ -7618,7 +7643,7 @@
       "estimated_value": null,
       "bidders": [],
       "first_seen": "2026-08-26T19:27:13+00:00",
-      "last_seen": "2026-11-16T22:25:24+00:00"
+      "last_seen": "2026-11-17T08:17:58+00:00"
     }
   ]
 }
