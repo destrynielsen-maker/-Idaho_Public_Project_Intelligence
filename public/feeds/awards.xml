@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 17 Nov 2026 21:12:13 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 00:46:25 +0000</lastBuildDate>
     <item>
       <title>[25] RFP 717 - IDFG Website Rebuild</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
@@ -282,7 +282,7 @@
       <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[43] ITB 1392 - ITD Thermoplastic Roadway Markings</title>
+      <title>[47] ITB 1392 - ITD Thermoplastic Roadway Markings</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
       <description>Agency: ITD | Stage: AWARDED | Type: ITB | Due: 2026-12-18 | Location: Idaho&lt;br&gt;Anticipated Post Date: 09/18/2026 Anticipated Close Date: 10/16/2026 Anticipated Award Date: 11/06/2026</description>
       <guid isPermaLink="false">idaho-purchasing-fd1a94c915b1bccd</guid>
@@ -511,6 +511,13 @@
       <description>Agency: Idaho Division of Public Works | Stage: BID_RESULTS | Type: BID_RESULT | Due: 2026-10-01 | Location: Moscow, Idaho&lt;br&gt;Bid results: Mangum Construction — $122,000; Sprenger Construction NON-RESPONSIVE; NNAC — $192,124</description>
       <guid isPermaLink="false">dpw-result-c04d045ace966414</guid>
       <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[54] ITB 1412 - Statewide Envelopes</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: STATEWIDE | Stage: AWARDED | Type: ITB | Due: 2026-12-09 | Location: Idaho&lt;br&gt;Post Date: 09/24/2026 Closed Date: 10/28/2026 Awarded Date: 11/17/2026</description>
+      <guid isPermaLink="false">idaho-purchasing-e0aa926b8c3a96f9</guid>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[62] Diesel Bay Remodel, Hedlund Hall, North Idaho College, Coeur d'Alene, Idaho</title>

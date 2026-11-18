@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 17 Nov 2026 21:12:13 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 00:46:25 +0000</lastBuildDate>
     <item>
       <title>[58] ITB 1445 - IDVS Broadcast TV Services</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
@@ -44,27 +44,6 @@
       <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[66] HVAC Service Contract, State of Idaho, Northern Region HVAC Project Manual</title>
-      <link>https://dpw.idaho.gov/wp-content/uploads/2026/11/HVAC-Region-I-Ad-Long-FORM.pdf</link>
-      <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-12-02 | Location: &lt;br&gt;HVAC Service Contract, State of Idaho, Northern Region HVAC Project Manual</description>
-      <guid isPermaLink="false">dpw-8622db78cd188ef6</guid>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[66] Light Construction Service Contract, State of Idaho, Northern Region Light Construction Project Manual</title>
-      <link>https://dpw.idaho.gov/wp-content/uploads/2026/10/Northern-Light-Construction-Service-Contract-Ad-Long.pdf</link>
-      <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-12-02 | Location: &lt;br&gt;Light Construction Service Contract, State of Idaho, Northern Region Light Construction Project Manual</description>
-      <guid isPermaLink="false">dpw-e7b8f66abb6136e0</guid>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[66] Electrical Service Contract, State of Idaho, Northern Region Electrical Project Manual</title>
-      <link>https://dpw.idaho.gov/wp-content/uploads/2026/10/Northern-Electrical-Service-Contract-Ad-Long.pdf</link>
-      <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-12-02 | Location: &lt;br&gt;Electrical Service Contract, State of Idaho, Northern Region Electrical Project Manual</description>
-      <guid isPermaLink="false">dpw-1a8603b9f6f8d0c7</guid>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>[66] HVAC Service Contract, State of Idaho, Southwest Region HVAC Project Manual</title>
       <link>https://dpw.idaho.gov/wp-content/uploads/2026/11/HVAC-Region-II-Ad-Long-FORM.pdf</link>
       <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-12-03 | Location: &lt;br&gt;HVAC Service Contract, State of Idaho, Southwest Region HVAC Project Manual</description>
@@ -93,17 +72,31 @@
       <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[69] ITB 1412 - Statewide Envelopes</title>
-      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: STATEWIDE | Stage: UPCOMING | Type: ITB | Due: 2026-12-09 | Location: Idaho&lt;br&gt;Post Date: 09/24/2026 Closed Date: 10/28/2026 Anticipated Award Date: 11/27/2026</description>
-      <guid isPermaLink="false">idaho-purchasing-e0aa926b8c3a96f9</guid>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>[70] Light Construction Service Contracts, State of Idaho, Southeast Region Light Construction Project Manual</title>
       <link>https://dpw.idaho.gov/wp-content/uploads/2026/10/Southeast-Light-Construction-Service-Contract-Ad-Long.pdf</link>
       <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-12-01 | Location: &lt;br&gt;Light Construction Service Contracts, State of Idaho, Southeast Region Light Construction Project Manual</description>
       <guid isPermaLink="false">dpw-ef63a71b8cda75b9</guid>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[70] HVAC Service Contract, State of Idaho, Northern Region HVAC Project Manual</title>
+      <link>https://dpw.idaho.gov/wp-content/uploads/2026/11/HVAC-Region-I-Ad-Long-FORM.pdf</link>
+      <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-12-02 | Location: &lt;br&gt;HVAC Service Contract, State of Idaho, Northern Region HVAC Project Manual</description>
+      <guid isPermaLink="false">dpw-8622db78cd188ef6</guid>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[70] Light Construction Service Contract, State of Idaho, Northern Region Light Construction Project Manual</title>
+      <link>https://dpw.idaho.gov/wp-content/uploads/2026/10/Northern-Light-Construction-Service-Contract-Ad-Long.pdf</link>
+      <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-12-02 | Location: &lt;br&gt;Light Construction Service Contract, State of Idaho, Northern Region Light Construction Project Manual</description>
+      <guid isPermaLink="false">dpw-e7b8f66abb6136e0</guid>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[70] Electrical Service Contract, State of Idaho, Northern Region Electrical Project Manual</title>
+      <link>https://dpw.idaho.gov/wp-content/uploads/2026/10/Northern-Electrical-Service-Contract-Ad-Long.pdf</link>
+      <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-12-02 | Location: &lt;br&gt;Electrical Service Contract, State of Idaho, Northern Region Electrical Project Manual</description>
+      <guid isPermaLink="false">dpw-1a8603b9f6f8d0c7</guid>
       <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -168,13 +161,6 @@
       <description>Agency: City of Boise | Stage: OPEN_BID | Type: FB- | Due: 2026-11-04 | Location: Boise, Idaho&lt;br&gt;Open Rehabilitate two diversion manholes, including new slide gates, sewer bypass pumping, traffic control, concrete lining/coating, landscaping restoration, and other related work.</description>
       <guid isPermaLink="false">boise-ab5b205127c5b70f</guid>
       <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[86] Pre-Qualification of Aluminum Coagulant REBID - PRF 1001</title>
-      <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
-      <description>Agency: City of Boise | Stage: OPEN_BID | Type: RFQ | Due: 2026-12-02 | Location: Boise, Idaho&lt;br&gt;Open The City is seeking to pre-qualify products for Aluminum Coagulants for the Phosphorus Removal Facility (PRF).</description>
-      <guid isPermaLink="false">boise-3be8cd509ed33ba5</guid>
-      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[86] Ada County Sheriff's Office Restrooms Phases 2 &amp; 3 2027</title>
@@ -287,6 +273,13 @@
       <description>Agency: City of Boise | Stage: OPEN_BID | Type: RFQ | Due: 2026-11-20 | Location: Boise, Idaho&lt;br&gt;Open Provide building and systems commissioning services for new facilities and existing buildings across all City-owned facilities.</description>
       <guid isPermaLink="false">boise-ed23bcad6e5686fa</guid>
       <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[90] Pre-Qualification of Aluminum Coagulant REBID - PRF 1001</title>
+      <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
+      <description>Agency: City of Boise | Stage: OPEN_BID | Type: RFQ | Due: 2026-12-02 | Location: Boise, Idaho&lt;br&gt;Open The City is seeking to pre-qualify products for Aluminum Coagulants for the Phosphorus Removal Facility (PRF).</description>
+      <guid isPermaLink="false">boise-3be8cd509ed33ba5</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

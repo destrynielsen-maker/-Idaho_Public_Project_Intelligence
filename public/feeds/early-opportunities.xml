@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 17 Nov 2026 21:12:13 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 00:46:25 +0000</lastBuildDate>
     <item>
       <title>[25] RFP 717 - IDFG Website Rebuild</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
@@ -247,13 +247,6 @@
       <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[40] RFP 1301 - IDOC Medical Services</title>
-      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: IDOC | Stage: UPCOMING | Type: RFP | Due: 2026-10-22 | Location: Idaho&lt;br&gt;Post Date: 07/13/2026 Anticipated Close Date: 09/02/2026 Anticipated Award Date: 10/22/2026</description>
-      <guid isPermaLink="false">idaho-purchasing-4622fe00f1aa9d2e</guid>
-      <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>[40] RFQ 1408 - ADM Mat Services Capitol Mall</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
       <description>Agency: ADM | Stage: UPCOMING | Type: RFQ | Due: 2026-10-26 | Location: Idaho&lt;br&gt;Anticipated Post Date: 09/16/2026 Anticipated Close Date: 09/30/2026 Anticipated Award Date: 10/08/2026</description>
@@ -273,6 +266,13 @@
       <description>Agency: STATEWIDE | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-11-16 | Location: Idaho&lt;br&gt;Anticipated Award Date: 11/16/2026</description>
       <guid isPermaLink="false">idaho-purchasing-09aec30bccde4b50</guid>
       <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[40] RFP 1301 - IDOC Medical Services</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: IDOC | Stage: UPCOMING | Type: RFP | Due: 2026-12-22 | Location: Idaho&lt;br&gt;Post Date: 07/13/2026 Anticipated Close Date: 09/02/2026 Anticipated Award Date: 10/22/2026</description>
+      <guid isPermaLink="false">idaho-purchasing-4622fe00f1aa9d2e</guid>
+      <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[40] ITB 1429 - AGRI Temporary Staffing Services</title>
@@ -401,11 +401,11 @@
       <pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[43] ITB 1392 - ITD Thermoplastic Roadway Markings</title>
+      <title>[40] ITB 1254 - Fire Suppression System and Fire Extinguisher Inspections</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: ITD | Stage: AWARDED | Type: ITB | Due: 2026-12-18 | Location: Idaho&lt;br&gt;Anticipated Post Date: 09/18/2026 Anticipated Close Date: 10/16/2026 Anticipated Award Date: 11/06/2026</description>
-      <guid isPermaLink="false">idaho-purchasing-fd1a94c915b1bccd</guid>
-      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
+      <description>Agency: ADM | Stage: UPCOMING | Type: ITB | Due: 2027-04-01 | Location: Idaho&lt;br&gt;Anticipated Post Date: Anticipated Close Date: Anticipated Award Date:</description>
+      <guid isPermaLink="false">idaho-purchasing-a90bfbcae31e4eb3</guid>
+      <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[44] PADD - Bandit Tree care and wood waste recycling</title>
@@ -448,6 +448,13 @@
       <description>Agency: STATEWIDE | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-12-07 | Location: Idaho&lt;br&gt;Anticipated Award Date: 12/07/2026</description>
       <guid isPermaLink="false">idaho-purchasing-5c4303d2f33b51ce</guid>
       <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[47] ITB 1392 - ITD Thermoplastic Roadway Markings</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: ITD | Stage: AWARDED | Type: ITB | Due: 2026-12-18 | Location: Idaho&lt;br&gt;Anticipated Post Date: 09/18/2026 Anticipated Close Date: 10/16/2026 Anticipated Award Date: 11/06/2026</description>
+      <guid isPermaLink="false">idaho-purchasing-fd1a94c915b1bccd</guid>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[48] PADD - Drugs of Abuse Testing Products &amp; Laboratory Services</title>
@@ -518,6 +525,13 @@
       <description>Agency: ADM | Stage: AWARDED | Type: ITB | Due: 2026-07-03 | Location: Idaho&lt;br&gt;Post Date: 06/05/2026 Close Date: 07/23/2026 Anticipated Award Date: 07/29/2026</description>
       <guid isPermaLink="false">idaho-purchasing-87f654c4476b8211</guid>
       <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[54] ITB 1412 - Statewide Envelopes</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: STATEWIDE | Stage: AWARDED | Type: ITB | Due: 2026-12-09 | Location: Idaho&lt;br&gt;Post Date: 09/24/2026 Closed Date: 10/28/2026 Awarded Date: 11/17/2026</description>
+      <guid isPermaLink="false">idaho-purchasing-e0aa926b8c3a96f9</guid>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[55] PADD - Weapons &amp; Threat Detection Equipment, Services, &amp; Other Solutions</title>
@@ -623,13 +637,6 @@
       <description>Agency: ITD | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-11-24 | Location: Idaho&lt;br&gt;Anticipated Award Date: 11/24/2026</description>
       <guid isPermaLink="false">idaho-purchasing-f52bbcd2b94707d3</guid>
       <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[69] ITB 1412 - Statewide Envelopes</title>
-      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: STATEWIDE | Stage: UPCOMING | Type: ITB | Due: 2026-12-09 | Location: Idaho&lt;br&gt;Post Date: 09/24/2026 Closed Date: 10/28/2026 Anticipated Award Date: 11/27/2026</description>
-      <guid isPermaLink="false">idaho-purchasing-e0aa926b8c3a96f9</guid>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[73] ITB 1316 - Landscaping &amp; Snow Removal Services Chinden Campus</title>
