@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 19 Nov 2026 18:32:43 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 00:44:09 +0000</lastBuildDate>
     <item>
       <title>[40] PADD - Cloud Solutions</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
@@ -205,6 +205,13 @@
       <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>[40] ITB 1474 - IDOC Boots, Duty Gear, Uniforms</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: IDOC | Stage: UPCOMING | Type: ITB | Due: 2027-02-23 | Location: Idaho&lt;br&gt;Anticipated Post Date: 12/18/2026 Anticipated Close Date: 01/14/2027 Anticipated Award Date: 02/04/2027</description>
+      <guid isPermaLink="false">idaho-purchasing-cbc5826cd7a5139b</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>[40] RFP 856 - MMIS SI Builder</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
       <description>Agency: DHW | Stage: UPCOMING | Type: RFP | Due: 2027-03-31 | Location: Idaho&lt;br&gt;Post Date: 03/24/2025 Close Date: 05/23/2025 Award Date: 02/26/2026</description>
@@ -359,6 +366,13 @@
       <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>[61] BOI AOC Video Wall System</title>
+      <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
+      <description>Agency: City of Boise | Stage: OPEN_BID | Type: RFP | Due: 2026-12-09 | Location: Boise, Idaho&lt;br&gt;Open Replace the existing Airport Operations video wall with new technology</description>
+      <guid isPermaLink="false">boise-e27e3bae8cd95701</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>[61] Ada County Landfill Third Leachate Pond 2027</title>
       <link>https://adacounty.bonfirehub.com/opportunities/257186</link>
       <description>Agency: Ada County | Stage: OPEN_BID | Type: RFP | Due: 2026-12-18 | Location: Ada County, Idaho&lt;br&gt;Ada County public procurement opportunity: Ada County Landfill Third Leachate Pond 2027</description>
@@ -441,13 +455,6 @@
       <description>Agency: ADM | Stage: UPCOMING | Type: RFQ | Due: 2026-11-02 | Location: Idaho&lt;br&gt;Anticipated Post Date: 09/10/2026 Anticipated Close Date: 09/24/2026 Anticipated Award Date: 10/07/2026</description>
       <guid isPermaLink="false">idaho-purchasing-129f81beb0fb5d95</guid>
       <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[65] BOI AOC Video Wall System</title>
-      <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
-      <description>Agency: City of Boise | Stage: OPEN_BID | Type: RFP | Due: 2026-11-25 | Location: Boise, Idaho&lt;br&gt;Open Replace the existing Airport Operations video wall with new technology</description>
-      <guid isPermaLink="false">boise-e27e3bae8cd95701</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[66] PADD - Etnyre Roadway maintencance preservation equipment</title>
