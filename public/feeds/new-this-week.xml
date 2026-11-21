@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 20 Nov 2026 18:32:24 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 00:44:06 +0000</lastBuildDate>
     <item>
       <title>[40] ITB 1474 - IDOC Boots, Duty Gear, Uniforms</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
@@ -21,6 +21,13 @@
       <description>Agency: ADM | Stage: UPCOMING | Type: ITB | Due: 2027-04-01 | Location: Idaho&lt;br&gt;Anticipated Post Date: Anticipated Close Date: Anticipated Award Date:</description>
       <guid isPermaLink="false">idaho-purchasing-a90bfbcae31e4eb3</guid>
       <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[40] RFP 1486 - WDC Adult &amp; Dislocated Worker Career Training</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: WDC | Stage: UPCOMING | Type: RFP | Due: 2027-04-23 | Location: Idaho&lt;br&gt;Anticipated Post Date: 01/28/2027 Anticipated Close Date: 02/18/2027 Anticipated Award Date: 04/06/2027</description>
+      <guid isPermaLink="false">idaho-purchasing-99d92757053f1da2</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[61] Golf Course: Purchase of Fertilizer, Seed, and Other Landscape Chemicals</title>
@@ -51,9 +58,9 @@
       <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[90] PTC Restroom Upgrades, Department of Administration, Boise, Idaho *NOTE: BID DATE CHANGE SEE ADDENDUM 4</title>
+      <title>[82] PTC Restroom Upgrades, Department of Administration, Boise, Idaho *NOTE: BID DATE CHANGE SEE ADDENDUM 4</title>
       <link>https://dpw.idaho.gov/wp-content/uploads/2026/10/26009-Ad-Long.pdf</link>
-      <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-11-20 | Location: Boise, Idaho&lt;br&gt;PTC Restroom Upgrades, Department of Administration, Boise, Idaho *NOTE: BID DATE CHANGE SEE ADDENDUM 4</description>
+      <description>Agency: Idaho Division of Public Works | Stage: CLOSED | Type: CONSTRUCTION_BID | Due: 2026-11-20 | Location: Boise, Idaho&lt;br&gt;PTC Restroom Upgrades, Department of Administration, Boise, Idaho *NOTE: BID DATE CHANGE SEE ADDENDUM 4</description>
       <guid isPermaLink="false">dpw-67849a258b9eed99</guid>
       <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
     </item>
