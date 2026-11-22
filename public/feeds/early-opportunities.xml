@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 21 Nov 2026 18:32:13 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 00:47:28 +0000</lastBuildDate>
     <item>
       <title>[25] RFP 717 - IDFG Website Rebuild</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
@@ -303,13 +303,6 @@
       <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[40] RFP 1301 - IDOC Medical Services</title>
-      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: IDOC | Stage: UPCOMING | Type: RFP | Due: 2026-12-22 | Location: Idaho&lt;br&gt;Post Date: 07/13/2026 Anticipated Close Date: 09/02/2026 Anticipated Award Date: 10/22/2026</description>
-      <guid isPermaLink="false">idaho-purchasing-4622fe00f1aa9d2e</guid>
-      <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>[40] ITB 1431 - IDPR Snow Groomers</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
       <description>Agency: IDPR | Stage: UPCOMING | Type: ITB | Due: 2026-12-30 | Location: Idaho&lt;br&gt;Anticipated Post Date: 10/26/2026 Anticipated Close Date: 11/20/2026 Anticipated Award Date: 12/30/2026</description>
@@ -490,6 +483,13 @@
       <description>Agency: STATEWIDE | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-12-07 | Location: Idaho&lt;br&gt;Anticipated Award Date: 12/07/2026</description>
       <guid isPermaLink="false">idaho-purchasing-5c4303d2f33b51ce</guid>
       <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[44] RFP 1301 - IDOC Medical Services</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: IDOC | Stage: UPCOMING | Type: RFP | Due: 2026-12-22 | Location: Idaho&lt;br&gt;Post Date: 07/13/2026 Anticipated Close Date: 09/02/2026 Anticipated Award Date: 10/22/2026</description>
+      <guid isPermaLink="false">idaho-purchasing-4622fe00f1aa9d2e</guid>
+      <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[47] ITB 1392 - ITD Thermoplastic Roadway Markings</title>
