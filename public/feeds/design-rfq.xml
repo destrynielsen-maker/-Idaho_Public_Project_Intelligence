@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 22 Nov 2026 18:31:51 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 00:49:08 +0000</lastBuildDate>
     <item>
       <title>[40] PADD - Cloud Solutions</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
@@ -261,34 +261,6 @@
       <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[44] PADD202710126 - Data Communications Products and Services</title>
-      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: STATEWIDE | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-12-07 | Location: Idaho&lt;br&gt;Anticipated Award Date: 12/07/2026</description>
-      <guid isPermaLink="false">idaho-purchasing-caf311eba2ef1f49</guid>
-      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[44] PADD202710125 - Data Communications Products and Services</title>
-      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: STATEWIDE | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-12-07 | Location: Idaho&lt;br&gt;Anticipated Award Date: 12/07/2026</description>
-      <guid isPermaLink="false">idaho-purchasing-658cb2e5ea6a3a6e</guid>
-      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[44] PADD202710124 - Data Communications Products and Services</title>
-      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: STATEWIDE | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-12-07 | Location: Idaho&lt;br&gt;Anticipated Award Date: 12/07/2026</description>
-      <guid isPermaLink="false">idaho-purchasing-8ce0c8dadc6f663c</guid>
-      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[44] PADD202710129 - Data Communications Products and Services</title>
-      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: STATEWIDE | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-12-07 | Location: Idaho&lt;br&gt;Anticipated Award Date: 12/07/2026</description>
-      <guid isPermaLink="false">idaho-purchasing-5c4303d2f33b51ce</guid>
-      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>[44] RFP 1301 - IDOC Medical Services</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
       <description>Agency: IDOC | Stage: UPCOMING | Type: RFP | Due: 2026-12-22 | Location: Idaho&lt;br&gt;Post Date: 07/13/2026 Anticipated Close Date: 09/02/2026 Anticipated Award Date: 10/22/2026</description>
@@ -329,6 +301,34 @@
       <description>Agency: ITD | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-11-24 | Location: Idaho&lt;br&gt;Anticipated Award Date: 11/24/2026</description>
       <guid isPermaLink="false">idaho-purchasing-c09eeb809deb2f9d</guid>
       <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[48] PADD202710126 - Data Communications Products and Services</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: STATEWIDE | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-12-07 | Location: Idaho&lt;br&gt;Anticipated Award Date: 12/07/2026</description>
+      <guid isPermaLink="false">idaho-purchasing-caf311eba2ef1f49</guid>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[48] PADD202710125 - Data Communications Products and Services</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: STATEWIDE | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-12-07 | Location: Idaho&lt;br&gt;Anticipated Award Date: 12/07/2026</description>
+      <guid isPermaLink="false">idaho-purchasing-658cb2e5ea6a3a6e</guid>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[48] PADD202710124 - Data Communications Products and Services</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: STATEWIDE | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-12-07 | Location: Idaho&lt;br&gt;Anticipated Award Date: 12/07/2026</description>
+      <guid isPermaLink="false">idaho-purchasing-8ce0c8dadc6f663c</guid>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[48] PADD202710129 - Data Communications Products and Services</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: STATEWIDE | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-12-07 | Location: Idaho&lt;br&gt;Anticipated Award Date: 12/07/2026</description>
+      <guid isPermaLink="false">idaho-purchasing-5c4303d2f33b51ce</guid>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[55] PADD - Weapons &amp; Threat Detection Equipment, Services, &amp; Other Solutions</title>
