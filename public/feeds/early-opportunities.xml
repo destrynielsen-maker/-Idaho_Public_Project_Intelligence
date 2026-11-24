@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 23 Nov 2026 18:31:53 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 00:42:20 +0000</lastBuildDate>
     <item>
       <title>[25] RFP 717 - IDFG Website Rebuild</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
@@ -149,18 +149,18 @@
       <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[25] ITB 1429 - AGRI Temporary Staffing Services</title>
-      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: AGRI | Stage: AWARDED | Type: ITB | Due: 2026-12-24 | Location: Idaho&lt;br&gt;Anticipated Post Date: 10/20/2026 Anticipated Close Date: 11/16/2026 Anticipated Award Date: 12/07/2026</description>
-      <guid isPermaLink="false">idaho-purchasing-6571a37e9436757b</guid>
-      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>[25] ITB 1223 - ISHS Stricker Landscape &amp; Lawncare Maintenance</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
       <description>Agency: ISHS | Stage: AWARDED | Type: ITB | Due: 2027-02-01 | Location: Idaho&lt;br&gt;Posted Date: 05/19/2026 Closed Date: 06/25/2026 Awarded Date: 08/25/2026</description>
       <guid isPermaLink="false">idaho-purchasing-f5a351fce50d3935</guid>
       <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[29] ITB 1429 - AGRI Temporary Staffing Services</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: AGRI | Stage: AWARDED | Type: ITB | Due: 2026-12-24 | Location: Idaho&lt;br&gt;Anticipated Post Date: 10/20/2026 Anticipated Close Date: 11/16/2026 Anticipated Award Date: 12/07/2026</description>
+      <guid isPermaLink="false">idaho-purchasing-6571a37e9436757b</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[33] PADD - Strategic Management Consulting Services</title>
@@ -266,6 +266,13 @@
       <description>Agency: STATEWIDE | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-10-27 | Location: Idaho&lt;br&gt;Anticipated Award Date:</description>
       <guid isPermaLink="false">idaho-purchasing-5567b343f7bc29b0</guid>
       <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[40] PADD - Snow and ice Equipment Tenco Alamo</title>
+      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
+      <description>Agency: ITD | Stage: AWARDED | Type: FUTURE_SOLICITATION | Due: 2026-11-10 | Location: Idaho&lt;br&gt;Anticipated Award Date: 10/10/2026</description>
+      <guid isPermaLink="false">idaho-purchasing-b18748b0320070d9</guid>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[40] PADD202710127 - Data Communications Products and Services</title>
@@ -560,13 +567,6 @@
       <description>Agency: STATEWIDE | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-10-08 | Location: Idaho&lt;br&gt;Anticipated Award Date:</description>
       <guid isPermaLink="false">idaho-purchasing-7cde8b85c7c92961</guid>
       <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[55] PADD - Snow and ice Equipment Tenco Alamo</title>
-      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: ITD | Stage: UPCOMING | Type: FUTURE_SOLICITATION | Due: 2026-11-10 | Location: Idaho&lt;br&gt;Anticipated Award Date: 10/10/2026</description>
-      <guid isPermaLink="false">idaho-purchasing-b18748b0320070d9</guid>
-      <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[58] ITB 1445 - IDVS Broadcast TV Services</title>
