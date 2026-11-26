@@ -52,6 +52,8 @@ jobs:
       artifact-id: ${{ steps.verified.outputs.artifact-id }}
       artifact-name: ${{ steps.verified.outputs.artifact-name }}
       tar-sha256: ${{ steps.verified.outputs.tar-sha256 }}
+      opportunities-sha256: ${{ steps.verified.outputs.opportunities-sha256 }}
+      sources-sha256: ${{ steps.verified.outputs.sources-sha256 }}
     permissions:
       contents: read
     steps:
@@ -151,17 +153,24 @@ jobs:
           for member in ./data/opportunities.json ./data/sources.json; do
             member_sha=$(tar -xOf "$verified_tar" "$member" | sha256sum)
             printf 'Verified member %s SHA-256 %s\n' "$member" "${member_sha%% *}"
+            key="${member##*/}"
+            printf '%s-sha256=%s\n' "${key%.json}" "${member_sha%% *}" >> "$GITHUB_OUTPUT"
           done
           printf 'artifact-id=%s\nartifact-name=%s\ntar-sha256=%s\n' \
             "$UPLOADED_ID" "$UPLOADED_NAME" "$EXPECTED_SHA" >> "$GITHUB_OUTPUT"
 
   publish:
     needs: verify-pages-artifact
-    if: github.event.repository.private == false && github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    if: >-
+      ${{ !cancelled() && needs.verify-pages-artifact.result == 'success' &&
+      github.event.repository.private == false && github.ref == 'refs/heads/main' &&
+      github.event_name != 'pull_request' }}
     runs-on: ubuntu-latest
     permissions:
       pages: write
       id-token: write
+    outputs:
+      page-url: ${{ steps.deployment.outputs.page_url }}
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -198,3 +207,44 @@ jobs:
         uses: actions/deploy-pages@v4
         with:
           artifact_name: ${{ needs.verify-pages-artifact.outputs.artifact-name }}
+
+  require-production-publication:
+    needs: [verify-pages-artifact, publish]
+    if: >-
+      ${{ !cancelled() && github.event.repository.private == false &&
+      github.ref == 'refs/heads/main' && github.event_name != 'pull_request' }}
+    runs-on: ubuntu-latest
+    permissions: {}
+    timeout-minutes: 3
+    steps:
+      - name: Reject incomplete production publication
+        env:
+          VERIFY_RESULT: ${{ needs.verify-pages-artifact.result }}
+          PUBLISH_RESULT: ${{ needs.publish.result }}
+          PAGE_URL: ${{ needs.publish.outputs.page-url }}
+          OPPORTUNITIES_SHA: ${{ needs.verify-pages-artifact.outputs.opportunities-sha256 }}
+          SOURCES_SHA: ${{ needs.verify-pages-artifact.outputs.sources-sha256 }}
+        shell: bash
+        run: |
+          if [[ "$VERIFY_RESULT" != 'success' || "$PUBLISH_RESULT" != 'success' ]]; then
+            echo "::error::Production publication incomplete: artifact verification=$VERIFY_RESULT, Pages publication=$PUBLISH_RESULT"
+            exit 1
+          fi
+          [[ "${PAGE_URL%/}" == https://destrynielsen-maker.github.io/-Idaho_Public_Project_Intelligence ]]
+          [[ "$OPPORTUNITIES_SHA" =~ ^[a-f0-9]{64}$ && "$SOURCES_SHA" =~ ^[a-f0-9]{64}$ ]]
+          for attempt in 1 2 3 4 5 6; do
+            for name in opportunities sources; do
+              curl --fail --silent --show-error --max-time 8 --proto '=https' \
+                "${PAGE_URL%/}/data/$name.json?scout_accept=${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}-$attempt" \
+                -o "$RUNNER_TEMP/$name.json" || rm -f "$RUNNER_TEMP/$name.json"
+            done
+            if [[ -f "$RUNNER_TEMP/opportunities.json" && -f "$RUNNER_TEMP/sources.json" ]] &&
+               printf '%s  %s\n%s  %s\n' "$OPPORTUNITIES_SHA" "$RUNNER_TEMP/opportunities.json" \
+                 "$SOURCES_SHA" "$RUNNER_TEMP/sources.json" | sha256sum --check --status; then
+              echo 'Live opportunities and sources match the verified TAR byte for byte.'
+              exit 0
+            fi
+            if [[ "$attempt" != 6 ]]; then sleep 10; fi
+          done
+          echo '::error::Pages reported success, but live data did not match the verified archive.'
+          exit 1
