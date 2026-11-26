@@ -1,0 +1,68 @@
+name: ACHD refreshed baseline read-only QA
+
+on:
+  push:
+    branches: [scout/achd-current-base-readonly-qa]
+
+permissions:
+  contents: read
+
+jobs:
+  exact-achD-shadow:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Prove original candidate and current baseline tree
+        shell: bash
+        run: |
+          i=$(mktemp)
+          rm "$i"
+          export GIT_INDEX_FILE="$i"
+          git read-tree HEAD
+          git update-index --force-remove .github/workflows/scout-achd-current-base-readonly-qa.yml
+          actual=$(git write-tree)
+          echo "Exact underlying tree: $actual"
+          test "$actual" = 9ec6d4fe2dd6bf0bab464d1e07f9d22c4c1affbc
+          test "$(sha256sum data/opportunities.json | cut -d ' ' -f1)" = 158d835ac80e8be59897cd95e29dfc13a6e12d47204f013c19e6602cc7eb02b7
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test and demonstrate two isolated public-source collections
+        shell: bash
+        env:
+          PYTHONPATH: src
+        run: |
+          pip install -r requirements.txt
+          python -m unittest discover -s tests -v
+          cp data/opportunities.json "$RUNNER_TEMP/achd-baseline.json"
+          python -m idaho_public_projects.main
+          cp data/opportunities.json "$RUNNER_TEMP/achd-first.json"
+          python -m idaho_public_projects.main
+          python - <<'PY'
+          import collections, json, os
+          from pathlib import Path
+          temp = Path(os.environ['RUNNER_TEMP'])
+          def read(p):
+              q = json.loads(p.read_text())
+              rows = q['opportunities']
+              m = {r['id']:r for r in rows}
+              assert len(rows) == len(m)
+              return q['generated_at'], m
+          dt, baseline = read(temp/'achd-baseline.json')
+          ft, first = read(temp/'achd-first.json')
+          rt, replay = read(Path('data/opportunities.json'))
+          expect = {'achd-ea594fe58e5f821a'}
+          for candidate, initial in [(first, baseline),(replay, first)]:
+              assert not initial.keys()-candidate.keys()
+              delta = collections.Counter(key for i in initial.keys() & candidate.keys() for key in initial[i].keys() | candidate[i].keys() if initial[i].get(key) != candidate[i].get(key))
+              assert set(delta) <= {'last_seen','details_url'}, dict(delta)
+              print('Preserved overlapping rows; only expected refresh fields:',dict(delta))
+          assert len(baseline)==263 and first.keys()-baseline.keys()==expect and replay.keys()==first.keys()
+          counts = [(s['source'],s['status'],s['records_seen']) for s in json.loads(Path('public/data/sources.json').read_text())['collector_status']]
+          assert counts == [('City of Boise','OK',5),('Idaho DPW','OK',101),('Idaho Purchasing','OK',52),('Ada County','OK',3),('ACHD','OK',1)],counts
+          print('Verified 263 -> 264 -> 264 unique records; exactly one ACHD addition, no loss, no duplicates, first_seen/bidder/stage unchanged.')
+          print('Generated snapshot timestamps:',dt,ft,rt,'source counts:',counts)
+          PY
