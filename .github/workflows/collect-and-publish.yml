@@ -48,6 +48,10 @@ jobs:
       github.event.pull_request.head.repo.full_name == github.repository)) }}
     runs-on: ubuntu-latest
     timeout-minutes: 4
+    outputs:
+      artifact-id: ${{ steps.verified.outputs.artifact-id }}
+      artifact-name: ${{ steps.verified.outputs.artifact-name }}
+      tar-sha256: ${{ steps.verified.outputs.tar-sha256 }}
     permissions:
       contents: read
     steps:
@@ -94,29 +98,62 @@ jobs:
           artifact-ids: ${{ needs.collect-main.outputs.artifact-id || needs.collect-pr.outputs.artifact-id }}
           path: ${{ runner.temp }}/pages-probe-3
 
-      - name: Check the Pages archive contents without publishing
+      - name: Verify identity, TAR SHA-256, and required files
+        id: verified
         env:
+          UPLOADED_ID: ${{ needs.collect-main.outputs.artifact-id || needs.collect-pr.outputs.artifact-id }}
+          UPLOADED_NAME: ${{ needs.collect-main.outputs.artifact-name || needs.collect-pr.outputs.artifact-name }}
+          EXPECTED_SHA: ${{ needs.collect-main.outputs.tar-sha256 || needs.collect-pr.outputs.tar-sha256 }}
           FIRST: ${{ steps.probe.outcome }}
           SECOND: ${{ steps.retry.outcome }}
           THIRD: ${{ steps.final_probe.outcome }}
           EVENT: ${{ github.event_name }}
         shell: bash
         run: |
-          if [[ "$EVENT" == 'pull_request' && "$FIRST" != 'failure' ]]; then
-            echo '::error::The PR test did not exercise the expected first miss'; exit 1
+          verify_archive() {
+            local first="$1" second="$2" third="$3" expected="$4" index actual archive names
+            if [[ "$first" == 'success' ]]; then index=1
+            elif [[ "$second" == 'success' ]]; then index=2
+            elif [[ "$third" == 'success' ]]; then index=3
+            else echo 'No artifact probe succeeded'; return 2
+            fi
+            [[ "$expected" =~ ^[a-f0-9]{64}$ ]] || { echo 'Invalid TAR SHA-256'; return 3; }
+            archive="$RUNNER_TEMP/pages-probe-$index/$UPLOADED_NAME/artifact.tar"
+            read -r actual _ < <(sha256sum "$archive") || return 4
+            [[ "$actual" == "$expected" ]] || { echo 'Pages TAR SHA-256 mismatch'; return 5; }
+            names="$RUNNER_TEMP/pages-probe-files.txt"
+            tar -tf "$archive" > "$names" || return 6
+            grep -Fx './index.html' "$names" || return 7
+            grep -Fx './data/opportunities.json' "$names" || return 8
+            grep -Fx './data/sources.json' "$names" || return 9
+            echo "Verified exact Pages TAR on attempt $index."
+          }
+          [[ "$UPLOADED_NAME" =~ ^github-pages-${GITHUB_RUN_ID}-[1-9][0-9]*$ ]]
+          if [[ "$EVENT" == 'pull_request' ]]; then
+            [[ "$FIRST" == 'failure' ]] || { echo 'Expected first look to miss'; exit 1; }
+            negative=0
+            verify_archive failure failure failure "$EXPECTED_SHA" || negative=$?
+            [[ "$negative" == 2 ]] || { echo 'Exhaustion did not fail closed'; exit 1; }
+            echo 'Negative control passed: all attempts exhausted, no verified outputs.'
+            negative=0
+            wrong="0${EXPECTED_SHA:1}"
+            if [[ "$wrong" == "$EXPECTED_SHA" ]]; then wrong="1${EXPECTED_SHA:1}"; fi
+            verify_archive "$FIRST" "$SECOND" "$THIRD" "$wrong" || negative=$?
+            [[ "$negative" == 5 ]] || { echo 'Incorrect TAR SHA-256 did not fail closed'; exit 1; }
+            echo 'Negative control passed: mismatched SHA-256, no verified outputs.'
           fi
-          if [[ "$FIRST" == 'success' ]]; then index=1
-          elif [[ "$SECOND" == 'success' ]]; then index=2
-          elif [[ "$THIRD" == 'success' ]]; then index=3
-          else echo '::error::No artifact probe succeeded'; exit 1
-          fi
-          archive="$RUNNER_TEMP/pages-probe-$index/github-pages/artifact.tar"
-          names="$RUNNER_TEMP/pages-probe-files.txt"
-          tar -tf "$archive" > "$names"
-          grep -Fx './index.html' "$names"
-          grep -Fx './data/opportunities.json' "$names"
-          grep -Fx './data/sources.json' "$names"
-          echo "Verified exact Pages artifact on attempt $index. No publication performed."
+          verify_archive "$FIRST" "$SECOND" "$THIRD" "$EXPECTED_SHA"
+          echo "Verified upload ID $UPLOADED_ID, name $UPLOADED_NAME, TAR SHA-256 $EXPECTED_SHA."
+          if [[ "$FIRST" == 'success' ]]; then verified_index=1
+          elif [[ "$SECOND" == 'success' ]]; then verified_index=2
+          else verified_index=3; fi
+          verified_tar="$RUNNER_TEMP/pages-probe-$verified_index/$UPLOADED_NAME/artifact.tar"
+          for member in ./data/opportunities.json ./data/sources.json; do
+            member_sha=$(tar -xOf "$verified_tar" "$member" | sha256sum)
+            printf 'Verified member %s SHA-256 %s\n' "$member" "${member_sha%% *}"
+          done
+          printf 'artifact-id=%s\nartifact-name=%s\ntar-sha256=%s\n' \
+            "$UPLOADED_ID" "$UPLOADED_NAME" "$EXPECTED_SHA" >> "$GITHUB_OUTPUT"
 
   publish:
     needs: verify-pages-artifact
@@ -129,9 +166,35 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      # deploy-pages selects by name, so verify the immutable ID resolves to
+      # the same run-attempt-unique name and exact verified TAR immediately
+      # before giving that name to the upstream publisher. No overwrite.
+      - name: Download the verified upload ID
+        uses: actions/download-artifact@v4
+        with:
+          artifact-ids: ${{ needs.verify-pages-artifact.outputs.artifact-id }}
+          path: ${{ runner.temp }}/pages-publish-guard
+
+      - name: Require the verified name and TAR SHA-256
+        env:
+          VERIFIED_ID: ${{ needs.verify-pages-artifact.outputs.artifact-id }}
+          VERIFIED_NAME: ${{ needs.verify-pages-artifact.outputs.artifact-name }}
+          VERIFIED_SHA: ${{ needs.verify-pages-artifact.outputs.tar-sha256 }}
+        shell: bash
+        run: |
+          [[ "$VERIFIED_ID" =~ ^[1-9][0-9]*$ ]]
+          [[ "$VERIFIED_NAME" =~ ^github-pages-${GITHUB_RUN_ID}-[1-9][0-9]*$ ]]
+          [[ "$VERIFIED_SHA" =~ ^[a-f0-9]{64}$ ]]
+          archive="$RUNNER_TEMP/pages-publish-guard/$VERIFIED_NAME/artifact.tar"
+          read -r actual _ < <(sha256sum "$archive")
+          [[ "$actual" == "$VERIFIED_SHA" ]] || { echo '::error::Pages publish guard TAR SHA-256 mismatch'; exit 1; }
+          echo "Publisher constrained to verified upload ID $VERIFIED_ID, name $VERIFIED_NAME, TAR SHA-256 $VERIFIED_SHA."
+
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
 
       - name: Publish GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          artifact_name: ${{ needs.verify-pages-artifact.outputs.artifact-name }}

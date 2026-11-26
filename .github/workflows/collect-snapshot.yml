@@ -15,11 +15,20 @@ on:
         value: ${{ jobs.snapshot.outputs.artifact-id }}
 
 # Permissions are granted by each caller, and cannot be elevated here.
+      artifact-name:
+        description: Run-attempt-unique immutable artifact name
+        value: ${{ jobs.snapshot.outputs.artifact-name }}
+      tar-sha256:
+        description: Hash of the exact Pages TAR before download
+        value: ${{ jobs.snapshot.outputs.tar-sha256 }}
+
 jobs:
   snapshot:
     runs-on: ubuntu-latest
     outputs:
       artifact-id: ${{ steps.pages_artifact.outputs.artifact_id }}
+      artifact-name: ${{ steps.archive_metadata.outputs.name }}
+      tar-sha256: ${{ steps.archive_metadata.outputs.sha256 }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -92,3 +101,14 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: public
+          name: github-pages-${{ github.run_id }}-${{ github.run_attempt }}
+
+      - name: Record the uploaded TAR fingerprint
+        id: archive_metadata
+        if: inputs.archive-for-verification && github.event.repository.private == false
+        shell: bash
+        run: |
+          name="github-pages-$GITHUB_RUN_ID-$GITHUB_RUN_ATTEMPT"
+          read -r sha _ < <(sha256sum "$RUNNER_TEMP/artifact.tar")
+          [[ "$sha" =~ ^[a-f0-9]{64}$ ]]
+          printf 'name=%s\nsha256=%s\n' "$name" "$sha" >> "$GITHUB_OUTPUT"
