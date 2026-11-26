@@ -1,6 +1,9 @@
 from __future__ import annotations
 
+import json
 import re
+from datetime import datetime
+from zoneinfo import ZoneInfo
 from urllib.parse import urljoin
 
 from bs4 import BeautifulSoup, Tag
@@ -176,11 +179,194 @@ def _parse_notice_page(soup: BeautifulSoup) -> list[Opportunity]:
     return results
 
 
+def _local_og_date(value: object) -> str:
+    if not isinstance(value, str):
+        raise ValueError("ACHD OpenGov project date missing or invalid")
+    date = datetime.fromisoformat(value.replace("Z", "+00:00"))
+    if date.tzinfo is None:
+        raise ValueError("ACHD OpenGov project date lacks a time zone")
+    return date.astimezone(ZoneInfo("America/Boise")).date().isoformat()
+
+
+MAX_OPEN_PAGES = 10
+MAX_OPEN_ROWS = 100
+MAX_STATUS_CHECKS = 8
+
+
+def _public_embedded_objects(soup: BeautifulSoup, key: str) -> list[dict]:
+    # Public page hydration, not a private API. Never execute the script.
+    objects = []
+    for script in soup.find_all("script"):
+        text = str(script.string or "").lstrip()
+        if not text.startswith("window.__data="):
+            continue
+        for match in re.finditer(rf'"{re.escape(key)}"\s*:\s*(?=\{{)', text):
+            try:
+                value, _ = json.JSONDecoder().raw_decode(text, match.end())
+            except json.JSONDecodeError:
+                continue
+            if isinstance(value, dict):
+                objects.append(value)
+    return objects
+
+
+def _public_page(soup: BeautifulSoup) -> tuple[int, list[dict]] | None:
+    lists = [item for item in _public_embedded_objects(soup, "govProjects") if {"count", "rows"} <= item.keys()]
+    if not lists:
+        return None
+    if len(lists) != 1:
+        raise ValueError("ACHD OpenGov public project list is ambiguous")
+    count, rows = lists[0]["count"], lists[0]["rows"]
+    if type(count) is not int or not isinstance(rows, list) or not len(rows) <= count <= MAX_OPEN_ROWS:
+        raise ValueError("ACHD OpenGov public open-list count/rows invalid or above safe cap")
+    if any(not isinstance(row, dict) for row in rows):
+        raise ValueError("ACHD OpenGov project row is invalid")
+    return count, rows
+
+
+def _opportunities(rows: list[dict]) -> list[Opportunity]:
+    results = []
+    portal_ids = set()
+    for row in rows:
+        if not isinstance(row, dict):
+            raise ValueError("ACHD OpenGov project row is invalid")
+        if (
+            row.get("government", {}).get("code") != "achdidaho"
+            or row.get("status") != "open"
+            or row.get("isPrivate") is not False
+            or row.get("isPaused") is not False
+            or row.get("comingSoon") is not False
+        ):
+            raise ValueError("ACHD OpenGov returned an unexpected non-public/open row")
+        project_id = row.get("id")
+        title = clean(row.get("title"))
+        number = clean(row.get("financialId"))
+        if type(project_id) is not int or project_id < 1 or not title or project_id in portal_ids:
+            raise ValueError("ACHD OpenGov project ID/title missing or duplicated")
+        portal_ids.add(project_id)
+        posted = _local_og_date(row.get("releaseProjectDate"))
+        due = _local_og_date(row.get("proposalDeadline"))
+        if due < posted:
+            raise ValueError("ACHD OpenGov deadline precedes release")
+        kind = clean((row.get("template") or {}).get("title")).lower()
+        kind = {
+            "request for proposal": "RFP",
+            "request for qualifications": "RFQ",
+            "request for quote": "RFQ",
+            "invitation to bid": "ITB",
+        }.get(kind, "PROCUREMENT")
+        url = f"https://procurement.opengov.com/portal/achdidaho/projects/{project_id}"
+        description = clean(BeautifulSoup(row.get("summary") or "", "html.parser").get_text(" ", strip=True))
+        results.append(Opportunity(
+            id=stable_id("achd", number, title),
+            source="ACHD",
+            title=title,
+            agency="Ada County Highway District",
+            description=(description or "ACHD OpenGov procurement project.")[:6000],
+            location="Ada County, Idaho",
+            stage="OPEN_BID",
+            solicitation_type=kind,
+            solicitation_number=number,
+            posted_date=posted,
+            due_date=due,
+            status="OPEN",
+            url=url,
+            details_url=url,
+        ))
+    if len({row.id for row in results}) != len(results):
+        raise ValueError("ACHD OpenGov rows collide under the existing history key")
+    return results
+
+
 def parse_html(html: str) -> list[Opportunity]:
     soup = BeautifulSoup(html, "html.parser")
+    page = _public_page(soup)
+    if page is not None:
+        count, rows = page
+        if count != len(rows):
+            raise ValueError("ACHD standalone parser requires a complete open list")
+        return _opportunities(rows)
     rows = _parse_opengov_table(soup)
     return rows if rows else _parse_notice_page(soup)
 
 
 def collect() -> list[Opportunity]:
-    return parse_html(http_get(URL))
+    soup = BeautifulSoup(http_get(URL), "html.parser")
+    first = _public_page(soup)
+    if first is None:
+        legacy = _parse_opengov_table(soup)
+        if legacy:
+            return legacy
+        raise ValueError("ACHD OpenGov returned neither a public project payload nor recognized project rows")
+    count, first_rows = first
+    rows = list(first_rows)
+    pages = 1
+    while len(rows) < count:
+        if pages >= MAX_OPEN_PAGES:
+            raise ValueError("ACHD OpenGov pagination exceeded safe page limit")
+        pages += 1
+        page = _public_page(BeautifulSoup(http_get(f"{URL}&page={pages}"), "html.parser"))
+        if page is None or page[0] != count or not page[1] or len(rows) + len(page[1]) > count:
+            raise ValueError("ACHD OpenGov pagination incomplete or count changed")
+        rows.extend(page[1])
+    if pages > 1:
+        repeat = _public_page(BeautifulSoup(http_get(URL), "html.parser"))
+        # Compare IDs and all publication fields we rely on, not unrelated metadata.
+        keys = ("id", "title", "financialId", "status", "isPrivate", "isPaused", "comingSoon", "releaseProjectDate", "proposalDeadline")
+        fingerprint = lambda items: [tuple(row.get(key) for key in keys) for row in items]
+        if repeat is None or repeat[0] != count or fingerprint(repeat[1]) != fingerprint(first_rows):
+            raise ValueError("ACHD OpenGov pagination first page changed during scan")
+    return _opportunities(rows)
+
+
+def _canonical_id(url: object) -> int | None:
+    match = re.fullmatch(r"https://procurement\.opengov\.com/portal/achdidaho/projects/([1-9][0-9]*)", url) if isinstance(url, str) else None
+    return int(match[1]) if match else None
+
+
+def parse_status_observation(html: str, portal_id: int) -> tuple[str, str | None]:
+    objects = _public_embedded_objects(BeautifulSoup(html, "html.parser"), "project")
+    exact = [
+        row for row in objects
+        if type(row.get("id")) is int and row["id"] == portal_id
+        and isinstance(row.get("government"), dict) and row["government"].get("code") == "achdidaho"
+        and row.get("isPrivate") is False
+    ]
+    if len(exact) != 1:
+        return "UNVERIFIED", None
+    status, substatus = exact[0].get("status"), exact[0].get("closedSubstatus")
+    if status not in {"open", "evaluation", "awardPending", "closed"}:
+        return "UNVERIFIED", None
+    if substatus is not None and (not isinstance(substatus, str) or not re.fullmatch(r"[A-Za-z]{1,30}", substatus)):
+        return "UNVERIFIED", None
+    return status, substatus
+
+
+def observe_missing(history: list[dict], current: list[Opportunity]) -> list[dict]:
+    # Observations are read-only sidecars. They do not edit visible stage/status,
+    # last_seen, or first_seen and are not passed to the publishing pipeline.
+    now = datetime.now(ZoneInfo("UTC")).replace(microsecond=0).isoformat()
+    live = {_canonical_id(item.url) for item in current}
+    output = []
+    checked = set()
+    for saved in history:
+        if saved.get("source") != "ACHD" or saved.get("stage") != "OPEN_BID":
+            continue
+        url = saved.get("details_url") or saved.get("url")
+        pid = _canonical_id(url)
+        if pid is None or pid in live or pid in checked:
+            continue
+        if len(checked) >= MAX_STATUS_CHECKS:
+            break
+        checked.add(pid)
+        try:
+            state, sub = parse_status_observation(http_get(url), pid)
+            reason = "DIRECT_PUBLIC_DETAIL" if state != "UNVERIFIED" else "DETAIL_NOT_VERIFIED"
+        except Exception:
+            state, sub, reason = "UNVERIFIED", None, "DETAIL_UNAVAILABLE"
+        output.append({
+            "id": saved.get("id"), "portal_project_id": pid, "status_observed": state,
+            "closed_substatus_observed": sub, "source_url": url, "reason": reason,
+            "observed_at": now, "publication_effect": "NONE",
+        })
+    return output
