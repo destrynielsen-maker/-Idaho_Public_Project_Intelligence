@@ -14,91 +14,187 @@ on:
     - cron: '27 */6 * * *'
 
 permissions:
-  contents: write
-  pages: write
-  id-token: write
+  contents: read
 
 concurrency:
   group: public-project-intelligence-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:
-  collect:
+  collect-main:
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    permissions:
+      contents: write
+    uses: ./.github/workflows/collect-snapshot.yml
+    with:
+      write-history: true
+      archive-for-verification: true
+
+  collect-pr:
+    if: github.event_name == 'pull_request'
+    permissions:
+      contents: read
+    uses: ./.github/workflows/collect-snapshot.yml
+    with:
+      write-history: false
+      archive-for-verification: ${{ github.head_ref == 'scout/pages-artifact-readiness' && github.event.pull_request.head.repo.full_name == github.repository }}
+
+  verify-pages-artifact:
+    needs: [collect-main, collect-pr]
+    if: >-
+      ${{ !cancelled() && github.event.repository.private == false &&
+      (needs.collect-main.result == 'success' ||
+      (needs.collect-pr.result == 'success' && github.head_ref == 'scout/pages-artifact-readiness' &&
+      github.event.pull_request.head.repo.full_name == github.repository)) }}
     runs-on: ubuntu-latest
+    timeout-minutes: 4
+    outputs:
+      artifact-id: ${{ steps.verified.outputs.artifact-id }}
+      artifact-name: ${{ steps.verified.outputs.artifact-name }}
+      tar-sha256: ${{ steps.verified.outputs.tar-sha256 }}
+    permissions:
+      contents: read
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - name: Verify the exact upload ID is present
+        env:
+          UPLOADED_ID: ${{ needs.collect-main.outputs.artifact-id || needs.collect-pr.outputs.artifact-id }}
+        shell: bash
+        run: |
+          [[ "$UPLOADED_ID" =~ ^[1-9][0-9]*$ ]] || { echo "::error::Pages upload produced no valid artifact ID"; exit 1; }
+
+      # No token, repository or run-id input: query the runner's current-run
+      # artifact service, as deploy-pages does, not the REST artifact listing.
+      - name: Check runner artifact service
+        id: probe
+        continue-on-error: true
+        uses: actions/download-artifact@v4
         with:
-          python-version: '3.12'
-      - run: pip install -r requirements.txt
+          # A PR deliberately tests the miss path using an impossible ID.
+          artifact-ids: ${{ github.event_name == 'pull_request' && '0' || needs.collect-main.outputs.artifact-id || needs.collect-pr.outputs.artifact-id }}
+          path: ${{ runner.temp }}/pages-probe-1
 
-      - name: Test
+      - name: Wait before second look
+        if: steps.probe.outcome == 'failure'
+        run: sleep 5
+
+      - name: Retry the exact upload ID
+        id: retry
+        if: steps.probe.outcome == 'failure'
+        continue-on-error: true
+        uses: actions/download-artifact@v4
+        with:
+          artifact-ids: ${{ needs.collect-main.outputs.artifact-id || needs.collect-pr.outputs.artifact-id }}
+          path: ${{ runner.temp }}/pages-probe-2
+
+      - name: Wait before final look
+        if: steps.retry.outcome == 'failure'
+        run: sleep 15
+
+      - name: Final probe for the exact upload ID
+        id: final_probe
+        if: steps.retry.outcome == 'failure'
+        uses: actions/download-artifact@v4
+        with:
+          artifact-ids: ${{ needs.collect-main.outputs.artifact-id || needs.collect-pr.outputs.artifact-id }}
+          path: ${{ runner.temp }}/pages-probe-3
+
+      - name: Verify identity, TAR SHA-256, and required files
+        id: verified
         env:
-          PYTHONPATH: src
-        run: python -m unittest discover -s tests -v
+          UPLOADED_ID: ${{ needs.collect-main.outputs.artifact-id || needs.collect-pr.outputs.artifact-id }}
+          UPLOADED_NAME: ${{ needs.collect-main.outputs.artifact-name || needs.collect-pr.outputs.artifact-name }}
+          EXPECTED_SHA: ${{ needs.collect-main.outputs.tar-sha256 || needs.collect-pr.outputs.tar-sha256 }}
+          FIRST: ${{ steps.probe.outcome }}
+          SECOND: ${{ steps.retry.outcome }}
+          THIRD: ${{ steps.final_probe.outcome }}
+          EVENT: ${{ github.event_name }}
+        shell: bash
+        run: |
+          verify_archive() {
+            local first="$1" second="$2" third="$3" expected="$4" index actual archive names
+            if [[ "$first" == 'success' ]]; then index=1
+            elif [[ "$second" == 'success' ]]; then index=2
+            elif [[ "$third" == 'success' ]]; then index=3
+            else echo 'No artifact probe succeeded'; return 2
+            fi
+            [[ "$expected" =~ ^[a-f0-9]{64}$ ]] || { echo 'Invalid TAR SHA-256'; return 3; }
+            archive="$RUNNER_TEMP/pages-probe-$index/$UPLOADED_NAME/artifact.tar"
+            read -r actual _ < <(sha256sum "$archive") || return 4
+            [[ "$actual" == "$expected" ]] || { echo 'Pages TAR SHA-256 mismatch'; return 5; }
+            names="$RUNNER_TEMP/pages-probe-files.txt"
+            tar -tf "$archive" > "$names" || return 6
+            grep -Fx './index.html' "$names" || return 7
+            grep -Fx './data/opportunities.json' "$names" || return 8
+            grep -Fx './data/sources.json' "$names" || return 9
+            echo "Verified exact Pages TAR on attempt $index."
+          }
+          [[ "$UPLOADED_NAME" =~ ^github-pages-${GITHUB_RUN_ID}-[1-9][0-9]*$ ]]
+          if [[ "$EVENT" == 'pull_request' ]]; then
+            [[ "$FIRST" == 'failure' ]] || { echo 'Expected first look to miss'; exit 1; }
+            negative=0
+            verify_archive failure failure failure "$EXPECTED_SHA" || negative=$?
+            [[ "$negative" == 2 ]] || { echo 'Exhaustion did not fail closed'; exit 1; }
+            echo 'Negative control passed: all attempts exhausted, no verified outputs.'
+            negative=0
+            wrong="0${EXPECTED_SHA:1}"
+            if [[ "$wrong" == "$EXPECTED_SHA" ]]; then wrong="1${EXPECTED_SHA:1}"; fi
+            verify_archive "$FIRST" "$SECOND" "$THIRD" "$wrong" || negative=$?
+            [[ "$negative" == 5 ]] || { echo 'Incorrect TAR SHA-256 did not fail closed'; exit 1; }
+            echo 'Negative control passed: mismatched SHA-256, no verified outputs.'
+          fi
+          verify_archive "$FIRST" "$SECOND" "$THIRD" "$EXPECTED_SHA"
+          echo "Verified upload ID $UPLOADED_ID, name $UPLOADED_NAME, TAR SHA-256 $EXPECTED_SHA."
+          if [[ "$FIRST" == 'success' ]]; then verified_index=1
+          elif [[ "$SECOND" == 'success' ]]; then verified_index=2
+          else verified_index=3; fi
+          verified_tar="$RUNNER_TEMP/pages-probe-$verified_index/$UPLOADED_NAME/artifact.tar"
+          for member in ./data/opportunities.json ./data/sources.json; do
+            member_sha=$(tar -xOf "$verified_tar" "$member" | sha256sum)
+            printf 'Verified member %s SHA-256 %s\n' "$member" "${member_sha%% *}"
+          done
+          printf 'artifact-id=%s\nartifact-name=%s\ntar-sha256=%s\n' \
+            "$UPLOADED_ID" "$UPLOADED_NAME" "$EXPECTED_SHA" >> "$GITHUB_OUTPUT"
 
-      - name: Collect and render
+  publish:
+    needs: verify-pages-artifact
+    if: github.event.repository.private == false && github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      # deploy-pages selects by name, so verify the immutable ID resolves to
+      # the same run-attempt-unique name and exact verified TAR immediately
+      # before giving that name to the upstream publisher. No overwrite.
+      - name: Download the verified upload ID
+        uses: actions/download-artifact@v4
+        with:
+          artifact-ids: ${{ needs.verify-pages-artifact.outputs.artifact-id }}
+          path: ${{ runner.temp }}/pages-publish-guard
+
+      - name: Require the verified name and TAR SHA-256
         env:
-          PYTHONPATH: src
-        run: python -m idaho_public_projects.main
-
-      - name: Collection health
-        shell: python
+          VERIFIED_ID: ${{ needs.verify-pages-artifact.outputs.artifact-id }}
+          VERIFIED_NAME: ${{ needs.verify-pages-artifact.outputs.artifact-name }}
+          VERIFIED_SHA: ${{ needs.verify-pages-artifact.outputs.tar-sha256 }}
+        shell: bash
         run: |
-          import json
-          from pathlib import Path
-          sources = json.loads(Path('public/data/sources.json').read_text())['collector_status']
-          total = sum(s['records_seen'] for s in sources)
-          healthy = sum(1 for s in sources if s['records_seen'] > 0)
-          print('Total parsed records:', total)
-          for s in sources:
-              print(f"{s['source']}: {s['status']} ({s['records_seen']}) {s['note']}")
-          if total == 0 or healthy < 2:
-              raise SystemExit('Collection health check failed: fewer than two public sources produced records.')
-
-      - name: Collection results
-        shell: python
-        run: |
-          import json, os
-          from pathlib import Path
-          p=json.loads(Path('public/data/opportunities.json').read_text())
-          s=json.loads(Path('public/data/sources.json').read_text())
-          rows=p.get('opportunities',[])
-          site=f"https://{os.environ['GITHUB_REPOSITORY_OWNER']}.github.io/{os.environ['GITHUB_REPOSITORY'].split('/',1)[1]}/"
-          lines=['# Idaho Public Project Intelligence — Collection Results','',
-                 f"**Generated:** {p.get('generated_at','')}",'',
-                 f"**Tracked opportunities:** {len(rows):,}",'',
-                 f"## [Open dashboard]({site})",'',
-                 '## Collector results','',
-                 '| Source | Status | Records | Note |','|---|---|---:|---|']
-          for x in s['collector_status']:
-              note=str(x.get('note','')).replace('|','\\|').replace('\n',' ')
-              lines.append(f"| {x['source']} | {x['status']} | {x['records_seen']} | {note} |")
-          lines += ['', '## Top opportunities', '', '| Score | Due | Agency | Stage | Project |', '|---:|---|---|---|---|']
-          for r in sorted(rows,key=lambda x:(x.get('score',0),x.get('due_date','')),reverse=True)[:15]:
-              title=str(r.get('title','')).replace('|','\\|')
-              lines.append(f"| {r.get('score',0)} | {r.get('due_date','')} | {r.get('agency','')} | {r.get('stage','')} | {title} |")
-          Path(os.environ['GITHUB_STEP_SUMMARY']).write_text('\n'.join(lines)+'\n')
-
-      - name: Persist history and generated feeds
-        if: github.event_name != 'pull_request'
-        run: |
-          git config user.name github-actions[bot]
-          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-          git add data/opportunities.json public/data public/feeds
-          git diff --cached --quiet || git commit -m "Update Idaho public project intelligence"
-          git push
+          [[ "$VERIFIED_ID" =~ ^[1-9][0-9]*$ ]]
+          [[ "$VERIFIED_NAME" =~ ^github-pages-${GITHUB_RUN_ID}-[1-9][0-9]*$ ]]
+          [[ "$VERIFIED_SHA" =~ ^[a-f0-9]{64}$ ]]
+          archive="$RUNNER_TEMP/pages-publish-guard/$VERIFIED_NAME/artifact.tar"
+          read -r actual _ < <(sha256sum "$archive")
+          [[ "$actual" == "$VERIFIED_SHA" ]] || { echo '::error::Pages publish guard TAR SHA-256 mismatch'; exit 1; }
+          echo "Publisher constrained to verified upload ID $VERIFIED_ID, name $VERIFIED_NAME, TAR SHA-256 $VERIFIED_SHA."
 
       - name: Configure GitHub Pages
-        if: github.event_name != 'pull_request' && github.event.repository.private == false
         uses: actions/configure-pages@v5
 
-      - name: Upload Pages artifact
-        if: github.event_name != 'pull_request' && github.event.repository.private == false
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: public
-
       - name: Publish GitHub Pages
-        if: github.event_name != 'pull_request' && github.event.repository.private == false
+        id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          artifact_name: ${{ needs.verify-pages-artifact.outputs.artifact-name }}
