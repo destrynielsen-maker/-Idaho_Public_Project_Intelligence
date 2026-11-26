@@ -14,9 +14,7 @@ on:
     - cron: '27 */6 * * *'
 
 permissions:
-  contents: write
-  pages: write
-  id-token: write
+  contents: read
 
 concurrency:
   group: public-project-intelligence-${{ github.ref }}
@@ -24,9 +22,15 @@ concurrency:
 
 jobs:
   collect:
+    permissions:
+      contents: write
+    outputs:
+      artifact-id: ${{ steps.pages_artifact.outputs.artifact_id }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          persist-credentials: ${{ github.ref == 'refs/heads/main' && github.event_name != 'pull_request' }}
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -81,7 +85,7 @@ jobs:
           Path(os.environ['GITHUB_STEP_SUMMARY']).write_text('\n'.join(lines)+'\n')
 
       - name: Persist history and generated feeds
-        if: github.event_name != 'pull_request'
+        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
         run: |
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
@@ -89,16 +93,102 @@ jobs:
           git diff --cached --quiet || git commit -m "Update Idaho public project intelligence"
           git push
 
-      - name: Configure GitHub Pages
-        if: github.event_name != 'pull_request' && github.event.repository.private == false
-        uses: actions/configure-pages@v5
-
       - name: Upload Pages artifact
-        if: github.event_name != 'pull_request' && github.event.repository.private == false
+        id: pages_artifact
+        if: github.event.repository.private == false
         uses: actions/upload-pages-artifact@v3
         with:
           path: public
 
+  verify-pages-artifact:
+    needs: collect
+    if: github.event.repository.private == false
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    permissions:
+      contents: read
+    steps:
+      - name: Verify the exact upload ID is present
+        env:
+          UPLOADED_ID: ${{ needs.collect.outputs.artifact-id }}
+        shell: bash
+        run: |
+          [[ "$UPLOADED_ID" =~ ^[1-9][0-9]*$ ]] || { echo "::error::Pages upload produced no valid artifact ID"; exit 1; }
+
+      # No token, repository or run-id input: query the runner's current-run
+      # artifact service, as deploy-pages does, not the REST artifact listing.
+      - name: Check runner artifact service
+        id: probe
+        continue-on-error: true
+        uses: actions/download-artifact@v4
+        with:
+          # A PR deliberately tests the miss path using an impossible ID.
+          artifact-ids: ${{ github.event_name == 'pull_request' && '0' || needs.collect.outputs.artifact-id }}
+          path: ${{ runner.temp }}/pages-probe-1
+
+      - name: Wait before second look
+        if: steps.probe.outcome == 'failure'
+        run: sleep 5
+
+      - name: Retry the exact upload ID
+        id: retry
+        if: steps.probe.outcome == 'failure'
+        continue-on-error: true
+        uses: actions/download-artifact@v4
+        with:
+          artifact-ids: ${{ needs.collect.outputs.artifact-id }}
+          path: ${{ runner.temp }}/pages-probe-2
+
+      - name: Wait before final look
+        if: steps.retry.outcome == 'failure'
+        run: sleep 15
+
+      - name: Final probe for the exact upload ID
+        id: final_probe
+        if: steps.retry.outcome == 'failure'
+        uses: actions/download-artifact@v4
+        with:
+          artifact-ids: ${{ needs.collect.outputs.artifact-id }}
+          path: ${{ runner.temp }}/pages-probe-3
+
+      - name: Check the Pages archive contents without publishing
+        env:
+          FIRST: ${{ steps.probe.outcome }}
+          SECOND: ${{ steps.retry.outcome }}
+          THIRD: ${{ steps.final_probe.outcome }}
+          EVENT: ${{ github.event_name }}
+        shell: bash
+        run: |
+          if [[ "$EVENT" == 'pull_request' && "$FIRST" != 'failure' ]]; then
+            echo '::error::The PR test did not exercise the expected first miss'; exit 1
+          fi
+          if [[ "$FIRST" == 'success' ]]; then index=1
+          elif [[ "$SECOND" == 'success' ]]; then index=2
+          elif [[ "$THIRD" == 'success' ]]; then index=3
+          else echo '::error::No artifact probe succeeded'; exit 1
+          fi
+          archive="$RUNNER_TEMP/pages-probe-$index/github-pages/artifact.tar"
+          names="$RUNNER_TEMP/pages-probe-files.txt"
+          tar -tf "$archive" > "$names"
+          grep -Fx './index.html' "$names"
+          grep -Fx './data/opportunities.json' "$names"
+          grep -Fx './data/sources.json' "$names"
+          echo "Verified exact Pages artifact on attempt $index. No publication performed."
+
+  publish:
+    needs: verify-pages-artifact
+    if: github.event.repository.private == false && github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
       - name: Publish GitHub Pages
-        if: github.event_name != 'pull_request' && github.event.repository.private == false
+        id: deployment
         uses: actions/deploy-pages@v4
