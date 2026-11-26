@@ -1,0 +1,145 @@
+name: Validate Pages dependency gate without deployment
+
+on:
+  push:
+    branches: [scout/pages-publication-skip-fix]
+
+permissions: {}
+
+jobs:
+  production-shape:
+    runs-on: ubuntu-latest
+    outputs:
+      ref: ${{ steps.inputs.outputs.ref }}
+      event: ${{ steps.inputs.outputs.event }}
+      private: ${{ steps.inputs.outputs.private }}
+    steps:
+      - id: inputs
+        run: printf 'ref=refs/heads/main\nevent=push\nprivate=false\n' >> "$GITHUB_OUTPUT"
+
+  pr-ancestor:
+    if: ${{ false }}
+    runs-on: ubuntu-latest
+    steps:
+      - run: 'false'
+
+  collect-main-shape:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo 'Fixture represents a successful production collector; no production access.'
+
+  verify-ok:
+    needs: [pr-ancestor, collect-main-shape]
+    if: ${{ !cancelled() && needs.pr-ancestor.result == 'skipped' && needs.collect-main-shape.result == 'success' }}
+    runs-on: ubuntu-latest
+    steps:
+      - run: 'true'
+
+  legacy-gate:
+    needs: [production-shape, verify-ok]
+    if: needs.production-shape.outputs.private == 'false' && needs.production-shape.outputs.ref == 'refs/heads/main' && needs.production-shape.outputs.event != 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - run: 'false'
+
+  corrected-production-shaped-gate:
+    needs: [production-shape, verify-ok]
+    if: >-
+      ${{ !cancelled() && needs.verify-ok.result == 'success' &&
+      needs.production-shape.outputs.private == 'false' &&
+      needs.production-shape.outputs.ref == 'refs/heads/main' &&
+      needs.production-shape.outputs.event != 'pull_request' }}
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo 'Eligible after successful verification with skipped PR ancestor; no deploy step or token.'
+
+  reject-pr-shape:
+    needs: verify-ok
+    if: ${{ !cancelled() && needs.verify-ok.result == 'success' && 'pull_request' != 'pull_request' }}
+    runs-on: ubuntu-latest
+    steps:
+      - run: 'false'
+
+  verify-failed:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          echo 'Intentional failed verification; this negative QA run will be red.'
+          exit 7
+
+  reject-verification-failure:
+    needs: verify-failed
+    if: ${{ !cancelled() && needs.verify-failed.result == 'success' }}
+    runs-on: ubuntu-latest
+    steps:
+      - run: 'false'
+
+  assert-expected-run-graph:
+    needs: [pr-ancestor, verify-ok, legacy-gate, corrected-production-shaped-gate, reject-pr-shape, verify-failed, reject-verification-failure]
+    if: ${{ !cancelled() }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Assert hosted outcomes
+        env:
+          EXPECTED: skipped success skipped success skipped failure skipped
+          ACTUAL: ${{ format('{0} {1} {2} {3} {4} {5} {6}', needs.pr-ancestor.result, needs.verify-ok.result, needs.legacy-gate.result, needs.corrected-production-shaped-gate.result, needs.reject-pr-shape.result, needs.verify-failed.result, needs.reject-verification-failure.result) }}
+        run: |
+          echo "Expected $EXPECTED"
+          echo "Actual   $ACTUAL"
+          test "$EXPECTED" = "$ACTUAL"
+
+  check-exact-terminal-acceptance:
+    needs: [verify-ok, legacy-gate, corrected-production-shaped-gate, verify-failed]
+    if: ${{ !cancelled() }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Exercise exact acceptance script with controlled live bytes
+        env:
+          OK: ${{ needs.verify-ok.result }}
+          SKIP: ${{ needs.legacy-gate.result }}
+          FAIL: ${{ needs.verify-failed.result }}
+          PUBLISH_OK: ${{ needs.corrected-production-shaped-gate.result }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          workflow=.github/workflows/collect-and-publish.yml
+          awk '/^  require-production-publication:/{section=1} section && /        run: \|/{script=1; next} script {sub(/^          /,""); print}' "$workflow" > "$RUNNER_TEMP/accept.sh"
+          [[ -s "$RUNNER_TEMP/accept.sh" ]]
+          export PAGE_URL='https://destrynielsen-maker.github.io/-Idaho_Public_Project_Intelligence/'
+          export QA_FIXTURE="$RUNNER_TEMP/fixture"
+          mkdir "$QA_FIXTURE"
+          printf '{"fixture":"opportunities"}\n' > "$QA_FIXTURE/opportunities.json"
+          printf '{"fixture":"sources"}\n' > "$QA_FIXTURE/sources.json"
+          export OPPORTUNITIES_SHA="$(sha256sum "$QA_FIXTURE/opportunities.json" | cut -d ' ' -f 1)"
+          export SOURCES_SHA="$(sha256sum "$QA_FIXTURE/sources.json" | cut -d ' ' -f 1)"
+          curl() {
+            local path='' out=''
+            while (($#)); do
+              case "$1" in
+                https://*) path="${1%%\?*}"; path="${path##*/}";;
+                -o) shift; out="$1";;
+              esac
+              shift
+            done
+            cp "$QA_FIXTURE/$path" "$out"
+          }
+          sleep() { :; }
+          export -f curl sleep
+          check() {
+            local expected="$1" status=0
+            VERIFY_RESULT="$2" PUBLISH_RESULT="$3" bash -euo pipefail "$RUNNER_TEMP/accept.sh" || status=$?
+            [[ "$status" == "$expected" ]]
+          }
+          check 1 "$OK" "$SKIP"
+          check 1 "$OK" "$FAIL"
+          check 1 "$FAIL" "$PUBLISH_OK"
+          check 1 cancelled "$SKIP"
+          check 0 "$OK" "$PUBLISH_OK"
+          printf 'stale content\n' > "$QA_FIXTURE/opportunities.json"
+          check 1 "$OK" "$PUBLISH_OK"
+          echo 'All exact acceptance controls behaved as expected. Cancellation state was injected; no hosted run was canceled.'
