@@ -16,7 +16,7 @@ header{background:#172033;color:#fff;padding:28px max(20px,calc((100vw - 1580px)
 main{max-width:1580px;margin:0 auto;padding:22px}.cards{display:grid;grid-template-columns:repeat(5,minmax(150px,1fr));gap:12px;margin-bottom:18px}.card,.panel{background:#fff;border:1px solid var(--line);border-radius:12px;box-shadow:0 1px 2px rgba(0,0,0,.03)}.card{padding:16px}.label{color:var(--muted);font-size:13px}.value{font-size:25px;font-weight:700;margin-top:6px}
 .panel{padding:16px;margin-bottom:16px}.panel-title{display:flex;justify-content:space-between;gap:12px;align-items:end;flex-wrap:wrap;margin-bottom:10px}.muted{color:var(--muted)}
 .filters{display:grid;grid-template-columns:2fr repeat(5,minmax(120px,.8fr));gap:10px}.date-filters{display:grid;grid-template-columns:1fr 1fr 1fr 1fr auto;gap:10px;margin-top:10px}input,select,button{width:100%;padding:9px 10px;border:1px solid #cfd6e2;border-radius:8px;background:#fff;color:var(--ink);font:inherit}button{cursor:pointer;width:auto;white-space:nowrap}button:hover{background:#f8fafc}
-.feeds{display:flex;flex-wrap:wrap;gap:8px}.feeds a{text-decoration:none;border:1px solid #cfd6e2;border-radius:999px;padding:7px 11px;color:var(--ink);background:#fff}.feeds a:hover{border-color:#98a2b3}
+.source-health{display:flex;flex-wrap:wrap;gap:8px;margin:.6rem 0 0;padding:0;list-style:none}.source-health li{border:1px solid var(--line);border-radius:8px;padding:7px 10px}.row-evidence{white-space:normal;max-width:200px;font-size:12px;margin-top:3px}.feeds{display:flex;flex-wrap:wrap;gap:8px}.feeds a{text-decoration:none;border:1px solid #cfd6e2;border-radius:999px;padding:7px 11px;color:var(--ink);background:#fff}.feeds a:hover{border-color:#98a2b3}
 .table-wrap{overflow:auto;border:1px solid var(--line);border-radius:10px}table{width:100%;border-collapse:collapse;font-size:13px;min-width:1550px}th{position:sticky;top:0;background:#f8fafc;text-align:left;color:var(--muted);border-bottom:1px solid #dfe5ee;padding:10px 8px;white-space:nowrap;z-index:1}th.sortable{cursor:pointer;user-select:none}th.sortable:hover{color:var(--ink);background:#eef2f7}th.sortable.active{color:var(--ink)}.sort-arrow{display:inline-block;width:14px;margin-left:4px;color:#98a2b3}th.sortable.active .sort-arrow{color:var(--blue)}td{padding:10px 8px;border-bottom:1px solid #edf0f5;vertical-align:top}td.score,td.money,td.date,td.num{white-space:nowrap}.score strong{font-size:15px}.badge{display:inline-block;padding:3px 7px;border-radius:999px;background:#eef2f7;font-size:11px;font-weight:600;white-space:nowrap}.project{min-width:330px}.project a{font-weight:700}.desc{max-width:470px;margin-top:3px;color:var(--muted)}a{color:var(--blue)}.result-count{font-weight:600}.empty{padding:28px;text-align:center;color:var(--muted)}
 @media(max-width:1050px){.cards{grid-template-columns:repeat(2,1fr)}.filters{grid-template-columns:1fr 1fr 1fr}.date-filters{grid-template-columns:1fr 1fr}}
 @media(max-width:620px){main{padding:12px}.cards,.filters,.date-filters{grid-template-columns:1fr}.date-filters button{width:100%}}
@@ -30,10 +30,15 @@ main{max-width:1580px;margin:0 auto;padding:22px}.cards{display:grid;grid-templa
 <main>
 <section class="cards">
 <div class="card"><div class="label">Tracked records</div><div class="value" id="total">—</div></div>
-<div class="card"><div class="label">Open opportunities</div><div class="value" id="openCount">—</div></div>
+<div class="card"><div class="label" title="Existing open-view stages include planned work and retained records; verify the source before treating a row as an active bid.">Open opportunities</div><div class="value" id="openCount">—</div></div>
 <div class="card"><div class="label">Treasure Valley open</div><div class="value" id="tvCount">—</div></div>
 <div class="card"><div class="label">Building / facility open</div><div class="value" id="buildingCount">—</div></div>
 <div class="card"><div class="label">Bid results / awards</div><div class="value" id="resultsCount">—</div></div>
+</section>
+
+<section class="panel" aria-labelledby="source-health-title">
+<div class="panel-title"><div><strong id="source-health-title">Source checks</strong><div class="muted" id="source-health-asof" aria-live="polite">Checking source health…</div><div class="muted">Current collection counts are not the number of open bids or all retained records.</div></div></div>
+<ul id="source-health-list" class="source-health"></ul>
 </section>
 
 <section class="panel">
@@ -67,7 +72,7 @@ main{max-width:1580px;margin:0 auto;padding:22px}.cards{display:grid;grid-templa
 <div class="table-wrap"><table>
 <thead><tr>
 <th class="sortable active" data-sort="score">Score<span class="sort-arrow">▼</span></th>
-<th class="sortable" data-sort="due_date">Due / Bid date<span class="sort-arrow"></span></th>
+<th class="sortable" data-sort="due_date">Recorded date<span class="sort-arrow"></span></th>
 <th class="sortable" data-sort="posted_date">Posted<span class="sort-arrow"></span></th>
 <th class="sortable" data-sort="agency">Agency<span class="sort-arrow"></span></th>
 <th class="sortable" data-sort="title">Project / Location<span class="sort-arrow"></span></th>
@@ -75,8 +80,8 @@ main{max-width:1580px;margin:0 auto;padding:22px}.cards{display:grid;grid-templa
 <th class="sortable" data-sort="solicitation_type">Type<span class="sort-arrow"></span></th>
 <th class="sortable" data-sort="solicitation_number">Number<span class="sort-arrow"></span></th>
 <th class="sortable" data-sort="category">Category<span class="sort-arrow"></span></th>
-<th class="sortable" data-sort="estimated_value">Est. / Low bid<span class="sort-arrow"></span></th>
-<th class="sortable" data-sort="bidders">Bidders<span class="sort-arrow"></span></th>
+<th class="sortable" data-sort="estimated_value">Reported value<span class="sort-arrow"></span></th>
+<th class="sortable" data-sort="bidders">Bidder evidence<span class="sort-arrow"></span></th>
 <th class="sortable" data-sort="first_seen">First seen<span class="sort-arrow"></span></th>
 </tr></thead><tbody id="rows"></tbody>
 </table></div>
@@ -113,7 +118,61 @@ function sortValue(r,key){
 }
 function compareRows(a,b){const av=sortValue(a,sortKey),bv=sortValue(b,sortKey);let cmp;if(typeof av==='number'&&typeof bv==='number')cmp=av-bv;else cmp=String(av).localeCompare(String(bv),undefined,{numeric:true,sensitivity:'base'});if(cmp===0&&sortKey!=='score')cmp=Number(a.score||0)-Number(b.score||0);return sortDirection==='asc'?cmp:-cmp}
 function updateSortHeaders(){document.querySelectorAll('th.sortable').forEach(th=>{const active=th.dataset.sort===sortKey;th.classList.toggle('active',active);th.querySelector('.sort-arrow').textContent=active?(sortDirection==='asc'?'▲':'▼'):'';th.setAttribute('aria-sort',active?(sortDirection==='asc'?'ascending':'descending'):'none')})}
-function bidderSummary(r){const bids=r.bidders||[];if(!bids.length)return '—';const priced=bids.filter(b=>b.base_bid!=null).sort((a,b)=>Number(a.base_bid)-Number(b.base_bid));const lead=priced[0];return `<strong>${bids.length}</strong>${lead?`<div class="muted">Low: ${esc(lead.contractor||'')} ${money(lead.base_bid)}</div>`:''}`}
+function bidderSummary(r){const bids=r.bidders||[];if(!bids.length)return '—';const priced=bids.filter(b=>b.base_bid!=null).sort((a,b)=>Number(a.base_bid)-Number(b.base_bid));const lead=priced[0];return `<strong>${bids.length}</strong>${lead?`<div class="muted">Low submitted: ${esc(lead.contractor||'')} ${money(lead.base_bid)}</div>`:''}`}
+
+function mountainTimestamp(raw){
+ if(!raw)return 'Not recorded';
+ const d=new Date(raw);if(!Number.isFinite(d.getTime()))return 'Not recorded';
+ return new Intl.DateTimeFormat('en-US',{timeZone:'America/Boise',dateStyle:'medium',timeStyle:'short'}).format(d)+' Mountain';
+}
+function deadlineKind(r){
+ if(!r.due_date)return 'Date not recorded';
+ if(r.source==='Idaho Purchasing')return 'Planning target (not a bid deadline)';
+ if(r.stage==='BID_RESULTS')return 'Bid date on result';
+ if(r.source==='Idaho DPW')return 'Recorded bid date';
+ if(['City of Boise','Ada County','ACHD'].includes(r.source))return 'Recorded bid cutoff';
+ return 'Recorded source date';
+}
+function dueEvidence(r,asOf){
+ const kind=deadlineKind(r);
+ if(!r.due_date||!asOf||!Number.isFinite(new Date(asOf).getTime()))return kind;
+ const localDay=new Intl.DateTimeFormat('en-CA',{timeZone:'America/Boise',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(new Date(asOf));
+ const iso=['year','month','day'].map(k=>localDay.find(p=>p.type===k)?.value||'').join('-');
+ return r.due_date<iso && ['Recorded bid date','Recorded bid cutoff'].includes(kind) ? kind+' · past at snapshot; verify with source' : kind;
+}
+function postedEvidence(r){
+ if(!r.posted_date)return 'No posted date recorded';
+ if(r.source==='Idaho Purchasing')return 'Planning record created';
+ if(r.source==='City of Boise')return 'Reported event opening';
+ if(r.source==='ACHD')return 'Reported release date';
+ return 'Source-reported date';
+}
+function seenEvidence(r,asOf){
+ if(!r.last_seen)return 'Observation not recorded';
+ if(r.last_seen===asOf)return 'Seen in this snapshot';
+ return 'Retained; last observed '+mountainTimestamp(r.last_seen);
+}
+function stageEvidence(r){
+ if(r.source==='Idaho Purchasing' && /^(PADD|PA)\b/i.test(r.title||''))return 'Informational agreement; not a call for bids';
+ if(r.stage==='BID_RESULTS')return 'Bid result; not award evidence';
+ if(r.stage==='AWARDED')return 'Award reported; no awardee verified here';
+ return '';
+}
+function amountEvidence(r){
+ if(r.estimated_value==null||r.estimated_value==='')return '';
+ return r.source==='Idaho DPW'&&r.stage==='BID_RESULTS'?'Lowest parsed submitted bid; not an award':'Source-reported value';
+}
+async function bootSourceHealth(){
+ const line=document.getElementById('source-health-asof'),list=document.getElementById('source-health-list');
+ try{
+  const res=await fetch('data/sources.json?'+Date.now());if(!res.ok)throw new Error('Source check unavailable');
+  const data=await res.json();
+  if(!Array.isArray(data.collector_status)||!data.generated_at)throw new Error('Invalid source check');
+  const stamp=mountainTimestamp(data.generated_at);
+  line.textContent='Source check: '+stamp+(generatedAt&&data.generated_at!==generatedAt?' · different from project snapshot; do not use these counts as that snapshot’s coverage.':'');
+  list.innerHTML=data.collector_status.map(c=>`<li><strong>${esc(c.source||'Unknown source')}</strong> · ${esc(c.status||'Unknown')} · ${esc(c.records_seen??'—')} observed${c.note?`<div class="muted row-evidence">${esc(c.note)}</div>`:''}</li>`).join('');
+ }catch{line.textContent='Source health is unavailable; this does not mean zero source activity.';list.innerHTML='';}
+}
 
 function render(){
  const q=document.getElementById('search').value.trim().toLowerCase(),view=document.getElementById('view').value,source=document.getElementById('source').value,stage=document.getElementById('stage').value,category=document.getElementById('category').value,type=document.getElementById('type').value,minScore=Number(document.getElementById('minScore').value);
@@ -122,24 +181,24 @@ function render(){
  if(!rows.length){document.getElementById('rows').innerHTML='<tr><td colspan="12" class="empty">No projects match the current filters.</td></tr>';return}
  document.getElementById('rows').innerHTML=rows.map(r=>`<tr>
  <td class="score"><strong>${Number(r.score||0)}</strong></td>
- <td class="date">${esc(r.due_date||'TBD')}</td>
- <td class="date">${esc(r.posted_date||'—')}</td>
+ <td class="date">${esc(r.due_date||'—')}<div class="muted row-evidence">${esc(dueEvidence(r,generatedAt))}</div></td>
+ <td class="date">${esc(r.posted_date||'—')}<div class="muted row-evidence">${esc(postedEvidence(r))}</div></td>
  <td>${esc(r.agency||'—')}<div class="muted">${esc(r.source||'')}</div></td>
- <td class="project"><a href="${esc(r.url||'#')}" target="_blank" rel="noopener">${esc(r.title||'Untitled project')}</a><div>${esc(r.location||'')}</div><div class="desc">${esc((r.description||'').slice(0,220))}</div></td>
- <td><span class="badge">${esc(r.stage||'—')}</span></td>
+ <td class="project"><a href="${esc(r.url||'#')}" target="_blank" rel="noopener">${esc(r.title||'Untitled project')}</a><div>${esc(r.location||'')}</div><div class="desc">${esc((r.description||'').slice(0,220))}</div>${r.source==='City of Boise'&&r.contact?`<div class="muted row-evidence">Procurement contact: ${esc(r.contact)}</div>`:''}</td>
+ <td><span class="badge">${esc(r.stage||'—')}</span><div class="muted row-evidence">${esc(stageEvidence(r))}</div></td>
  <td>${esc(r.solicitation_type||'—')}</td>
  <td>${esc(r.solicitation_number||'—')}</td>
  <td>${esc(r.category||'—')}</td>
- <td class="money">${money(r.estimated_value)}</td>
+ <td class="money">${money(r.estimated_value)}<div class="muted row-evidence">${esc(amountEvidence(r))}</div></td>
  <td class="num">${bidderSummary(r)}</td>
- <td class="date">${esc((r.first_seen||'').slice(0,10)||'—')}</td>
+ <td class="date">${esc((r.first_seen||'').slice(0,10)||'—')}<div class="muted row-evidence">${esc(seenEvidence(r,generatedAt))}</div></td>
  </tr>`).join('');
 }
 
 function resetFilters(){['search','view','source','stage','category','type','datePreset','dateFrom','dateTo'].forEach(id=>document.getElementById(id).value='');document.getElementById('dateField').value='due_date';document.getElementById('minScore').value='0';render()}
-async function boot(){const payload=await fetch('data/opportunities.json?'+Date.now()).then(r=>r.json());data=payload.opportunities||[];generatedAt=payload.generated_at||'';fill('source','source');fill('stage','stage');fill('category','category');fill('type','solicitation_type');const open=data.filter(isOpen),tv=open.filter(treasureValley),building=open.filter(r=>r.category==='BUILDING'),results=data.filter(isResult);document.getElementById('total').textContent=data.length.toLocaleString();document.getElementById('openCount').textContent=open.length.toLocaleString();document.getElementById('tvCount').textContent=tv.length.toLocaleString();document.getElementById('buildingCount').textContent=building.length.toLocaleString();document.getElementById('resultsCount').textContent=results.length.toLocaleString();document.getElementById('updated').textContent=generatedAt?`Data generated ${new Date(generatedAt).toLocaleString()}`:'';render()}
+async function boot(){const payload=await fetch('data/opportunities.json?'+Date.now()).then(r=>r.json());data=payload.opportunities||[];generatedAt=payload.generated_at||'';fill('source','source');fill('stage','stage');fill('category','category');fill('type','solicitation_type');const open=data.filter(isOpen),tv=open.filter(treasureValley),building=open.filter(r=>r.category==='BUILDING'),results=data.filter(isResult);document.getElementById('total').textContent=data.length.toLocaleString();document.getElementById('openCount').textContent=open.length.toLocaleString();document.getElementById('tvCount').textContent=tv.length.toLocaleString();document.getElementById('buildingCount').textContent=building.length.toLocaleString();document.getElementById('resultsCount').textContent=results.length.toLocaleString();document.getElementById('updated').textContent=generatedAt?`Project snapshot: ${mountainTimestamp(generatedAt)}`:'';render();void bootSourceHealth()}
 ['search'].forEach(id=>document.getElementById(id).addEventListener('input',render));['view','source','stage','category','type','dateField','datePreset','dateFrom','dateTo','minScore'].forEach(id=>document.getElementById(id).addEventListener('change',render));document.getElementById('reset').addEventListener('click',resetFilters);document.querySelectorAll('th.sortable').forEach(th=>th.addEventListener('click',()=>{const next=th.dataset.sort;if(sortKey===next)sortDirection=sortDirection==='asc'?'desc':'asc';else{sortKey=next;sortDirection=['score','due_date','posted_date','estimated_value','bidders','first_seen'].includes(next)?'desc':'asc'}render()}));
-boot().catch(err=>{document.getElementById('updated').textContent='Unable to load project data';document.getElementById('rows').innerHTML=`<tr><td colspan="12" class="empty">${esc(err.message||err)}</td></tr>`});
+boot().catch(err=>{void bootSourceHealth();document.getElementById('updated').textContent='Unable to load project data';document.getElementById('rows').innerHTML=`<tr><td colspan="12" class="empty">${esc(err.message||err)}</td></tr>`});
 </script>
 </body></html>'''
 
