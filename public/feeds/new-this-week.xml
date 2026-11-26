@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 26 Nov 2026 18:32:15 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 19:31:07 +0000</lastBuildDate>
     <item>
       <title>[40] ITB 1474 - IDOC Boots, Duty Gear, Uniforms</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
@@ -105,6 +105,13 @@
       <description>Agency: City of Boise | Stage: OPEN_BID | Type: FB- | Due: 2027-01-08 | Location: Boise, Idaho&lt;br&gt;Open Site work for the installation of a new modular building, to be located near the existing Operations building on the Phosphorus Removal Facility (PRF) site.</description>
       <guid isPermaLink="false">boise-6cba8fcb79abc13f</guid>
       <pubDate>Tue, 24 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[83] 2027 Tree Pruning Services</title>
+      <link>https://procurement.opengov.com/portal/achdidaho/projects/320264</link>
+      <description>Agency: Ada County Highway District | Stage: OPEN_BID | Type: RFP | Due: 2026-12-02 | Location: Ada County, Idaho&lt;br&gt;The RFP seeks competitive proposals from qualified Firms to provide clearance pruning of approximately 20,000 trees within the public right-of-way and/or private property trees and shrubs that overhang onto public right-of-way on selected streets . Completion of the pruning must be completed by June 30, 2027. ACHD shall be entitled to "Liquidated Damages" of $250.00 for each calendar day of delay in the completion of the work.</description>
+      <guid isPermaLink="false">achd-ea594fe58e5f821a</guid>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[86] LABS Campus Wide Int/Ext Lighting Ugrades, Department of Health and Welfare, Boise, Idaho *NOTE BID DATE CHANGED SEE ADDENDUM 1</title>
