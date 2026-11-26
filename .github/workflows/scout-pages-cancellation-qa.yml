@@ -1,0 +1,31 @@
+name: Pages gate cancellation QA (no deployment)
+
+on:
+  push:
+    branches: [scout/pages-gate-cancellation-qa]
+
+permissions: {}
+
+concurrency:
+  group: scout-pages-gate-cancellation-qa-only
+  cancel-in-progress: true
+
+jobs:
+  verify-fixture:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hold the first verification until the replacement fixture cancels it
+        env:
+          MESSAGE: ${{ github.event.head_commit.message }}
+        run: |
+          if [[ "$MESSAGE" == 'Cancellation QA: initial waiting fixture' ]]; then
+            echo 'Waiting for test-only concurrency cancellation.'
+            sleep 150
+          fi
+
+  harmless-publish-substitute:
+    needs: verify-fixture
+    if: ${{ !cancelled() && needs.verify-fixture.result == 'success' }}
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo 'Only the non-cancelled replacement can reach this no-write marker.'
