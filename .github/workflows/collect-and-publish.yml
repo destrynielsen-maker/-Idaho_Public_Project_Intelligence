@@ -21,88 +21,31 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  collect:
+  collect-main:
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
     permissions:
       contents: write
-    outputs:
-      artifact-id: ${{ steps.pages_artifact.outputs.artifact_id }}
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          persist-credentials: ${{ github.ref == 'refs/heads/main' && github.event_name != 'pull_request' }}
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-      - run: pip install -r requirements.txt
+    uses: ./.github/workflows/collect-snapshot.yml
+    with:
+      write-history: true
+      archive-for-verification: true
 
-      - name: Test
-        env:
-          PYTHONPATH: src
-        run: python -m unittest discover -s tests -v
-
-      - name: Collect and render
-        env:
-          PYTHONPATH: src
-        run: python -m idaho_public_projects.main
-
-      - name: Collection health
-        shell: python
-        run: |
-          import json
-          from pathlib import Path
-          sources = json.loads(Path('public/data/sources.json').read_text())['collector_status']
-          total = sum(s['records_seen'] for s in sources)
-          healthy = sum(1 for s in sources if s['records_seen'] > 0)
-          print('Total parsed records:', total)
-          for s in sources:
-              print(f"{s['source']}: {s['status']} ({s['records_seen']}) {s['note']}")
-          if total == 0 or healthy < 2:
-              raise SystemExit('Collection health check failed: fewer than two public sources produced records.')
-
-      - name: Collection results
-        shell: python
-        run: |
-          import json, os
-          from pathlib import Path
-          p=json.loads(Path('public/data/opportunities.json').read_text())
-          s=json.loads(Path('public/data/sources.json').read_text())
-          rows=p.get('opportunities',[])
-          site=f"https://{os.environ['GITHUB_REPOSITORY_OWNER']}.github.io/{os.environ['GITHUB_REPOSITORY'].split('/',1)[1]}/"
-          lines=['# Idaho Public Project Intelligence — Collection Results','',
-                 f"**Generated:** {p.get('generated_at','')}",'',
-                 f"**Tracked opportunities:** {len(rows):,}",'',
-                 f"## [Open dashboard]({site})",'',
-                 '## Collector results','',
-                 '| Source | Status | Records | Note |','|---|---|---:|---|']
-          for x in s['collector_status']:
-              note=str(x.get('note','')).replace('|','\\|').replace('\n',' ')
-              lines.append(f"| {x['source']} | {x['status']} | {x['records_seen']} | {note} |")
-          lines += ['', '## Top opportunities', '', '| Score | Due | Agency | Stage | Project |', '|---:|---|---|---|---|']
-          for r in sorted(rows,key=lambda x:(x.get('score',0),x.get('due_date','')),reverse=True)[:15]:
-              title=str(r.get('title','')).replace('|','\\|')
-              lines.append(f"| {r.get('score',0)} | {r.get('due_date','')} | {r.get('agency','')} | {r.get('stage','')} | {title} |")
-          Path(os.environ['GITHUB_STEP_SUMMARY']).write_text('\n'.join(lines)+'\n')
-
-      - name: Persist history and generated feeds
-        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
-        run: |
-          git config user.name github-actions[bot]
-          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-          git add data/opportunities.json public/data public/feeds
-          git diff --cached --quiet || git commit -m "Update Idaho public project intelligence"
-          git push
-
-      - name: Upload Pages artifact
-        id: pages_artifact
-        if: github.event.repository.private == false
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: public
+  collect-pr:
+    if: github.event_name == 'pull_request'
+    permissions:
+      contents: read
+    uses: ./.github/workflows/collect-snapshot.yml
+    with:
+      write-history: false
+      archive-for-verification: ${{ github.head_ref == 'scout/pages-artifact-readiness' && github.event.pull_request.head.repo.full_name == github.repository }}
 
   verify-pages-artifact:
-    needs: collect
-    if: github.event.repository.private == false
+    needs: [collect-main, collect-pr]
+    if: >-
+      ${{ !cancelled() && github.event.repository.private == false &&
+      (needs.collect-main.result == 'success' ||
+      (needs.collect-pr.result == 'success' && github.head_ref == 'scout/pages-artifact-readiness' &&
+      github.event.pull_request.head.repo.full_name == github.repository)) }}
     runs-on: ubuntu-latest
     timeout-minutes: 4
     permissions:
@@ -110,7 +53,7 @@ jobs:
     steps:
       - name: Verify the exact upload ID is present
         env:
-          UPLOADED_ID: ${{ needs.collect.outputs.artifact-id }}
+          UPLOADED_ID: ${{ needs.collect-main.outputs.artifact-id || needs.collect-pr.outputs.artifact-id }}
         shell: bash
         run: |
           [[ "$UPLOADED_ID" =~ ^[1-9][0-9]*$ ]] || { echo "::error::Pages upload produced no valid artifact ID"; exit 1; }
@@ -123,7 +66,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           # A PR deliberately tests the miss path using an impossible ID.
-          artifact-ids: ${{ github.event_name == 'pull_request' && '0' || needs.collect.outputs.artifact-id }}
+          artifact-ids: ${{ github.event_name == 'pull_request' && '0' || needs.collect-main.outputs.artifact-id || needs.collect-pr.outputs.artifact-id }}
           path: ${{ runner.temp }}/pages-probe-1
 
       - name: Wait before second look
@@ -136,7 +79,7 @@ jobs:
         continue-on-error: true
         uses: actions/download-artifact@v4
         with:
-          artifact-ids: ${{ needs.collect.outputs.artifact-id }}
+          artifact-ids: ${{ needs.collect-main.outputs.artifact-id || needs.collect-pr.outputs.artifact-id }}
           path: ${{ runner.temp }}/pages-probe-2
 
       - name: Wait before final look
@@ -148,7 +91,7 @@ jobs:
         if: steps.retry.outcome == 'failure'
         uses: actions/download-artifact@v4
         with:
-          artifact-ids: ${{ needs.collect.outputs.artifact-id }}
+          artifact-ids: ${{ needs.collect-main.outputs.artifact-id || needs.collect-pr.outputs.artifact-id }}
           path: ${{ runner.temp }}/pages-probe-3
 
       - name: Check the Pages archive contents without publishing
