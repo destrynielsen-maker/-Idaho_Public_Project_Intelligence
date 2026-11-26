@@ -7,10 +7,23 @@ from pathlib import Path
 from .dashboard import write as write_dashboard
 from .feeds import write_all
 from .pipeline import run
+from .reporting_status import envelope
+
+
+def _read_snapshot(path):
+    try:
+        value = json.loads(path.read_text(encoding="utf-8"))
+        return value if isinstance(value, dict) else {}
+    except (OSError, ValueError):
+        return {}
 
 
 def main():
+    previous = _read_snapshot(Path("public/data/sources.json"))
+    history = _read_snapshot(Path("data/opportunities.json"))
+    pre_run_ids = {row["id"] for row in history.get("opportunities", []) if isinstance(row, dict) and row.get("id")}
     payload, sources = run()
+    sources["reporting_v1"] = envelope(payload, sources, previous, pre_run_ids)
     data_dir = Path("data")
     public_data = Path("public/data")
     feeds_dir = Path("public/feeds")

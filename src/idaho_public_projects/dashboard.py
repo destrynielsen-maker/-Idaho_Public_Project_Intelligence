@@ -16,7 +16,7 @@ header{background:#172033;color:#fff;padding:28px max(20px,calc((100vw - 1580px)
 main{max-width:1580px;margin:0 auto;padding:22px}.cards{display:grid;grid-template-columns:repeat(5,minmax(150px,1fr));gap:12px;margin-bottom:18px}.card,.panel{background:#fff;border:1px solid var(--line);border-radius:12px;box-shadow:0 1px 2px rgba(0,0,0,.03)}.card{padding:16px}.label{color:var(--muted);font-size:13px}.value{font-size:25px;font-weight:700;margin-top:6px}
 .panel{padding:16px;margin-bottom:16px}.panel-title{display:flex;justify-content:space-between;gap:12px;align-items:end;flex-wrap:wrap;margin-bottom:10px}.muted{color:var(--muted)}
 .filters{display:grid;grid-template-columns:2fr repeat(5,minmax(120px,.8fr));gap:10px}.date-filters{display:grid;grid-template-columns:1fr 1fr 1fr 1fr auto;gap:10px;margin-top:10px}input,select,button{width:100%;padding:9px 10px;border:1px solid #cfd6e2;border-radius:8px;background:#fff;color:var(--ink);font:inherit}button{cursor:pointer;width:auto;white-space:nowrap}button:hover{background:#f8fafc}
-.source-health{display:flex;flex-wrap:wrap;gap:8px;margin:.6rem 0 0;padding:0;list-style:none}.source-health li{border:1px solid var(--line);border-radius:8px;padding:7px 10px}.row-evidence{white-space:normal;max-width:200px;font-size:12px;margin-top:3px}.feeds{display:flex;flex-wrap:wrap;gap:8px}.feeds a{text-decoration:none;border:1px solid #cfd6e2;border-radius:999px;padding:7px 11px;color:var(--ink);background:#fff}.feeds a:hover{border-color:#98a2b3}
+.source-health{display:flex;flex-wrap:wrap;gap:8px;margin:.6rem 0 0;padding:0;list-style:none}.source-health li{border:1px solid var(--line);border-radius:8px;padding:7px 10px}.row-evidence{white-space:normal;max-width:200px;font-size:12px;margin-top:3px}.pagination{display:flex;gap:.5rem;align-items:center;flex-wrap:wrap;margin:12px 0 0}.pagination button,.pagination select,.report-actions button{min-height:44px;touch-action:manipulation}.pagination select{width:auto}.pagination-summary{min-width:8rem}.feeds{display:flex;flex-wrap:wrap;gap:8px}.feeds a{text-decoration:none;border:1px solid #cfd6e2;border-radius:999px;padding:7px 11px;color:var(--ink);background:#fff}.feeds a:hover{border-color:#98a2b3}
 .table-wrap{overflow:auto;border:1px solid var(--line);border-radius:10px}table{width:100%;border-collapse:collapse;font-size:13px;min-width:1550px}th{position:sticky;top:0;background:#f8fafc;text-align:left;color:var(--muted);border-bottom:1px solid #dfe5ee;padding:10px 8px;white-space:nowrap;z-index:1}th.sortable{cursor:pointer;user-select:none}th.sortable:hover{color:var(--ink);background:#eef2f7}th.sortable.active{color:var(--ink)}.sort-arrow{display:inline-block;width:14px;margin-left:4px;color:#98a2b3}th.sortable.active .sort-arrow{color:var(--blue)}td{padding:10px 8px;border-bottom:1px solid #edf0f5;vertical-align:top}td.score,td.money,td.date,td.num{white-space:nowrap}.score strong{font-size:15px}.badge{display:inline-block;padding:3px 7px;border-radius:999px;background:#eef2f7;font-size:11px;font-weight:600;white-space:nowrap}.project{min-width:330px}.project a{font-weight:700}.desc{max-width:470px;margin-top:3px;color:var(--muted)}a{color:var(--blue)}.result-count{font-weight:600}.empty{padding:28px;text-align:center;color:var(--muted)}
 @media(max-width:1050px){.cards{grid-template-columns:repeat(2,1fr)}.filters{grid-template-columns:1fr 1fr 1fr}.date-filters{grid-template-columns:1fr 1fr}}
 @media(max-width:620px){main{padding:12px}.cards,.filters,.date-filters{grid-template-columns:1fr}.date-filters button{width:100%}}
@@ -39,6 +39,7 @@ main{max-width:1580px;margin:0 auto;padding:22px}.cards{display:grid;grid-templa
 <section class="panel" aria-labelledby="source-health-title">
 <div class="panel-title"><div><strong id="source-health-title">Source checks</strong><div class="muted" id="source-health-asof" aria-live="polite">Checking source health…</div><div class="muted">Current collection counts are not the number of open bids or all retained records.</div></div></div>
 <ul id="source-health-list" class="source-health"></ul>
+<div id="shared-reporting-status"></div>
 </section>
 
 <section class="panel">
@@ -49,7 +50,7 @@ main{max-width:1580px;margin:0 auto;padding:22px}.cards{display:grid;grid-templa
 </section>
 
 <section class="panel">
-<div class="panel-title"><div><strong>Find projects</strong><div class="muted">Search across project name, description, agency, location, solicitation number, contact and bidders.</div></div><button id="reset">Reset filters</button></div>
+<div class="panel-title"><div><strong>Find projects</strong><div class="muted">Search across project name, description, agency, location, solicitation number, contact and bidders.</div></div><div class="report-actions"><button id="export-csv" type="button" disabled>Download filtered CSV</button> <button id="reset">Reset filters</button></div></div>
 <div class="filters">
 <input id="search" placeholder="Search any project, agency, bidder, number…">
 <select id="view"><option value="">All records</option><option value="open">Open opportunities</option><option value="results">Bid results / awards</option></select>
@@ -68,7 +69,7 @@ main{max-width:1580px;margin:0 auto;padding:22px}.cards{display:grid;grid-templa
 </section>
 
 <section class="panel">
-<div class="panel-title"><div><strong>Public project opportunities</strong><div class="muted" id="updated">Loading…</div></div><div><span class="result-count" id="count"></span><div class="muted">Click any column header to order; click again to reverse.</div></div></div>
+<div class="panel-title"><div><strong>Public project opportunities</strong><div class="muted" id="updated">Loading…</div></div><div><span class="result-count" id="count"></span><div class="muted">Click any column header to order; click again to reverse. CSV includes every matching row in that order.</div></div></div>
 <div class="table-wrap"><table>
 <thead><tr>
 <th class="sortable active" data-sort="score">Score<span class="sort-arrow">▼</span></th>
@@ -85,6 +86,7 @@ main{max-width:1580px;margin:0 auto;padding:22px}.cards{display:grid;grid-templa
 <th class="sortable" data-sort="first_seen">First seen<span class="sort-arrow"></span></th>
 </tr></thead><tbody id="rows"></tbody>
 </table></div>
+<nav class="pagination" aria-label="Project result pages"><button id="prev-page" type="button" disabled>Previous</button><button id="next-page" type="button" disabled>Next</button><span id="page-summary" class="pagination-summary" aria-live="polite"></span><label for="page-size">Rows per page</label><select id="page-size"><option>25</option><option selected>50</option><option>100</option></select></nav>
 </section>
 </main>
 <script>
@@ -174,12 +176,45 @@ async function bootSourceHealth(){
  }catch{line.textContent='Source health is unavailable; this does not mean zero source activity.';list.innerHTML='';}
 }
 
-function render(){
+function filteredRows(){
  const q=document.getElementById('search').value.trim().toLowerCase(),view=document.getElementById('view').value,source=document.getElementById('source').value,stage=document.getElementById('stage').value,category=document.getElementById('category').value,type=document.getElementById('type').value,minScore=Number(document.getElementById('minScore').value);
- const rows=data.filter(r=>(!q||searchText(r).includes(q))&&(!view||(view==='open'?isOpen(r):isResult(r)))&&(!source||r.source===source)&&(!stage||r.stage===stage)&&(!category||r.category===category)&&(!type||r.solicitation_type===type)&&Number(r.score||0)>=minScore&&passesDate(r)).sort(compareRows);
+ return data.filter(r=>(!q||searchText(r).includes(q))&&(!view||(view==='open'?isOpen(r):isResult(r)))&&(!source||r.source===source)&&(!stage||r.stage===stage)&&(!category||r.category===category)&&(!type||r.solicitation_type===type)&&Number(r.score||0)>=minScore&&passesDate(r)).sort(compareRows);
+}
+function csvCell(value){
+ let text=value==null?'':String(value);
+ // Neutralize spreadsheet formula triggers, including after whitespace or controls.
+ if(typeof value!=='number' && (/^[\s\p{Cc}\p{Cf}]*[=+\-@＝＋－＠]/u.test(text) || /^[\t\r\n]/.test(text)))text="'"+text;
+ return '"'+text.replace(/"/g,'""')+'"';
+}
+function exportRowsCsv(rows,asOf){
+ const headers=['Stable ID','Source','Agency','Title','Location','Solicitation number','Stored stage','Stored status','Category','Heuristic score','Recorded date','Recorded date type','Source posted date','Posted date type','First observed UTC','Last observed UTC','Snapshot UTC','Official project URL','Bidder count','Reported value','Reported value meaning','Stage evidence'];
+ const values=rows.map(r=>[r.id,r.source,r.agency,r.title,r.location,r.solicitation_number,r.stage,r.status,r.category,r.score,r.due_date,deadlineKind(r),r.posted_date,postedEvidence(r),r.first_seen,r.last_seen,asOf,r.url,(r.bidders||[]).length,r.estimated_value,amountEvidence(r),stageEvidence(r)]);
+ return [headers,...values].map(row=>row.map(csvCell).join(',')).join('\r\n')+'\r\n';
+}
+function downloadFilteredCsv(){
+ const rows=filteredRows();if(!rows.length)return;
+ const url=URL.createObjectURL(new Blob(['\uFEFF',exportRowsCsv(rows,generatedAt)],{type:'text/csv;charset=utf-8'}));
+ const a=document.createElement('a');
+ a.href=url;a.download='idaho-public-projects-'+(generatedAt||'snapshot').slice(0,10)+'.csv';
+ document.body.appendChild(a);
+ try{a.click();}finally{a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000)}
+}
+let pageNumber=1;
+function resetPageAndRender(){pageNumber=1;render()}
+function render(){
+ const rows=filteredRows();
+ const size=Number(document.getElementById('page-size').value)||50;
+ const pageCount=Math.max(1,Math.ceil(rows.length/size));
+ pageNumber=Math.min(pageCount,Math.max(pageNumber,1));
+ const start=(pageNumber-1)*size, visible=rows.slice(start,start+size);
+ document.getElementById('prev-page').disabled=pageNumber<=1;
+ document.getElementById('next-page').disabled=pageNumber>=pageCount;
+ document.getElementById('page-summary').textContent=rows.length?`Rows ${start+1}–${start+visible.length} of ${rows.length} · page ${pageNumber} of ${pageCount}`:'No results';
+
+ document.getElementById('export-csv').disabled=!rows.length;
  updateSortHeaders();document.getElementById('count').textContent=`${rows.length.toLocaleString()} matching records`;
  if(!rows.length){document.getElementById('rows').innerHTML='<tr><td colspan="12" class="empty">No projects match the current filters.</td></tr>';return}
- document.getElementById('rows').innerHTML=rows.map(r=>`<tr>
+ document.getElementById('rows').innerHTML=visible.map(r=>`<tr>
  <td class="score"><strong>${Number(r.score||0)}</strong></td>
  <td class="date">${esc(r.due_date||'—')}<div class="muted row-evidence">${esc(dueEvidence(r,generatedAt))}</div></td>
  <td class="date">${esc(r.posted_date||'—')}<div class="muted row-evidence">${esc(postedEvidence(r))}</div></td>
@@ -197,8 +232,61 @@ function render(){
 
 function resetFilters(){['search','view','source','stage','category','type','datePreset','dateFrom','dateTo'].forEach(id=>document.getElementById(id).value='');document.getElementById('dateField').value='due_date';document.getElementById('minScore').value='0';render()}
 async function boot(){const payload=await fetch('data/opportunities.json?'+Date.now()).then(r=>r.json());data=payload.opportunities||[];generatedAt=payload.generated_at||'';fill('source','source');fill('stage','stage');fill('category','category');fill('type','solicitation_type');const open=data.filter(isOpen),tv=open.filter(treasureValley),building=open.filter(r=>r.category==='BUILDING'),results=data.filter(isResult);document.getElementById('total').textContent=data.length.toLocaleString();document.getElementById('openCount').textContent=open.length.toLocaleString();document.getElementById('tvCount').textContent=tv.length.toLocaleString();document.getElementById('buildingCount').textContent=building.length.toLocaleString();document.getElementById('resultsCount').textContent=results.length.toLocaleString();document.getElementById('updated').textContent=generatedAt?`Project snapshot: ${mountainTimestamp(generatedAt)}`:'';render();void bootSourceHealth()}
-['search'].forEach(id=>document.getElementById(id).addEventListener('input',render));['view','source','stage','category','type','dateField','datePreset','dateFrom','dateTo','minScore'].forEach(id=>document.getElementById(id).addEventListener('change',render));document.getElementById('reset').addEventListener('click',resetFilters);document.querySelectorAll('th.sortable').forEach(th=>th.addEventListener('click',()=>{const next=th.dataset.sort;if(sortKey===next)sortDirection=sortDirection==='asc'?'desc':'asc';else{sortKey=next;sortDirection=['score','due_date','posted_date','estimated_value','bidders','first_seen'].includes(next)?'desc':'asc'}render()}));
+['search'].forEach(id=>document.getElementById(id).addEventListener('input',resetPageAndRender));['view','source','stage','category','type','dateField','datePreset','dateFrom','dateTo','minScore'].forEach(id=>document.getElementById(id).addEventListener('change',resetPageAndRender));document.getElementById('reset').addEventListener('click',resetFilters);document.getElementById('export-csv').addEventListener('click',downloadFilteredCsv);document.querySelectorAll('th.sortable').forEach(th=>th.addEventListener('click',()=>{const next=th.dataset.sort;if(sortKey===next)sortDirection=sortDirection==='asc'?'desc':'asc';else{sortKey=next;sortDirection=['score','due_date','posted_date','estimated_value','bidders','first_seen'].includes(next)?'desc':'asc'}resetPageAndRender()}));
+document.getElementById('prev-page').addEventListener('click',()=>{pageNumber--;render()});document.getElementById('next-page').addEventListener('click',()=>{pageNumber++;render()});document.getElementById('page-size').addEventListener('change',resetPageAndRender);
 boot().catch(err=>{void bootSourceHealth();document.getElementById('updated').textContent='Unable to load project data';document.getElementById('rows').innerHTML=`<tr><td colspan="12" class="empty">${esc(err.message||err)}</td></tr>`});
+</script>
+<script>
+/* Source reporting extension. No writes or lead/default/filter changes. */
+(() => {
+  'use strict';
+  const mount=document.getElementById('shared-reporting-status');
+  if(!mount)return;
+  const make=(tag,text,cls)=>{const e=document.createElement(tag);if(text!==undefined)e.textContent=text;if(cls)e.className=cls;return e};
+  const val=x=>(x===null||x===undefined||x==='')?'Unknown':String(x);
+  const title=(x)=>val(x).replaceAll('_',' ');
+  const count=x=>Number.isInteger(x)&&x>=0?x.toLocaleString('en-US'):'Unknown';
+  const mtime=x=>{
+    if(!x)return 'Unknown';
+    const d=new Date(x);return Number.isFinite(d.getTime())?
+      d.toLocaleString('en-US',{timeZone:'America/Boise'})+' MT':'Unknown';
+  };
+  const validDate=/^\d{4}-\d{2}-\d{2}$/;
+  function show(payload){
+    if(payload?.schema_version!==1||!Array.isArray(payload.sources)||payload.sources.length===0)throw Error('No comparable evidence manifest');
+    mount.replaceChildren();
+    mount.append(make('h2','Collection evidence by source'));
+    mount.append(make('p','An attempt, a successful collection and the latest source date are different. Stored history is not an active opportunity count. Unknown does not mean zero.'));
+    const style=make('style',`#shared-reporting-status .source-evidence-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(18rem,100%),1fr));gap:.7rem}#shared-reporting-status .source-evidence-card{padding:.8rem;border:1px solid #bccbd2;border-radius:.55rem;min-width:0;overflow-wrap:anywhere}#shared-reporting-status .source-evidence-card h3{line-height:1.25;margin:.12em 0 .4em;font-size:1.03rem}#shared-reporting-status .source-evidence-card dl{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:.35rem .5rem;margin:.5rem 0 0;font-size:.88rem}#shared-reporting-status .source-evidence-card dd{margin:0}#shared-reporting-status .source-evidence-card dt{font-weight:600}#shared-reporting-status .source-evidence-card p{margin:.3rem 0;font-size:.9rem}`);
+    mount.append(style);
+    const cards=make('div',undefined,'source-evidence-grid');
+    for(const row of payload.sources){
+      const card=make('article',undefined,'source-evidence-card');
+      const head=make('h3',val(row.label));const coverage=make('p',title(row.mode)+' · '+val(row.coverage));
+      const pairs=make('dl');
+      const date=typeof row.latest_authoritative_date==='string'&&validDate.test(row.latest_authoritative_date)?row.latest_authoritative_date:'Unknown';
+      const label=date==='Unknown'?'Unknown':date+' · '+title(row.latest_date_kind);
+      const stats=[
+        ['Last attempt',mtime(row.last_attempt_at)],['Last success',mtime(row.last_success_at)],
+        ['Latest source evidence',label],['Age at snapshot',row.source_age_days==null?'Unknown':count(row.source_age_days)+' days'],
+        ['New since prior success',count(row.new_since_previous_success)],['Stored history',count(row.retained_records)],
+        ['Observed this attempt',count(row.observed_records)],['Availability',title(row.availability)],
+        ['Collection outcome',title(row.collection_outcome)],
+      ];
+      if(row.date_provenance)stats.push(['Date provenance',title(row.date_provenance)]);
+      if(row.freshness_status)stats.push(['Freshness',title(row.freshness_status)]);
+      for(const [key,value] of stats)pairs.append(make('dt',key),make('dd',value));
+      card.append(head,coverage,pairs);cards.append(card);
+    }
+    mount.append(cards);
+  }
+  mount.hidden=false;
+  fetch('data/sources.json?reporting_v1='+Date.now(),{cache:'no-store'})
+    .then(r=>{if(!r.ok)throw Error('Source metadata unavailable');return r.json()})
+    .then(p=>show(p.reporting_v1))
+    .catch(()=>{mount.replaceChildren(make('h2','Collection evidence by source'),make('p','Comparable collection evidence is unavailable for this snapshot. Do not treat missing evidence as zero permits.'))});
+})();
+
 </script>
 </body></html>'''
 

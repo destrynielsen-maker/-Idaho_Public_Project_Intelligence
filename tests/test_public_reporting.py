@@ -15,7 +15,7 @@ class TestPublicReporting(unittest.TestCase):
         result_function = re.search(r"function isResult\(r\)\{[^\n]+", HTML).group()
         self.assertEqual(open_function, "function isOpen(r){return !['BID_RESULTS','AWARDED','CLOSED'].includes(String(r.stage||'').toUpperCase()) && !['RESULTS','CLOSED','AWARDED'].includes(String(r.status||'').toUpperCase())}")
         self.assertEqual(result_function, "function isResult(r){return ['BID_RESULTS','AWARDED'].includes(String(r.stage||'').toUpperCase()) || ['RESULTS','AWARDED'].includes(String(r.status||'').toUpperCase())}")
-        filter_line = [line for line in HTML.splitlines() if "const rows=data.filter" in line][0]
+        filter_line = [line for line in HTML.splitlines() if "return data.filter" in line][0]
         self.assertIn("passesDate(r)).sort(compareRows)", filter_line)
         for evidence_label in ["dueEvidence", "seenEvidence", "stageEvidence", "amountEvidence"]:
             self.assertNotIn(evidence_label, filter_line)
@@ -48,3 +48,23 @@ assert.match(mountainTimestamp(at),/12:31 PM Mountain/);
 """
         result = subprocess.run(["node", "-e", functions + check], capture_output=True, text=True, timeout=10)
         self.assertEqual(result.returncode, 0, result.stderr)
+
+    @unittest.skipUnless(shutil.which("node"), "Node is needed for JS CSV fixtures")
+    def test_csv_quotes_and_shields_formulas_without_contact_fields(self):
+        import csv
+        import io
+        js = HTML.split("<script>", 1)[1].split("</script>", 1)[0]
+        evidence = js[js.index("function mountainTimestamp"):js.index("async function bootSourceHealth")]
+        export = js[js.index("function csvCell"):js.index("function downloadFilteredCsv")]
+        fixture = {"id":"safe-id","source":"Idaho Purchasing","title":"\u200b=FUNCTION()","location":"A, B says \"Hi\"\nnext","due_date":"2026-11-28","contact":"sensitive@example.com","owner":"Do not include me","bidders":[{"contractor":"Omit me"}]}
+        invocation = "console.log(JSON.stringify(exportRowsCsv([" + json.dumps(fixture) + "],'2026-11-26T19:31:04Z')))"
+        result = subprocess.run(["node", "-e", evidence + export + invocation], capture_output=True, text=True, timeout=10)
+        self.assertEqual(result.returncode, 0, result.stderr)
+        text = json.loads(result.stdout)
+        rows = list(csv.DictReader(io.StringIO(text)))
+        self.assertEqual(rows[0]["Title"], "'\u200b=FUNCTION()")
+        self.assertEqual(rows[0]["Location"], fixture["location"])
+        self.assertEqual(rows[0]["Recorded date type"], "Planning target (not a bid deadline)")
+        self.assertEqual(rows[0]["Bidder count"], "1")
+        for disallowed in ["sensitive@example.com", "Do not include me", "Omit me"]:
+            self.assertNotIn(disallowed, text)
