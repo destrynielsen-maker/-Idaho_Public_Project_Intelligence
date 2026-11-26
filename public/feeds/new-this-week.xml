@@ -7,20 +7,13 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 25 Nov 2026 18:31:58 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 00:45:24 +0000</lastBuildDate>
     <item>
       <title>[40] ITB 1474 - IDOC Boots, Duty Gear, Uniforms</title>
       <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
       <description>Agency: IDOC | Stage: UPCOMING | Type: ITB | Due: 2027-02-23 | Location: Idaho&lt;br&gt;Anticipated Post Date: 12/18/2026 Anticipated Close Date: 01/14/2027 Anticipated Award Date: 02/04/2027</description>
       <guid isPermaLink="false">idaho-purchasing-cbc5826cd7a5139b</guid>
       <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[40] ITB 1254 - Fire Suppression System and Fire Extinguisher Inspections</title>
-      <link>https://purchasing.idaho.gov/open-and-future-solicitations/</link>
-      <description>Agency: ADM | Stage: UPCOMING | Type: ITB | Due: 2027-04-01 | Location: Idaho&lt;br&gt;Anticipated Post Date: Anticipated Close Date: Anticipated Award Date:</description>
-      <guid isPermaLink="false">idaho-purchasing-a90bfbcae31e4eb3</guid>
-      <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>[40] RFP 1486 - WDC Adult &amp; Dislocated Worker Career Training</title>
@@ -65,13 +58,6 @@
       <pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[70] Food Quality Assurance Lab Fire Alarm System, Department of Agriculture, Twin Falls, Idaho **NOTE: BID DATE &amp; TIME CHANGE SEE ADDENDUM 2</title>
-      <link>https://dpw.idaho.gov/wp-content/uploads/2026/10/26030-RE-BID-Ad-Long.pdf</link>
-      <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-12-02 | Location: Twin Falls, Idaho&lt;br&gt;Food Quality Assurance Lab Fire Alarm System, Department of Agriculture, Twin Falls, Idaho **NOTE: BID DATE &amp; TIME CHANGE SEE ADDENDUM 2</description>
-      <guid isPermaLink="false">dpw-9826a1d38a560ea2</guid>
-      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>[70] HVAC Service Contract, State of Idaho, Southwest Region HVAC Project Manual Addendum I</title>
       <link>https://dpw.idaho.gov/wp-content/uploads/2026/11/HVAC-Region-II-Ad-Long-FORM.pdf</link>
       <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-12-03 | Location: &lt;br&gt;HVAC Service Contract, State of Idaho, Southwest Region HVAC Project Manual Addendum I</description>
@@ -107,11 +93,25 @@
       <pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>[82] PTC Restroom Upgrades, Department of Administration, Boise, Idaho</title>
+      <link>https://dpw.idaho.gov/construction/</link>
+      <description>Agency: Idaho Division of Public Works | Stage: BID_RESULTS | Type: BID_RESULT | Due: 2026-11-20 | Location: Boise, Idaho&lt;br&gt;Bid results: Barrier Building, Inc. — $888,402; Optimum Build — $722,489; EKC — $685,484; Wright Brothers — $765,098; Lacy Mechanical — $892,000; Bobo — $864,000; Stroth General — $673,400; Alpine Construction — $798,290; Excelsior Construction — $766,900</description>
+      <guid isPermaLink="false">dpw-result-a06c3020484f2b25</guid>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>[82] PRF Modular Building Site Work (PRF 014)</title>
       <link>https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=CityofBoise</link>
       <description>Agency: City of Boise | Stage: OPEN_BID | Type: FB- | Due: 2027-01-08 | Location: Boise, Idaho&lt;br&gt;Open Site work for the installation of a new modular building, to be located near the existing Operations building on the Phosphorus Removal Facility (PRF) site.</description>
       <guid isPermaLink="false">boise-6cba8fcb79abc13f</guid>
       <pubDate>Tue, 24 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[86] LABS Campus Wide Int/Ext Lighting Ugrades, Department of Health and Welfare, Boise, Idaho *NOTE BID DATE CHANGED SEE ADDENDUM 1</title>
+      <link>https://dpw.idaho.gov/wp-content/uploads/2026/11/26354-Ad-Long.pdf</link>
+      <description>Agency: Idaho Division of Public Works | Stage: OPEN_BID | Type: CONSTRUCTION_BID | Due: 2026-12-17 | Location: Boise, Idaho&lt;br&gt;LABS Campus Wide Int/Ext Lighting Ugrades, Department of Health and Welfare, Boise, Idaho *NOTE BID DATE CHANGED SEE ADDENDUM 1</description>
+      <guid isPermaLink="false">dpw-55e3ef0cebe27bd3</guid>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
